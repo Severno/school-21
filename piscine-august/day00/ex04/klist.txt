@@ -1,0 +1,5 @@
+Credentials cache: API:E44B2F91-8DFA-4F2D-9B7B-7202151D4B2E
+        Principal: sapril@21-SCHOOL.RU
+
+  Issued                Expires               Principal
+Jul 29 20:44:36 2019  Jul 30 20:44:36 2019  krbtgt/21-SCHOOL.RU@21-SCHOOL.RU
