@@ -1,68 +1,69 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   get_next_line.c                                    :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/09/17 22:40:17 by sapril            #+#    #+#             */
+/*   Updated: 2019/09/17 22:43:03 by sapril           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "get_next_line.h"
 
-t_lines *ft_create_el(int fd)
+void	change_buf(char **line_buff, char *temp, const int fd)
 {
-	t_lines *new_line;
-	if ((new_line = (t_lines*)malloc(sizeof(t_lines))))
-		return (NULL);
-	new_line->str = NULL;
-	new_line->strSize = 0;
-	new_line->fd = fd;
-	return (new_line);
+	ft_strdel((&line_buff[fd]));
+	line_buff[fd] = ft_strdup(temp);
+	ft_strdel(&temp);
 }
 
-static int check_line(char *buf, t_lines *lineBuff, char **line)
+int		read_file(char **line_buff, const int fd, char *temp)
 {
-	int i;
-	char *bufTemp;
+	char	buf[BUFF_SIZE + 1];
+	int		ret;
 
-	i = 0;
-	bufTemp = (char *)malloc(BUFF_SIZE + 1);
-	while (buf[i] != '\n' && buf[i])
-	{
-		bufTemp[i] = buf[i];
-		i++;
-		STR_LEN++;
-	}
-	bufTemp[i] = '\0';
-	if (buf[i] == '\n')
-	{
-		lineBuff->str = ft_strjoin(lineBuff->str, bufTemp);
-		*line = lineBuff->str;
-		free(bufTemp);
-		free(lineBuff->str);
-		return (1);
-	}
-	lineBuff->str = ft_strjoin(lineBuff->str, bufTemp);
-	free(bufTemp);
-	return (0);
+	if ((ret = read(fd, buf, BUFF_SIZE)) == 0)
+		return (0);
+	buf[ret] = '\0';
+	temp = ft_strjoin(line_buff[fd], buf);
+	change_buf(line_buff, temp, fd);
+	return (1);
 }
 
-int get_next_line(const int fd, char **line)
+int		get_line(char **line_buff, char **line, const int fd)
 {
-	static t_lines	*lineBuff[255];
+	*line = ft_strdup(line_buff[fd]);
+	ft_strclr(line_buff[fd]);
+	return (1);
+}
+
+int		get_next_line(const int fd, char **line)
+{
+	static char		*line_buff[255];
 	char			buf[BUFF_SIZE + 1];
-	int				ret;
+	char			*temp;
+	char			*nl_ptr;
 
-	if (line == NULL || fd < 0 || BUFF_SIZE <= 0 || fd >= MAX_FD)
+	temp = NULL;
+	if (read(fd, buf, 0) < 0 || line == NULL || fd < 0 || BUFF_SIZE <= 0)
 		return (-1);
-//	if (!(lineBuff = (t_lines*)malloc(sizeof(t_lines))))
-//		return (-1);
-
-	if (!lineBuff[fd])
-		lineBuff[fd] = ft_create_el(fd);
-	if (lineBuff[fd] == NULL)
-		return (-1);
-	while ((ret = read(fd, buf, BUFF_SIZE)))
+	if (!line_buff[fd])
+		line_buff[fd] = ft_strnew(0);
+	while ((nl_ptr = ft_strchr(line_buff[fd], '\n')) == NULL)
+		if ((read_file(line_buff, fd, temp)) == 0)
+			break ;
+	if (ft_strlen(line_buff[fd]) != 0)
 	{
-		buf[ret] = '\0';
-		if (check_line(buf, lineBuff, line))
-		{
-			ft_bzero(buf, BUFF_SIZE + 1);
-			return (1);
-		}
-		ft_bzero(buf, BUFF_SIZE + 1);
+		if (!(ft_strchr(line_buff[fd], '\n')))
+			return (get_line(line_buff, &*line, fd));
+		*nl_ptr = '\0';
+		temp = ft_strdup(nl_ptr + 1);
+		*line = ft_strdup(line_buff[fd]);
+		change_buf(line_buff, temp, fd);
 	}
-	return (0);
+	else
+		return (0);
+	return (1);
 }
