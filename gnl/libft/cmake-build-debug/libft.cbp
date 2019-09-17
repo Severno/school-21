@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="libft"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/artembykov/Desktop/School-21/libft/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/artembykov/Desktop/School-21/libft/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/artembykov/Desktop/School-21/libft/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libft">
+				<Option output="/Users/artembykov/Desktop/School-21/libft/cmake-build-debug/libft" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/artembykov/Desktop/School-21/libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/artembykov/Desktop/School-21/libft/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 libft"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libft/fast">
+				<Option output="/Users/artembykov/Desktop/School-21/libft/cmake-build-debug/libft" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/artembykov/Desktop/School-21/libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/artembykov/Desktop/School-21/libft/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 libft/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/Makefile">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/author">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/includes/libft.h">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/main.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_atoi.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_bzero.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_check_end_spaces.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_check_start_spaces.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_isalnum.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_isalpha.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_isascii.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_isdigit.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_isprint.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_isspace.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_itoa.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_lstadd.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_lstdel.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_lstdelone.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_lstiter.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_lstmap.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_lstnew.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_memalloc.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_memccpy.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_memchr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_memcmp.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_memcpy.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_memdel.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_memmove.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_memset.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_num_of_digits.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_putchar.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_putchar_fd.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_putendl.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_putendl_fd.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_putnbr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_putnbr_fd.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_putstr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_putstr_fd.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_str_is_lowercase.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_str_is_numeric.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_str_is_printable.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_str_is_uppercase.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_strcat.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_strchr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_strclr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_strcmp.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_strcpy.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_strdel.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_strdup.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_strequ.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_striter.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_striteri.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_strjoin.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_strlcat.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_strlen.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_strmap.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_strmapi.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_strncat.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_strncmp.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_strncpy.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_strnequ.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_strnew.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_strnlen.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_strnstr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_strrchr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_strsplit.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_strstr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_strsub.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_strtrim.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_tolower.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/src/ft_toupper.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/libft/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

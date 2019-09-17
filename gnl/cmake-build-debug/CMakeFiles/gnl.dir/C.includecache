@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/artembykov/Desktop/School-21/gnl/get_next_line.h
+stdio.h
+-
+stdio.h
+-
+unistd.h
+-
+sys/uio.h
+-
+sys/types.h
+-
+libft/libft.h
+/Users/artembykov/Desktop/School-21/gnl/libft/libft.h
+
+/Users/artembykov/Desktop/School-21/gnl/libft/libft.h
+string.h
+-
+stdlib.h
+-
+unistd.h
+-
+stdio.h
+-
+
+/Users/artembykov/Desktop/School-21/gnl/main.c
+fcntl.h
+-
+get_next_line.h
+/Users/artembykov/Desktop/School-21/gnl/get_next_line.h
+

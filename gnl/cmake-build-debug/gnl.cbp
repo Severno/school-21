@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="gnl"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/artembykov/Desktop/School-21/gnl/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/gnl/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/gnl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/gnl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/gnl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/artembykov/Desktop/School-21/gnl/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/gnl/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/gnl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/gnl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/gnl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/artembykov/Desktop/School-21/gnl/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/gnl/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/gnl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/gnl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/gnl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gnl">
+				<Option output="/Users/artembykov/Desktop/School-21/gnl/cmake-build-debug/gnl" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/artembykov/Desktop/School-21/gnl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/gnl/cmake-build-debug/Makefile&quot;  VERBOSE=1 gnl"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/gnl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/gnl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/gnl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gnl/fast">
+				<Option output="/Users/artembykov/Desktop/School-21/gnl/cmake-build-debug/gnl" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/artembykov/Desktop/School-21/gnl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/gnl/cmake-build-debug/Makefile&quot;  VERBOSE=1 gnl/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/gnl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/gnl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/artembykov/Desktop/School-21/gnl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/get_next_line.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/get_next_line.h">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_atoi.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_bzero.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_check_end_spaces.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_check_start_spaces.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_isalnum.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_isalpha.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_isascii.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_isdigit.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_isprint.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_isspace.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_itoa.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_lstadd.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_lstdel.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_lstdelone.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_lstiter.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_lstmap.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_lstnew.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_memalloc.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_memccpy.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_memchr.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_memcmp.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_memcpy.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_memdel.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_memmove.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_memset.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_num_of_digits.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_putchar.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_putchar_fd.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_putendl.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_putendl_fd.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_putnbr.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_putnbr_fd.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_putstr.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_putstr_fd.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_str_is_lowercase.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_str_is_numeric.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_str_is_printable.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_str_is_uppercase.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_strcat.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_strchr.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_strclr.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_strcmp.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_strcpy.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_strdel.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_strdup.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_strequ.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_striter.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_striteri.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_strjoin.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_strlcat.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_strlen.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_strmap.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_strmapi.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_strncat.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_strncmp.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_strncpy.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_strnequ.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_strnew.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_strnlen.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_strnstr.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_strrchr.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_strsplit.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_strstr.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_strsub.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_strtrim.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_tolower.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/ft_toupper.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/libft/libft.h">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/main.c">
+			<Option target="gnl"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/School-21/gnl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

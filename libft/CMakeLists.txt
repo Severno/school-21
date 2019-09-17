@@ -4,21 +4,75 @@ project(libft)
 set(CMAKE_CXX_STANDARD 14)
 
 include_directories(.)
-include_directories(Debug)
-include_directories(Release)
 
-file(GLOB SRC_RELEASE
-        *.c
-        libft.h)
-list(REMOVE_ITEM SRC_RELEASE "main.c")
-file(GLOB SRC_DEBUG
-        *.c
-        libft.h)
-file(GLOB OTHER_FILES
+add_executable(libft
         author
-        Makefile)
-
-file(COPY ${SRC_DEBUG}  ${OTHER_FILES} DESTINATION Debug)
-file(COPY ${SRC_RELEASE} ${OTHER_FILES} DESTINATION Release)
-
-add_executable(libft main.c ${SRC_DEBUG})
+        ft_atoi.c
+        ft_bzero.c
+        ft_check_end_spaces.c
+        ft_check_start_spaces.c
+        ft_isalnum.c
+        ft_isalpha.c
+        ft_isascii.c
+        ft_isdigit.c
+        ft_isprint.c
+        ft_itoa.c
+        ft_lstadd.c
+        ft_lstdel.c
+        ft_lstdelone.c
+        ft_lstiter.c
+        ft_lstmap.c
+        ft_lstnew.c
+        ft_memalloc.c
+        ft_memccpy.c
+        ft_memchr.c
+        ft_memcmp.c
+        ft_memcpy.c
+        ft_memdel.c
+        ft_memmove.c
+        ft_memset.c
+        ft_num_of_digits.c
+        ft_putchar.c
+        ft_putchar_fd.c
+        ft_putendl.c
+        ft_putendl_fd.c
+        ft_putnbr.c
+        ft_putnbr_fd.c
+        ft_putstr.c
+        ft_putstr_fd.c
+        ft_str_is_lowercase.c
+        ft_str_is_numeric.c
+        ft_str_is_printable.c
+        ft_str_is_uppercase.c
+        ft_strcat.c
+        ft_strchr.c
+        ft_strclr.c
+        ft_strcmp.c
+        ft_strcpy.c
+        ft_strdel.c
+        ft_strdup.c
+        ft_strequ.c
+        ft_striter.c
+        ft_striteri.c
+        ft_strjoin.c
+        ft_strlcat.c
+        ft_strlen.c
+        ft_strmap.c
+        ft_strmapi.c
+        ft_strncat.c
+        ft_strncmp.c
+        ft_strncpy.c
+        ft_strnequ.c
+        ft_strnew.c
+        ft_strnlen.c
+        ft_strnstr.c
+        ft_strrchr.c
+        ft_strsplit.c
+        ft_strstr.c
+        ft_strsub.c
+        ft_strtrim.c
+        ft_tolower.c
+        ft_toupper.c
+        libft.h
+        main.c
+        Makefile ft_isspace.c)

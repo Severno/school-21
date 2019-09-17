@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/artembykov/Desktop/School-21/libft/libft.h
+string.h
+-
+stdlib.h
+-
+unistd.h
+-
+stdio.h
+-
+
+/Users/artembykov/Desktop/School-21/libft/main.c
+libft.h
+/Users/artembykov/Desktop/School-21/libft/libft.h
+
