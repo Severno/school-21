@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/07 17:48:40 by sapril            #+#    #+#             */
-/*   Updated: 2019/09/14 20:09:30 by sapril           ###   ########.fr       */
+/*   Updated: 2019/09/17 12:35:20 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -101,6 +101,5 @@ int					ft_str_is_lowercase(char *str);
 int					ft_str_is_uppercase(char *str);
 int					ft_str_is_printable(char *str);
 int					ft_str_is_numeric(char *str);
-size_t				ft_strnlen(char *s, size_t len);
 
 #endif
