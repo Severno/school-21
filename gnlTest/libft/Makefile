@@ -24,7 +24,7 @@ OBJ=	ft_atoi.o ft_bzero.o ft_check_end_spaces.o ft_check_start_spaces.o ft_isaln
 		ft_strsub.o ft_strtrim.o ft_tolower.o ft_toupper.o ft_str_is_lowercase.o ft_str_is_uppercase.o \
 		ft_str_is_printable.o ft_str_is_numeric.o ft_strnlen.o \
 
-HEADER = libft.h
+HEADER = includes/
 
 $(NAME): $(OBJ)
 	@ar rc $(NAME) $(OBJ)
