@@ -10,14 +10,17 @@ int main()
 //	printf("%s\n", str);
 
 	int fd;
+	int fd1;
 	int result;
 	char **line;
 
 	result = 0;
-	fd = open("../gnl3_2.txt", O_RDONLY);
+	fd = open("../text.txt", O_RDONLY);
+	fd1 = open("../gnl3_2.txt", O_RDONLY);
 	line = (char **)malloc(sizeof(char *) * 100);
 	*line = (char *)malloc(sizeof(char) * 100);
 	result = get_next_line(fd, line);
+	result = get_next_line(fd1, line);
 	printf("%s\n", *line);
 	printf("%d\n", result);
 	result = get_next_line(fd, line);
@@ -32,8 +35,8 @@ int main()
 	result = get_next_line(fd, line);
 	printf("%s\n", *line);
 	printf("%d\n", result);
-	ft_strdel(line);
-	free(line);
+//	ft_strdel(line);
+//	free(line);
 	line = NULL;
 	close(fd);
 

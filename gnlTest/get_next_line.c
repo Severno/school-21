@@ -28,7 +28,7 @@ static char	*join_free(char *arr, char *buf)
 	return (ret);
 }
 
-static int			add_line(char **line, char *buff_line[])
+static int	add_line(char **line, char *buff_line[])
 {
 	char	*temp;
 	size_t	i;

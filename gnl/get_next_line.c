@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/18 13:47:34 by sapril            #+#    #+#             */
-/*   Updated: 2019/09/18 18:57:17 by sapril           ###   ########.fr       */
+/*   Updated: 2019/09/18 18:59:59 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ static char	*join_free(char *arr, char *buf)
 	return (ret);
 }
 
-int		add_line(char **line, char *buff_line[])
+static int			add_line(char **line, char *buff_line[])
 {
 	char	*temp;
 	size_t	i;
@@ -46,19 +46,19 @@ int		add_line(char **line, char *buff_line[])
 	else
 	{
 		*line = ft_strsub(*buff_line, 0, i);
-		ft_strdel(buff_line);
+		free(*buff_line);
 	}
 	free(temp);
 	return (1);
 }
 
-int		get_next_line(const int fd, char **line)
+int			get_next_line(const int fd, char **line)
 {
 	static char	*buff_line[255];
 	char		buf[BUFF_SIZE + 1];
 	int			ret;
 
-	if (BUFF_SIZE <= 0 || fd < 0 || fd > MAX_FD)
+	if (BUFF_SIZE <= 0 || fd < 0 || fd > MAX_FD || !(line))
 		return (-1);
 	while (((ret = read(fd, buf, BUFF_SIZE)) > 0))
 	{
