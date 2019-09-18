@@ -58,7 +58,7 @@ int			get_next_line(const int fd, char **line)
 	char		buf[BUFF_SIZE + 1];
 	int			ret;
 
-	if (BUFF_SIZE <= 0 || fd < 0 || fd > MAX_FD)
+	if (BUFF_SIZE <= 0 || fd < 0 || fd > MAX_FD || !(line))
 		return (-1);
 	while (((ret = read(fd, buf, BUFF_SIZE)) > 0))
 	{
