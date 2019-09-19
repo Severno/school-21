@@ -17,9 +17,9 @@ char	*ft_strsub(char const *s, unsigned int start, size_t len)
 	size_t	i;
 	char	*new_s;
 
-	if (!s)
+	if (!s || (len + 1 == 0))
 		return (NULL);
-	new_s = (char *)malloc(len + 1);
+	new_s = ft_strnew(len + 1);
 	if (!new_s)
 		return (NULL);
 	i = -1;

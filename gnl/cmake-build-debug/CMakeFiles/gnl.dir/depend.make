@@ -4,8 +4,6 @@
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_atoi.c.o: /Users/sapril/Desktop/work/libft/ft_atoi.c
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_atoi.c.o: /Users/sapril/Desktop/work/libft/libft.h
 
-CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_atoi_base.c.o: /Users/sapril/Desktop/work/libft/ft_atoi_base.c
-
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_bzero.c.o: /Users/sapril/Desktop/work/libft/ft_bzero.c
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_bzero.c.o: /Users/sapril/Desktop/work/libft/libft.h
 
@@ -28,8 +26,6 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isprint.c.o: /Users/sapril
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_itoa.c.o: /Users/sapril/Desktop/work/libft/ft_itoa.c
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_itoa.c.o: /Users/sapril/Desktop/work/libft/libft.h
-
-CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_itoa_base.c.o: /Users/sapril/Desktop/work/libft/ft_itoa_base.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstadd.c.o: /Users/sapril/Desktop/work/libft/ft_lstadd.c
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstadd.c.o: /Users/sapril/Desktop/work/libft/libft.h

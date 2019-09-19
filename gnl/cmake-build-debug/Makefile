@@ -150,33 +150,6 @@ Users/sapril/Desktop/work/libft/ft_atoi.c.s:
 	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_atoi.c.s
 .PHONY : Users/sapril/Desktop/work/libft/ft_atoi.c.s
 
-Users/sapril/Desktop/work/libft/ft_atoi_base.o: Users/sapril/Desktop/work/libft/ft_atoi_base.c.o
-
-.PHONY : Users/sapril/Desktop/work/libft/ft_atoi_base.o
-
-# target to build an object file
-Users/sapril/Desktop/work/libft/ft_atoi_base.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_atoi_base.c.o
-.PHONY : Users/sapril/Desktop/work/libft/ft_atoi_base.c.o
-
-Users/sapril/Desktop/work/libft/ft_atoi_base.i: Users/sapril/Desktop/work/libft/ft_atoi_base.c.i
-
-.PHONY : Users/sapril/Desktop/work/libft/ft_atoi_base.i
-
-# target to preprocess a source file
-Users/sapril/Desktop/work/libft/ft_atoi_base.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_atoi_base.c.i
-.PHONY : Users/sapril/Desktop/work/libft/ft_atoi_base.c.i
-
-Users/sapril/Desktop/work/libft/ft_atoi_base.s: Users/sapril/Desktop/work/libft/ft_atoi_base.c.s
-
-.PHONY : Users/sapril/Desktop/work/libft/ft_atoi_base.s
-
-# target to generate assembly for a file
-Users/sapril/Desktop/work/libft/ft_atoi_base.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_atoi_base.c.s
-.PHONY : Users/sapril/Desktop/work/libft/ft_atoi_base.c.s
-
 Users/sapril/Desktop/work/libft/ft_bzero.o: Users/sapril/Desktop/work/libft/ft_bzero.c.o
 
 .PHONY : Users/sapril/Desktop/work/libft/ft_bzero.o
@@ -419,33 +392,6 @@ Users/sapril/Desktop/work/libft/ft_itoa.s: Users/sapril/Desktop/work/libft/ft_it
 Users/sapril/Desktop/work/libft/ft_itoa.c.s:
 	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_itoa.c.s
 .PHONY : Users/sapril/Desktop/work/libft/ft_itoa.c.s
-
-Users/sapril/Desktop/work/libft/ft_itoa_base.o: Users/sapril/Desktop/work/libft/ft_itoa_base.c.o
-
-.PHONY : Users/sapril/Desktop/work/libft/ft_itoa_base.o
-
-# target to build an object file
-Users/sapril/Desktop/work/libft/ft_itoa_base.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_itoa_base.c.o
-.PHONY : Users/sapril/Desktop/work/libft/ft_itoa_base.c.o
-
-Users/sapril/Desktop/work/libft/ft_itoa_base.i: Users/sapril/Desktop/work/libft/ft_itoa_base.c.i
-
-.PHONY : Users/sapril/Desktop/work/libft/ft_itoa_base.i
-
-# target to preprocess a source file
-Users/sapril/Desktop/work/libft/ft_itoa_base.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_itoa_base.c.i
-.PHONY : Users/sapril/Desktop/work/libft/ft_itoa_base.c.i
-
-Users/sapril/Desktop/work/libft/ft_itoa_base.s: Users/sapril/Desktop/work/libft/ft_itoa_base.c.s
-
-.PHONY : Users/sapril/Desktop/work/libft/ft_itoa_base.s
-
-# target to generate assembly for a file
-Users/sapril/Desktop/work/libft/ft_itoa_base.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_itoa_base.c.s
-.PHONY : Users/sapril/Desktop/work/libft/ft_itoa_base.c.s
 
 Users/sapril/Desktop/work/libft/ft_lstadd.o: Users/sapril/Desktop/work/libft/ft_lstadd.c.o
 
@@ -2025,9 +1971,6 @@ help:
 	@echo "... Users/sapril/Desktop/work/libft/ft_atoi.o"
 	@echo "... Users/sapril/Desktop/work/libft/ft_atoi.i"
 	@echo "... Users/sapril/Desktop/work/libft/ft_atoi.s"
-	@echo "... Users/sapril/Desktop/work/libft/ft_atoi_base.o"
-	@echo "... Users/sapril/Desktop/work/libft/ft_atoi_base.i"
-	@echo "... Users/sapril/Desktop/work/libft/ft_atoi_base.s"
 	@echo "... Users/sapril/Desktop/work/libft/ft_bzero.o"
 	@echo "... Users/sapril/Desktop/work/libft/ft_bzero.i"
 	@echo "... Users/sapril/Desktop/work/libft/ft_bzero.s"
@@ -2055,9 +1998,6 @@ help:
 	@echo "... Users/sapril/Desktop/work/libft/ft_itoa.o"
 	@echo "... Users/sapril/Desktop/work/libft/ft_itoa.i"
 	@echo "... Users/sapril/Desktop/work/libft/ft_itoa.s"
-	@echo "... Users/sapril/Desktop/work/libft/ft_itoa_base.o"
-	@echo "... Users/sapril/Desktop/work/libft/ft_itoa_base.i"
-	@echo "... Users/sapril/Desktop/work/libft/ft_itoa_base.s"
 	@echo "... Users/sapril/Desktop/work/libft/ft_lstadd.o"
 	@echo "... Users/sapril/Desktop/work/libft/ft_lstadd.i"
 	@echo "... Users/sapril/Desktop/work/libft/ft_lstadd.s"

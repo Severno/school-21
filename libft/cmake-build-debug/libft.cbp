@@ -91,6 +91,9 @@
 		<Unit filename="/Users/sapril/Desktop/work/libft/ft_atoi.c">
 			<Option target="libft"/>
 		</Unit>
+		<Unit filename="/Users/sapril/Desktop/work/libft/ft_atoi_base.c">
+			<Option target="libft"/>
+		</Unit>
 		<Unit filename="/Users/sapril/Desktop/work/libft/ft_bzero.c">
 			<Option target="libft"/>
 		</Unit>
@@ -116,6 +119,9 @@
 			<Option target="libft"/>
 		</Unit>
 		<Unit filename="/Users/sapril/Desktop/work/libft/ft_itoa.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/work/libft/ft_itoa_base.c">
 			<Option target="libft"/>
 		</Unit>
 		<Unit filename="/Users/sapril/Desktop/work/libft/ft_lstadd.c">

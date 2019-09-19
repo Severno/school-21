@@ -12,7 +12,7 @@
 
 #include "get_next_line.h"
 
-static char	*join_free(char *arr, char *buf)
+static char		*join_free(char *arr, char *buf)
 {
 	char	*ret;
 	size_t	len;
@@ -28,31 +28,30 @@ static char	*join_free(char *arr, char *buf)
 	return (ret);
 }
 
-static int	add_line(char **line, char *buff_line[])
+static int		add_line(char **line, char *buff_line[])
 {
 	char	*temp;
 	size_t	i;
 
 	i = 0;
-	temp = ft_strdup(*buff_line);
 	while ((*buff_line)[i] != '\n' && (*buff_line)[i])
 		i++;
 	if ((ft_strchr(*buff_line, '\n')) != NULL)
 	{
 		*line = ft_strsub(*buff_line, 0, i);
+		temp = ft_strdup(ft_strchr(*buff_line, '\n') + 1);
 		free(*buff_line);
-		*buff_line = ft_strdup(ft_strchr(temp, '\n') + 1);
+		*buff_line = temp;
 	}
 	else
 	{
-		*line = ft_strsub(*buff_line, 0, i);
-		free(*buff_line);
+		*line = ft_strdup(*buff_line);
+		ft_bzero(*buff_line, i);
 	}
-	free(temp);
 	return (1);
 }
 
-int			get_next_line(const int fd, char **line)
+int				get_next_line(const int fd, char **line)
 {
 	static char	*buff_line[255];
 	char		buf[BUFF_SIZE + 1];
@@ -64,7 +63,7 @@ int			get_next_line(const int fd, char **line)
 	{
 		buf[ret] = '\0';
 		if (buff_line[fd] == NULL)
-			buff_line[fd] = ft_strdup(buf);
+			buff_line[fd] = ft_strsub(buf, 0, ret);
 		else
 			buff_line[fd] = join_free(buff_line[fd], buf);
 		if (ft_strchr(buff_line[fd], '\n'))

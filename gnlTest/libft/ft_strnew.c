@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "includes/libft.h"
+#include "libft.h"
 
 char	*ft_strnew(size_t size)
 {
@@ -18,10 +18,10 @@ char	*ft_strnew(size_t size)
 	size_t	i;
 
 	i = 0;
+	if (size + 1 == 0)
+		return (NULL);
 	new_str = (char*)malloc(size + 1);
 	if (!new_str)
 		return (NULL);
-	while (i < size + 1)
-		new_str[i++] = '\0';
 	return (new_str);
 }

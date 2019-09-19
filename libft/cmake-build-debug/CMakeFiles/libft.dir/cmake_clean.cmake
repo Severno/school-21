@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/libft.dir/main.c.o"
   "CMakeFiles/libft.dir/ft_atoi.c.o"
+  "CMakeFiles/libft.dir/ft_atoi_base.c.o"
   "CMakeFiles/libft.dir/ft_bzero.c.o"
   "CMakeFiles/libft.dir/ft_check_end_spaces.c.o"
   "CMakeFiles/libft.dir/ft_check_start_spaces.c.o"
@@ -10,6 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/libft.dir/ft_isdigit.c.o"
   "CMakeFiles/libft.dir/ft_isprint.c.o"
   "CMakeFiles/libft.dir/ft_itoa.c.o"
+  "CMakeFiles/libft.dir/ft_itoa_base.c.o"
   "CMakeFiles/libft.dir/ft_lstadd.c.o"
   "CMakeFiles/libft.dir/ft_lstdel.c.o"
   "CMakeFiles/libft.dir/ft_lstdelone.c.o"

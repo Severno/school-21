@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "includes/libft.h"
+#include "libft.h"
 
 char	*ft_strtrim(char const *s)
 {
@@ -24,9 +24,9 @@ char	*ft_strtrim(char const *s)
 	i = ft_check_start_spaces(s, ft_strlen(s));
 	end = ft_check_end_spaces(s, ft_strlen(s));
 	j = 0;
-	if (i > 0 || end + 1 == ft_strlen(s))
+	if (i > 0 || end + 1 == ft_strlen(s) || end > 0)
 	{
-		new_s = (char *)malloc(sizeof(char) * ((end - i) + 2));
+		new_s = ft_strnew(sizeof(char) * ((end - i) + 2));
 		if (!new_s)
 			return (NULL);
 		while (i <= end && s[i])
@@ -34,9 +34,6 @@ char	*ft_strtrim(char const *s)
 		new_s[j] = '\0';
 	}
 	else
-	{
-		new_s = (char *)malloc(sizeof(char));
-		new_s[0] = '\0';
-	}
+		new_s = ft_strnew(0);
 	return (new_s);
 }

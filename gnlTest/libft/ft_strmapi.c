@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "includes/libft.h"
+#include "libft.h"
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
@@ -19,7 +19,7 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 
 	if (!s || !f)
 		return (NULL);
-	new_str = (char *)malloc(ft_strlen(s) + 1);
+	new_str = ft_strnew(ft_strlen(s) + 1);
 	if (!new_str)
 		return (NULL);
 	i = -1;

@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "includes/libft.h"
+#include "libft.h"
 
 static int		count_words(t_word word)
 {
@@ -60,7 +60,7 @@ static int		set_word(char **res, int n, t_word word)
 
 	word.pos = next_word_pos(word);
 	length = word_len(word);
-	res[n] = (char*)malloc(length + 1);
+	res[n] = ft_strnew(length + 1);
 	i = -1;
 	while (++i < length)
 		res[n][i] = word.str[word.pos + i];

@@ -22,9 +22,9 @@ OBJ=	ft_atoi.o ft_bzero.o ft_check_end_spaces.o ft_check_start_spaces.o ft_isaln
 		ft_striteri.o ft_strjoin.o ft_strlcat.o ft_strlen.o ft_strmap.o ft_strmapi.o ft_strncat.o ft_strncmp.o \
 		ft_strncpy.o ft_strnequ.o ft_strnew.o ft_strnstr.o ft_strrchr.o ft_strsplit.o ft_strstr.o \
 		ft_strsub.o ft_strtrim.o ft_tolower.o ft_toupper.o ft_str_is_lowercase.o ft_str_is_uppercase.o \
-		ft_str_is_printable.o ft_str_is_numeric.o ft_strnlen.o \
+		ft_str_is_printable.o ft_str_is_numeric.o ft_strnlen.o  \
 
-HEADER = includes/
+HEADER = libft.h
 
 $(NAME): $(OBJ)
 	@ar rc $(NAME) $(OBJ)

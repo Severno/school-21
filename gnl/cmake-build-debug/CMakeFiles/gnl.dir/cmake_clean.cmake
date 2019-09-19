@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gnl.dir/main.c.o"
   "CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_atoi.c.o"
-  "CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_atoi_base.c.o"
   "CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_bzero.c.o"
   "CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_check_end_spaces.c.o"
   "CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_check_start_spaces.c.o"
@@ -11,7 +10,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isdigit.c.o"
   "CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isprint.c.o"
   "CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_itoa.c.o"
-  "CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_itoa_base.c.o"
   "CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstadd.c.o"
   "CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstdel.c.o"
   "CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstdelone.c.o"
