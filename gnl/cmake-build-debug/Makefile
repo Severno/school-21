@@ -123,6 +123,1869 @@ gnl/fast:
 	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/build
 .PHONY : gnl/fast
 
+Users/artembykov/Desktop/School-21/libft/ft_atoi.o: Users/artembykov/Desktop/School-21/libft/ft_atoi.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_atoi.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_atoi.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_atoi.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_atoi.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_atoi.i: Users/artembykov/Desktop/School-21/libft/ft_atoi.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_atoi.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_atoi.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_atoi.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_atoi.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_atoi.s: Users/artembykov/Desktop/School-21/libft/ft_atoi.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_atoi.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_atoi.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_atoi.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_atoi.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_atoi_base.o: Users/artembykov/Desktop/School-21/libft/ft_atoi_base.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_atoi_base.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_atoi_base.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_atoi_base.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_atoi_base.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_atoi_base.i: Users/artembykov/Desktop/School-21/libft/ft_atoi_base.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_atoi_base.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_atoi_base.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_atoi_base.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_atoi_base.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_atoi_base.s: Users/artembykov/Desktop/School-21/libft/ft_atoi_base.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_atoi_base.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_atoi_base.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_atoi_base.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_atoi_base.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_bzero.o: Users/artembykov/Desktop/School-21/libft/ft_bzero.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_bzero.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_bzero.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_bzero.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_bzero.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_bzero.i: Users/artembykov/Desktop/School-21/libft/ft_bzero.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_bzero.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_bzero.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_bzero.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_bzero.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_bzero.s: Users/artembykov/Desktop/School-21/libft/ft_bzero.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_bzero.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_bzero.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_bzero.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_bzero.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_check_end_spaces.o: Users/artembykov/Desktop/School-21/libft/ft_check_end_spaces.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_check_end_spaces.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_check_end_spaces.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_check_end_spaces.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_check_end_spaces.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_check_end_spaces.i: Users/artembykov/Desktop/School-21/libft/ft_check_end_spaces.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_check_end_spaces.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_check_end_spaces.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_check_end_spaces.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_check_end_spaces.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_check_end_spaces.s: Users/artembykov/Desktop/School-21/libft/ft_check_end_spaces.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_check_end_spaces.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_check_end_spaces.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_check_end_spaces.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_check_end_spaces.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_check_start_spaces.o: Users/artembykov/Desktop/School-21/libft/ft_check_start_spaces.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_check_start_spaces.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_check_start_spaces.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_check_start_spaces.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_check_start_spaces.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_check_start_spaces.i: Users/artembykov/Desktop/School-21/libft/ft_check_start_spaces.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_check_start_spaces.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_check_start_spaces.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_check_start_spaces.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_check_start_spaces.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_check_start_spaces.s: Users/artembykov/Desktop/School-21/libft/ft_check_start_spaces.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_check_start_spaces.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_check_start_spaces.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_check_start_spaces.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_check_start_spaces.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_isalnum.o: Users/artembykov/Desktop/School-21/libft/ft_isalnum.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isalnum.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_isalnum.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_isalnum.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isalnum.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_isalnum.i: Users/artembykov/Desktop/School-21/libft/ft_isalnum.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isalnum.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_isalnum.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_isalnum.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isalnum.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_isalnum.s: Users/artembykov/Desktop/School-21/libft/ft_isalnum.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isalnum.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_isalnum.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_isalnum.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isalnum.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_isalpha.o: Users/artembykov/Desktop/School-21/libft/ft_isalpha.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isalpha.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_isalpha.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_isalpha.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isalpha.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_isalpha.i: Users/artembykov/Desktop/School-21/libft/ft_isalpha.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isalpha.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_isalpha.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_isalpha.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isalpha.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_isalpha.s: Users/artembykov/Desktop/School-21/libft/ft_isalpha.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isalpha.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_isalpha.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_isalpha.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isalpha.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_isascii.o: Users/artembykov/Desktop/School-21/libft/ft_isascii.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isascii.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_isascii.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_isascii.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isascii.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_isascii.i: Users/artembykov/Desktop/School-21/libft/ft_isascii.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isascii.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_isascii.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_isascii.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isascii.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_isascii.s: Users/artembykov/Desktop/School-21/libft/ft_isascii.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isascii.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_isascii.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_isascii.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isascii.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_isdigit.o: Users/artembykov/Desktop/School-21/libft/ft_isdigit.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isdigit.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_isdigit.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_isdigit.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isdigit.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_isdigit.i: Users/artembykov/Desktop/School-21/libft/ft_isdigit.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isdigit.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_isdigit.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_isdigit.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isdigit.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_isdigit.s: Users/artembykov/Desktop/School-21/libft/ft_isdigit.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isdigit.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_isdigit.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_isdigit.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isdigit.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_isprint.o: Users/artembykov/Desktop/School-21/libft/ft_isprint.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isprint.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_isprint.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_isprint.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isprint.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_isprint.i: Users/artembykov/Desktop/School-21/libft/ft_isprint.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isprint.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_isprint.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_isprint.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isprint.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_isprint.s: Users/artembykov/Desktop/School-21/libft/ft_isprint.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isprint.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_isprint.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_isprint.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isprint.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_isspace.o: Users/artembykov/Desktop/School-21/libft/ft_isspace.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isspace.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_isspace.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_isspace.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isspace.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_isspace.i: Users/artembykov/Desktop/School-21/libft/ft_isspace.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isspace.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_isspace.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_isspace.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isspace.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_isspace.s: Users/artembykov/Desktop/School-21/libft/ft_isspace.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isspace.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_isspace.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_isspace.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_isspace.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_itoa.o: Users/artembykov/Desktop/School-21/libft/ft_itoa.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_itoa.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_itoa.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_itoa.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_itoa.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_itoa.i: Users/artembykov/Desktop/School-21/libft/ft_itoa.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_itoa.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_itoa.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_itoa.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_itoa.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_itoa.s: Users/artembykov/Desktop/School-21/libft/ft_itoa.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_itoa.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_itoa.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_itoa.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_itoa.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_itoa_base.o: Users/artembykov/Desktop/School-21/libft/ft_itoa_base.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_itoa_base.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_itoa_base.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_itoa_base.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_itoa_base.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_itoa_base.i: Users/artembykov/Desktop/School-21/libft/ft_itoa_base.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_itoa_base.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_itoa_base.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_itoa_base.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_itoa_base.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_itoa_base.s: Users/artembykov/Desktop/School-21/libft/ft_itoa_base.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_itoa_base.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_itoa_base.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_itoa_base.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_itoa_base.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_lstadd.o: Users/artembykov/Desktop/School-21/libft/ft_lstadd.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstadd.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_lstadd.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_lstadd.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstadd.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_lstadd.i: Users/artembykov/Desktop/School-21/libft/ft_lstadd.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstadd.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_lstadd.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_lstadd.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstadd.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_lstadd.s: Users/artembykov/Desktop/School-21/libft/ft_lstadd.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstadd.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_lstadd.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_lstadd.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstadd.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_lstdel.o: Users/artembykov/Desktop/School-21/libft/ft_lstdel.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstdel.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_lstdel.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_lstdel.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstdel.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_lstdel.i: Users/artembykov/Desktop/School-21/libft/ft_lstdel.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstdel.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_lstdel.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_lstdel.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstdel.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_lstdel.s: Users/artembykov/Desktop/School-21/libft/ft_lstdel.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstdel.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_lstdel.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_lstdel.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstdel.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_lstdelone.o: Users/artembykov/Desktop/School-21/libft/ft_lstdelone.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstdelone.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_lstdelone.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_lstdelone.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstdelone.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_lstdelone.i: Users/artembykov/Desktop/School-21/libft/ft_lstdelone.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstdelone.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_lstdelone.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_lstdelone.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstdelone.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_lstdelone.s: Users/artembykov/Desktop/School-21/libft/ft_lstdelone.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstdelone.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_lstdelone.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_lstdelone.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstdelone.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_lstiter.o: Users/artembykov/Desktop/School-21/libft/ft_lstiter.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstiter.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_lstiter.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_lstiter.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstiter.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_lstiter.i: Users/artembykov/Desktop/School-21/libft/ft_lstiter.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstiter.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_lstiter.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_lstiter.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstiter.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_lstiter.s: Users/artembykov/Desktop/School-21/libft/ft_lstiter.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstiter.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_lstiter.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_lstiter.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstiter.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_lstmap.o: Users/artembykov/Desktop/School-21/libft/ft_lstmap.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstmap.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_lstmap.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_lstmap.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstmap.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_lstmap.i: Users/artembykov/Desktop/School-21/libft/ft_lstmap.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstmap.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_lstmap.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_lstmap.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstmap.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_lstmap.s: Users/artembykov/Desktop/School-21/libft/ft_lstmap.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstmap.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_lstmap.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_lstmap.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstmap.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_lstnew.o: Users/artembykov/Desktop/School-21/libft/ft_lstnew.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstnew.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_lstnew.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_lstnew.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstnew.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_lstnew.i: Users/artembykov/Desktop/School-21/libft/ft_lstnew.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstnew.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_lstnew.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_lstnew.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstnew.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_lstnew.s: Users/artembykov/Desktop/School-21/libft/ft_lstnew.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstnew.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_lstnew.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_lstnew.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_lstnew.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_memalloc.o: Users/artembykov/Desktop/School-21/libft/ft_memalloc.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memalloc.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_memalloc.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_memalloc.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memalloc.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_memalloc.i: Users/artembykov/Desktop/School-21/libft/ft_memalloc.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memalloc.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_memalloc.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_memalloc.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memalloc.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_memalloc.s: Users/artembykov/Desktop/School-21/libft/ft_memalloc.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memalloc.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_memalloc.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_memalloc.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memalloc.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_memccpy.o: Users/artembykov/Desktop/School-21/libft/ft_memccpy.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memccpy.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_memccpy.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_memccpy.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memccpy.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_memccpy.i: Users/artembykov/Desktop/School-21/libft/ft_memccpy.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memccpy.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_memccpy.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_memccpy.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memccpy.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_memccpy.s: Users/artembykov/Desktop/School-21/libft/ft_memccpy.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memccpy.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_memccpy.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_memccpy.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memccpy.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_memchr.o: Users/artembykov/Desktop/School-21/libft/ft_memchr.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memchr.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_memchr.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_memchr.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memchr.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_memchr.i: Users/artembykov/Desktop/School-21/libft/ft_memchr.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memchr.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_memchr.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_memchr.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memchr.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_memchr.s: Users/artembykov/Desktop/School-21/libft/ft_memchr.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memchr.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_memchr.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_memchr.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memchr.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_memcmp.o: Users/artembykov/Desktop/School-21/libft/ft_memcmp.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memcmp.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_memcmp.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_memcmp.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memcmp.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_memcmp.i: Users/artembykov/Desktop/School-21/libft/ft_memcmp.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memcmp.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_memcmp.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_memcmp.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memcmp.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_memcmp.s: Users/artembykov/Desktop/School-21/libft/ft_memcmp.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memcmp.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_memcmp.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_memcmp.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memcmp.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_memcpy.o: Users/artembykov/Desktop/School-21/libft/ft_memcpy.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memcpy.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_memcpy.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_memcpy.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memcpy.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_memcpy.i: Users/artembykov/Desktop/School-21/libft/ft_memcpy.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memcpy.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_memcpy.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_memcpy.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memcpy.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_memcpy.s: Users/artembykov/Desktop/School-21/libft/ft_memcpy.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memcpy.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_memcpy.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_memcpy.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memcpy.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_memdel.o: Users/artembykov/Desktop/School-21/libft/ft_memdel.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memdel.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_memdel.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_memdel.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memdel.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_memdel.i: Users/artembykov/Desktop/School-21/libft/ft_memdel.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memdel.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_memdel.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_memdel.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memdel.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_memdel.s: Users/artembykov/Desktop/School-21/libft/ft_memdel.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memdel.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_memdel.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_memdel.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memdel.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_memmove.o: Users/artembykov/Desktop/School-21/libft/ft_memmove.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memmove.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_memmove.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_memmove.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memmove.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_memmove.i: Users/artembykov/Desktop/School-21/libft/ft_memmove.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memmove.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_memmove.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_memmove.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memmove.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_memmove.s: Users/artembykov/Desktop/School-21/libft/ft_memmove.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memmove.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_memmove.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_memmove.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memmove.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_memset.o: Users/artembykov/Desktop/School-21/libft/ft_memset.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memset.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_memset.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_memset.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memset.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_memset.i: Users/artembykov/Desktop/School-21/libft/ft_memset.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memset.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_memset.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_memset.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memset.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_memset.s: Users/artembykov/Desktop/School-21/libft/ft_memset.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memset.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_memset.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_memset.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_memset.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_num_of_digits.o: Users/artembykov/Desktop/School-21/libft/ft_num_of_digits.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_num_of_digits.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_num_of_digits.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_num_of_digits.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_num_of_digits.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_num_of_digits.i: Users/artembykov/Desktop/School-21/libft/ft_num_of_digits.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_num_of_digits.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_num_of_digits.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_num_of_digits.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_num_of_digits.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_num_of_digits.s: Users/artembykov/Desktop/School-21/libft/ft_num_of_digits.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_num_of_digits.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_num_of_digits.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_num_of_digits.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_num_of_digits.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_putchar.o: Users/artembykov/Desktop/School-21/libft/ft_putchar.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putchar.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_putchar.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_putchar.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putchar.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_putchar.i: Users/artembykov/Desktop/School-21/libft/ft_putchar.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putchar.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_putchar.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_putchar.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putchar.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_putchar.s: Users/artembykov/Desktop/School-21/libft/ft_putchar.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putchar.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_putchar.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_putchar.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putchar.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_putchar_fd.o: Users/artembykov/Desktop/School-21/libft/ft_putchar_fd.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putchar_fd.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_putchar_fd.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_putchar_fd.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putchar_fd.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_putchar_fd.i: Users/artembykov/Desktop/School-21/libft/ft_putchar_fd.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putchar_fd.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_putchar_fd.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_putchar_fd.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putchar_fd.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_putchar_fd.s: Users/artembykov/Desktop/School-21/libft/ft_putchar_fd.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putchar_fd.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_putchar_fd.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_putchar_fd.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putchar_fd.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_putendl.o: Users/artembykov/Desktop/School-21/libft/ft_putendl.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putendl.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_putendl.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_putendl.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putendl.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_putendl.i: Users/artembykov/Desktop/School-21/libft/ft_putendl.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putendl.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_putendl.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_putendl.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putendl.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_putendl.s: Users/artembykov/Desktop/School-21/libft/ft_putendl.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putendl.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_putendl.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_putendl.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putendl.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_putendl_fd.o: Users/artembykov/Desktop/School-21/libft/ft_putendl_fd.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putendl_fd.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_putendl_fd.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_putendl_fd.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putendl_fd.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_putendl_fd.i: Users/artembykov/Desktop/School-21/libft/ft_putendl_fd.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putendl_fd.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_putendl_fd.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_putendl_fd.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putendl_fd.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_putendl_fd.s: Users/artembykov/Desktop/School-21/libft/ft_putendl_fd.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putendl_fd.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_putendl_fd.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_putendl_fd.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putendl_fd.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_putnbr.o: Users/artembykov/Desktop/School-21/libft/ft_putnbr.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putnbr.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_putnbr.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_putnbr.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putnbr.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_putnbr.i: Users/artembykov/Desktop/School-21/libft/ft_putnbr.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putnbr.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_putnbr.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_putnbr.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putnbr.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_putnbr.s: Users/artembykov/Desktop/School-21/libft/ft_putnbr.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putnbr.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_putnbr.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_putnbr.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putnbr.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_putnbr_fd.o: Users/artembykov/Desktop/School-21/libft/ft_putnbr_fd.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putnbr_fd.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_putnbr_fd.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_putnbr_fd.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putnbr_fd.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_putnbr_fd.i: Users/artembykov/Desktop/School-21/libft/ft_putnbr_fd.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putnbr_fd.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_putnbr_fd.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_putnbr_fd.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putnbr_fd.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_putnbr_fd.s: Users/artembykov/Desktop/School-21/libft/ft_putnbr_fd.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putnbr_fd.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_putnbr_fd.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_putnbr_fd.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putnbr_fd.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_putstr.o: Users/artembykov/Desktop/School-21/libft/ft_putstr.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putstr.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_putstr.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_putstr.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putstr.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_putstr.i: Users/artembykov/Desktop/School-21/libft/ft_putstr.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putstr.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_putstr.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_putstr.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putstr.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_putstr.s: Users/artembykov/Desktop/School-21/libft/ft_putstr.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putstr.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_putstr.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_putstr.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putstr.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_putstr_fd.o: Users/artembykov/Desktop/School-21/libft/ft_putstr_fd.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putstr_fd.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_putstr_fd.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_putstr_fd.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putstr_fd.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_putstr_fd.i: Users/artembykov/Desktop/School-21/libft/ft_putstr_fd.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putstr_fd.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_putstr_fd.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_putstr_fd.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putstr_fd.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_putstr_fd.s: Users/artembykov/Desktop/School-21/libft/ft_putstr_fd.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putstr_fd.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_putstr_fd.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_putstr_fd.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_putstr_fd.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_str_is_lowercase.o: Users/artembykov/Desktop/School-21/libft/ft_str_is_lowercase.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_str_is_lowercase.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_str_is_lowercase.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_str_is_lowercase.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_str_is_lowercase.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_str_is_lowercase.i: Users/artembykov/Desktop/School-21/libft/ft_str_is_lowercase.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_str_is_lowercase.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_str_is_lowercase.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_str_is_lowercase.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_str_is_lowercase.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_str_is_lowercase.s: Users/artembykov/Desktop/School-21/libft/ft_str_is_lowercase.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_str_is_lowercase.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_str_is_lowercase.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_str_is_lowercase.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_str_is_lowercase.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_str_is_numeric.o: Users/artembykov/Desktop/School-21/libft/ft_str_is_numeric.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_str_is_numeric.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_str_is_numeric.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_str_is_numeric.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_str_is_numeric.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_str_is_numeric.i: Users/artembykov/Desktop/School-21/libft/ft_str_is_numeric.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_str_is_numeric.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_str_is_numeric.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_str_is_numeric.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_str_is_numeric.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_str_is_numeric.s: Users/artembykov/Desktop/School-21/libft/ft_str_is_numeric.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_str_is_numeric.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_str_is_numeric.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_str_is_numeric.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_str_is_numeric.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_str_is_printable.o: Users/artembykov/Desktop/School-21/libft/ft_str_is_printable.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_str_is_printable.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_str_is_printable.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_str_is_printable.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_str_is_printable.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_str_is_printable.i: Users/artembykov/Desktop/School-21/libft/ft_str_is_printable.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_str_is_printable.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_str_is_printable.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_str_is_printable.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_str_is_printable.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_str_is_printable.s: Users/artembykov/Desktop/School-21/libft/ft_str_is_printable.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_str_is_printable.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_str_is_printable.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_str_is_printable.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_str_is_printable.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_str_is_uppercase.o: Users/artembykov/Desktop/School-21/libft/ft_str_is_uppercase.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_str_is_uppercase.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_str_is_uppercase.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_str_is_uppercase.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_str_is_uppercase.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_str_is_uppercase.i: Users/artembykov/Desktop/School-21/libft/ft_str_is_uppercase.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_str_is_uppercase.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_str_is_uppercase.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_str_is_uppercase.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_str_is_uppercase.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_str_is_uppercase.s: Users/artembykov/Desktop/School-21/libft/ft_str_is_uppercase.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_str_is_uppercase.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_str_is_uppercase.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_str_is_uppercase.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_str_is_uppercase.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_strcat.o: Users/artembykov/Desktop/School-21/libft/ft_strcat.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strcat.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_strcat.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strcat.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strcat.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_strcat.i: Users/artembykov/Desktop/School-21/libft/ft_strcat.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strcat.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_strcat.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strcat.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strcat.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_strcat.s: Users/artembykov/Desktop/School-21/libft/ft_strcat.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strcat.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_strcat.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strcat.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strcat.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_strchr.o: Users/artembykov/Desktop/School-21/libft/ft_strchr.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strchr.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_strchr.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strchr.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strchr.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_strchr.i: Users/artembykov/Desktop/School-21/libft/ft_strchr.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strchr.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_strchr.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strchr.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strchr.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_strchr.s: Users/artembykov/Desktop/School-21/libft/ft_strchr.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strchr.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_strchr.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strchr.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strchr.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_strclr.o: Users/artembykov/Desktop/School-21/libft/ft_strclr.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strclr.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_strclr.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strclr.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strclr.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_strclr.i: Users/artembykov/Desktop/School-21/libft/ft_strclr.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strclr.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_strclr.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strclr.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strclr.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_strclr.s: Users/artembykov/Desktop/School-21/libft/ft_strclr.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strclr.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_strclr.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strclr.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strclr.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_strcmp.o: Users/artembykov/Desktop/School-21/libft/ft_strcmp.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strcmp.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_strcmp.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strcmp.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strcmp.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_strcmp.i: Users/artembykov/Desktop/School-21/libft/ft_strcmp.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strcmp.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_strcmp.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strcmp.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strcmp.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_strcmp.s: Users/artembykov/Desktop/School-21/libft/ft_strcmp.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strcmp.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_strcmp.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strcmp.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strcmp.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_strcpy.o: Users/artembykov/Desktop/School-21/libft/ft_strcpy.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strcpy.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_strcpy.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strcpy.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strcpy.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_strcpy.i: Users/artembykov/Desktop/School-21/libft/ft_strcpy.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strcpy.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_strcpy.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strcpy.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strcpy.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_strcpy.s: Users/artembykov/Desktop/School-21/libft/ft_strcpy.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strcpy.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_strcpy.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strcpy.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strcpy.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_strdel.o: Users/artembykov/Desktop/School-21/libft/ft_strdel.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strdel.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_strdel.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strdel.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strdel.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_strdel.i: Users/artembykov/Desktop/School-21/libft/ft_strdel.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strdel.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_strdel.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strdel.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strdel.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_strdel.s: Users/artembykov/Desktop/School-21/libft/ft_strdel.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strdel.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_strdel.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strdel.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strdel.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_strdup.o: Users/artembykov/Desktop/School-21/libft/ft_strdup.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strdup.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_strdup.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strdup.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strdup.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_strdup.i: Users/artembykov/Desktop/School-21/libft/ft_strdup.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strdup.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_strdup.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strdup.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strdup.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_strdup.s: Users/artembykov/Desktop/School-21/libft/ft_strdup.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strdup.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_strdup.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strdup.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strdup.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_strequ.o: Users/artembykov/Desktop/School-21/libft/ft_strequ.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strequ.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_strequ.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strequ.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strequ.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_strequ.i: Users/artembykov/Desktop/School-21/libft/ft_strequ.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strequ.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_strequ.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strequ.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strequ.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_strequ.s: Users/artembykov/Desktop/School-21/libft/ft_strequ.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strequ.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_strequ.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strequ.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strequ.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_striter.o: Users/artembykov/Desktop/School-21/libft/ft_striter.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_striter.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_striter.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_striter.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_striter.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_striter.i: Users/artembykov/Desktop/School-21/libft/ft_striter.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_striter.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_striter.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_striter.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_striter.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_striter.s: Users/artembykov/Desktop/School-21/libft/ft_striter.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_striter.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_striter.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_striter.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_striter.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_striteri.o: Users/artembykov/Desktop/School-21/libft/ft_striteri.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_striteri.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_striteri.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_striteri.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_striteri.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_striteri.i: Users/artembykov/Desktop/School-21/libft/ft_striteri.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_striteri.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_striteri.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_striteri.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_striteri.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_striteri.s: Users/artembykov/Desktop/School-21/libft/ft_striteri.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_striteri.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_striteri.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_striteri.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_striteri.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_strjoin.o: Users/artembykov/Desktop/School-21/libft/ft_strjoin.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strjoin.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_strjoin.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strjoin.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strjoin.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_strjoin.i: Users/artembykov/Desktop/School-21/libft/ft_strjoin.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strjoin.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_strjoin.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strjoin.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strjoin.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_strjoin.s: Users/artembykov/Desktop/School-21/libft/ft_strjoin.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strjoin.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_strjoin.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strjoin.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strjoin.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_strlcat.o: Users/artembykov/Desktop/School-21/libft/ft_strlcat.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strlcat.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_strlcat.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strlcat.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strlcat.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_strlcat.i: Users/artembykov/Desktop/School-21/libft/ft_strlcat.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strlcat.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_strlcat.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strlcat.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strlcat.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_strlcat.s: Users/artembykov/Desktop/School-21/libft/ft_strlcat.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strlcat.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_strlcat.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strlcat.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strlcat.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_strlen.o: Users/artembykov/Desktop/School-21/libft/ft_strlen.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strlen.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_strlen.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strlen.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strlen.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_strlen.i: Users/artembykov/Desktop/School-21/libft/ft_strlen.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strlen.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_strlen.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strlen.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strlen.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_strlen.s: Users/artembykov/Desktop/School-21/libft/ft_strlen.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strlen.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_strlen.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strlen.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strlen.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_strmap.o: Users/artembykov/Desktop/School-21/libft/ft_strmap.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strmap.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_strmap.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strmap.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strmap.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_strmap.i: Users/artembykov/Desktop/School-21/libft/ft_strmap.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strmap.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_strmap.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strmap.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strmap.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_strmap.s: Users/artembykov/Desktop/School-21/libft/ft_strmap.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strmap.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_strmap.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strmap.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strmap.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_strmapi.o: Users/artembykov/Desktop/School-21/libft/ft_strmapi.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strmapi.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_strmapi.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strmapi.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strmapi.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_strmapi.i: Users/artembykov/Desktop/School-21/libft/ft_strmapi.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strmapi.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_strmapi.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strmapi.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strmapi.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_strmapi.s: Users/artembykov/Desktop/School-21/libft/ft_strmapi.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strmapi.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_strmapi.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strmapi.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strmapi.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_strncat.o: Users/artembykov/Desktop/School-21/libft/ft_strncat.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strncat.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_strncat.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strncat.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strncat.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_strncat.i: Users/artembykov/Desktop/School-21/libft/ft_strncat.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strncat.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_strncat.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strncat.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strncat.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_strncat.s: Users/artembykov/Desktop/School-21/libft/ft_strncat.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strncat.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_strncat.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strncat.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strncat.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_strncmp.o: Users/artembykov/Desktop/School-21/libft/ft_strncmp.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strncmp.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_strncmp.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strncmp.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strncmp.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_strncmp.i: Users/artembykov/Desktop/School-21/libft/ft_strncmp.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strncmp.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_strncmp.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strncmp.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strncmp.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_strncmp.s: Users/artembykov/Desktop/School-21/libft/ft_strncmp.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strncmp.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_strncmp.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strncmp.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strncmp.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_strncpy.o: Users/artembykov/Desktop/School-21/libft/ft_strncpy.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strncpy.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_strncpy.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strncpy.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strncpy.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_strncpy.i: Users/artembykov/Desktop/School-21/libft/ft_strncpy.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strncpy.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_strncpy.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strncpy.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strncpy.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_strncpy.s: Users/artembykov/Desktop/School-21/libft/ft_strncpy.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strncpy.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_strncpy.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strncpy.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strncpy.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_strnequ.o: Users/artembykov/Desktop/School-21/libft/ft_strnequ.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strnequ.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_strnequ.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strnequ.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strnequ.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_strnequ.i: Users/artembykov/Desktop/School-21/libft/ft_strnequ.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strnequ.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_strnequ.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strnequ.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strnequ.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_strnequ.s: Users/artembykov/Desktop/School-21/libft/ft_strnequ.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strnequ.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_strnequ.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strnequ.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strnequ.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_strnew.o: Users/artembykov/Desktop/School-21/libft/ft_strnew.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strnew.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_strnew.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strnew.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strnew.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_strnew.i: Users/artembykov/Desktop/School-21/libft/ft_strnew.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strnew.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_strnew.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strnew.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strnew.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_strnew.s: Users/artembykov/Desktop/School-21/libft/ft_strnew.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strnew.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_strnew.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strnew.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strnew.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_strnlen.o: Users/artembykov/Desktop/School-21/libft/ft_strnlen.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strnlen.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_strnlen.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strnlen.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strnlen.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_strnlen.i: Users/artembykov/Desktop/School-21/libft/ft_strnlen.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strnlen.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_strnlen.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strnlen.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strnlen.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_strnlen.s: Users/artembykov/Desktop/School-21/libft/ft_strnlen.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strnlen.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_strnlen.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strnlen.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strnlen.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_strnstr.o: Users/artembykov/Desktop/School-21/libft/ft_strnstr.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strnstr.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_strnstr.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strnstr.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strnstr.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_strnstr.i: Users/artembykov/Desktop/School-21/libft/ft_strnstr.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strnstr.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_strnstr.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strnstr.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strnstr.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_strnstr.s: Users/artembykov/Desktop/School-21/libft/ft_strnstr.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strnstr.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_strnstr.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strnstr.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strnstr.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_strrchr.o: Users/artembykov/Desktop/School-21/libft/ft_strrchr.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strrchr.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_strrchr.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strrchr.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strrchr.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_strrchr.i: Users/artembykov/Desktop/School-21/libft/ft_strrchr.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strrchr.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_strrchr.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strrchr.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strrchr.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_strrchr.s: Users/artembykov/Desktop/School-21/libft/ft_strrchr.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strrchr.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_strrchr.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strrchr.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strrchr.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_strsplit.o: Users/artembykov/Desktop/School-21/libft/ft_strsplit.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strsplit.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_strsplit.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strsplit.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strsplit.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_strsplit.i: Users/artembykov/Desktop/School-21/libft/ft_strsplit.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strsplit.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_strsplit.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strsplit.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strsplit.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_strsplit.s: Users/artembykov/Desktop/School-21/libft/ft_strsplit.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strsplit.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_strsplit.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strsplit.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strsplit.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_strstr.o: Users/artembykov/Desktop/School-21/libft/ft_strstr.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strstr.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_strstr.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strstr.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strstr.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_strstr.i: Users/artembykov/Desktop/School-21/libft/ft_strstr.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strstr.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_strstr.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strstr.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strstr.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_strstr.s: Users/artembykov/Desktop/School-21/libft/ft_strstr.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strstr.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_strstr.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strstr.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strstr.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_strsub.o: Users/artembykov/Desktop/School-21/libft/ft_strsub.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strsub.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_strsub.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strsub.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strsub.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_strsub.i: Users/artembykov/Desktop/School-21/libft/ft_strsub.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strsub.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_strsub.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strsub.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strsub.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_strsub.s: Users/artembykov/Desktop/School-21/libft/ft_strsub.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strsub.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_strsub.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strsub.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strsub.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_strtrim.o: Users/artembykov/Desktop/School-21/libft/ft_strtrim.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strtrim.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_strtrim.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strtrim.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strtrim.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_strtrim.i: Users/artembykov/Desktop/School-21/libft/ft_strtrim.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strtrim.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_strtrim.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strtrim.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strtrim.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_strtrim.s: Users/artembykov/Desktop/School-21/libft/ft_strtrim.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strtrim.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_strtrim.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_strtrim.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_strtrim.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_tolower.o: Users/artembykov/Desktop/School-21/libft/ft_tolower.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_tolower.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_tolower.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_tolower.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_tolower.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_tolower.i: Users/artembykov/Desktop/School-21/libft/ft_tolower.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_tolower.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_tolower.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_tolower.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_tolower.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_tolower.s: Users/artembykov/Desktop/School-21/libft/ft_tolower.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_tolower.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_tolower.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_tolower.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_tolower.c.s
+
+Users/artembykov/Desktop/School-21/libft/ft_toupper.o: Users/artembykov/Desktop/School-21/libft/ft_toupper.c.o
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_toupper.o
+
+# target to build an object file
+Users/artembykov/Desktop/School-21/libft/ft_toupper.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_toupper.c.o
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_toupper.c.o
+
+Users/artembykov/Desktop/School-21/libft/ft_toupper.i: Users/artembykov/Desktop/School-21/libft/ft_toupper.c.i
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_toupper.i
+
+# target to preprocess a source file
+Users/artembykov/Desktop/School-21/libft/ft_toupper.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_toupper.c.i
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_toupper.c.i
+
+Users/artembykov/Desktop/School-21/libft/ft_toupper.s: Users/artembykov/Desktop/School-21/libft/ft_toupper.c.s
+
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_toupper.s
+
+# target to generate assembly for a file
+Users/artembykov/Desktop/School-21/libft/ft_toupper.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/artembykov/Desktop/School-21/libft/ft_toupper.c.s
+.PHONY : Users/artembykov/Desktop/School-21/libft/ft_toupper.c.s
+
 get_next_line.o: get_next_line.c.o
 
 .PHONY : get_next_line.o
@@ -149,1815 +2012,6 @@ get_next_line.s: get_next_line.c.s
 get_next_line.c.s:
 	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/get_next_line.c.s
 .PHONY : get_next_line.c.s
-
-libft/ft_atoi.o: libft/ft_atoi.c.o
-
-.PHONY : libft/ft_atoi.o
-
-# target to build an object file
-libft/ft_atoi.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_atoi.c.o
-.PHONY : libft/ft_atoi.c.o
-
-libft/ft_atoi.i: libft/ft_atoi.c.i
-
-.PHONY : libft/ft_atoi.i
-
-# target to preprocess a source file
-libft/ft_atoi.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_atoi.c.i
-.PHONY : libft/ft_atoi.c.i
-
-libft/ft_atoi.s: libft/ft_atoi.c.s
-
-.PHONY : libft/ft_atoi.s
-
-# target to generate assembly for a file
-libft/ft_atoi.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_atoi.c.s
-.PHONY : libft/ft_atoi.c.s
-
-libft/ft_bzero.o: libft/ft_bzero.c.o
-
-.PHONY : libft/ft_bzero.o
-
-# target to build an object file
-libft/ft_bzero.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_bzero.c.o
-.PHONY : libft/ft_bzero.c.o
-
-libft/ft_bzero.i: libft/ft_bzero.c.i
-
-.PHONY : libft/ft_bzero.i
-
-# target to preprocess a source file
-libft/ft_bzero.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_bzero.c.i
-.PHONY : libft/ft_bzero.c.i
-
-libft/ft_bzero.s: libft/ft_bzero.c.s
-
-.PHONY : libft/ft_bzero.s
-
-# target to generate assembly for a file
-libft/ft_bzero.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_bzero.c.s
-.PHONY : libft/ft_bzero.c.s
-
-libft/ft_check_end_spaces.o: libft/ft_check_end_spaces.c.o
-
-.PHONY : libft/ft_check_end_spaces.o
-
-# target to build an object file
-libft/ft_check_end_spaces.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_check_end_spaces.c.o
-.PHONY : libft/ft_check_end_spaces.c.o
-
-libft/ft_check_end_spaces.i: libft/ft_check_end_spaces.c.i
-
-.PHONY : libft/ft_check_end_spaces.i
-
-# target to preprocess a source file
-libft/ft_check_end_spaces.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_check_end_spaces.c.i
-.PHONY : libft/ft_check_end_spaces.c.i
-
-libft/ft_check_end_spaces.s: libft/ft_check_end_spaces.c.s
-
-.PHONY : libft/ft_check_end_spaces.s
-
-# target to generate assembly for a file
-libft/ft_check_end_spaces.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_check_end_spaces.c.s
-.PHONY : libft/ft_check_end_spaces.c.s
-
-libft/ft_check_start_spaces.o: libft/ft_check_start_spaces.c.o
-
-.PHONY : libft/ft_check_start_spaces.o
-
-# target to build an object file
-libft/ft_check_start_spaces.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_check_start_spaces.c.o
-.PHONY : libft/ft_check_start_spaces.c.o
-
-libft/ft_check_start_spaces.i: libft/ft_check_start_spaces.c.i
-
-.PHONY : libft/ft_check_start_spaces.i
-
-# target to preprocess a source file
-libft/ft_check_start_spaces.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_check_start_spaces.c.i
-.PHONY : libft/ft_check_start_spaces.c.i
-
-libft/ft_check_start_spaces.s: libft/ft_check_start_spaces.c.s
-
-.PHONY : libft/ft_check_start_spaces.s
-
-# target to generate assembly for a file
-libft/ft_check_start_spaces.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_check_start_spaces.c.s
-.PHONY : libft/ft_check_start_spaces.c.s
-
-libft/ft_isalnum.o: libft/ft_isalnum.c.o
-
-.PHONY : libft/ft_isalnum.o
-
-# target to build an object file
-libft/ft_isalnum.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_isalnum.c.o
-.PHONY : libft/ft_isalnum.c.o
-
-libft/ft_isalnum.i: libft/ft_isalnum.c.i
-
-.PHONY : libft/ft_isalnum.i
-
-# target to preprocess a source file
-libft/ft_isalnum.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_isalnum.c.i
-.PHONY : libft/ft_isalnum.c.i
-
-libft/ft_isalnum.s: libft/ft_isalnum.c.s
-
-.PHONY : libft/ft_isalnum.s
-
-# target to generate assembly for a file
-libft/ft_isalnum.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_isalnum.c.s
-.PHONY : libft/ft_isalnum.c.s
-
-libft/ft_isalpha.o: libft/ft_isalpha.c.o
-
-.PHONY : libft/ft_isalpha.o
-
-# target to build an object file
-libft/ft_isalpha.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_isalpha.c.o
-.PHONY : libft/ft_isalpha.c.o
-
-libft/ft_isalpha.i: libft/ft_isalpha.c.i
-
-.PHONY : libft/ft_isalpha.i
-
-# target to preprocess a source file
-libft/ft_isalpha.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_isalpha.c.i
-.PHONY : libft/ft_isalpha.c.i
-
-libft/ft_isalpha.s: libft/ft_isalpha.c.s
-
-.PHONY : libft/ft_isalpha.s
-
-# target to generate assembly for a file
-libft/ft_isalpha.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_isalpha.c.s
-.PHONY : libft/ft_isalpha.c.s
-
-libft/ft_isascii.o: libft/ft_isascii.c.o
-
-.PHONY : libft/ft_isascii.o
-
-# target to build an object file
-libft/ft_isascii.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_isascii.c.o
-.PHONY : libft/ft_isascii.c.o
-
-libft/ft_isascii.i: libft/ft_isascii.c.i
-
-.PHONY : libft/ft_isascii.i
-
-# target to preprocess a source file
-libft/ft_isascii.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_isascii.c.i
-.PHONY : libft/ft_isascii.c.i
-
-libft/ft_isascii.s: libft/ft_isascii.c.s
-
-.PHONY : libft/ft_isascii.s
-
-# target to generate assembly for a file
-libft/ft_isascii.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_isascii.c.s
-.PHONY : libft/ft_isascii.c.s
-
-libft/ft_isdigit.o: libft/ft_isdigit.c.o
-
-.PHONY : libft/ft_isdigit.o
-
-# target to build an object file
-libft/ft_isdigit.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_isdigit.c.o
-.PHONY : libft/ft_isdigit.c.o
-
-libft/ft_isdigit.i: libft/ft_isdigit.c.i
-
-.PHONY : libft/ft_isdigit.i
-
-# target to preprocess a source file
-libft/ft_isdigit.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_isdigit.c.i
-.PHONY : libft/ft_isdigit.c.i
-
-libft/ft_isdigit.s: libft/ft_isdigit.c.s
-
-.PHONY : libft/ft_isdigit.s
-
-# target to generate assembly for a file
-libft/ft_isdigit.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_isdigit.c.s
-.PHONY : libft/ft_isdigit.c.s
-
-libft/ft_isprint.o: libft/ft_isprint.c.o
-
-.PHONY : libft/ft_isprint.o
-
-# target to build an object file
-libft/ft_isprint.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_isprint.c.o
-.PHONY : libft/ft_isprint.c.o
-
-libft/ft_isprint.i: libft/ft_isprint.c.i
-
-.PHONY : libft/ft_isprint.i
-
-# target to preprocess a source file
-libft/ft_isprint.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_isprint.c.i
-.PHONY : libft/ft_isprint.c.i
-
-libft/ft_isprint.s: libft/ft_isprint.c.s
-
-.PHONY : libft/ft_isprint.s
-
-# target to generate assembly for a file
-libft/ft_isprint.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_isprint.c.s
-.PHONY : libft/ft_isprint.c.s
-
-libft/ft_isspace.o: libft/ft_isspace.c.o
-
-.PHONY : libft/ft_isspace.o
-
-# target to build an object file
-libft/ft_isspace.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_isspace.c.o
-.PHONY : libft/ft_isspace.c.o
-
-libft/ft_isspace.i: libft/ft_isspace.c.i
-
-.PHONY : libft/ft_isspace.i
-
-# target to preprocess a source file
-libft/ft_isspace.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_isspace.c.i
-.PHONY : libft/ft_isspace.c.i
-
-libft/ft_isspace.s: libft/ft_isspace.c.s
-
-.PHONY : libft/ft_isspace.s
-
-# target to generate assembly for a file
-libft/ft_isspace.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_isspace.c.s
-.PHONY : libft/ft_isspace.c.s
-
-libft/ft_itoa.o: libft/ft_itoa.c.o
-
-.PHONY : libft/ft_itoa.o
-
-# target to build an object file
-libft/ft_itoa.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_itoa.c.o
-.PHONY : libft/ft_itoa.c.o
-
-libft/ft_itoa.i: libft/ft_itoa.c.i
-
-.PHONY : libft/ft_itoa.i
-
-# target to preprocess a source file
-libft/ft_itoa.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_itoa.c.i
-.PHONY : libft/ft_itoa.c.i
-
-libft/ft_itoa.s: libft/ft_itoa.c.s
-
-.PHONY : libft/ft_itoa.s
-
-# target to generate assembly for a file
-libft/ft_itoa.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_itoa.c.s
-.PHONY : libft/ft_itoa.c.s
-
-libft/ft_lstadd.o: libft/ft_lstadd.c.o
-
-.PHONY : libft/ft_lstadd.o
-
-# target to build an object file
-libft/ft_lstadd.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_lstadd.c.o
-.PHONY : libft/ft_lstadd.c.o
-
-libft/ft_lstadd.i: libft/ft_lstadd.c.i
-
-.PHONY : libft/ft_lstadd.i
-
-# target to preprocess a source file
-libft/ft_lstadd.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_lstadd.c.i
-.PHONY : libft/ft_lstadd.c.i
-
-libft/ft_lstadd.s: libft/ft_lstadd.c.s
-
-.PHONY : libft/ft_lstadd.s
-
-# target to generate assembly for a file
-libft/ft_lstadd.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_lstadd.c.s
-.PHONY : libft/ft_lstadd.c.s
-
-libft/ft_lstdel.o: libft/ft_lstdel.c.o
-
-.PHONY : libft/ft_lstdel.o
-
-# target to build an object file
-libft/ft_lstdel.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_lstdel.c.o
-.PHONY : libft/ft_lstdel.c.o
-
-libft/ft_lstdel.i: libft/ft_lstdel.c.i
-
-.PHONY : libft/ft_lstdel.i
-
-# target to preprocess a source file
-libft/ft_lstdel.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_lstdel.c.i
-.PHONY : libft/ft_lstdel.c.i
-
-libft/ft_lstdel.s: libft/ft_lstdel.c.s
-
-.PHONY : libft/ft_lstdel.s
-
-# target to generate assembly for a file
-libft/ft_lstdel.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_lstdel.c.s
-.PHONY : libft/ft_lstdel.c.s
-
-libft/ft_lstdelone.o: libft/ft_lstdelone.c.o
-
-.PHONY : libft/ft_lstdelone.o
-
-# target to build an object file
-libft/ft_lstdelone.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_lstdelone.c.o
-.PHONY : libft/ft_lstdelone.c.o
-
-libft/ft_lstdelone.i: libft/ft_lstdelone.c.i
-
-.PHONY : libft/ft_lstdelone.i
-
-# target to preprocess a source file
-libft/ft_lstdelone.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_lstdelone.c.i
-.PHONY : libft/ft_lstdelone.c.i
-
-libft/ft_lstdelone.s: libft/ft_lstdelone.c.s
-
-.PHONY : libft/ft_lstdelone.s
-
-# target to generate assembly for a file
-libft/ft_lstdelone.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_lstdelone.c.s
-.PHONY : libft/ft_lstdelone.c.s
-
-libft/ft_lstiter.o: libft/ft_lstiter.c.o
-
-.PHONY : libft/ft_lstiter.o
-
-# target to build an object file
-libft/ft_lstiter.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_lstiter.c.o
-.PHONY : libft/ft_lstiter.c.o
-
-libft/ft_lstiter.i: libft/ft_lstiter.c.i
-
-.PHONY : libft/ft_lstiter.i
-
-# target to preprocess a source file
-libft/ft_lstiter.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_lstiter.c.i
-.PHONY : libft/ft_lstiter.c.i
-
-libft/ft_lstiter.s: libft/ft_lstiter.c.s
-
-.PHONY : libft/ft_lstiter.s
-
-# target to generate assembly for a file
-libft/ft_lstiter.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_lstiter.c.s
-.PHONY : libft/ft_lstiter.c.s
-
-libft/ft_lstmap.o: libft/ft_lstmap.c.o
-
-.PHONY : libft/ft_lstmap.o
-
-# target to build an object file
-libft/ft_lstmap.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_lstmap.c.o
-.PHONY : libft/ft_lstmap.c.o
-
-libft/ft_lstmap.i: libft/ft_lstmap.c.i
-
-.PHONY : libft/ft_lstmap.i
-
-# target to preprocess a source file
-libft/ft_lstmap.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_lstmap.c.i
-.PHONY : libft/ft_lstmap.c.i
-
-libft/ft_lstmap.s: libft/ft_lstmap.c.s
-
-.PHONY : libft/ft_lstmap.s
-
-# target to generate assembly for a file
-libft/ft_lstmap.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_lstmap.c.s
-.PHONY : libft/ft_lstmap.c.s
-
-libft/ft_lstnew.o: libft/ft_lstnew.c.o
-
-.PHONY : libft/ft_lstnew.o
-
-# target to build an object file
-libft/ft_lstnew.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_lstnew.c.o
-.PHONY : libft/ft_lstnew.c.o
-
-libft/ft_lstnew.i: libft/ft_lstnew.c.i
-
-.PHONY : libft/ft_lstnew.i
-
-# target to preprocess a source file
-libft/ft_lstnew.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_lstnew.c.i
-.PHONY : libft/ft_lstnew.c.i
-
-libft/ft_lstnew.s: libft/ft_lstnew.c.s
-
-.PHONY : libft/ft_lstnew.s
-
-# target to generate assembly for a file
-libft/ft_lstnew.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_lstnew.c.s
-.PHONY : libft/ft_lstnew.c.s
-
-libft/ft_memalloc.o: libft/ft_memalloc.c.o
-
-.PHONY : libft/ft_memalloc.o
-
-# target to build an object file
-libft/ft_memalloc.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_memalloc.c.o
-.PHONY : libft/ft_memalloc.c.o
-
-libft/ft_memalloc.i: libft/ft_memalloc.c.i
-
-.PHONY : libft/ft_memalloc.i
-
-# target to preprocess a source file
-libft/ft_memalloc.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_memalloc.c.i
-.PHONY : libft/ft_memalloc.c.i
-
-libft/ft_memalloc.s: libft/ft_memalloc.c.s
-
-.PHONY : libft/ft_memalloc.s
-
-# target to generate assembly for a file
-libft/ft_memalloc.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_memalloc.c.s
-.PHONY : libft/ft_memalloc.c.s
-
-libft/ft_memccpy.o: libft/ft_memccpy.c.o
-
-.PHONY : libft/ft_memccpy.o
-
-# target to build an object file
-libft/ft_memccpy.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_memccpy.c.o
-.PHONY : libft/ft_memccpy.c.o
-
-libft/ft_memccpy.i: libft/ft_memccpy.c.i
-
-.PHONY : libft/ft_memccpy.i
-
-# target to preprocess a source file
-libft/ft_memccpy.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_memccpy.c.i
-.PHONY : libft/ft_memccpy.c.i
-
-libft/ft_memccpy.s: libft/ft_memccpy.c.s
-
-.PHONY : libft/ft_memccpy.s
-
-# target to generate assembly for a file
-libft/ft_memccpy.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_memccpy.c.s
-.PHONY : libft/ft_memccpy.c.s
-
-libft/ft_memchr.o: libft/ft_memchr.c.o
-
-.PHONY : libft/ft_memchr.o
-
-# target to build an object file
-libft/ft_memchr.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_memchr.c.o
-.PHONY : libft/ft_memchr.c.o
-
-libft/ft_memchr.i: libft/ft_memchr.c.i
-
-.PHONY : libft/ft_memchr.i
-
-# target to preprocess a source file
-libft/ft_memchr.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_memchr.c.i
-.PHONY : libft/ft_memchr.c.i
-
-libft/ft_memchr.s: libft/ft_memchr.c.s
-
-.PHONY : libft/ft_memchr.s
-
-# target to generate assembly for a file
-libft/ft_memchr.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_memchr.c.s
-.PHONY : libft/ft_memchr.c.s
-
-libft/ft_memcmp.o: libft/ft_memcmp.c.o
-
-.PHONY : libft/ft_memcmp.o
-
-# target to build an object file
-libft/ft_memcmp.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_memcmp.c.o
-.PHONY : libft/ft_memcmp.c.o
-
-libft/ft_memcmp.i: libft/ft_memcmp.c.i
-
-.PHONY : libft/ft_memcmp.i
-
-# target to preprocess a source file
-libft/ft_memcmp.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_memcmp.c.i
-.PHONY : libft/ft_memcmp.c.i
-
-libft/ft_memcmp.s: libft/ft_memcmp.c.s
-
-.PHONY : libft/ft_memcmp.s
-
-# target to generate assembly for a file
-libft/ft_memcmp.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_memcmp.c.s
-.PHONY : libft/ft_memcmp.c.s
-
-libft/ft_memcpy.o: libft/ft_memcpy.c.o
-
-.PHONY : libft/ft_memcpy.o
-
-# target to build an object file
-libft/ft_memcpy.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_memcpy.c.o
-.PHONY : libft/ft_memcpy.c.o
-
-libft/ft_memcpy.i: libft/ft_memcpy.c.i
-
-.PHONY : libft/ft_memcpy.i
-
-# target to preprocess a source file
-libft/ft_memcpy.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_memcpy.c.i
-.PHONY : libft/ft_memcpy.c.i
-
-libft/ft_memcpy.s: libft/ft_memcpy.c.s
-
-.PHONY : libft/ft_memcpy.s
-
-# target to generate assembly for a file
-libft/ft_memcpy.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_memcpy.c.s
-.PHONY : libft/ft_memcpy.c.s
-
-libft/ft_memdel.o: libft/ft_memdel.c.o
-
-.PHONY : libft/ft_memdel.o
-
-# target to build an object file
-libft/ft_memdel.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_memdel.c.o
-.PHONY : libft/ft_memdel.c.o
-
-libft/ft_memdel.i: libft/ft_memdel.c.i
-
-.PHONY : libft/ft_memdel.i
-
-# target to preprocess a source file
-libft/ft_memdel.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_memdel.c.i
-.PHONY : libft/ft_memdel.c.i
-
-libft/ft_memdel.s: libft/ft_memdel.c.s
-
-.PHONY : libft/ft_memdel.s
-
-# target to generate assembly for a file
-libft/ft_memdel.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_memdel.c.s
-.PHONY : libft/ft_memdel.c.s
-
-libft/ft_memmove.o: libft/ft_memmove.c.o
-
-.PHONY : libft/ft_memmove.o
-
-# target to build an object file
-libft/ft_memmove.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_memmove.c.o
-.PHONY : libft/ft_memmove.c.o
-
-libft/ft_memmove.i: libft/ft_memmove.c.i
-
-.PHONY : libft/ft_memmove.i
-
-# target to preprocess a source file
-libft/ft_memmove.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_memmove.c.i
-.PHONY : libft/ft_memmove.c.i
-
-libft/ft_memmove.s: libft/ft_memmove.c.s
-
-.PHONY : libft/ft_memmove.s
-
-# target to generate assembly for a file
-libft/ft_memmove.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_memmove.c.s
-.PHONY : libft/ft_memmove.c.s
-
-libft/ft_memset.o: libft/ft_memset.c.o
-
-.PHONY : libft/ft_memset.o
-
-# target to build an object file
-libft/ft_memset.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_memset.c.o
-.PHONY : libft/ft_memset.c.o
-
-libft/ft_memset.i: libft/ft_memset.c.i
-
-.PHONY : libft/ft_memset.i
-
-# target to preprocess a source file
-libft/ft_memset.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_memset.c.i
-.PHONY : libft/ft_memset.c.i
-
-libft/ft_memset.s: libft/ft_memset.c.s
-
-.PHONY : libft/ft_memset.s
-
-# target to generate assembly for a file
-libft/ft_memset.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_memset.c.s
-.PHONY : libft/ft_memset.c.s
-
-libft/ft_num_of_digits.o: libft/ft_num_of_digits.c.o
-
-.PHONY : libft/ft_num_of_digits.o
-
-# target to build an object file
-libft/ft_num_of_digits.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_num_of_digits.c.o
-.PHONY : libft/ft_num_of_digits.c.o
-
-libft/ft_num_of_digits.i: libft/ft_num_of_digits.c.i
-
-.PHONY : libft/ft_num_of_digits.i
-
-# target to preprocess a source file
-libft/ft_num_of_digits.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_num_of_digits.c.i
-.PHONY : libft/ft_num_of_digits.c.i
-
-libft/ft_num_of_digits.s: libft/ft_num_of_digits.c.s
-
-.PHONY : libft/ft_num_of_digits.s
-
-# target to generate assembly for a file
-libft/ft_num_of_digits.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_num_of_digits.c.s
-.PHONY : libft/ft_num_of_digits.c.s
-
-libft/ft_putchar.o: libft/ft_putchar.c.o
-
-.PHONY : libft/ft_putchar.o
-
-# target to build an object file
-libft/ft_putchar.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_putchar.c.o
-.PHONY : libft/ft_putchar.c.o
-
-libft/ft_putchar.i: libft/ft_putchar.c.i
-
-.PHONY : libft/ft_putchar.i
-
-# target to preprocess a source file
-libft/ft_putchar.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_putchar.c.i
-.PHONY : libft/ft_putchar.c.i
-
-libft/ft_putchar.s: libft/ft_putchar.c.s
-
-.PHONY : libft/ft_putchar.s
-
-# target to generate assembly for a file
-libft/ft_putchar.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_putchar.c.s
-.PHONY : libft/ft_putchar.c.s
-
-libft/ft_putchar_fd.o: libft/ft_putchar_fd.c.o
-
-.PHONY : libft/ft_putchar_fd.o
-
-# target to build an object file
-libft/ft_putchar_fd.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_putchar_fd.c.o
-.PHONY : libft/ft_putchar_fd.c.o
-
-libft/ft_putchar_fd.i: libft/ft_putchar_fd.c.i
-
-.PHONY : libft/ft_putchar_fd.i
-
-# target to preprocess a source file
-libft/ft_putchar_fd.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_putchar_fd.c.i
-.PHONY : libft/ft_putchar_fd.c.i
-
-libft/ft_putchar_fd.s: libft/ft_putchar_fd.c.s
-
-.PHONY : libft/ft_putchar_fd.s
-
-# target to generate assembly for a file
-libft/ft_putchar_fd.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_putchar_fd.c.s
-.PHONY : libft/ft_putchar_fd.c.s
-
-libft/ft_putendl.o: libft/ft_putendl.c.o
-
-.PHONY : libft/ft_putendl.o
-
-# target to build an object file
-libft/ft_putendl.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_putendl.c.o
-.PHONY : libft/ft_putendl.c.o
-
-libft/ft_putendl.i: libft/ft_putendl.c.i
-
-.PHONY : libft/ft_putendl.i
-
-# target to preprocess a source file
-libft/ft_putendl.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_putendl.c.i
-.PHONY : libft/ft_putendl.c.i
-
-libft/ft_putendl.s: libft/ft_putendl.c.s
-
-.PHONY : libft/ft_putendl.s
-
-# target to generate assembly for a file
-libft/ft_putendl.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_putendl.c.s
-.PHONY : libft/ft_putendl.c.s
-
-libft/ft_putendl_fd.o: libft/ft_putendl_fd.c.o
-
-.PHONY : libft/ft_putendl_fd.o
-
-# target to build an object file
-libft/ft_putendl_fd.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_putendl_fd.c.o
-.PHONY : libft/ft_putendl_fd.c.o
-
-libft/ft_putendl_fd.i: libft/ft_putendl_fd.c.i
-
-.PHONY : libft/ft_putendl_fd.i
-
-# target to preprocess a source file
-libft/ft_putendl_fd.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_putendl_fd.c.i
-.PHONY : libft/ft_putendl_fd.c.i
-
-libft/ft_putendl_fd.s: libft/ft_putendl_fd.c.s
-
-.PHONY : libft/ft_putendl_fd.s
-
-# target to generate assembly for a file
-libft/ft_putendl_fd.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_putendl_fd.c.s
-.PHONY : libft/ft_putendl_fd.c.s
-
-libft/ft_putnbr.o: libft/ft_putnbr.c.o
-
-.PHONY : libft/ft_putnbr.o
-
-# target to build an object file
-libft/ft_putnbr.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_putnbr.c.o
-.PHONY : libft/ft_putnbr.c.o
-
-libft/ft_putnbr.i: libft/ft_putnbr.c.i
-
-.PHONY : libft/ft_putnbr.i
-
-# target to preprocess a source file
-libft/ft_putnbr.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_putnbr.c.i
-.PHONY : libft/ft_putnbr.c.i
-
-libft/ft_putnbr.s: libft/ft_putnbr.c.s
-
-.PHONY : libft/ft_putnbr.s
-
-# target to generate assembly for a file
-libft/ft_putnbr.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_putnbr.c.s
-.PHONY : libft/ft_putnbr.c.s
-
-libft/ft_putnbr_fd.o: libft/ft_putnbr_fd.c.o
-
-.PHONY : libft/ft_putnbr_fd.o
-
-# target to build an object file
-libft/ft_putnbr_fd.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_putnbr_fd.c.o
-.PHONY : libft/ft_putnbr_fd.c.o
-
-libft/ft_putnbr_fd.i: libft/ft_putnbr_fd.c.i
-
-.PHONY : libft/ft_putnbr_fd.i
-
-# target to preprocess a source file
-libft/ft_putnbr_fd.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_putnbr_fd.c.i
-.PHONY : libft/ft_putnbr_fd.c.i
-
-libft/ft_putnbr_fd.s: libft/ft_putnbr_fd.c.s
-
-.PHONY : libft/ft_putnbr_fd.s
-
-# target to generate assembly for a file
-libft/ft_putnbr_fd.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_putnbr_fd.c.s
-.PHONY : libft/ft_putnbr_fd.c.s
-
-libft/ft_putstr.o: libft/ft_putstr.c.o
-
-.PHONY : libft/ft_putstr.o
-
-# target to build an object file
-libft/ft_putstr.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_putstr.c.o
-.PHONY : libft/ft_putstr.c.o
-
-libft/ft_putstr.i: libft/ft_putstr.c.i
-
-.PHONY : libft/ft_putstr.i
-
-# target to preprocess a source file
-libft/ft_putstr.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_putstr.c.i
-.PHONY : libft/ft_putstr.c.i
-
-libft/ft_putstr.s: libft/ft_putstr.c.s
-
-.PHONY : libft/ft_putstr.s
-
-# target to generate assembly for a file
-libft/ft_putstr.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_putstr.c.s
-.PHONY : libft/ft_putstr.c.s
-
-libft/ft_putstr_fd.o: libft/ft_putstr_fd.c.o
-
-.PHONY : libft/ft_putstr_fd.o
-
-# target to build an object file
-libft/ft_putstr_fd.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_putstr_fd.c.o
-.PHONY : libft/ft_putstr_fd.c.o
-
-libft/ft_putstr_fd.i: libft/ft_putstr_fd.c.i
-
-.PHONY : libft/ft_putstr_fd.i
-
-# target to preprocess a source file
-libft/ft_putstr_fd.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_putstr_fd.c.i
-.PHONY : libft/ft_putstr_fd.c.i
-
-libft/ft_putstr_fd.s: libft/ft_putstr_fd.c.s
-
-.PHONY : libft/ft_putstr_fd.s
-
-# target to generate assembly for a file
-libft/ft_putstr_fd.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_putstr_fd.c.s
-.PHONY : libft/ft_putstr_fd.c.s
-
-libft/ft_str_is_lowercase.o: libft/ft_str_is_lowercase.c.o
-
-.PHONY : libft/ft_str_is_lowercase.o
-
-# target to build an object file
-libft/ft_str_is_lowercase.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_str_is_lowercase.c.o
-.PHONY : libft/ft_str_is_lowercase.c.o
-
-libft/ft_str_is_lowercase.i: libft/ft_str_is_lowercase.c.i
-
-.PHONY : libft/ft_str_is_lowercase.i
-
-# target to preprocess a source file
-libft/ft_str_is_lowercase.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_str_is_lowercase.c.i
-.PHONY : libft/ft_str_is_lowercase.c.i
-
-libft/ft_str_is_lowercase.s: libft/ft_str_is_lowercase.c.s
-
-.PHONY : libft/ft_str_is_lowercase.s
-
-# target to generate assembly for a file
-libft/ft_str_is_lowercase.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_str_is_lowercase.c.s
-.PHONY : libft/ft_str_is_lowercase.c.s
-
-libft/ft_str_is_numeric.o: libft/ft_str_is_numeric.c.o
-
-.PHONY : libft/ft_str_is_numeric.o
-
-# target to build an object file
-libft/ft_str_is_numeric.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_str_is_numeric.c.o
-.PHONY : libft/ft_str_is_numeric.c.o
-
-libft/ft_str_is_numeric.i: libft/ft_str_is_numeric.c.i
-
-.PHONY : libft/ft_str_is_numeric.i
-
-# target to preprocess a source file
-libft/ft_str_is_numeric.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_str_is_numeric.c.i
-.PHONY : libft/ft_str_is_numeric.c.i
-
-libft/ft_str_is_numeric.s: libft/ft_str_is_numeric.c.s
-
-.PHONY : libft/ft_str_is_numeric.s
-
-# target to generate assembly for a file
-libft/ft_str_is_numeric.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_str_is_numeric.c.s
-.PHONY : libft/ft_str_is_numeric.c.s
-
-libft/ft_str_is_printable.o: libft/ft_str_is_printable.c.o
-
-.PHONY : libft/ft_str_is_printable.o
-
-# target to build an object file
-libft/ft_str_is_printable.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_str_is_printable.c.o
-.PHONY : libft/ft_str_is_printable.c.o
-
-libft/ft_str_is_printable.i: libft/ft_str_is_printable.c.i
-
-.PHONY : libft/ft_str_is_printable.i
-
-# target to preprocess a source file
-libft/ft_str_is_printable.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_str_is_printable.c.i
-.PHONY : libft/ft_str_is_printable.c.i
-
-libft/ft_str_is_printable.s: libft/ft_str_is_printable.c.s
-
-.PHONY : libft/ft_str_is_printable.s
-
-# target to generate assembly for a file
-libft/ft_str_is_printable.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_str_is_printable.c.s
-.PHONY : libft/ft_str_is_printable.c.s
-
-libft/ft_str_is_uppercase.o: libft/ft_str_is_uppercase.c.o
-
-.PHONY : libft/ft_str_is_uppercase.o
-
-# target to build an object file
-libft/ft_str_is_uppercase.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_str_is_uppercase.c.o
-.PHONY : libft/ft_str_is_uppercase.c.o
-
-libft/ft_str_is_uppercase.i: libft/ft_str_is_uppercase.c.i
-
-.PHONY : libft/ft_str_is_uppercase.i
-
-# target to preprocess a source file
-libft/ft_str_is_uppercase.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_str_is_uppercase.c.i
-.PHONY : libft/ft_str_is_uppercase.c.i
-
-libft/ft_str_is_uppercase.s: libft/ft_str_is_uppercase.c.s
-
-.PHONY : libft/ft_str_is_uppercase.s
-
-# target to generate assembly for a file
-libft/ft_str_is_uppercase.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_str_is_uppercase.c.s
-.PHONY : libft/ft_str_is_uppercase.c.s
-
-libft/ft_strcat.o: libft/ft_strcat.c.o
-
-.PHONY : libft/ft_strcat.o
-
-# target to build an object file
-libft/ft_strcat.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strcat.c.o
-.PHONY : libft/ft_strcat.c.o
-
-libft/ft_strcat.i: libft/ft_strcat.c.i
-
-.PHONY : libft/ft_strcat.i
-
-# target to preprocess a source file
-libft/ft_strcat.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strcat.c.i
-.PHONY : libft/ft_strcat.c.i
-
-libft/ft_strcat.s: libft/ft_strcat.c.s
-
-.PHONY : libft/ft_strcat.s
-
-# target to generate assembly for a file
-libft/ft_strcat.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strcat.c.s
-.PHONY : libft/ft_strcat.c.s
-
-libft/ft_strchr.o: libft/ft_strchr.c.o
-
-.PHONY : libft/ft_strchr.o
-
-# target to build an object file
-libft/ft_strchr.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strchr.c.o
-.PHONY : libft/ft_strchr.c.o
-
-libft/ft_strchr.i: libft/ft_strchr.c.i
-
-.PHONY : libft/ft_strchr.i
-
-# target to preprocess a source file
-libft/ft_strchr.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strchr.c.i
-.PHONY : libft/ft_strchr.c.i
-
-libft/ft_strchr.s: libft/ft_strchr.c.s
-
-.PHONY : libft/ft_strchr.s
-
-# target to generate assembly for a file
-libft/ft_strchr.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strchr.c.s
-.PHONY : libft/ft_strchr.c.s
-
-libft/ft_strclr.o: libft/ft_strclr.c.o
-
-.PHONY : libft/ft_strclr.o
-
-# target to build an object file
-libft/ft_strclr.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strclr.c.o
-.PHONY : libft/ft_strclr.c.o
-
-libft/ft_strclr.i: libft/ft_strclr.c.i
-
-.PHONY : libft/ft_strclr.i
-
-# target to preprocess a source file
-libft/ft_strclr.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strclr.c.i
-.PHONY : libft/ft_strclr.c.i
-
-libft/ft_strclr.s: libft/ft_strclr.c.s
-
-.PHONY : libft/ft_strclr.s
-
-# target to generate assembly for a file
-libft/ft_strclr.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strclr.c.s
-.PHONY : libft/ft_strclr.c.s
-
-libft/ft_strcmp.o: libft/ft_strcmp.c.o
-
-.PHONY : libft/ft_strcmp.o
-
-# target to build an object file
-libft/ft_strcmp.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strcmp.c.o
-.PHONY : libft/ft_strcmp.c.o
-
-libft/ft_strcmp.i: libft/ft_strcmp.c.i
-
-.PHONY : libft/ft_strcmp.i
-
-# target to preprocess a source file
-libft/ft_strcmp.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strcmp.c.i
-.PHONY : libft/ft_strcmp.c.i
-
-libft/ft_strcmp.s: libft/ft_strcmp.c.s
-
-.PHONY : libft/ft_strcmp.s
-
-# target to generate assembly for a file
-libft/ft_strcmp.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strcmp.c.s
-.PHONY : libft/ft_strcmp.c.s
-
-libft/ft_strcpy.o: libft/ft_strcpy.c.o
-
-.PHONY : libft/ft_strcpy.o
-
-# target to build an object file
-libft/ft_strcpy.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strcpy.c.o
-.PHONY : libft/ft_strcpy.c.o
-
-libft/ft_strcpy.i: libft/ft_strcpy.c.i
-
-.PHONY : libft/ft_strcpy.i
-
-# target to preprocess a source file
-libft/ft_strcpy.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strcpy.c.i
-.PHONY : libft/ft_strcpy.c.i
-
-libft/ft_strcpy.s: libft/ft_strcpy.c.s
-
-.PHONY : libft/ft_strcpy.s
-
-# target to generate assembly for a file
-libft/ft_strcpy.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strcpy.c.s
-.PHONY : libft/ft_strcpy.c.s
-
-libft/ft_strdel.o: libft/ft_strdel.c.o
-
-.PHONY : libft/ft_strdel.o
-
-# target to build an object file
-libft/ft_strdel.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strdel.c.o
-.PHONY : libft/ft_strdel.c.o
-
-libft/ft_strdel.i: libft/ft_strdel.c.i
-
-.PHONY : libft/ft_strdel.i
-
-# target to preprocess a source file
-libft/ft_strdel.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strdel.c.i
-.PHONY : libft/ft_strdel.c.i
-
-libft/ft_strdel.s: libft/ft_strdel.c.s
-
-.PHONY : libft/ft_strdel.s
-
-# target to generate assembly for a file
-libft/ft_strdel.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strdel.c.s
-.PHONY : libft/ft_strdel.c.s
-
-libft/ft_strdup.o: libft/ft_strdup.c.o
-
-.PHONY : libft/ft_strdup.o
-
-# target to build an object file
-libft/ft_strdup.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strdup.c.o
-.PHONY : libft/ft_strdup.c.o
-
-libft/ft_strdup.i: libft/ft_strdup.c.i
-
-.PHONY : libft/ft_strdup.i
-
-# target to preprocess a source file
-libft/ft_strdup.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strdup.c.i
-.PHONY : libft/ft_strdup.c.i
-
-libft/ft_strdup.s: libft/ft_strdup.c.s
-
-.PHONY : libft/ft_strdup.s
-
-# target to generate assembly for a file
-libft/ft_strdup.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strdup.c.s
-.PHONY : libft/ft_strdup.c.s
-
-libft/ft_strequ.o: libft/ft_strequ.c.o
-
-.PHONY : libft/ft_strequ.o
-
-# target to build an object file
-libft/ft_strequ.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strequ.c.o
-.PHONY : libft/ft_strequ.c.o
-
-libft/ft_strequ.i: libft/ft_strequ.c.i
-
-.PHONY : libft/ft_strequ.i
-
-# target to preprocess a source file
-libft/ft_strequ.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strequ.c.i
-.PHONY : libft/ft_strequ.c.i
-
-libft/ft_strequ.s: libft/ft_strequ.c.s
-
-.PHONY : libft/ft_strequ.s
-
-# target to generate assembly for a file
-libft/ft_strequ.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strequ.c.s
-.PHONY : libft/ft_strequ.c.s
-
-libft/ft_striter.o: libft/ft_striter.c.o
-
-.PHONY : libft/ft_striter.o
-
-# target to build an object file
-libft/ft_striter.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_striter.c.o
-.PHONY : libft/ft_striter.c.o
-
-libft/ft_striter.i: libft/ft_striter.c.i
-
-.PHONY : libft/ft_striter.i
-
-# target to preprocess a source file
-libft/ft_striter.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_striter.c.i
-.PHONY : libft/ft_striter.c.i
-
-libft/ft_striter.s: libft/ft_striter.c.s
-
-.PHONY : libft/ft_striter.s
-
-# target to generate assembly for a file
-libft/ft_striter.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_striter.c.s
-.PHONY : libft/ft_striter.c.s
-
-libft/ft_striteri.o: libft/ft_striteri.c.o
-
-.PHONY : libft/ft_striteri.o
-
-# target to build an object file
-libft/ft_striteri.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_striteri.c.o
-.PHONY : libft/ft_striteri.c.o
-
-libft/ft_striteri.i: libft/ft_striteri.c.i
-
-.PHONY : libft/ft_striteri.i
-
-# target to preprocess a source file
-libft/ft_striteri.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_striteri.c.i
-.PHONY : libft/ft_striteri.c.i
-
-libft/ft_striteri.s: libft/ft_striteri.c.s
-
-.PHONY : libft/ft_striteri.s
-
-# target to generate assembly for a file
-libft/ft_striteri.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_striteri.c.s
-.PHONY : libft/ft_striteri.c.s
-
-libft/ft_strjoin.o: libft/ft_strjoin.c.o
-
-.PHONY : libft/ft_strjoin.o
-
-# target to build an object file
-libft/ft_strjoin.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strjoin.c.o
-.PHONY : libft/ft_strjoin.c.o
-
-libft/ft_strjoin.i: libft/ft_strjoin.c.i
-
-.PHONY : libft/ft_strjoin.i
-
-# target to preprocess a source file
-libft/ft_strjoin.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strjoin.c.i
-.PHONY : libft/ft_strjoin.c.i
-
-libft/ft_strjoin.s: libft/ft_strjoin.c.s
-
-.PHONY : libft/ft_strjoin.s
-
-# target to generate assembly for a file
-libft/ft_strjoin.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strjoin.c.s
-.PHONY : libft/ft_strjoin.c.s
-
-libft/ft_strlcat.o: libft/ft_strlcat.c.o
-
-.PHONY : libft/ft_strlcat.o
-
-# target to build an object file
-libft/ft_strlcat.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strlcat.c.o
-.PHONY : libft/ft_strlcat.c.o
-
-libft/ft_strlcat.i: libft/ft_strlcat.c.i
-
-.PHONY : libft/ft_strlcat.i
-
-# target to preprocess a source file
-libft/ft_strlcat.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strlcat.c.i
-.PHONY : libft/ft_strlcat.c.i
-
-libft/ft_strlcat.s: libft/ft_strlcat.c.s
-
-.PHONY : libft/ft_strlcat.s
-
-# target to generate assembly for a file
-libft/ft_strlcat.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strlcat.c.s
-.PHONY : libft/ft_strlcat.c.s
-
-libft/ft_strlen.o: libft/ft_strlen.c.o
-
-.PHONY : libft/ft_strlen.o
-
-# target to build an object file
-libft/ft_strlen.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strlen.c.o
-.PHONY : libft/ft_strlen.c.o
-
-libft/ft_strlen.i: libft/ft_strlen.c.i
-
-.PHONY : libft/ft_strlen.i
-
-# target to preprocess a source file
-libft/ft_strlen.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strlen.c.i
-.PHONY : libft/ft_strlen.c.i
-
-libft/ft_strlen.s: libft/ft_strlen.c.s
-
-.PHONY : libft/ft_strlen.s
-
-# target to generate assembly for a file
-libft/ft_strlen.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strlen.c.s
-.PHONY : libft/ft_strlen.c.s
-
-libft/ft_strmap.o: libft/ft_strmap.c.o
-
-.PHONY : libft/ft_strmap.o
-
-# target to build an object file
-libft/ft_strmap.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strmap.c.o
-.PHONY : libft/ft_strmap.c.o
-
-libft/ft_strmap.i: libft/ft_strmap.c.i
-
-.PHONY : libft/ft_strmap.i
-
-# target to preprocess a source file
-libft/ft_strmap.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strmap.c.i
-.PHONY : libft/ft_strmap.c.i
-
-libft/ft_strmap.s: libft/ft_strmap.c.s
-
-.PHONY : libft/ft_strmap.s
-
-# target to generate assembly for a file
-libft/ft_strmap.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strmap.c.s
-.PHONY : libft/ft_strmap.c.s
-
-libft/ft_strmapi.o: libft/ft_strmapi.c.o
-
-.PHONY : libft/ft_strmapi.o
-
-# target to build an object file
-libft/ft_strmapi.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strmapi.c.o
-.PHONY : libft/ft_strmapi.c.o
-
-libft/ft_strmapi.i: libft/ft_strmapi.c.i
-
-.PHONY : libft/ft_strmapi.i
-
-# target to preprocess a source file
-libft/ft_strmapi.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strmapi.c.i
-.PHONY : libft/ft_strmapi.c.i
-
-libft/ft_strmapi.s: libft/ft_strmapi.c.s
-
-.PHONY : libft/ft_strmapi.s
-
-# target to generate assembly for a file
-libft/ft_strmapi.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strmapi.c.s
-.PHONY : libft/ft_strmapi.c.s
-
-libft/ft_strncat.o: libft/ft_strncat.c.o
-
-.PHONY : libft/ft_strncat.o
-
-# target to build an object file
-libft/ft_strncat.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strncat.c.o
-.PHONY : libft/ft_strncat.c.o
-
-libft/ft_strncat.i: libft/ft_strncat.c.i
-
-.PHONY : libft/ft_strncat.i
-
-# target to preprocess a source file
-libft/ft_strncat.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strncat.c.i
-.PHONY : libft/ft_strncat.c.i
-
-libft/ft_strncat.s: libft/ft_strncat.c.s
-
-.PHONY : libft/ft_strncat.s
-
-# target to generate assembly for a file
-libft/ft_strncat.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strncat.c.s
-.PHONY : libft/ft_strncat.c.s
-
-libft/ft_strncmp.o: libft/ft_strncmp.c.o
-
-.PHONY : libft/ft_strncmp.o
-
-# target to build an object file
-libft/ft_strncmp.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strncmp.c.o
-.PHONY : libft/ft_strncmp.c.o
-
-libft/ft_strncmp.i: libft/ft_strncmp.c.i
-
-.PHONY : libft/ft_strncmp.i
-
-# target to preprocess a source file
-libft/ft_strncmp.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strncmp.c.i
-.PHONY : libft/ft_strncmp.c.i
-
-libft/ft_strncmp.s: libft/ft_strncmp.c.s
-
-.PHONY : libft/ft_strncmp.s
-
-# target to generate assembly for a file
-libft/ft_strncmp.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strncmp.c.s
-.PHONY : libft/ft_strncmp.c.s
-
-libft/ft_strncpy.o: libft/ft_strncpy.c.o
-
-.PHONY : libft/ft_strncpy.o
-
-# target to build an object file
-libft/ft_strncpy.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strncpy.c.o
-.PHONY : libft/ft_strncpy.c.o
-
-libft/ft_strncpy.i: libft/ft_strncpy.c.i
-
-.PHONY : libft/ft_strncpy.i
-
-# target to preprocess a source file
-libft/ft_strncpy.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strncpy.c.i
-.PHONY : libft/ft_strncpy.c.i
-
-libft/ft_strncpy.s: libft/ft_strncpy.c.s
-
-.PHONY : libft/ft_strncpy.s
-
-# target to generate assembly for a file
-libft/ft_strncpy.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strncpy.c.s
-.PHONY : libft/ft_strncpy.c.s
-
-libft/ft_strnequ.o: libft/ft_strnequ.c.o
-
-.PHONY : libft/ft_strnequ.o
-
-# target to build an object file
-libft/ft_strnequ.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strnequ.c.o
-.PHONY : libft/ft_strnequ.c.o
-
-libft/ft_strnequ.i: libft/ft_strnequ.c.i
-
-.PHONY : libft/ft_strnequ.i
-
-# target to preprocess a source file
-libft/ft_strnequ.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strnequ.c.i
-.PHONY : libft/ft_strnequ.c.i
-
-libft/ft_strnequ.s: libft/ft_strnequ.c.s
-
-.PHONY : libft/ft_strnequ.s
-
-# target to generate assembly for a file
-libft/ft_strnequ.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strnequ.c.s
-.PHONY : libft/ft_strnequ.c.s
-
-libft/ft_strnew.o: libft/ft_strnew.c.o
-
-.PHONY : libft/ft_strnew.o
-
-# target to build an object file
-libft/ft_strnew.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strnew.c.o
-.PHONY : libft/ft_strnew.c.o
-
-libft/ft_strnew.i: libft/ft_strnew.c.i
-
-.PHONY : libft/ft_strnew.i
-
-# target to preprocess a source file
-libft/ft_strnew.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strnew.c.i
-.PHONY : libft/ft_strnew.c.i
-
-libft/ft_strnew.s: libft/ft_strnew.c.s
-
-.PHONY : libft/ft_strnew.s
-
-# target to generate assembly for a file
-libft/ft_strnew.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strnew.c.s
-.PHONY : libft/ft_strnew.c.s
-
-libft/ft_strnlen.o: libft/ft_strnlen.c.o
-
-.PHONY : libft/ft_strnlen.o
-
-# target to build an object file
-libft/ft_strnlen.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strnlen.c.o
-.PHONY : libft/ft_strnlen.c.o
-
-libft/ft_strnlen.i: libft/ft_strnlen.c.i
-
-.PHONY : libft/ft_strnlen.i
-
-# target to preprocess a source file
-libft/ft_strnlen.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strnlen.c.i
-.PHONY : libft/ft_strnlen.c.i
-
-libft/ft_strnlen.s: libft/ft_strnlen.c.s
-
-.PHONY : libft/ft_strnlen.s
-
-# target to generate assembly for a file
-libft/ft_strnlen.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strnlen.c.s
-.PHONY : libft/ft_strnlen.c.s
-
-libft/ft_strnstr.o: libft/ft_strnstr.c.o
-
-.PHONY : libft/ft_strnstr.o
-
-# target to build an object file
-libft/ft_strnstr.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strnstr.c.o
-.PHONY : libft/ft_strnstr.c.o
-
-libft/ft_strnstr.i: libft/ft_strnstr.c.i
-
-.PHONY : libft/ft_strnstr.i
-
-# target to preprocess a source file
-libft/ft_strnstr.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strnstr.c.i
-.PHONY : libft/ft_strnstr.c.i
-
-libft/ft_strnstr.s: libft/ft_strnstr.c.s
-
-.PHONY : libft/ft_strnstr.s
-
-# target to generate assembly for a file
-libft/ft_strnstr.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strnstr.c.s
-.PHONY : libft/ft_strnstr.c.s
-
-libft/ft_strrchr.o: libft/ft_strrchr.c.o
-
-.PHONY : libft/ft_strrchr.o
-
-# target to build an object file
-libft/ft_strrchr.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strrchr.c.o
-.PHONY : libft/ft_strrchr.c.o
-
-libft/ft_strrchr.i: libft/ft_strrchr.c.i
-
-.PHONY : libft/ft_strrchr.i
-
-# target to preprocess a source file
-libft/ft_strrchr.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strrchr.c.i
-.PHONY : libft/ft_strrchr.c.i
-
-libft/ft_strrchr.s: libft/ft_strrchr.c.s
-
-.PHONY : libft/ft_strrchr.s
-
-# target to generate assembly for a file
-libft/ft_strrchr.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strrchr.c.s
-.PHONY : libft/ft_strrchr.c.s
-
-libft/ft_strsplit.o: libft/ft_strsplit.c.o
-
-.PHONY : libft/ft_strsplit.o
-
-# target to build an object file
-libft/ft_strsplit.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strsplit.c.o
-.PHONY : libft/ft_strsplit.c.o
-
-libft/ft_strsplit.i: libft/ft_strsplit.c.i
-
-.PHONY : libft/ft_strsplit.i
-
-# target to preprocess a source file
-libft/ft_strsplit.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strsplit.c.i
-.PHONY : libft/ft_strsplit.c.i
-
-libft/ft_strsplit.s: libft/ft_strsplit.c.s
-
-.PHONY : libft/ft_strsplit.s
-
-# target to generate assembly for a file
-libft/ft_strsplit.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strsplit.c.s
-.PHONY : libft/ft_strsplit.c.s
-
-libft/ft_strstr.o: libft/ft_strstr.c.o
-
-.PHONY : libft/ft_strstr.o
-
-# target to build an object file
-libft/ft_strstr.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strstr.c.o
-.PHONY : libft/ft_strstr.c.o
-
-libft/ft_strstr.i: libft/ft_strstr.c.i
-
-.PHONY : libft/ft_strstr.i
-
-# target to preprocess a source file
-libft/ft_strstr.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strstr.c.i
-.PHONY : libft/ft_strstr.c.i
-
-libft/ft_strstr.s: libft/ft_strstr.c.s
-
-.PHONY : libft/ft_strstr.s
-
-# target to generate assembly for a file
-libft/ft_strstr.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strstr.c.s
-.PHONY : libft/ft_strstr.c.s
-
-libft/ft_strsub.o: libft/ft_strsub.c.o
-
-.PHONY : libft/ft_strsub.o
-
-# target to build an object file
-libft/ft_strsub.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strsub.c.o
-.PHONY : libft/ft_strsub.c.o
-
-libft/ft_strsub.i: libft/ft_strsub.c.i
-
-.PHONY : libft/ft_strsub.i
-
-# target to preprocess a source file
-libft/ft_strsub.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strsub.c.i
-.PHONY : libft/ft_strsub.c.i
-
-libft/ft_strsub.s: libft/ft_strsub.c.s
-
-.PHONY : libft/ft_strsub.s
-
-# target to generate assembly for a file
-libft/ft_strsub.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strsub.c.s
-.PHONY : libft/ft_strsub.c.s
-
-libft/ft_strtrim.o: libft/ft_strtrim.c.o
-
-.PHONY : libft/ft_strtrim.o
-
-# target to build an object file
-libft/ft_strtrim.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strtrim.c.o
-.PHONY : libft/ft_strtrim.c.o
-
-libft/ft_strtrim.i: libft/ft_strtrim.c.i
-
-.PHONY : libft/ft_strtrim.i
-
-# target to preprocess a source file
-libft/ft_strtrim.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strtrim.c.i
-.PHONY : libft/ft_strtrim.c.i
-
-libft/ft_strtrim.s: libft/ft_strtrim.c.s
-
-.PHONY : libft/ft_strtrim.s
-
-# target to generate assembly for a file
-libft/ft_strtrim.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_strtrim.c.s
-.PHONY : libft/ft_strtrim.c.s
-
-libft/ft_tolower.o: libft/ft_tolower.c.o
-
-.PHONY : libft/ft_tolower.o
-
-# target to build an object file
-libft/ft_tolower.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_tolower.c.o
-.PHONY : libft/ft_tolower.c.o
-
-libft/ft_tolower.i: libft/ft_tolower.c.i
-
-.PHONY : libft/ft_tolower.i
-
-# target to preprocess a source file
-libft/ft_tolower.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_tolower.c.i
-.PHONY : libft/ft_tolower.c.i
-
-libft/ft_tolower.s: libft/ft_tolower.c.s
-
-.PHONY : libft/ft_tolower.s
-
-# target to generate assembly for a file
-libft/ft_tolower.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_tolower.c.s
-.PHONY : libft/ft_tolower.c.s
-
-libft/ft_toupper.o: libft/ft_toupper.c.o
-
-.PHONY : libft/ft_toupper.o
-
-# target to build an object file
-libft/ft_toupper.c.o:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_toupper.c.o
-.PHONY : libft/ft_toupper.c.o
-
-libft/ft_toupper.i: libft/ft_toupper.c.i
-
-.PHONY : libft/ft_toupper.i
-
-# target to preprocess a source file
-libft/ft_toupper.c.i:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_toupper.c.i
-.PHONY : libft/ft_toupper.c.i
-
-libft/ft_toupper.s: libft/ft_toupper.c.s
-
-.PHONY : libft/ft_toupper.s
-
-# target to generate assembly for a file
-libft/ft_toupper.c.s:
-	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/libft/ft_toupper.c.s
-.PHONY : libft/ft_toupper.c.s
 
 main.o: main.c.o
 
@@ -1995,210 +2049,216 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... gnl"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_atoi.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_atoi.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_atoi.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_atoi_base.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_atoi_base.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_atoi_base.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_bzero.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_bzero.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_bzero.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_check_end_spaces.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_check_end_spaces.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_check_end_spaces.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_check_start_spaces.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_check_start_spaces.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_check_start_spaces.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_isalnum.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_isalnum.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_isalnum.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_isalpha.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_isalpha.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_isalpha.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_isascii.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_isascii.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_isascii.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_isdigit.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_isdigit.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_isdigit.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_isprint.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_isprint.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_isprint.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_isspace.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_isspace.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_isspace.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_itoa.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_itoa.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_itoa.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_itoa_base.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_itoa_base.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_itoa_base.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_lstadd.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_lstadd.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_lstadd.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_lstdel.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_lstdel.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_lstdel.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_lstdelone.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_lstdelone.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_lstdelone.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_lstiter.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_lstiter.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_lstiter.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_lstmap.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_lstmap.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_lstmap.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_lstnew.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_lstnew.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_lstnew.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_memalloc.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_memalloc.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_memalloc.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_memccpy.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_memccpy.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_memccpy.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_memchr.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_memchr.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_memchr.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_memcmp.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_memcmp.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_memcmp.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_memcpy.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_memcpy.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_memcpy.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_memdel.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_memdel.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_memdel.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_memmove.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_memmove.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_memmove.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_memset.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_memset.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_memset.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_num_of_digits.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_num_of_digits.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_num_of_digits.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_putchar.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_putchar.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_putchar.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_putchar_fd.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_putchar_fd.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_putchar_fd.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_putendl.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_putendl.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_putendl.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_putendl_fd.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_putendl_fd.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_putendl_fd.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_putnbr.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_putnbr.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_putnbr.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_putnbr_fd.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_putnbr_fd.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_putnbr_fd.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_putstr.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_putstr.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_putstr.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_putstr_fd.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_putstr_fd.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_putstr_fd.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_str_is_lowercase.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_str_is_lowercase.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_str_is_lowercase.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_str_is_numeric.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_str_is_numeric.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_str_is_numeric.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_str_is_printable.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_str_is_printable.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_str_is_printable.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_str_is_uppercase.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_str_is_uppercase.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_str_is_uppercase.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strcat.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strcat.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strcat.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strchr.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strchr.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strchr.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strclr.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strclr.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strclr.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strcmp.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strcmp.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strcmp.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strcpy.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strcpy.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strcpy.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strdel.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strdel.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strdel.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strdup.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strdup.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strdup.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strequ.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strequ.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strequ.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_striter.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_striter.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_striter.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_striteri.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_striteri.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_striteri.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strjoin.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strjoin.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strjoin.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strlcat.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strlcat.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strlcat.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strlen.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strlen.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strlen.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strmap.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strmap.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strmap.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strmapi.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strmapi.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strmapi.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strncat.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strncat.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strncat.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strncmp.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strncmp.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strncmp.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strncpy.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strncpy.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strncpy.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strnequ.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strnequ.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strnequ.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strnew.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strnew.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strnew.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strnlen.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strnlen.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strnlen.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strnstr.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strnstr.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strnstr.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strrchr.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strrchr.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strrchr.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strsplit.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strsplit.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strsplit.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strstr.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strstr.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strstr.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strsub.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strsub.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strsub.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strtrim.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strtrim.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_strtrim.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_tolower.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_tolower.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_tolower.s"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_toupper.o"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_toupper.i"
+	@echo "... Users/artembykov/Desktop/School-21/libft/ft_toupper.s"
 	@echo "... get_next_line.o"
 	@echo "... get_next_line.i"
 	@echo "... get_next_line.s"
-	@echo "... libft/ft_atoi.o"
-	@echo "... libft/ft_atoi.i"
-	@echo "... libft/ft_atoi.s"
-	@echo "... libft/ft_bzero.o"
-	@echo "... libft/ft_bzero.i"
-	@echo "... libft/ft_bzero.s"
-	@echo "... libft/ft_check_end_spaces.o"
-	@echo "... libft/ft_check_end_spaces.i"
-	@echo "... libft/ft_check_end_spaces.s"
-	@echo "... libft/ft_check_start_spaces.o"
-	@echo "... libft/ft_check_start_spaces.i"
-	@echo "... libft/ft_check_start_spaces.s"
-	@echo "... libft/ft_isalnum.o"
-	@echo "... libft/ft_isalnum.i"
-	@echo "... libft/ft_isalnum.s"
-	@echo "... libft/ft_isalpha.o"
-	@echo "... libft/ft_isalpha.i"
-	@echo "... libft/ft_isalpha.s"
-	@echo "... libft/ft_isascii.o"
-	@echo "... libft/ft_isascii.i"
-	@echo "... libft/ft_isascii.s"
-	@echo "... libft/ft_isdigit.o"
-	@echo "... libft/ft_isdigit.i"
-	@echo "... libft/ft_isdigit.s"
-	@echo "... libft/ft_isprint.o"
-	@echo "... libft/ft_isprint.i"
-	@echo "... libft/ft_isprint.s"
-	@echo "... libft/ft_isspace.o"
-	@echo "... libft/ft_isspace.i"
-	@echo "... libft/ft_isspace.s"
-	@echo "... libft/ft_itoa.o"
-	@echo "... libft/ft_itoa.i"
-	@echo "... libft/ft_itoa.s"
-	@echo "... libft/ft_lstadd.o"
-	@echo "... libft/ft_lstadd.i"
-	@echo "... libft/ft_lstadd.s"
-	@echo "... libft/ft_lstdel.o"
-	@echo "... libft/ft_lstdel.i"
-	@echo "... libft/ft_lstdel.s"
-	@echo "... libft/ft_lstdelone.o"
-	@echo "... libft/ft_lstdelone.i"
-	@echo "... libft/ft_lstdelone.s"
-	@echo "... libft/ft_lstiter.o"
-	@echo "... libft/ft_lstiter.i"
-	@echo "... libft/ft_lstiter.s"
-	@echo "... libft/ft_lstmap.o"
-	@echo "... libft/ft_lstmap.i"
-	@echo "... libft/ft_lstmap.s"
-	@echo "... libft/ft_lstnew.o"
-	@echo "... libft/ft_lstnew.i"
-	@echo "... libft/ft_lstnew.s"
-	@echo "... libft/ft_memalloc.o"
-	@echo "... libft/ft_memalloc.i"
-	@echo "... libft/ft_memalloc.s"
-	@echo "... libft/ft_memccpy.o"
-	@echo "... libft/ft_memccpy.i"
-	@echo "... libft/ft_memccpy.s"
-	@echo "... libft/ft_memchr.o"
-	@echo "... libft/ft_memchr.i"
-	@echo "... libft/ft_memchr.s"
-	@echo "... libft/ft_memcmp.o"
-	@echo "... libft/ft_memcmp.i"
-	@echo "... libft/ft_memcmp.s"
-	@echo "... libft/ft_memcpy.o"
-	@echo "... libft/ft_memcpy.i"
-	@echo "... libft/ft_memcpy.s"
-	@echo "... libft/ft_memdel.o"
-	@echo "... libft/ft_memdel.i"
-	@echo "... libft/ft_memdel.s"
-	@echo "... libft/ft_memmove.o"
-	@echo "... libft/ft_memmove.i"
-	@echo "... libft/ft_memmove.s"
-	@echo "... libft/ft_memset.o"
-	@echo "... libft/ft_memset.i"
-	@echo "... libft/ft_memset.s"
-	@echo "... libft/ft_num_of_digits.o"
-	@echo "... libft/ft_num_of_digits.i"
-	@echo "... libft/ft_num_of_digits.s"
-	@echo "... libft/ft_putchar.o"
-	@echo "... libft/ft_putchar.i"
-	@echo "... libft/ft_putchar.s"
-	@echo "... libft/ft_putchar_fd.o"
-	@echo "... libft/ft_putchar_fd.i"
-	@echo "... libft/ft_putchar_fd.s"
-	@echo "... libft/ft_putendl.o"
-	@echo "... libft/ft_putendl.i"
-	@echo "... libft/ft_putendl.s"
-	@echo "... libft/ft_putendl_fd.o"
-	@echo "... libft/ft_putendl_fd.i"
-	@echo "... libft/ft_putendl_fd.s"
-	@echo "... libft/ft_putnbr.o"
-	@echo "... libft/ft_putnbr.i"
-	@echo "... libft/ft_putnbr.s"
-	@echo "... libft/ft_putnbr_fd.o"
-	@echo "... libft/ft_putnbr_fd.i"
-	@echo "... libft/ft_putnbr_fd.s"
-	@echo "... libft/ft_putstr.o"
-	@echo "... libft/ft_putstr.i"
-	@echo "... libft/ft_putstr.s"
-	@echo "... libft/ft_putstr_fd.o"
-	@echo "... libft/ft_putstr_fd.i"
-	@echo "... libft/ft_putstr_fd.s"
-	@echo "... libft/ft_str_is_lowercase.o"
-	@echo "... libft/ft_str_is_lowercase.i"
-	@echo "... libft/ft_str_is_lowercase.s"
-	@echo "... libft/ft_str_is_numeric.o"
-	@echo "... libft/ft_str_is_numeric.i"
-	@echo "... libft/ft_str_is_numeric.s"
-	@echo "... libft/ft_str_is_printable.o"
-	@echo "... libft/ft_str_is_printable.i"
-	@echo "... libft/ft_str_is_printable.s"
-	@echo "... libft/ft_str_is_uppercase.o"
-	@echo "... libft/ft_str_is_uppercase.i"
-	@echo "... libft/ft_str_is_uppercase.s"
-	@echo "... libft/ft_strcat.o"
-	@echo "... libft/ft_strcat.i"
-	@echo "... libft/ft_strcat.s"
-	@echo "... libft/ft_strchr.o"
-	@echo "... libft/ft_strchr.i"
-	@echo "... libft/ft_strchr.s"
-	@echo "... libft/ft_strclr.o"
-	@echo "... libft/ft_strclr.i"
-	@echo "... libft/ft_strclr.s"
-	@echo "... libft/ft_strcmp.o"
-	@echo "... libft/ft_strcmp.i"
-	@echo "... libft/ft_strcmp.s"
-	@echo "... libft/ft_strcpy.o"
-	@echo "... libft/ft_strcpy.i"
-	@echo "... libft/ft_strcpy.s"
-	@echo "... libft/ft_strdel.o"
-	@echo "... libft/ft_strdel.i"
-	@echo "... libft/ft_strdel.s"
-	@echo "... libft/ft_strdup.o"
-	@echo "... libft/ft_strdup.i"
-	@echo "... libft/ft_strdup.s"
-	@echo "... libft/ft_strequ.o"
-	@echo "... libft/ft_strequ.i"
-	@echo "... libft/ft_strequ.s"
-	@echo "... libft/ft_striter.o"
-	@echo "... libft/ft_striter.i"
-	@echo "... libft/ft_striter.s"
-	@echo "... libft/ft_striteri.o"
-	@echo "... libft/ft_striteri.i"
-	@echo "... libft/ft_striteri.s"
-	@echo "... libft/ft_strjoin.o"
-	@echo "... libft/ft_strjoin.i"
-	@echo "... libft/ft_strjoin.s"
-	@echo "... libft/ft_strlcat.o"
-	@echo "... libft/ft_strlcat.i"
-	@echo "... libft/ft_strlcat.s"
-	@echo "... libft/ft_strlen.o"
-	@echo "... libft/ft_strlen.i"
-	@echo "... libft/ft_strlen.s"
-	@echo "... libft/ft_strmap.o"
-	@echo "... libft/ft_strmap.i"
-	@echo "... libft/ft_strmap.s"
-	@echo "... libft/ft_strmapi.o"
-	@echo "... libft/ft_strmapi.i"
-	@echo "... libft/ft_strmapi.s"
-	@echo "... libft/ft_strncat.o"
-	@echo "... libft/ft_strncat.i"
-	@echo "... libft/ft_strncat.s"
-	@echo "... libft/ft_strncmp.o"
-	@echo "... libft/ft_strncmp.i"
-	@echo "... libft/ft_strncmp.s"
-	@echo "... libft/ft_strncpy.o"
-	@echo "... libft/ft_strncpy.i"
-	@echo "... libft/ft_strncpy.s"
-	@echo "... libft/ft_strnequ.o"
-	@echo "... libft/ft_strnequ.i"
-	@echo "... libft/ft_strnequ.s"
-	@echo "... libft/ft_strnew.o"
-	@echo "... libft/ft_strnew.i"
-	@echo "... libft/ft_strnew.s"
-	@echo "... libft/ft_strnlen.o"
-	@echo "... libft/ft_strnlen.i"
-	@echo "... libft/ft_strnlen.s"
-	@echo "... libft/ft_strnstr.o"
-	@echo "... libft/ft_strnstr.i"
-	@echo "... libft/ft_strnstr.s"
-	@echo "... libft/ft_strrchr.o"
-	@echo "... libft/ft_strrchr.i"
-	@echo "... libft/ft_strrchr.s"
-	@echo "... libft/ft_strsplit.o"
-	@echo "... libft/ft_strsplit.i"
-	@echo "... libft/ft_strsplit.s"
-	@echo "... libft/ft_strstr.o"
-	@echo "... libft/ft_strstr.i"
-	@echo "... libft/ft_strstr.s"
-	@echo "... libft/ft_strsub.o"
-	@echo "... libft/ft_strsub.i"
-	@echo "... libft/ft_strsub.s"
-	@echo "... libft/ft_strtrim.o"
-	@echo "... libft/ft_strtrim.i"
-	@echo "... libft/ft_strtrim.s"
-	@echo "... libft/ft_tolower.o"
-	@echo "... libft/ft_tolower.i"
-	@echo "... libft/ft_tolower.s"
-	@echo "... libft/ft_toupper.o"
-	@echo "... libft/ft_toupper.i"
-	@echo "... libft/ft_toupper.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
