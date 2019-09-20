@@ -53,7 +53,7 @@ static int		add_line(char **line, char *buff_line[])
 
 int				get_next_line(const int fd, char **line)
 {
-	static char	*buff_line[255];
+	static char	*buff_line[MAX_FD];
 	char		buf[BUFF_SIZE + 1];
 	int			ret;
 
