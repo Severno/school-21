@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Users/sapril/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /Users/sapril/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sapril/Desktop/work/libft
+CMAKE_SOURCE_DIR = /Users/artembykov/Desktop/School-21/libft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/sapril/Desktop/work/libft/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/artembykov/Desktop/School-21/libft/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/sapril/Desktop/work/libft/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Users/sapril/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Users/sapril/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sapril/Desktop/work/libft/cmake-build-debug/CMakeFiles /Users/sapril/Desktop/work/libft/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/artembykov/Desktop/School-21/libft/cmake-build-debug/CMakeFiles /Users/artembykov/Desktop/School-21/libft/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sapril/Desktop/work/libft/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/artembykov/Desktop/School-21/libft/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -365,6 +365,33 @@ ft_isprint.s: ft_isprint.c.s
 ft_isprint.c.s:
 	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_isprint.c.s
 .PHONY : ft_isprint.c.s
+
+ft_isspace.o: ft_isspace.c.o
+
+.PHONY : ft_isspace.o
+
+# target to build an object file
+ft_isspace.c.o:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_isspace.c.o
+.PHONY : ft_isspace.c.o
+
+ft_isspace.i: ft_isspace.c.i
+
+.PHONY : ft_isspace.i
+
+# target to preprocess a source file
+ft_isspace.c.i:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_isspace.c.i
+.PHONY : ft_isspace.c.i
+
+ft_isspace.s: ft_isspace.c.s
+
+.PHONY : ft_isspace.s
+
+# target to generate assembly for a file
+ft_isspace.c.s:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_isspace.c.s
+.PHONY : ft_isspace.c.s
 
 ft_itoa.o: ft_itoa.c.o
 
@@ -1968,6 +1995,9 @@ help:
 	@echo "... ft_isprint.o"
 	@echo "... ft_isprint.i"
 	@echo "... ft_isprint.s"
+	@echo "... ft_isspace.o"
+	@echo "... ft_isspace.i"
+	@echo "... ft_isspace.s"
 	@echo "... ft_itoa.o"
 	@echo "... ft_itoa.i"
 	@echo "... ft_itoa.s"

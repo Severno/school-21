@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/libft.dir/main.c.o"
   "CMakeFiles/libft.dir/ft_atoi.c.o"
   "CMakeFiles/libft.dir/ft_bzero.c.o"
   "CMakeFiles/libft.dir/ft_check_end_spaces.c.o"
@@ -66,6 +65,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/libft.dir/ft_strtrim.c.o"
   "CMakeFiles/libft.dir/ft_tolower.c.o"
   "CMakeFiles/libft.dir/ft_toupper.c.o"
+  "CMakeFiles/libft.dir/main.c.o"
+  "CMakeFiles/libft.dir/ft_isspace.c.o"
   "libft.pdb"
   "libft"
 )

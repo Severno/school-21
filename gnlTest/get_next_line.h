@@ -13,10 +13,10 @@
 #ifndef GNL_GET_NEXT_LINE_H
 # define GNL_GET_NEXT_LINE_H
 
-# include "libft/libft.h"
+# include "libft/includes/libft.h"
 # include <fcntl.h>
 
-# define BUFF_SIZE 50000
+# define BUFF_SIZE 2048
 # define MAX_FD 255
 
 int					get_next_line(const int fd, char **line);
