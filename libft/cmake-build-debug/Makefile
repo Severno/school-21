@@ -150,6 +150,33 @@ ft_atoi.c.s:
 	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_atoi.c.s
 .PHONY : ft_atoi.c.s
 
+ft_atoi_base.o: ft_atoi_base.c.o
+
+.PHONY : ft_atoi_base.o
+
+# target to build an object file
+ft_atoi_base.c.o:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_atoi_base.c.o
+.PHONY : ft_atoi_base.c.o
+
+ft_atoi_base.i: ft_atoi_base.c.i
+
+.PHONY : ft_atoi_base.i
+
+# target to preprocess a source file
+ft_atoi_base.c.i:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_atoi_base.c.i
+.PHONY : ft_atoi_base.c.i
+
+ft_atoi_base.s: ft_atoi_base.c.s
+
+.PHONY : ft_atoi_base.s
+
+# target to generate assembly for a file
+ft_atoi_base.c.s:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_atoi_base.c.s
+.PHONY : ft_atoi_base.c.s
+
 ft_bzero.o: ft_bzero.c.o
 
 .PHONY : ft_bzero.o
@@ -419,6 +446,33 @@ ft_itoa.s: ft_itoa.c.s
 ft_itoa.c.s:
 	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_itoa.c.s
 .PHONY : ft_itoa.c.s
+
+ft_itoa_base.o: ft_itoa_base.c.o
+
+.PHONY : ft_itoa_base.o
+
+# target to build an object file
+ft_itoa_base.c.o:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_itoa_base.c.o
+.PHONY : ft_itoa_base.c.o
+
+ft_itoa_base.i: ft_itoa_base.c.i
+
+.PHONY : ft_itoa_base.i
+
+# target to preprocess a source file
+ft_itoa_base.c.i:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_itoa_base.c.i
+.PHONY : ft_itoa_base.c.i
+
+ft_itoa_base.s: ft_itoa_base.c.s
+
+.PHONY : ft_itoa_base.s
+
+# target to generate assembly for a file
+ft_itoa_base.c.s:
+	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_itoa_base.c.s
+.PHONY : ft_itoa_base.c.s
 
 ft_lstadd.o: ft_lstadd.c.o
 
@@ -1971,6 +2025,9 @@ help:
 	@echo "... ft_atoi.o"
 	@echo "... ft_atoi.i"
 	@echo "... ft_atoi.s"
+	@echo "... ft_atoi_base.o"
+	@echo "... ft_atoi_base.i"
+	@echo "... ft_atoi_base.s"
 	@echo "... ft_bzero.o"
 	@echo "... ft_bzero.i"
 	@echo "... ft_bzero.s"
@@ -2001,6 +2058,9 @@ help:
 	@echo "... ft_itoa.o"
 	@echo "... ft_itoa.i"
 	@echo "... ft_itoa.s"
+	@echo "... ft_itoa_base.o"
+	@echo "... ft_itoa_base.i"
+	@echo "... ft_itoa_base.s"
 	@echo "... ft_lstadd.o"
 	@echo "... ft_lstadd.i"
 	@echo "... ft_lstadd.s"
