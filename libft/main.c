@@ -2,11 +2,10 @@
 
 int main(void)
 {
-	un a;
 
-	a = 12223372036854775807;
-	printf("%zu", a);
-//	printf("ft_atoi %llu\n", ft_atoi("9223372036854775807"));
+//	a = 12223372036854775807;
+//	printf("%zu", a);
+	printf("ft_itoa %s\n", ft_itoa(-1234));
 //	printf("atoi %llu\n", atoi("9223372036854775807"));
 //	printf("----------\n");
 //	printf("ft_atoi %llu\n", ft_atoi("9223372036854775810"));

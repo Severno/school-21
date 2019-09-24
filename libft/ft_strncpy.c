@@ -17,7 +17,7 @@ char	*ft_strncpy(char *dst, const char *src, size_t len)
 	unsigned int	i;
 
 	i = 0;
-	if (dst && src)
+	if (dst || src)
 	{
 		while (src[i] && i < len)
 		{

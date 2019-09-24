@@ -17,14 +17,10 @@ char		*ft_strmap(char const *s, char (*f)(char))
 	size_t	i;
 	char	*new_str;
 
-	if (!s || !f)
-		return (NULL);
-	new_str = ft_strnew(ft_strlen(s) + 1);
-	if (!new_str)
+	if (!s || !f || !(new_str = ft_strnew(ft_strlen(s))))
 		return (NULL);
 	i = -1;
 	while (s[++i] && f)
 		new_str[i] = f(s[i]);
-	new_str[i] = '\0';
 	return (new_str);
 }

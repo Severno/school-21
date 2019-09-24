@@ -14,22 +14,16 @@
 
 char	*ft_strdup(const char *s1)
 {
-	int		i;
+	size_t	i;
 	char	*s2;
 
-	s2 = NULL;
-	i = 0;
-	while (s1[i])
-		i++;
-	s2 = ft_strnew(i + 1);
-	i = 0;
-	if (!s2)
+	if (!(s2 = ft_strnew(ft_strlen(s1))))
 		return (NULL);
+	i = 0;
 	while (s1[i])
 	{
 		s2[i] = s1[i];
 		i++;
 	}
-	s2[i] = '\0';
 	return (s2);
 }
