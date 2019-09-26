@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/sapril/Desktop/work/libft/ft_atoi.c" "/Users/sapril/Desktop/work/libft/cmake-build-debug/CMakeFiles/libft.dir/ft_atoi.c.o"
-  "/Users/sapril/Desktop/work/libft/ft_atoi_base.c" "/Users/sapril/Desktop/work/libft/cmake-build-debug/CMakeFiles/libft.dir/ft_atoi_base.c.o"
   "/Users/sapril/Desktop/work/libft/ft_bzero.c" "/Users/sapril/Desktop/work/libft/cmake-build-debug/CMakeFiles/libft.dir/ft_bzero.c.o"
   "/Users/sapril/Desktop/work/libft/ft_check_end_spaces.c" "/Users/sapril/Desktop/work/libft/cmake-build-debug/CMakeFiles/libft.dir/ft_check_end_spaces.c.o"
   "/Users/sapril/Desktop/work/libft/ft_check_start_spaces.c" "/Users/sapril/Desktop/work/libft/cmake-build-debug/CMakeFiles/libft.dir/ft_check_start_spaces.c.o"
@@ -14,8 +13,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/sapril/Desktop/work/libft/ft_isascii.c" "/Users/sapril/Desktop/work/libft/cmake-build-debug/CMakeFiles/libft.dir/ft_isascii.c.o"
   "/Users/sapril/Desktop/work/libft/ft_isdigit.c" "/Users/sapril/Desktop/work/libft/cmake-build-debug/CMakeFiles/libft.dir/ft_isdigit.c.o"
   "/Users/sapril/Desktop/work/libft/ft_isprint.c" "/Users/sapril/Desktop/work/libft/cmake-build-debug/CMakeFiles/libft.dir/ft_isprint.c.o"
+  "/Users/sapril/Desktop/work/libft/ft_isspace.c" "/Users/sapril/Desktop/work/libft/cmake-build-debug/CMakeFiles/libft.dir/ft_isspace.c.o"
   "/Users/sapril/Desktop/work/libft/ft_itoa.c" "/Users/sapril/Desktop/work/libft/cmake-build-debug/CMakeFiles/libft.dir/ft_itoa.c.o"
-  "/Users/sapril/Desktop/work/libft/ft_itoa_base.c" "/Users/sapril/Desktop/work/libft/cmake-build-debug/CMakeFiles/libft.dir/ft_itoa_base.c.o"
   "/Users/sapril/Desktop/work/libft/ft_lstadd.c" "/Users/sapril/Desktop/work/libft/cmake-build-debug/CMakeFiles/libft.dir/ft_lstadd.c.o"
   "/Users/sapril/Desktop/work/libft/ft_lstdel.c" "/Users/sapril/Desktop/work/libft/cmake-build-debug/CMakeFiles/libft.dir/ft_lstdel.c.o"
   "/Users/sapril/Desktop/work/libft/ft_lstdelone.c" "/Users/sapril/Desktop/work/libft/cmake-build-debug/CMakeFiles/libft.dir/ft_lstdelone.c.o"
@@ -79,8 +78,6 @@ set(CMAKE_C_COMPILER_ID "AppleClang")
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../."
-  "../Debug"
-  "../Release"
   )
 
 # Targets to which this target links.

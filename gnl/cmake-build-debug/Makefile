@@ -366,6 +366,33 @@ Users/sapril/Desktop/work/libft/ft_isprint.c.s:
 	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isprint.c.s
 .PHONY : Users/sapril/Desktop/work/libft/ft_isprint.c.s
 
+Users/sapril/Desktop/work/libft/ft_isspace.o: Users/sapril/Desktop/work/libft/ft_isspace.c.o
+
+.PHONY : Users/sapril/Desktop/work/libft/ft_isspace.o
+
+# target to build an object file
+Users/sapril/Desktop/work/libft/ft_isspace.c.o:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isspace.c.o
+.PHONY : Users/sapril/Desktop/work/libft/ft_isspace.c.o
+
+Users/sapril/Desktop/work/libft/ft_isspace.i: Users/sapril/Desktop/work/libft/ft_isspace.c.i
+
+.PHONY : Users/sapril/Desktop/work/libft/ft_isspace.i
+
+# target to preprocess a source file
+Users/sapril/Desktop/work/libft/ft_isspace.c.i:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isspace.c.i
+.PHONY : Users/sapril/Desktop/work/libft/ft_isspace.c.i
+
+Users/sapril/Desktop/work/libft/ft_isspace.s: Users/sapril/Desktop/work/libft/ft_isspace.c.s
+
+.PHONY : Users/sapril/Desktop/work/libft/ft_isspace.s
+
+# target to generate assembly for a file
+Users/sapril/Desktop/work/libft/ft_isspace.c.s:
+	$(MAKE) -f CMakeFiles/gnl.dir/build.make CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isspace.c.s
+.PHONY : Users/sapril/Desktop/work/libft/ft_isspace.c.s
+
 Users/sapril/Desktop/work/libft/ft_itoa.o: Users/sapril/Desktop/work/libft/ft_itoa.c.o
 
 .PHONY : Users/sapril/Desktop/work/libft/ft_itoa.o
@@ -1995,6 +2022,9 @@ help:
 	@echo "... Users/sapril/Desktop/work/libft/ft_isprint.o"
 	@echo "... Users/sapril/Desktop/work/libft/ft_isprint.i"
 	@echo "... Users/sapril/Desktop/work/libft/ft_isprint.s"
+	@echo "... Users/sapril/Desktop/work/libft/ft_isspace.o"
+	@echo "... Users/sapril/Desktop/work/libft/ft_isspace.i"
+	@echo "... Users/sapril/Desktop/work/libft/ft_isspace.s"
 	@echo "... Users/sapril/Desktop/work/libft/ft_itoa.o"
 	@echo "... Users/sapril/Desktop/work/libft/ft_itoa.i"
 	@echo "... Users/sapril/Desktop/work/libft/ft_itoa.s"

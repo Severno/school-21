@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/sapril/Desktop/work/libft/ft_isascii.c" "/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isascii.c.o"
   "/Users/sapril/Desktop/work/libft/ft_isdigit.c" "/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isdigit.c.o"
   "/Users/sapril/Desktop/work/libft/ft_isprint.c" "/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isprint.c.o"
+  "/Users/sapril/Desktop/work/libft/ft_isspace.c" "/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isspace.c.o"
   "/Users/sapril/Desktop/work/libft/ft_itoa.c" "/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_itoa.c.o"
   "/Users/sapril/Desktop/work/libft/ft_lstadd.c" "/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstadd.c.o"
   "/Users/sapril/Desktop/work/libft/ft_lstdel.c" "/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstdel.c.o"
