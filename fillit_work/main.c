@@ -2,23 +2,34 @@
 
 int main()
 {
-	t_tetra *el1;
+//	t_tetra *el1;
 	int fd;
-	int i;
-	int j;
-	int q;
-	int x_fill;
-	int y_fill;
-	char *s[10000];
-
-	i = 0;
-	x_fill =	0;
-	j = 0;
-	q =	0;
-	y_fill =	0;
-	*s = (char *)malloc(sizeof(char) * 100);
+//	int i;
+//	int j;
+//	int q;
+//	int x_fill;
+//	int y_fill;
+//	char *s[10000];
+//
+//	i = 0;
+//	x_fill =	0;
+//	j = 0;
+//	q =	0;
+//	y_fill =	0;
+//	*s = (char *)malloc(sizeof(char) * 100);
 	fd = open("../test.txt", O_RDONLY);
-	el1 = create_tetra();
+	t_tetra **tetra;
+	tetra = create_tetra();
+	read_tetra(fd, tetra);
+	printf("%d\n", tetra->el[0]->y);
+	printf("%d\n", tetra->el[0]->x);
+	printf("%c\n", tetra->el[0]->sign);
+	printf("%d\n", tetra->el[1]->y);
+	printf("%d\n", tetra->el[1]->x);
+	printf("%c\n", tetra->el[1]->sign);
+	printf("%d\n", tetra->el[2]->y);
+	printf("%d\n", tetra->el[2]->x);
+	printf("%c\n", tetra->el[2]->sign);
 //	while (get_next_line(fd, &s[q]))
 //	{
 ////		printf("%s\n", s[q]);
@@ -42,8 +53,8 @@ int main()
 //		q++;
 //	}
 //	close(fd);
-	fd = open("../test.txt", O_RDONLY);
-	read_tetra(fd, el1);
+//	fd = open("../test.txt", O_RDONLY);
+//	read_tetra(fd, el1);
 //	i = 0;
 //	q = 0;
 //	close(fd);

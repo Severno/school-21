@@ -1,25 +1,74 @@
 #include "fillit.h"
 
-void *read_tetra(int fd, t_tetra *tetras)
+//void *read_tetra(int fd, t_tetra *tetras)
+//{
+//	int ret;
+//	char buf[BUFF_SIZE];
+//	int x;
+//	int el_number;
+//	int y_line;
+//	char sign;
+//
+//	x = 0;
+//	y_line = 0;
+//	el_number = 0;
+//	sign = 'A';
+//	while ((ret = read(fd, buf, BUFF_SIZE)) > 0)
+//	{
+//		buf[ret] = '\0';
+//		while (buf[x])
+//		{
+//			if (buf[x] == '\n' && buf[x + 1] != '\n')
+//				y_line++;
+//			if (buf[x] == '#')
+//			{
+//				tetras->el[el_number] = create_tetra_pos(x, y_line, sign);
+//			}
+//
+//		}
+//	}
+//}
+
+void	read_tetra(int fd, t_tetra *tetras[])
 {
 	int ret;
 	char buf[BUFF_SIZE];
-
+	int x;
+	int el_number;
+	int y_line;
+	char sign;
 	int i;
-	int j;
+	int tetra_num;
 
+	x = 0;
 	i = 0;
-	j = 0;
-	while ((ret = read(fd, buf, BUFF_SIZE) > 0))
+	y_line = 0;
+	el_number = 0;
+	tetra_num = 0;
+	sign = 'A';
+
+	ret = read(fd, buf, BUFF_SIZE);
+	buf[ret] = '\0';
+
+	while (buf[i])
 	{
-		buf[ret] = '\0';
-		tetras->tetra_fig[i] = ft_strdup(buf);
-		printf("%s\n", tetras->tetra_fig[i]);
-	}
-	while (j < i)
-	{
-		printf("%s\n", tetras->tetra_fig[i]);
-		j++;
+		if (buf[i] == '\n' && (buf[i - 1] == '.' || buf[i - 1] == '#') && i != 0)
+		{
+			y_line++;
+			x = 0;
+		}
+		else if (buf[i] == '\n' && (buf[i - 1] == '\n'))
+		{
+			y_line = 0;
+			tetra_num++;
+			x = 0;
+		}
+		if (buf[i] == '#')
+		{
+			tetras[tetra_num]->el[el_number++] = create_tetra_pos(x, y_line, sign);
+			x++;
+		}
+		i++;
 	}
 }
 
@@ -38,21 +87,14 @@ t_tetra_cor		*tetra_sign_creator(int x, int y, char sign)
 	return (new_tetra_sign);
 }
 
-t_tetra		*create_tetra(char *str, int el_num)
-{
-	t_tetra *new_tetra;
-	if (!(new_tetra = (t_tetra *)malloc(sizeof(t_tetra) * 4)))
-		exit(0);
-	new_tetra->tetra_fig[el_num] = ft_strdup(str);
-	return (new_tetra);
-}
+
 // CHECK
 // 1. 4 elements . or # and 5 element \n
 // 2. Only one \n between two tetras
 // 3. Each tetro divide by 1 tetra
 // 4. Only 4 # in tetra
 // 5. Check connections between tetras
-int check_valid_input(int fd)
-{
-
-}
+//int check_valid_input(int fd)
+//{
+//
+//}

@@ -69,6 +69,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_tolower.c.o"
   "CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_toupper.c.o"
   "CMakeFiles/fillit_work.dir/fillit.c.o"
+  "CMakeFiles/fillit_work.dir/map.c.o"
   "fillit_work.pdb"
   "fillit_work"
 )

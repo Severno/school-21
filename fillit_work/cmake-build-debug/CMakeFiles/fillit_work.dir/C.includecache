@@ -15,10 +15,12 @@ fillit.h
 /Users/sapril/Desktop/work/libft/libft.h
 gnl/get_next_line.h
 /Users/sapril/Desktop/work/fillit_work/gnl/get_next_line.h
-tetramino.h
-/Users/sapril/Desktop/work/fillit_work/tetramino.h
 fcntl.h
 -
+tetramino.h
+/Users/sapril/Desktop/work/fillit_work/tetramino.h
+map.h
+/Users/sapril/Desktop/work/fillit_work/map.h
 
 /Users/sapril/Desktop/work/fillit_work/gnl/get_next_line.h
 libft/libft.h
@@ -36,9 +38,7 @@ unistd.h
 stdio.h
 -
 
-/Users/sapril/Desktop/work/fillit_work/main.c
-fillit.h
-/Users/sapril/Desktop/work/fillit_work/fillit.h
+/Users/sapril/Desktop/work/fillit_work/map.h
 
 /Users/sapril/Desktop/work/fillit_work/tetramino.h
 

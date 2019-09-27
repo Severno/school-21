@@ -11,7 +11,6 @@ typedef struct	s_tetra_cor
 typedef struct	s_tetra
 {
 	t_tetra_cor	*el[4];
-	char		*tetra_fig[26];
 	struct s_tetra *next;
 }				t_tetra;
 
