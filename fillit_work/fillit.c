@@ -29,27 +29,27 @@
 //	}
 //}
 
-void	read_tetra(int fd, t_tetra *tetras[])
+void	read_tetra(int fd, t_tetra **tetras)
 {
 	int ret;
 	char buf[BUFF_SIZE];
 	int x;
-	int el_number;
 	int y_line;
 	char sign;
 	int i;
 	int tetra_num;
+	t_tetra *temp;
 
 	x = 0;
 	i = 0;
 	y_line = 0;
-	el_number = 0;
 	tetra_num = 0;
 	sign = 'A';
 
 	ret = read(fd, buf, BUFF_SIZE);
 	buf[ret] = '\0';
 
+	temp = NULL;
 	while (buf[i])
 	{
 		if (buf[i] == '\n' && (buf[i - 1] == '.' || buf[i - 1] == '#') && i != 0)
@@ -60,12 +60,40 @@ void	read_tetra(int fd, t_tetra *tetras[])
 		else if (buf[i] == '\n' && (buf[i - 1] == '\n'))
 		{
 			y_line = 0;
-			tetra_num++;
 			x = 0;
 		}
 		if (buf[i] == '#')
 		{
-			tetras[tetra_num]->el[el_number++] = create_tetra_pos(x, y_line, sign);
+			if ((*tetras) == NULL)
+			{
+				*tetras = create_tetra();
+				(*tetras)->el[tetra_num] = create_tetra_pos(x, y_line, sign);
+				printf("i is %d\n", i);
+				printf("%d\n", (*tetras)->el[tetra_num]->x);
+				printf("%d\n", (*tetras)->el[tetra_num]->y);
+				printf("%c\n", (*tetras)->el[tetra_num]->sign);
+				printf("\n");
+				tetra_num++;
+			}
+			else if (tetra_num == 4)
+			{
+				temp = (*tetras);
+				while (temp->next)
+					temp = temp->next;
+				temp->next = create_tetra();
+				sign++;
+				tetra_num = 0;
+			}
+			else
+			{
+				(*tetras)->el[tetra_num] = create_tetra_pos(x, y_line, sign);
+				printf("i is %d\n", i);
+				printf("%d\n", (*tetras)->el[tetra_num]->x);
+				printf("%d\n", (*tetras)->el[tetra_num]->y);
+				printf("%c\n", (*tetras)->el[tetra_num]->sign);
+				printf("\n");
+				tetra_num++;
+			}
 			x++;
 		}
 		i++;

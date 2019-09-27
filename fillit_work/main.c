@@ -19,17 +19,62 @@ int main()
 //	*s = (char *)malloc(sizeof(char) * 100);
 	fd = open("../test.txt", O_RDONLY);
 	t_tetra **tetra;
-	tetra = create_tetra();
+//	tetra = (t_tetra **)malloc(sizeof(t_tetra*) * 10);
 	read_tetra(fd, tetra);
-	printf("%d\n", tetra->el[0]->y);
-	printf("%d\n", tetra->el[0]->x);
-	printf("%c\n", tetra->el[0]->sign);
-	printf("%d\n", tetra->el[1]->y);
-	printf("%d\n", tetra->el[1]->x);
-	printf("%c\n", tetra->el[1]->sign);
-	printf("%d\n", tetra->el[2]->y);
-	printf("%d\n", tetra->el[2]->x);
-	printf("%c\n", tetra->el[2]->sign);
+//	printf("%d\n", (*tetra)->el[0]->x);
+//	printf("%d\n", (*tetra)->el[0]->y);
+//	printf("%c\n", (*tetra)->el[0]->sign);
+//	printf("%d\n", (*tetra)->el[1]->y);
+//	printf("%d\n", (*tetra)->el[1]->x);
+//	printf("%c\n", (*tetra)->el[1]->sign);
+//	printf("%d\n", (*tetra)->el[2]->y);
+//	printf("%d\n", (*tetra)->el[2]->x);
+//	printf("%c\n", (*tetra)->el[2]->sign);
+//	printf("%d\n", (*tetra)->el[3]->y);
+//	printf("%d\n", (*tetra)->el[3]->x);
+//	printf("%c\n", (*tetra)->el[3]->sign);
+//	printf("%d\n", (*tetra)->next->el[1]->y);
+//	printf("%d\n", (*tetra)->next->el[1]->x);
+//	printf("%c\n", (*tetra)->next->el[1]->sign);
+//	int i;
+//	i = 1;
+////	printf("%p\n", (*tetra));
+////	printf("%d\n", (*tetra)->el[i]->x);
+////	printf("%d\n", (*tetra)->el[i]->y);
+////	printf("%c\n", (*tetra)->el[i]->sign);
+////	printf("%p\n", (*tetra)->next);
+////	(*tetra) = (*tetra)->next;
+////	printf("%p\n", (*tetra));
+////	printf("%d\n", (*tetra)->el[i]->x);
+////	printf("%d\n", (*tetra)->el[i]->y);
+////	printf("%c\n", (*tetra)->el[i]->sign);
+////	printf("%p\n", (*tetra)->next->next);
+////	printf("%p\n", (*tetra)->next->next->next->next);
+////	printf("%p\n", (*tetra)->next->next->next->next->next);
+//	printf("%p\n", (*tetra)->next->next->next->next->next->next);
+
+//	while ((*tetra))
+//	{
+//		while (i < 3)
+//		{
+//			printf("%d\n", (*tetra)->el[i]->x);
+//			printf("%d\n", (*tetra)->el[i]->y);
+//			printf("%c\n", (*tetra)->el[i]->sign);
+//			i++;
+//		}
+//		i = 0;
+//		(*tetra) = (*tetra)->next;
+//	}
+	list_clear(tetra);
+//	printf("%d\n", tetra->el[1]->y);
+//	printf("%d\n", tetra->el[1]->x);
+//	printf("%c\n", tetra->el[1]->sign);
+//	printf("%d\n", tetra->el[2]->y);
+//	printf("%d\n", tetra->el[2]->x);
+//	printf("%c\n", tetra->el[2]->sign);
+//	printf("%d\n", tetra->el[3]->y);
+//	printf("%d\n", tetra->el[3]->x);
+//	printf("%c\n", tetra->el[3]->sign);
 //	while (get_next_line(fd, &s[q]))
 //	{
 ////		printf("%s\n", s[q]);

@@ -9,6 +9,6 @@
 
 # define BUFF_SIZE 600
 
-void	read_tetra(int fd, t_tetra *tetras[]);
+void	read_tetra(int fd, t_tetra **tetras);
 
 #endif

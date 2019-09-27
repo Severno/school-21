@@ -1,3 +1,7 @@
+//
+// Created by Sophia April on 27/09/2019.
+//
+
 #ifndef FILLIT_WORK_TETRAMINO_H
 #define FILLIT_WORK_TETRAMINO_H
 
@@ -14,4 +18,4 @@ typedef struct	s_tetra
 	struct s_tetra *next;
 }				t_tetra;
 
-#endif
+#endif //FILLIT_WORK_TETRAMINO_H

@@ -38,6 +38,14 @@ unistd.h
 stdio.h
 -
 
+/Users/sapril/Desktop/work/fillit_work/main.c
+fillit.h
+/Users/sapril/Desktop/work/fillit_work/fillit.h
+
+/Users/sapril/Desktop/work/fillit_work/map.c
+fillit.h
+/Users/sapril/Desktop/work/fillit_work/fillit.h
+
 /Users/sapril/Desktop/work/fillit_work/map.h
 
 /Users/sapril/Desktop/work/fillit_work/tetramino.h
