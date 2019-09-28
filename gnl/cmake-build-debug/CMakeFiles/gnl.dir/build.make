@@ -187,9 +187,22 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isprint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isprint.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_isprint.c -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isprint.c.s
 
+CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isspace.c.o: CMakeFiles/gnl.dir/flags.make
+CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isspace.c.o: /Users/sapril/Desktop/work/libft/ft_isspace.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isspace.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isspace.c.o   -c /Users/sapril/Desktop/work/libft/ft_isspace.c
+
+CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isspace.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isspace.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_isspace.c > CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isspace.c.i
+
+CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isspace.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isspace.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_isspace.c -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isspace.c.s
+
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_itoa.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_itoa.c.o: /Users/sapril/Desktop/work/libft/ft_itoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_itoa.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_itoa.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_itoa.c.o   -c /Users/sapril/Desktop/work/libft/ft_itoa.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_itoa.c.i: cmake_force
@@ -202,7 +215,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_itoa.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstadd.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstadd.c.o: /Users/sapril/Desktop/work/libft/ft_lstadd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstadd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstadd.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstadd.c.o   -c /Users/sapril/Desktop/work/libft/ft_lstadd.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstadd.c.i: cmake_force
@@ -215,7 +228,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstadd.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstdel.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstdel.c.o: /Users/sapril/Desktop/work/libft/ft_lstdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstdel.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstdel.c.o   -c /Users/sapril/Desktop/work/libft/ft_lstdel.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstdel.c.i: cmake_force
@@ -228,7 +241,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstdel.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstdelone.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstdelone.c.o: /Users/sapril/Desktop/work/libft/ft_lstdelone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstdelone.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstdelone.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstdelone.c.o   -c /Users/sapril/Desktop/work/libft/ft_lstdelone.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstdelone.c.i: cmake_force
@@ -241,7 +254,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstdelone.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstiter.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstiter.c.o: /Users/sapril/Desktop/work/libft/ft_lstiter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstiter.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstiter.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstiter.c.o   -c /Users/sapril/Desktop/work/libft/ft_lstiter.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstiter.c.i: cmake_force
@@ -254,7 +267,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstiter.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstmap.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstmap.c.o: /Users/sapril/Desktop/work/libft/ft_lstmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstmap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstmap.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstmap.c.o   -c /Users/sapril/Desktop/work/libft/ft_lstmap.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstmap.c.i: cmake_force
@@ -267,7 +280,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstmap.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstnew.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstnew.c.o: /Users/sapril/Desktop/work/libft/ft_lstnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstnew.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstnew.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstnew.c.o   -c /Users/sapril/Desktop/work/libft/ft_lstnew.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstnew.c.i: cmake_force
@@ -280,7 +293,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstnew.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memalloc.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memalloc.c.o: /Users/sapril/Desktop/work/libft/ft_memalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memalloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memalloc.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memalloc.c.o   -c /Users/sapril/Desktop/work/libft/ft_memalloc.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memalloc.c.i: cmake_force
@@ -293,7 +306,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memalloc.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memccpy.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memccpy.c.o: /Users/sapril/Desktop/work/libft/ft_memccpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memccpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memccpy.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memccpy.c.o   -c /Users/sapril/Desktop/work/libft/ft_memccpy.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memccpy.c.i: cmake_force
@@ -306,7 +319,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memccpy.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memchr.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memchr.c.o: /Users/sapril/Desktop/work/libft/ft_memchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memchr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memchr.c.o   -c /Users/sapril/Desktop/work/libft/ft_memchr.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memchr.c.i: cmake_force
@@ -319,7 +332,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memchr.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memcmp.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memcmp.c.o: /Users/sapril/Desktop/work/libft/ft_memcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memcmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memcmp.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memcmp.c.o   -c /Users/sapril/Desktop/work/libft/ft_memcmp.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memcmp.c.i: cmake_force
@@ -332,7 +345,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memcmp.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memcpy.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memcpy.c.o: /Users/sapril/Desktop/work/libft/ft_memcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memcpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memcpy.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memcpy.c.o   -c /Users/sapril/Desktop/work/libft/ft_memcpy.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memcpy.c.i: cmake_force
@@ -345,7 +358,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memcpy.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memdel.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memdel.c.o: /Users/sapril/Desktop/work/libft/ft_memdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memdel.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memdel.c.o   -c /Users/sapril/Desktop/work/libft/ft_memdel.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memdel.c.i: cmake_force
@@ -358,7 +371,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memdel.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memmove.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memmove.c.o: /Users/sapril/Desktop/work/libft/ft_memmove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memmove.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memmove.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memmove.c.o   -c /Users/sapril/Desktop/work/libft/ft_memmove.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memmove.c.i: cmake_force
@@ -371,7 +384,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memmove.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memset.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memset.c.o: /Users/sapril/Desktop/work/libft/ft_memset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memset.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memset.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memset.c.o   -c /Users/sapril/Desktop/work/libft/ft_memset.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memset.c.i: cmake_force
@@ -384,7 +397,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_memset.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_num_of_digits.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_num_of_digits.c.o: /Users/sapril/Desktop/work/libft/ft_num_of_digits.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_num_of_digits.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_num_of_digits.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_num_of_digits.c.o   -c /Users/sapril/Desktop/work/libft/ft_num_of_digits.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_num_of_digits.c.i: cmake_force
@@ -397,7 +410,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_num_of_digits.c.s: cmake_f
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putchar.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putchar.c.o: /Users/sapril/Desktop/work/libft/ft_putchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putchar.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putchar.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putchar.c.o   -c /Users/sapril/Desktop/work/libft/ft_putchar.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putchar.c.i: cmake_force
@@ -410,7 +423,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putchar.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putchar_fd.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putchar_fd.c.o: /Users/sapril/Desktop/work/libft/ft_putchar_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putchar_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putchar_fd.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putchar_fd.c.o   -c /Users/sapril/Desktop/work/libft/ft_putchar_fd.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putchar_fd.c.i: cmake_force
@@ -423,7 +436,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putchar_fd.c.s: cmake_forc
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putendl.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putendl.c.o: /Users/sapril/Desktop/work/libft/ft_putendl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putendl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putendl.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putendl.c.o   -c /Users/sapril/Desktop/work/libft/ft_putendl.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putendl.c.i: cmake_force
@@ -436,7 +449,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putendl.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putendl_fd.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putendl_fd.c.o: /Users/sapril/Desktop/work/libft/ft_putendl_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putendl_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putendl_fd.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putendl_fd.c.o   -c /Users/sapril/Desktop/work/libft/ft_putendl_fd.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putendl_fd.c.i: cmake_force
@@ -449,7 +462,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putendl_fd.c.s: cmake_forc
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putnbr.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putnbr.c.o: /Users/sapril/Desktop/work/libft/ft_putnbr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putnbr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putnbr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putnbr.c.o   -c /Users/sapril/Desktop/work/libft/ft_putnbr.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putnbr.c.i: cmake_force
@@ -462,7 +475,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putnbr.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putnbr_fd.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putnbr_fd.c.o: /Users/sapril/Desktop/work/libft/ft_putnbr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putnbr_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putnbr_fd.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putnbr_fd.c.o   -c /Users/sapril/Desktop/work/libft/ft_putnbr_fd.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putnbr_fd.c.i: cmake_force
@@ -475,7 +488,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putnbr_fd.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putstr.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putstr.c.o: /Users/sapril/Desktop/work/libft/ft_putstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putstr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putstr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putstr.c.o   -c /Users/sapril/Desktop/work/libft/ft_putstr.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putstr.c.i: cmake_force
@@ -488,7 +501,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putstr.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putstr_fd.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putstr_fd.c.o: /Users/sapril/Desktop/work/libft/ft_putstr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putstr_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putstr_fd.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putstr_fd.c.o   -c /Users/sapril/Desktop/work/libft/ft_putstr_fd.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putstr_fd.c.i: cmake_force
@@ -501,7 +514,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_putstr_fd.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_str_is_lowercase.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_str_is_lowercase.c.o: /Users/sapril/Desktop/work/libft/ft_str_is_lowercase.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_str_is_lowercase.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_str_is_lowercase.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_str_is_lowercase.c.o   -c /Users/sapril/Desktop/work/libft/ft_str_is_lowercase.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_str_is_lowercase.c.i: cmake_force
@@ -514,7 +527,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_str_is_lowercase.c.s: cmak
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_str_is_numeric.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_str_is_numeric.c.o: /Users/sapril/Desktop/work/libft/ft_str_is_numeric.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_str_is_numeric.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_str_is_numeric.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_str_is_numeric.c.o   -c /Users/sapril/Desktop/work/libft/ft_str_is_numeric.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_str_is_numeric.c.i: cmake_force
@@ -527,7 +540,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_str_is_numeric.c.s: cmake_
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_str_is_printable.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_str_is_printable.c.o: /Users/sapril/Desktop/work/libft/ft_str_is_printable.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_str_is_printable.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_str_is_printable.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_str_is_printable.c.o   -c /Users/sapril/Desktop/work/libft/ft_str_is_printable.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_str_is_printable.c.i: cmake_force
@@ -540,7 +553,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_str_is_printable.c.s: cmak
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_str_is_uppercase.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_str_is_uppercase.c.o: /Users/sapril/Desktop/work/libft/ft_str_is_uppercase.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_str_is_uppercase.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_str_is_uppercase.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_str_is_uppercase.c.o   -c /Users/sapril/Desktop/work/libft/ft_str_is_uppercase.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_str_is_uppercase.c.i: cmake_force
@@ -553,7 +566,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_str_is_uppercase.c.s: cmak
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strcat.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strcat.c.o: /Users/sapril/Desktop/work/libft/ft_strcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strcat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strcat.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strcat.c.o   -c /Users/sapril/Desktop/work/libft/ft_strcat.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strcat.c.i: cmake_force
@@ -566,7 +579,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strcat.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strchr.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strchr.c.o: /Users/sapril/Desktop/work/libft/ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strchr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strchr.c.o   -c /Users/sapril/Desktop/work/libft/ft_strchr.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strchr.c.i: cmake_force
@@ -579,7 +592,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strchr.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strclr.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strclr.c.o: /Users/sapril/Desktop/work/libft/ft_strclr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strclr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strclr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strclr.c.o   -c /Users/sapril/Desktop/work/libft/ft_strclr.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strclr.c.i: cmake_force
@@ -592,7 +605,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strclr.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strcmp.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strcmp.c.o: /Users/sapril/Desktop/work/libft/ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strcmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strcmp.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strcmp.c.o   -c /Users/sapril/Desktop/work/libft/ft_strcmp.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strcmp.c.i: cmake_force
@@ -605,7 +618,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strcmp.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strcpy.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strcpy.c.o: /Users/sapril/Desktop/work/libft/ft_strcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strcpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strcpy.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strcpy.c.o   -c /Users/sapril/Desktop/work/libft/ft_strcpy.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strcpy.c.i: cmake_force
@@ -618,7 +631,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strcpy.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strdel.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strdel.c.o: /Users/sapril/Desktop/work/libft/ft_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strdel.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strdel.c.o   -c /Users/sapril/Desktop/work/libft/ft_strdel.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strdel.c.i: cmake_force
@@ -631,7 +644,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strdel.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strdup.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strdup.c.o: /Users/sapril/Desktop/work/libft/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strdup.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strdup.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strdup.c.o   -c /Users/sapril/Desktop/work/libft/ft_strdup.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strdup.c.i: cmake_force
@@ -644,7 +657,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strdup.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strequ.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strequ.c.o: /Users/sapril/Desktop/work/libft/ft_strequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strequ.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strequ.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strequ.c.o   -c /Users/sapril/Desktop/work/libft/ft_strequ.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strequ.c.i: cmake_force
@@ -657,7 +670,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strequ.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_striter.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_striter.c.o: /Users/sapril/Desktop/work/libft/ft_striter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_striter.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_striter.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_striter.c.o   -c /Users/sapril/Desktop/work/libft/ft_striter.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_striter.c.i: cmake_force
@@ -670,7 +683,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_striter.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_striteri.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_striteri.c.o: /Users/sapril/Desktop/work/libft/ft_striteri.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_striteri.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_striteri.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_striteri.c.o   -c /Users/sapril/Desktop/work/libft/ft_striteri.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_striteri.c.i: cmake_force
@@ -683,7 +696,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_striteri.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strjoin.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strjoin.c.o: /Users/sapril/Desktop/work/libft/ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strjoin.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strjoin.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strjoin.c.o   -c /Users/sapril/Desktop/work/libft/ft_strjoin.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strjoin.c.i: cmake_force
@@ -696,7 +709,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strjoin.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strlcat.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strlcat.c.o: /Users/sapril/Desktop/work/libft/ft_strlcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strlcat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strlcat.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strlcat.c.o   -c /Users/sapril/Desktop/work/libft/ft_strlcat.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strlcat.c.i: cmake_force
@@ -709,7 +722,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strlcat.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strlen.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strlen.c.o: /Users/sapril/Desktop/work/libft/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strlen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strlen.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strlen.c.o   -c /Users/sapril/Desktop/work/libft/ft_strlen.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strlen.c.i: cmake_force
@@ -722,7 +735,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strlen.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strmap.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strmap.c.o: /Users/sapril/Desktop/work/libft/ft_strmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strmap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strmap.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strmap.c.o   -c /Users/sapril/Desktop/work/libft/ft_strmap.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strmap.c.i: cmake_force
@@ -735,7 +748,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strmap.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strmapi.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strmapi.c.o: /Users/sapril/Desktop/work/libft/ft_strmapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strmapi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strmapi.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strmapi.c.o   -c /Users/sapril/Desktop/work/libft/ft_strmapi.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strmapi.c.i: cmake_force
@@ -748,7 +761,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strmapi.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strncat.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strncat.c.o: /Users/sapril/Desktop/work/libft/ft_strncat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strncat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strncat.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strncat.c.o   -c /Users/sapril/Desktop/work/libft/ft_strncat.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strncat.c.i: cmake_force
@@ -761,7 +774,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strncat.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strncmp.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strncmp.c.o: /Users/sapril/Desktop/work/libft/ft_strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strncmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strncmp.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strncmp.c.o   -c /Users/sapril/Desktop/work/libft/ft_strncmp.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strncmp.c.i: cmake_force
@@ -774,7 +787,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strncmp.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strncpy.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strncpy.c.o: /Users/sapril/Desktop/work/libft/ft_strncpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strncpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strncpy.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strncpy.c.o   -c /Users/sapril/Desktop/work/libft/ft_strncpy.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strncpy.c.i: cmake_force
@@ -787,7 +800,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strncpy.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strnequ.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strnequ.c.o: /Users/sapril/Desktop/work/libft/ft_strnequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strnequ.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strnequ.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strnequ.c.o   -c /Users/sapril/Desktop/work/libft/ft_strnequ.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strnequ.c.i: cmake_force
@@ -800,7 +813,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strnequ.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strnew.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strnew.c.o: /Users/sapril/Desktop/work/libft/ft_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strnew.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strnew.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strnew.c.o   -c /Users/sapril/Desktop/work/libft/ft_strnew.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strnew.c.i: cmake_force
@@ -813,7 +826,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strnew.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strnlen.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strnlen.c.o: /Users/sapril/Desktop/work/libft/ft_strnlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strnlen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strnlen.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strnlen.c.o   -c /Users/sapril/Desktop/work/libft/ft_strnlen.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strnlen.c.i: cmake_force
@@ -826,7 +839,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strnlen.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strnstr.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strnstr.c.o: /Users/sapril/Desktop/work/libft/ft_strnstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strnstr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strnstr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strnstr.c.o   -c /Users/sapril/Desktop/work/libft/ft_strnstr.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strnstr.c.i: cmake_force
@@ -839,7 +852,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strnstr.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strrchr.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strrchr.c.o: /Users/sapril/Desktop/work/libft/ft_strrchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strrchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strrchr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strrchr.c.o   -c /Users/sapril/Desktop/work/libft/ft_strrchr.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strrchr.c.i: cmake_force
@@ -852,7 +865,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strrchr.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strsplit.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strsplit.c.o: /Users/sapril/Desktop/work/libft/ft_strsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strsplit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strsplit.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strsplit.c.o   -c /Users/sapril/Desktop/work/libft/ft_strsplit.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strsplit.c.i: cmake_force
@@ -865,7 +878,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strsplit.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strstr.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strstr.c.o: /Users/sapril/Desktop/work/libft/ft_strstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strstr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strstr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strstr.c.o   -c /Users/sapril/Desktop/work/libft/ft_strstr.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strstr.c.i: cmake_force
@@ -878,7 +891,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strstr.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strsub.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strsub.c.o: /Users/sapril/Desktop/work/libft/ft_strsub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strsub.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strsub.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strsub.c.o   -c /Users/sapril/Desktop/work/libft/ft_strsub.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strsub.c.i: cmake_force
@@ -891,7 +904,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strsub.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strtrim.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strtrim.c.o: /Users/sapril/Desktop/work/libft/ft_strtrim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strtrim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strtrim.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strtrim.c.o   -c /Users/sapril/Desktop/work/libft/ft_strtrim.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strtrim.c.i: cmake_force
@@ -904,7 +917,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_strtrim.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_tolower.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_tolower.c.o: /Users/sapril/Desktop/work/libft/ft_tolower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_tolower.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_tolower.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_tolower.c.o   -c /Users/sapril/Desktop/work/libft/ft_tolower.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_tolower.c.i: cmake_force
@@ -917,7 +930,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_tolower.c.s: cmake_force
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_toupper.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_toupper.c.o: /Users/sapril/Desktop/work/libft/ft_toupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_toupper.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_toupper.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_toupper.c.o   -c /Users/sapril/Desktop/work/libft/ft_toupper.c
 
 CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_toupper.c.i: cmake_force
@@ -930,7 +943,7 @@ CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_toupper.c.s: cmake_force
 
 CMakeFiles/gnl.dir/get_next_line.c.o: CMakeFiles/gnl.dir/flags.make
 CMakeFiles/gnl.dir/get_next_line.c.o: ../get_next_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/gnl.dir/get_next_line.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/gnl.dir/get_next_line.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gnl.dir/get_next_line.c.o   -c /Users/sapril/Desktop/work/gnl/get_next_line.c
 
 CMakeFiles/gnl.dir/get_next_line.c.i: cmake_force
@@ -953,6 +966,7 @@ gnl_OBJECTS = \
 "CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isascii.c.o" \
 "CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isdigit.c.o" \
 "CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isprint.c.o" \
+"CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isspace.c.o" \
 "CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_itoa.c.o" \
 "CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstadd.c.o" \
 "CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstdel.c.o" \
@@ -1025,6 +1039,7 @@ gnl: CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isalpha.c.o
 gnl: CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isascii.c.o
 gnl: CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isdigit.c.o
 gnl: CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isprint.c.o
+gnl: CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isspace.c.o
 gnl: CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_itoa.c.o
 gnl: CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstadd.c.o
 gnl: CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstdel.c.o
@@ -1085,7 +1100,7 @@ gnl: CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_toupper.c.o
 gnl: CMakeFiles/gnl.dir/get_next_line.c.o
 gnl: CMakeFiles/gnl.dir/build.make
 gnl: CMakeFiles/gnl.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Linking C executable gnl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sapril/Desktop/work/gnl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Linking C executable gnl"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gnl.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

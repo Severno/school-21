@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isascii.c.o"
   "CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isdigit.c.o"
   "CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isprint.c.o"
+  "CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_isspace.c.o"
   "CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_itoa.c.o"
   "CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstadd.c.o"
   "CMakeFiles/gnl.dir/Users/sapril/Desktop/work/libft/ft_lstdel.c.o"

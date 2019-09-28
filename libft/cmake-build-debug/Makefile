@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/artembykov/Desktop/School-21/libft
+CMAKE_SOURCE_DIR = /Users/sapril/Desktop/work/libft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/artembykov/Desktop/School-21/libft/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/sapril/Desktop/work/libft/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/artembykov/Desktop/School-21/libft/cmake-build-debug/CMakeFiles /Users/artembykov/Desktop/School-21/libft/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sapril/Desktop/work/libft/cmake-build-debug/CMakeFiles /Users/sapril/Desktop/work/libft/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/artembykov/Desktop/School-21/libft/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sapril/Desktop/work/libft/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -149,33 +149,6 @@ ft_atoi.s: ft_atoi.c.s
 ft_atoi.c.s:
 	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_atoi.c.s
 .PHONY : ft_atoi.c.s
-
-ft_atoi_base.o: ft_atoi_base.c.o
-
-.PHONY : ft_atoi_base.o
-
-# target to build an object file
-ft_atoi_base.c.o:
-	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_atoi_base.c.o
-.PHONY : ft_atoi_base.c.o
-
-ft_atoi_base.i: ft_atoi_base.c.i
-
-.PHONY : ft_atoi_base.i
-
-# target to preprocess a source file
-ft_atoi_base.c.i:
-	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_atoi_base.c.i
-.PHONY : ft_atoi_base.c.i
-
-ft_atoi_base.s: ft_atoi_base.c.s
-
-.PHONY : ft_atoi_base.s
-
-# target to generate assembly for a file
-ft_atoi_base.c.s:
-	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_atoi_base.c.s
-.PHONY : ft_atoi_base.c.s
 
 ft_bzero.o: ft_bzero.c.o
 
@@ -446,33 +419,6 @@ ft_itoa.s: ft_itoa.c.s
 ft_itoa.c.s:
 	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_itoa.c.s
 .PHONY : ft_itoa.c.s
-
-ft_itoa_base.o: ft_itoa_base.c.o
-
-.PHONY : ft_itoa_base.o
-
-# target to build an object file
-ft_itoa_base.c.o:
-	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_itoa_base.c.o
-.PHONY : ft_itoa_base.c.o
-
-ft_itoa_base.i: ft_itoa_base.c.i
-
-.PHONY : ft_itoa_base.i
-
-# target to preprocess a source file
-ft_itoa_base.c.i:
-	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_itoa_base.c.i
-.PHONY : ft_itoa_base.c.i
-
-ft_itoa_base.s: ft_itoa_base.c.s
-
-.PHONY : ft_itoa_base.s
-
-# target to generate assembly for a file
-ft_itoa_base.c.s:
-	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/ft_itoa_base.c.s
-.PHONY : ft_itoa_base.c.s
 
 ft_lstadd.o: ft_lstadd.c.o
 
@@ -2025,9 +1971,6 @@ help:
 	@echo "... ft_atoi.o"
 	@echo "... ft_atoi.i"
 	@echo "... ft_atoi.s"
-	@echo "... ft_atoi_base.o"
-	@echo "... ft_atoi_base.i"
-	@echo "... ft_atoi_base.s"
 	@echo "... ft_bzero.o"
 	@echo "... ft_bzero.i"
 	@echo "... ft_bzero.s"
@@ -2058,9 +2001,6 @@ help:
 	@echo "... ft_itoa.o"
 	@echo "... ft_itoa.i"
 	@echo "... ft_itoa.s"
-	@echo "... ft_itoa_base.o"
-	@echo "... ft_itoa_base.i"
-	@echo "... ft_itoa_base.s"
 	@echo "... ft_lstadd.o"
 	@echo "... ft_lstadd.i"
 	@echo "... ft_lstadd.s"

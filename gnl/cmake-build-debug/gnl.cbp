@@ -116,6 +116,9 @@
 		<Unit filename="/Users/sapril/Desktop/work/libft/ft_isprint.c">
 			<Option target="gnl"/>
 		</Unit>
+		<Unit filename="/Users/sapril/Desktop/work/libft/ft_isspace.c">
+			<Option target="gnl"/>
+		</Unit>
 		<Unit filename="/Users/sapril/Desktop/work/libft/ft_itoa.c">
 			<Option target="gnl"/>
 		</Unit>
