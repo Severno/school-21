@@ -225,3 +225,6 @@ CMakeFiles/fillit_work.dir/map.c.o: ../map.h
 CMakeFiles/fillit_work.dir/map.c.o: ../tetramino.h
 CMakeFiles/fillit_work.dir/map.c.o: /Users/sapril/Desktop/work/libft/libft.h
 
+CMakeFiles/fillit_work.dir/tetramino.c.o: ../tetramino.c
+CMakeFiles/fillit_work.dir/tetramino.c.o: ../tetramino.h
+

@@ -13,4 +13,4 @@ file(GLOB SRC
 message("${SRC}")
 list(FILTER SRC EXCLUDE REGEX ".*main.c$")
 
-add_executable(fillit_work main.c ${SRC} fillit.c map.c)
+add_executable(fillit_work main.c ${SRC} fillit.c map.c tetramino.c)

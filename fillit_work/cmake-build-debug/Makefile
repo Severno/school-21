@@ -2040,6 +2040,33 @@ map.c.s:
 	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/map.c.s
 .PHONY : map.c.s
 
+tetramino.o: tetramino.c.o
+
+.PHONY : tetramino.o
+
+# target to build an object file
+tetramino.c.o:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/tetramino.c.o
+.PHONY : tetramino.c.o
+
+tetramino.i: tetramino.c.i
+
+.PHONY : tetramino.i
+
+# target to preprocess a source file
+tetramino.c.i:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/tetramino.c.i
+.PHONY : tetramino.c.i
+
+tetramino.s: tetramino.c.s
+
+.PHONY : tetramino.s
+
+# target to generate assembly for a file
+tetramino.c.s:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/tetramino.c.s
+.PHONY : tetramino.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2262,6 +2289,9 @@ help:
 	@echo "... map.o"
 	@echo "... map.i"
 	@echo "... map.s"
+	@echo "... tetramino.o"
+	@echo "... tetramino.i"
+	@echo "... tetramino.s"
 .PHONY : help
 
 
