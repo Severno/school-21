@@ -123,33 +123,6 @@ fillit_work/fast:
 	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/build
 .PHONY : fillit_work/fast
 
-Users/sapril/Desktop/work/gnl/get_next_line.o: Users/sapril/Desktop/work/gnl/get_next_line.c.o
-
-.PHONY : Users/sapril/Desktop/work/gnl/get_next_line.o
-
-# target to build an object file
-Users/sapril/Desktop/work/gnl/get_next_line.c.o:
-	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/gnl/get_next_line.c.o
-.PHONY : Users/sapril/Desktop/work/gnl/get_next_line.c.o
-
-Users/sapril/Desktop/work/gnl/get_next_line.i: Users/sapril/Desktop/work/gnl/get_next_line.c.i
-
-.PHONY : Users/sapril/Desktop/work/gnl/get_next_line.i
-
-# target to preprocess a source file
-Users/sapril/Desktop/work/gnl/get_next_line.c.i:
-	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/gnl/get_next_line.c.i
-.PHONY : Users/sapril/Desktop/work/gnl/get_next_line.c.i
-
-Users/sapril/Desktop/work/gnl/get_next_line.s: Users/sapril/Desktop/work/gnl/get_next_line.c.s
-
-.PHONY : Users/sapril/Desktop/work/gnl/get_next_line.s
-
-# target to generate assembly for a file
-Users/sapril/Desktop/work/gnl/get_next_line.c.s:
-	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/gnl/get_next_line.c.s
-.PHONY : Users/sapril/Desktop/work/gnl/get_next_line.c.s
-
 Users/sapril/Desktop/work/libft/ft_atoi.o: Users/sapril/Desktop/work/libft/ft_atoi.c.o
 
 .PHONY : Users/sapril/Desktop/work/libft/ft_atoi.o
@@ -2013,32 +1986,32 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/main.c.s
 .PHONY : main.c.s
 
-map.o: map.c.o
+read.o: read.c.o
 
-.PHONY : map.o
+.PHONY : read.o
 
 # target to build an object file
-map.c.o:
-	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/map.c.o
-.PHONY : map.c.o
+read.c.o:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/read.c.o
+.PHONY : read.c.o
 
-map.i: map.c.i
+read.i: read.c.i
 
-.PHONY : map.i
+.PHONY : read.i
 
 # target to preprocess a source file
-map.c.i:
-	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/map.c.i
-.PHONY : map.c.i
+read.c.i:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/read.c.i
+.PHONY : read.c.i
 
-map.s: map.c.s
+read.s: read.c.s
 
-.PHONY : map.s
+.PHONY : read.s
 
 # target to generate assembly for a file
-map.c.s:
-	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/map.c.s
-.PHONY : map.c.s
+read.c.s:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/read.c.s
+.PHONY : read.c.s
 
 tetramino.o: tetramino.c.o
 
@@ -2076,9 +2049,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... fillit_work"
-	@echo "... Users/sapril/Desktop/work/gnl/get_next_line.o"
-	@echo "... Users/sapril/Desktop/work/gnl/get_next_line.i"
-	@echo "... Users/sapril/Desktop/work/gnl/get_next_line.s"
 	@echo "... Users/sapril/Desktop/work/libft/ft_atoi.o"
 	@echo "... Users/sapril/Desktop/work/libft/ft_atoi.i"
 	@echo "... Users/sapril/Desktop/work/libft/ft_atoi.s"
@@ -2286,9 +2256,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... map.o"
-	@echo "... map.i"
-	@echo "... map.s"
+	@echo "... read.o"
+	@echo "... read.i"
+	@echo "... read.s"
 	@echo "... tetramino.o"
 	@echo "... tetramino.i"
 	@echo "... tetramino.s"

@@ -6,18 +6,19 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/29 13:35:28 by sapril            #+#    #+#             */
-/*   Updated: 2019/09/29 15:15:35 by sapril           ###   ########.fr       */
+/*   Updated: 2019/09/29 17:55:46 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef TETRAMINO_H
-#define TETRAMINO_H
+# define TETRAMINO_H
 
-#include <stdlib.h>
-#include <stdio.h>
+# include <stdlib.h>
+# include <stdio.h>
 
 
-#define CHARS_NUMBER 4
+# define CHARS_NUMBER 4
+# define BUFF_SIZE 21
 
 typedef struct			s_tetra_info
 {

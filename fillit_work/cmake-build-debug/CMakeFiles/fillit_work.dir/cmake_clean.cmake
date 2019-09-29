@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/fillit_work.dir/main.c.o"
-  "CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/gnl/get_next_line.c.o"
   "CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_atoi.c.o"
   "CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_bzero.c.o"
   "CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_check_end_spaces.c.o"
@@ -69,7 +68,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_tolower.c.o"
   "CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_toupper.c.o"
   "CMakeFiles/fillit_work.dir/fillit.c.o"
-  "CMakeFiles/fillit_work.dir/map.c.o"
+  "CMakeFiles/fillit_work.dir/read.c.o"
   "CMakeFiles/fillit_work.dir/tetramino.c.o"
   "fillit_work.pdb"
   "fillit_work"

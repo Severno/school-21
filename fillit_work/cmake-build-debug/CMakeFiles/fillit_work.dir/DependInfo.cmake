@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/sapril/Desktop/work/gnl/get_next_line.c" "/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/gnl/get_next_line.c.o"
   "/Users/sapril/Desktop/work/libft/ft_atoi.c" "/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_atoi.c.o"
   "/Users/sapril/Desktop/work/libft/ft_bzero.c" "/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_bzero.c.o"
   "/Users/sapril/Desktop/work/libft/ft_check_end_spaces.c" "/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_check_end_spaces.c.o"
@@ -74,7 +73,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/sapril/Desktop/work/libft/ft_toupper.c" "/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_toupper.c.o"
   "/Users/sapril/Desktop/work/fillit_work/fillit.c" "/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/fillit.c.o"
   "/Users/sapril/Desktop/work/fillit_work/main.c" "/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/main.c.o"
-  "/Users/sapril/Desktop/work/fillit_work/map.c" "/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/map.c.o"
+  "/Users/sapril/Desktop/work/fillit_work/read.c" "/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/read.c.o"
   "/Users/sapril/Desktop/work/fillit_work/tetramino.c" "/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/tetramino.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
