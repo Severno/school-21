@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/29 15:37:23 by sapril            #+#    #+#             */
-/*   Updated: 2019/09/29 19:32:54 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/01 20:23:24 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,19 +39,22 @@ t_tetra_info		*read_one_block(char *buf, int y_buff[], int x_buff[], char sign) 
 	int				i;
 	int				y;
 	int				x;
+	int				counter;
 	t_tetra_info	*new_tetra_info;
 
 	i = 0;
 	y = 0;
 	x = 0;
+	counter = 0;
 	while (buf[i])
 	{
 		if (buf[i] == '#')
 		{
 			x_buff[x] = i % 5;
 			y_buff[x++] = y;
+			counter++;
 		}
-		else if(buf[i] == '\n' && (buf[i+1] == '.' || buf[i+1] == '#'))
+		else if(buf[i] == '\n' && (buf[i+1] == '.' || buf[i+1] == '#') && counter > 0)
 			y++;
 		i++;
 	}

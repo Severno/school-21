@@ -954,9 +954,22 @@ CMakeFiles/fillit_work.dir/fillit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/fillit.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/fillit_work/fillit.c -o CMakeFiles/fillit_work.dir/fillit.c.s
 
+CMakeFiles/fillit_work.dir/map.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/map.c.o: ../map.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/fillit_work.dir/map.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/map.c.o   -c /Users/sapril/Desktop/work/fillit_work/map.c
+
+CMakeFiles/fillit_work.dir/map.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/map.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/fillit_work/map.c > CMakeFiles/fillit_work.dir/map.c.i
+
+CMakeFiles/fillit_work.dir/map.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/map.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/fillit_work/map.c -o CMakeFiles/fillit_work.dir/map.c.s
+
 CMakeFiles/fillit_work.dir/read.c.o: CMakeFiles/fillit_work.dir/flags.make
 CMakeFiles/fillit_work.dir/read.c.o: ../read.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/fillit_work.dir/read.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/fillit_work.dir/read.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/read.c.o   -c /Users/sapril/Desktop/work/fillit_work/read.c
 
 CMakeFiles/fillit_work.dir/read.c.i: cmake_force
@@ -969,7 +982,7 @@ CMakeFiles/fillit_work.dir/read.c.s: cmake_force
 
 CMakeFiles/fillit_work.dir/tetramino.c.o: CMakeFiles/fillit_work.dir/flags.make
 CMakeFiles/fillit_work.dir/tetramino.c.o: ../tetramino.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/fillit_work.dir/tetramino.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/fillit_work.dir/tetramino.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/tetramino.c.o   -c /Users/sapril/Desktop/work/fillit_work/tetramino.c
 
 CMakeFiles/fillit_work.dir/tetramino.c.i: cmake_force
@@ -982,7 +995,7 @@ CMakeFiles/fillit_work.dir/tetramino.c.s: cmake_force
 
 CMakeFiles/fillit_work.dir/validation.c.o: CMakeFiles/fillit_work.dir/flags.make
 CMakeFiles/fillit_work.dir/validation.c.o: ../validation.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/fillit_work.dir/validation.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/fillit_work.dir/validation.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/validation.c.o   -c /Users/sapril/Desktop/work/fillit_work/validation.c
 
 CMakeFiles/fillit_work.dir/validation.c.i: cmake_force
@@ -1064,6 +1077,7 @@ fillit_work_OBJECTS = \
 "CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_tolower.c.o" \
 "CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_toupper.c.o" \
 "CMakeFiles/fillit_work.dir/fillit.c.o" \
+"CMakeFiles/fillit_work.dir/map.c.o" \
 "CMakeFiles/fillit_work.dir/read.c.o" \
 "CMakeFiles/fillit_work.dir/tetramino.c.o" \
 "CMakeFiles/fillit_work.dir/validation.c.o"
@@ -1140,12 +1154,13 @@ fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strtr
 fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_tolower.c.o
 fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_toupper.c.o
 fillit_work: CMakeFiles/fillit_work.dir/fillit.c.o
+fillit_work: CMakeFiles/fillit_work.dir/map.c.o
 fillit_work: CMakeFiles/fillit_work.dir/read.c.o
 fillit_work: CMakeFiles/fillit_work.dir/tetramino.c.o
 fillit_work: CMakeFiles/fillit_work.dir/validation.c.o
 fillit_work: CMakeFiles/fillit_work.dir/build.make
 fillit_work: CMakeFiles/fillit_work.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Linking C executable fillit_work"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Linking C executable fillit_work"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fillit_work.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -199,6 +199,7 @@ CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_toupper.c.o: /User
 
 CMakeFiles/fillit_work.dir/fillit.c.o: ../fillit.c
 CMakeFiles/fillit_work.dir/fillit.c.o: ../fillit.h
+CMakeFiles/fillit_work.dir/fillit.c.o: ../map.h
 CMakeFiles/fillit_work.dir/fillit.c.o: ../read.h
 CMakeFiles/fillit_work.dir/fillit.c.o: ../tetramino.h
 CMakeFiles/fillit_work.dir/fillit.c.o: ../validation.h
@@ -206,10 +207,15 @@ CMakeFiles/fillit_work.dir/fillit.c.o: /Users/sapril/Desktop/work/libft/libft.h
 
 CMakeFiles/fillit_work.dir/main.c.o: ../fillit.h
 CMakeFiles/fillit_work.dir/main.c.o: ../main.c
+CMakeFiles/fillit_work.dir/main.c.o: ../map.h
 CMakeFiles/fillit_work.dir/main.c.o: ../read.h
 CMakeFiles/fillit_work.dir/main.c.o: ../tetramino.h
 CMakeFiles/fillit_work.dir/main.c.o: ../validation.h
 CMakeFiles/fillit_work.dir/main.c.o: /Users/sapril/Desktop/work/libft/libft.h
+
+CMakeFiles/fillit_work.dir/map.c.o: ../map.c
+CMakeFiles/fillit_work.dir/map.c.o: ../map.h
+CMakeFiles/fillit_work.dir/map.c.o: ../tetramino.h
 
 CMakeFiles/fillit_work.dir/read.c.o: ../read.c
 CMakeFiles/fillit_work.dir/read.c.o: ../read.h

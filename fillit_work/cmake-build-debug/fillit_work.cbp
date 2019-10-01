@@ -89,6 +89,12 @@
 		<Unit filename="/Users/sapril/Desktop/work/fillit_work/main.c">
 			<Option target="fillit_work"/>
 		</Unit>
+		<Unit filename="/Users/sapril/Desktop/work/fillit_work/map.c">
+			<Option target="fillit_work"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/work/fillit_work/map.h">
+			<Option target="fillit_work"/>
+		</Unit>
 		<Unit filename="/Users/sapril/Desktop/work/fillit_work/read.c">
 			<Option target="fillit_work"/>
 		</Unit>
