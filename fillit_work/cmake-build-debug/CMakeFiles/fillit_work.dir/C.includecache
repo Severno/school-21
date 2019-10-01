@@ -11,6 +11,8 @@
 /Users/sapril/Desktop/work/libft/libft.h
 fcntl.h
 -
+validation.h
+/Users/sapril/Desktop/work/fillit_work/validation.h
 read.h
 /Users/sapril/Desktop/work/fillit_work/read.h
 
@@ -33,6 +35,12 @@ stdlib.h
 -
 stdio.h
 -
+
+/Users/sapril/Desktop/work/fillit_work/validation.c
+validation.h
+/Users/sapril/Desktop/work/fillit_work/validation.h
+
+/Users/sapril/Desktop/work/fillit_work/validation.h
 
 /Users/sapril/Desktop/work/libft/libft.h
 string.h

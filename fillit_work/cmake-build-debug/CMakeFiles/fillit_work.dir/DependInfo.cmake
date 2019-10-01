@@ -75,6 +75,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/sapril/Desktop/work/fillit_work/main.c" "/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/main.c.o"
   "/Users/sapril/Desktop/work/fillit_work/read.c" "/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/read.c.o"
   "/Users/sapril/Desktop/work/fillit_work/tetramino.c" "/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/tetramino.c.o"
+  "/Users/sapril/Desktop/work/fillit_work/validation.c" "/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/validation.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

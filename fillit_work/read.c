@@ -59,18 +59,7 @@ t_tetra_info		*read_one_block(char *buf, int y_buff[], int x_buff[], char sign) 
 	return (new_tetra_info);
 }
 
-int check_spaces(char *buf, int ret) // 3
-{
-	if (ret > 20)
-	{
-		if (buf[19] == '\n' && (buf[19+1] == '\n' || buf[19 + 1] == '\0'))
-			return (1);
-	}
-	else
-		if ((buf[18] == '.' || buf[18] == '#')  && buf[19] == '\0')
-			return (1);
-	return 0;
-}
+
 
 //int check_connections(char *buf, int ret)
 //{

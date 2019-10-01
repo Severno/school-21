@@ -70,6 +70,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/fillit_work.dir/fillit.c.o"
   "CMakeFiles/fillit_work.dir/read.c.o"
   "CMakeFiles/fillit_work.dir/tetramino.c.o"
+  "CMakeFiles/fillit_work.dir/validation.c.o"
   "fillit_work.pdb"
   "fillit_work"
 )

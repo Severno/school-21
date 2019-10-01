@@ -3,6 +3,7 @@
 
 #include "../libft/libft.h"
 #include <fcntl.h>
+#include "validation.h"
 #include "read.h"
 
 

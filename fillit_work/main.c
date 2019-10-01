@@ -117,7 +117,7 @@ int main()
 	while ((ret = read(fd, buf, BUFF_SIZE)) > 0)
 	{
 		buf[ret] = '\0';
-		if (check_spaces(buf, ret))
+		if (check_map(buf, ret) && check_figure(buf))
 			printf("OK!");
 		else
 		{
