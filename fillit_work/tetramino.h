@@ -1,21 +1,42 @@
-//
-// Created by Sophia April on 27/09/2019.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   tetramino.h                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/09/29 13:35:28 by sapril            #+#    #+#             */
+/*   Updated: 2019/09/29 17:55:46 by sapril           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-#ifndef FILLIT_WORK_TETRAMINO_H
-#define FILLIT_WORK_TETRAMINO_H
+#ifndef TETRAMINO_H
+# define TETRAMINO_H
 
-typedef struct	s_tetra_cor
+# include <stdlib.h>
+# include <stdio.h>
+
+
+# define CHARS_NUMBER 4
+# define BUFF_SIZE 21
+
+typedef struct			s_tetra_info
 {
-	int			x;
-	int			y;
-	char		sign;
-}				t_tetra_cor;
+	int					*x;
+	int					*y;
+	char				sign;
+}						t_tetra_info;
 
-typedef struct	s_tetra
+typedef struct			s_tetra_el
 {
-	t_tetra_cor	*el[4];
-	struct s_tetra *next;
-}				t_tetra;
+	struct s_tetra_info	*figure;
+	struct s_tetra_el	*next;
+}						t_tetra_el;
 
-#endif //FILLIT_WORK_TETRAMINO_H
+t_tetra_info	*create_tetra_info(int *x, int *y, char sign);
+t_tetra_el		*create_tetra_el(t_tetra_info *tetra_info);
+void			free_tetra_el(t_tetra_el *tetra_el);
+void			add_back_tetra_el(t_tetra_el *begin_tetra_list, t_tetra_info *tetra_info);
+
+
+#endif

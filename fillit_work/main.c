@@ -1,118 +1,136 @@
 #include "fillit.h"
 
+void print_tetra_elements(t_tetra_el *tetra_el)
+{
+	t_tetra_el *ptr;
+
+	int i;
+	ptr = tetra_el;
+	i = 0;
+	while (ptr != NULL)
+	{
+
+		while(i < CHARS_NUMBER)
+		{
+			printf("Tetramino sign number: %d\n", i);
+			printf("sign = %c\n", ptr->figure->sign);
+			printf("x = %d\n", ptr->figure->x[i]);
+			printf("y = %d\n", ptr->figure->y[i]);
+			i++;
+		}
+		i = 0;
+		ptr = ptr->next;
+		printf("\n");
+		printf("\n");
+		printf("\n");
+	}
+}
+
 int main()
 {
-//	t_tetra *el1;
-	int fd;
-//	int i;
-//	int j;
-//	int q;
-//	int x_fill;
-//	int y_fill;
-//	char *s[10000];
+//	t_tetra_info *tetra_info;
+//	t_tetra_info *tetra_info1;
+//	t_tetra_info *tetra_info2;
+//	t_tetra_info *tetra_info3;
 //
-//	i = 0;
-//	x_fill =	0;
-//	j = 0;
-//	q =	0;
-//	y_fill =	0;
-//	*s = (char *)malloc(sizeof(char) * 100);
-	fd = open("../test.txt", O_RDONLY);
-	t_tetra **tetra;
-//	tetra = (t_tetra **)malloc(sizeof(t_tetra*) * 10);
-	read_tetra(fd, tetra);
-//	printf("%d\n", (*tetra)->el[0]->x);
-//	printf("%d\n", (*tetra)->el[0]->y);
-//	printf("%c\n", (*tetra)->el[0]->sign);
-//	printf("%d\n", (*tetra)->el[1]->y);
-//	printf("%d\n", (*tetra)->el[1]->x);
-//	printf("%c\n", (*tetra)->el[1]->sign);
-//	printf("%d\n", (*tetra)->el[2]->y);
-//	printf("%d\n", (*tetra)->el[2]->x);
-//	printf("%c\n", (*tetra)->el[2]->sign);
-//	printf("%d\n", (*tetra)->el[3]->y);
-//	printf("%d\n", (*tetra)->el[3]->x);
-//	printf("%c\n", (*tetra)->el[3]->sign);
-//	printf("%d\n", (*tetra)->next->el[1]->y);
-//	printf("%d\n", (*tetra)->next->el[1]->x);
-//	printf("%c\n", (*tetra)->next->el[1]->sign);
-//	int i;
-//	i = 1;
-////	printf("%p\n", (*tetra));
-////	printf("%d\n", (*tetra)->el[i]->x);
-////	printf("%d\n", (*tetra)->el[i]->y);
-////	printf("%c\n", (*tetra)->el[i]->sign);
-////	printf("%p\n", (*tetra)->next);
-////	(*tetra) = (*tetra)->next;
-////	printf("%p\n", (*tetra));
-////	printf("%d\n", (*tetra)->el[i]->x);
-////	printf("%d\n", (*tetra)->el[i]->y);
-////	printf("%c\n", (*tetra)->el[i]->sign);
-////	printf("%p\n", (*tetra)->next->next);
-////	printf("%p\n", (*tetra)->next->next->next->next);
-////	printf("%p\n", (*tetra)->next->next->next->next->next);
-//	printf("%p\n", (*tetra)->next->next->next->next->next->next);
+//	t_tetra_el *tetra_el;
+//	t_tetra_el *tetra_el1;
+//	t_tetra_el *tetra_el2;
+//	t_tetra_el *tetra_el3;
+//
+//	int *x;
+//	int *y;
+//	char sign;
+//
+//	int *x1;
+//	int *y1;
+//	char sign1;
+//
+//	int *x2;
+//	int *y2;
+//	char sign2;
+//
+//	int *x3;
+//	int *y3;
+//	char sign3;
+//
+//	x = malloc(sizeof(int) * 4);
+//	y = malloc(sizeof(int) * 4);
+//
+//	x1 = malloc(sizeof(int) * 4);
+//	y1 = malloc(sizeof(int) * 4);
+//
+//	x2 = malloc(sizeof(int) * 4);
+//	y2 = malloc(sizeof(int) * 4);
+//
+//	x3 = malloc(sizeof(int) * 4);
+//	y3 = malloc(sizeof(int) * 4);
+//	for (int i = 0; i < 4; ++i)
+//	{
+//		x[i] = i+1;
+//		y[i] = i+2;
+//
+//		x1[i] = i+10;
+//		y1[i] = i+20;
+//
+//		x2[i] = i*2;
+//		y2[i] = i*11;
+//
+//		x3[i] = i*44;
+//		y3[i] = i*23;
+//	}
+//	sign = 'A';
+//	sign1 = 'B';
+//	sign2 = 'C';
+//	sign3 = 'D';
+//
+//	tetra_info = create_tetra_info(x,y,sign);
+//	tetra_el = create_tetra_el(tetra_info);
+//
+//	tetra_info1 = create_tetra_info(x1,y1,sign1);
+//	tetra_el1 = create_tetra_el(tetra_info1);
+//
+//	tetra_info2 = create_tetra_info(x2,y2,sign2);
+//	tetra_el2 = create_tetra_el(tetra_info1);
+//
+//	tetra_info3 = create_tetra_info(x3,y3,sign3);
+//	tetra_el3 = create_tetra_el(tetra_info1);
+//
+//	add_back_tetra_el(tetra_el, tetra_info1);
+//	add_back_tetra_el(tetra_el, tetra_info2);
+//	add_back_tetra_el(tetra_el, tetra_info3);
+//
+//	print_tetra_elements(tetra_el);
+//	free_tetra_el(tetra_el);
 
-//	while ((*tetra))
-//	{
-//		while (i < 3)
-//		{
-//			printf("%d\n", (*tetra)->el[i]->x);
-//			printf("%d\n", (*tetra)->el[i]->y);
-//			printf("%c\n", (*tetra)->el[i]->sign);
-//			i++;
-//		}
-//		i = 0;
-//		(*tetra) = (*tetra)->next;
-//	}
-	list_clear(tetra);
-//	printf("%d\n", tetra->el[1]->y);
-//	printf("%d\n", tetra->el[1]->x);
-//	printf("%c\n", tetra->el[1]->sign);
-//	printf("%d\n", tetra->el[2]->y);
-//	printf("%d\n", tetra->el[2]->x);
-//	printf("%c\n", tetra->el[2]->sign);
-//	printf("%d\n", tetra->el[3]->y);
-//	printf("%d\n", tetra->el[3]->x);
-//	printf("%c\n", tetra->el[3]->sign);
-//	while (get_next_line(fd, &s[q]))
-//	{
-////		printf("%s\n", s[q]);
-//		while (s[q][j] != '\0')
-//		{
-//			if (s[q][j+1] == '\n' && (s[q][j-1] == '.'|| s[q][j-1] == '#'))
-//				break;
-//			if (s[q][j] == '#')
-//			{
-//				el1->el[i] = tetra_sign_creator(j, y_fill, 'a');
-////				printf("x = %d\n", el1->el[i]->x);
-////				printf("y = %d\n", el1->el[i]->y);
-////				printf("sign = %c\n", el1->el[i]->sign);
-//				i++;
-//				y_fill++;
-//			}
-//			j++;
-//		}
-//		y_fill = 0;
-//		j = 0;
-//		q++;
-//	}
-//	close(fd);
-//	fd = open("../test.txt", O_RDONLY);
-//	read_tetra(fd, el1);
-//	i = 0;
-//	q = 0;
-//	close(fd);
-//	while(s[q] != NULL)
-//	{
-//		if (q % 4 == 0
-//		{}
-//		printf("Element numbir is %s\n", s[q++]);
-//		printf("x = %d ", el1->el[i]->x);
-//		printf("y = %d ", el1->el[i]->y);
-//		printf("sign = %c ", el1->el[i++]->sign);
-//		printf("\n" );
-//	}
+	int fd;
+	int ret;
+	char buf[BUFF_SIZE + 1];
+	int i;
+
+	ret = 0;
+	i = 0;
+	t_tetra_el *begin_tetra;
+
+	begin_tetra = ((t_tetra_el *)malloc(sizeof(t_tetra_el ) * 1000));
+	fd = open("../test1.txt", O_RDONLY);
+	while ((ret = read(fd, buf, BUFF_SIZE)) > 0)
+	{
+		buf[ret] = '\0';
+		if (check_spaces(buf, ret))
+			printf("OK!");
+		else
+		{
+			printf("error");
+			return 0;
+		}
+		i++;
+	}
+	close(fd);
+	fd = open("../test1.txt", O_RDONLY);
+	read_input(fd, buf, begin_tetra);
+	print_tetra_elements(begin_tetra->next);
 
 	return 0;
 }
+
