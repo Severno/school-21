@@ -207,14 +207,7 @@ CMakeFiles/fillit_work.dir/src/fillit.c.o
  /Users/sapril/Desktop/work/fillit_work/src/fillit.c
  /Users/sapril/Desktop/work/libft/libft.h
 CMakeFiles/fillit_work.dir/src/main.c.o
- /Users/sapril/Desktop/work/fillit_work/includes/fillit.h
- /Users/sapril/Desktop/work/fillit_work/includes/map.h
- /Users/sapril/Desktop/work/fillit_work/includes/read.h
- /Users/sapril/Desktop/work/fillit_work/includes/solver.h
- /Users/sapril/Desktop/work/fillit_work/includes/tetramino.h
- /Users/sapril/Desktop/work/fillit_work/includes/validation.h
  /Users/sapril/Desktop/work/fillit_work/src/main.c
- /Users/sapril/Desktop/work/libft/libft.h
 CMakeFiles/fillit_work.dir/src/map.c.o
  /Users/sapril/Desktop/work/fillit_work/includes/map.h
  /Users/sapril/Desktop/work/fillit_work/includes/solver.h
@@ -222,11 +215,17 @@ CMakeFiles/fillit_work.dir/src/map.c.o
  /Users/sapril/Desktop/work/fillit_work/src/map.c
  /Users/sapril/Desktop/work/libft/libft.h
 CMakeFiles/fillit_work.dir/src/read.c.o
+ /Users/sapril/Desktop/work/fillit_work/includes/fillit.h
+ /Users/sapril/Desktop/work/fillit_work/includes/map.h
  /Users/sapril/Desktop/work/fillit_work/includes/read.h
+ /Users/sapril/Desktop/work/fillit_work/includes/solver.h
  /Users/sapril/Desktop/work/fillit_work/includes/tetramino.h
+ /Users/sapril/Desktop/work/fillit_work/includes/validation.h
  /Users/sapril/Desktop/work/fillit_work/src/read.c
+ /Users/sapril/Desktop/work/libft/libft.h
 CMakeFiles/fillit_work.dir/src/solver.c.o
  /Users/sapril/Desktop/work/fillit_work/includes/map.h
+ /Users/sapril/Desktop/work/fillit_work/includes/read.h
  /Users/sapril/Desktop/work/fillit_work/includes/solver.h
  /Users/sapril/Desktop/work/fillit_work/includes/tetramino.h
  /Users/sapril/Desktop/work/fillit_work/src/solver.c

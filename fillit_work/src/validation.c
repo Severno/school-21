@@ -6,13 +6,13 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/01 15:46:21 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/04 09:03:30 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/04 09:03:36 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/validation.h"
 
-int check_map(char *buf, int ret)
+int	check_map(char *buf, int ret)
 {
 	int i;
 
@@ -31,14 +31,13 @@ int check_map(char *buf, int ret)
 	return 0;
 }
 
-int check_figure(char *buf)
+int	check_figure(char *buf)
 {
 	int i;
 	int connections;
 
 	i = 0;
 	connections = 0;
-
 	while (buf[i])
 	{
 		if (buf[i] == '#')
@@ -58,4 +57,11 @@ int check_figure(char *buf)
 		return (1);
 	else
 		return (0);
+}
+
+int	valid(char *buf, int ret)
+{
+	if (check_figure(buf) && check_map(buf, ret))
+		return (1);
+	return (0);
 }

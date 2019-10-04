@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/01 16:40:49 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/04 11:31:41 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/04 13:03:09 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ char **create_map(int map_size)
 
 	i = 0;
 	map = (char **)ft_memalloc(sizeof(char *) * map_size + 1);
-	while (i < map_size + 1)
+	while (i <= map_size)
 	{
 		map[i] = ft_strnew(map_size);
 		ft_memset(map[i], '.', map_size);
@@ -31,16 +31,14 @@ char **create_map(int map_size)
 }
 
 
-void push_figure_start(t_tetra_el *tetra)
+int get_map_size(int count_figures)
 {
-	int i;
+	int map_size;
 
-	i = 0;
-	while (tetra->figure->x[i] != 0)
-		tetra->figure->x[i++]--;
-	i = 0;
-	while (tetra->figure->y[i] != 0)
-		tetra->figure->y[i++]--;
+	map_size = 2;
+	while ((map_size * map_size) < count_figures * 4)
+		map_size++;
+	return (map_size);
 }
 
 void print_map(char **map, int size)
@@ -48,7 +46,7 @@ void print_map(char **map, int size)
 	int i;
 
 	i = 0;
-	while (i < size + 1)
+	while (i < size)
 	{
 		ft_putstr(map[i++]);
 		ft_putchar('\n');

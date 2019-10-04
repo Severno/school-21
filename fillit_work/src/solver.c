@@ -6,12 +6,13 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/04 08:28:36 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/04 11:25:39 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/04 13:05:09 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/solver.h"
 #include "../includes/map.h"
+#include "../includes/read.h"
 
 int solve_map(t_tetra_el *begin_tetra, char **map, int map_size)
 {
@@ -43,13 +44,14 @@ int solve_map(t_tetra_el *begin_tetra, char **map, int map_size)
 	return (0);
 }
 
-void solve(t_tetra_el *begin_tetra)
+int solve(t_tetra_el *begin_tetra)
 {
 	char **map;
 	int map_size;
 	int count_figure;
 
-	count_figure = count_figures(begin_tetra);
+	if ((count_figure = count_figures(begin_tetra)) > 26)
+		return (0);
 	map_size = get_map_size(count_figure);
 	map = create_map(map_size);
 	while (!solve_map(begin_tetra, map, map_size))
@@ -60,6 +62,7 @@ void solve(t_tetra_el *begin_tetra)
 	}
 	print_map(map, map_size);
 	free_map(map, map_size);
+	return (1);
 }
 
 void place_figure(char **map, t_tetra_el *tetra, char sign)
@@ -122,27 +125,4 @@ int check_bound(t_tetra_el *tetra, int map_size, char axis)
 	return (1);
 }
 
-int count_figures(t_tetra_el *begin_tetra)
-{
-	int counter;
-	t_tetra_el *tmp;
 
-	counter = 0;
-	tmp = begin_tetra;
-	while (tmp)
-	{
-		counter++;
-		tmp = tmp->next;
-	}
-	return (counter);
-}
-
-int get_map_size(int count_figures)
-{
-	int map_size;
-
-	map_size = 2;
-	while ((map_size * map_size) < count_figures * 4)
-		map_size++;
-	return (map_size);
-}

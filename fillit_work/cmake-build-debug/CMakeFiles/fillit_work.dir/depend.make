@@ -206,14 +206,7 @@ CMakeFiles/fillit_work.dir/src/fillit.c.o: ../includes/validation.h
 CMakeFiles/fillit_work.dir/src/fillit.c.o: ../src/fillit.c
 CMakeFiles/fillit_work.dir/src/fillit.c.o: /Users/sapril/Desktop/work/libft/libft.h
 
-CMakeFiles/fillit_work.dir/src/main.c.o: ../includes/fillit.h
-CMakeFiles/fillit_work.dir/src/main.c.o: ../includes/map.h
-CMakeFiles/fillit_work.dir/src/main.c.o: ../includes/read.h
-CMakeFiles/fillit_work.dir/src/main.c.o: ../includes/solver.h
-CMakeFiles/fillit_work.dir/src/main.c.o: ../includes/tetramino.h
-CMakeFiles/fillit_work.dir/src/main.c.o: ../includes/validation.h
 CMakeFiles/fillit_work.dir/src/main.c.o: ../src/main.c
-CMakeFiles/fillit_work.dir/src/main.c.o: /Users/sapril/Desktop/work/libft/libft.h
 
 CMakeFiles/fillit_work.dir/src/map.c.o: ../includes/map.h
 CMakeFiles/fillit_work.dir/src/map.c.o: ../includes/solver.h
@@ -221,11 +214,17 @@ CMakeFiles/fillit_work.dir/src/map.c.o: ../includes/tetramino.h
 CMakeFiles/fillit_work.dir/src/map.c.o: ../src/map.c
 CMakeFiles/fillit_work.dir/src/map.c.o: /Users/sapril/Desktop/work/libft/libft.h
 
+CMakeFiles/fillit_work.dir/src/read.c.o: ../includes/fillit.h
+CMakeFiles/fillit_work.dir/src/read.c.o: ../includes/map.h
 CMakeFiles/fillit_work.dir/src/read.c.o: ../includes/read.h
+CMakeFiles/fillit_work.dir/src/read.c.o: ../includes/solver.h
 CMakeFiles/fillit_work.dir/src/read.c.o: ../includes/tetramino.h
+CMakeFiles/fillit_work.dir/src/read.c.o: ../includes/validation.h
 CMakeFiles/fillit_work.dir/src/read.c.o: ../src/read.c
+CMakeFiles/fillit_work.dir/src/read.c.o: /Users/sapril/Desktop/work/libft/libft.h
 
 CMakeFiles/fillit_work.dir/src/solver.c.o: ../includes/map.h
+CMakeFiles/fillit_work.dir/src/solver.c.o: ../includes/read.h
 CMakeFiles/fillit_work.dir/src/solver.c.o: ../includes/solver.h
 CMakeFiles/fillit_work.dir/src/solver.c.o: ../includes/tetramino.h
 CMakeFiles/fillit_work.dir/src/solver.c.o: ../src/solver.c
