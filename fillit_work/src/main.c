@@ -1,4 +1,4 @@
-#include "fillit.h"
+#include "../includes/fillit.h"
 
 void print_tetra_elements(t_tetra_el *tetra_el)
 {
@@ -24,25 +24,6 @@ void print_tetra_elements(t_tetra_el *tetra_el)
 		printf("\n");
 		printf("\n");
 		printf("\n");
-	}
-}
-
-void print_map_main(char **map, int size)
-{
-	int i;
-	int j;
-
-	i =0;
-	j =0;
-	while (i < size+1)
-	{
-		while (j < size+1)
-		{
-			write(1, &map[i][j],1);
-			j++;
-		}
-		j =0;
-		i++;
 	}
 }
 
@@ -134,11 +115,10 @@ int main()
 	ret = 0;
 	i = 0;
 	j = 0;
-	size = 5;
 	t_tetra_el *begin_tetra;
 
 	begin_tetra = ((t_tetra_el *)malloc(sizeof(t_tetra_el ) * 1000));
-	fd = open("../test.txt", O_RDONLY);
+	fd = open("../test_tetros/test.txt", O_RDONLY);
 	while ((ret = read(fd, buf, BUFF_SIZE)) > 0)
 	{
 		buf[ret] = '\0';
@@ -152,12 +132,14 @@ int main()
 		i++;
 	}
 	close(fd);
-	fd = open("../test.txt", O_RDONLY);
+	fd = open("../test_tetros/test.txt", O_RDONLY);
 	read_input(fd, buf, begin_tetra);
-	map = create_map(size);
-	print_map_main(map, size);
+	size = count_figures(begin_tetra);
+	map = create_map(get_map_size(size));
+	print_map(map, size);
 	place_figure(map, begin_tetra->next, size);
-	print_map_main(map, size);
+//	print_map(map, size);
+
 
 //	print_tetra_elements(begin_tetra->next);
 	return 0;

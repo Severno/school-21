@@ -6,18 +6,16 @@
 
 #IncludeRegexTransform: 
 
-/Users/sapril/Desktop/work/fillit_work/map.c
-map.h
-/Users/sapril/Desktop/work/fillit_work/map.h
+/Users/sapril/Desktop/work/libft/ft_strnew.c
+libft.h
+/Users/sapril/Desktop/work/libft/libft.h
 
-/Users/sapril/Desktop/work/fillit_work/map.h
-tetramino.h
-/Users/sapril/Desktop/work/fillit_work/tetramino.h
-unistd.h
+/Users/sapril/Desktop/work/libft/libft.h
+string.h
 -
-
-/Users/sapril/Desktop/work/fillit_work/tetramino.h
 stdlib.h
+-
+unistd.h
 -
 stdio.h
 -

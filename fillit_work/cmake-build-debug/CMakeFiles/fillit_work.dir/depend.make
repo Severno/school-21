@@ -197,33 +197,42 @@ CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_tolower.c.o: /User
 CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_toupper.c.o: /Users/sapril/Desktop/work/libft/ft_toupper.c
 CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_toupper.c.o: /Users/sapril/Desktop/work/libft/libft.h
 
-CMakeFiles/fillit_work.dir/fillit.c.o: ../fillit.c
-CMakeFiles/fillit_work.dir/fillit.c.o: ../fillit.h
-CMakeFiles/fillit_work.dir/fillit.c.o: ../map.h
-CMakeFiles/fillit_work.dir/fillit.c.o: ../read.h
-CMakeFiles/fillit_work.dir/fillit.c.o: ../tetramino.h
-CMakeFiles/fillit_work.dir/fillit.c.o: ../validation.h
-CMakeFiles/fillit_work.dir/fillit.c.o: /Users/sapril/Desktop/work/libft/libft.h
+CMakeFiles/fillit_work.dir/src/fillit.c.o: ../includes/fillit.h
+CMakeFiles/fillit_work.dir/src/fillit.c.o: ../includes/map.h
+CMakeFiles/fillit_work.dir/src/fillit.c.o: ../includes/read.h
+CMakeFiles/fillit_work.dir/src/fillit.c.o: ../includes/solver.h
+CMakeFiles/fillit_work.dir/src/fillit.c.o: ../includes/tetramino.h
+CMakeFiles/fillit_work.dir/src/fillit.c.o: ../includes/validation.h
+CMakeFiles/fillit_work.dir/src/fillit.c.o: ../src/fillit.c
+CMakeFiles/fillit_work.dir/src/fillit.c.o: /Users/sapril/Desktop/work/libft/libft.h
 
-CMakeFiles/fillit_work.dir/main.c.o: ../fillit.h
-CMakeFiles/fillit_work.dir/main.c.o: ../main.c
-CMakeFiles/fillit_work.dir/main.c.o: ../map.h
-CMakeFiles/fillit_work.dir/main.c.o: ../read.h
-CMakeFiles/fillit_work.dir/main.c.o: ../tetramino.h
-CMakeFiles/fillit_work.dir/main.c.o: ../validation.h
-CMakeFiles/fillit_work.dir/main.c.o: /Users/sapril/Desktop/work/libft/libft.h
+CMakeFiles/fillit_work.dir/src/main.c.o: ../includes/fillit.h
+CMakeFiles/fillit_work.dir/src/main.c.o: ../includes/map.h
+CMakeFiles/fillit_work.dir/src/main.c.o: ../includes/read.h
+CMakeFiles/fillit_work.dir/src/main.c.o: ../includes/solver.h
+CMakeFiles/fillit_work.dir/src/main.c.o: ../includes/tetramino.h
+CMakeFiles/fillit_work.dir/src/main.c.o: ../includes/validation.h
+CMakeFiles/fillit_work.dir/src/main.c.o: ../src/main.c
+CMakeFiles/fillit_work.dir/src/main.c.o: /Users/sapril/Desktop/work/libft/libft.h
 
-CMakeFiles/fillit_work.dir/map.c.o: ../map.c
-CMakeFiles/fillit_work.dir/map.c.o: ../map.h
-CMakeFiles/fillit_work.dir/map.c.o: ../tetramino.h
+CMakeFiles/fillit_work.dir/src/map.c.o: ../includes/map.h
+CMakeFiles/fillit_work.dir/src/map.c.o: ../includes/solver.h
+CMakeFiles/fillit_work.dir/src/map.c.o: ../includes/tetramino.h
+CMakeFiles/fillit_work.dir/src/map.c.o: ../src/map.c
+CMakeFiles/fillit_work.dir/src/map.c.o: /Users/sapril/Desktop/work/libft/libft.h
 
-CMakeFiles/fillit_work.dir/read.c.o: ../read.c
-CMakeFiles/fillit_work.dir/read.c.o: ../read.h
-CMakeFiles/fillit_work.dir/read.c.o: ../tetramino.h
+CMakeFiles/fillit_work.dir/src/read.c.o: ../includes/read.h
+CMakeFiles/fillit_work.dir/src/read.c.o: ../includes/tetramino.h
+CMakeFiles/fillit_work.dir/src/read.c.o: ../src/read.c
 
-CMakeFiles/fillit_work.dir/tetramino.c.o: ../tetramino.c
-CMakeFiles/fillit_work.dir/tetramino.c.o: ../tetramino.h
+CMakeFiles/fillit_work.dir/src/solver.c.o: ../includes/solver.h
+CMakeFiles/fillit_work.dir/src/solver.c.o: ../includes/tetramino.h
+CMakeFiles/fillit_work.dir/src/solver.c.o: ../src/solver.c
 
-CMakeFiles/fillit_work.dir/validation.c.o: ../validation.c
-CMakeFiles/fillit_work.dir/validation.c.o: ../validation.h
+CMakeFiles/fillit_work.dir/src/tetramino.c.o: ../includes/tetramino.h
+CMakeFiles/fillit_work.dir/src/tetramino.c.o: ../src/tetramino.c
+CMakeFiles/fillit_work.dir/src/tetramino.c.o: /Users/sapril/Desktop/work/libft/libft.h
+
+CMakeFiles/fillit_work.dir/src/validation.c.o: ../includes/validation.h
+CMakeFiles/fillit_work.dir/src/validation.c.o: ../src/validation.c
 

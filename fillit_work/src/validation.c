@@ -6,11 +6,11 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/01 15:46:21 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/01 19:26:30 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/04 09:03:30 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "validation.h"
+#include "../includes/validation.h"
 
 int check_map(char *buf, int ret)
 {

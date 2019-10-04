@@ -80,37 +80,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/sapril/Desktop/work/fillit_work/fillit.c">
+		<Unit filename="/Users/sapril/Desktop/work/fillit_work/src/fillit.c">
 			<Option target="fillit_work"/>
 		</Unit>
-		<Unit filename="/Users/sapril/Desktop/work/fillit_work/fillit.h">
+		<Unit filename="/Users/sapril/Desktop/work/fillit_work/src/main.c">
 			<Option target="fillit_work"/>
 		</Unit>
-		<Unit filename="/Users/sapril/Desktop/work/fillit_work/main.c">
+		<Unit filename="/Users/sapril/Desktop/work/fillit_work/src/map.c">
 			<Option target="fillit_work"/>
 		</Unit>
-		<Unit filename="/Users/sapril/Desktop/work/fillit_work/map.c">
+		<Unit filename="/Users/sapril/Desktop/work/fillit_work/src/read.c">
 			<Option target="fillit_work"/>
 		</Unit>
-		<Unit filename="/Users/sapril/Desktop/work/fillit_work/map.h">
+		<Unit filename="/Users/sapril/Desktop/work/fillit_work/src/solver.c">
 			<Option target="fillit_work"/>
 		</Unit>
-		<Unit filename="/Users/sapril/Desktop/work/fillit_work/read.c">
+		<Unit filename="/Users/sapril/Desktop/work/fillit_work/src/tetramino.c">
 			<Option target="fillit_work"/>
 		</Unit>
-		<Unit filename="/Users/sapril/Desktop/work/fillit_work/read.h">
-			<Option target="fillit_work"/>
-		</Unit>
-		<Unit filename="/Users/sapril/Desktop/work/fillit_work/tetramino.c">
-			<Option target="fillit_work"/>
-		</Unit>
-		<Unit filename="/Users/sapril/Desktop/work/fillit_work/tetramino.h">
-			<Option target="fillit_work"/>
-		</Unit>
-		<Unit filename="/Users/sapril/Desktop/work/fillit_work/validation.c">
-			<Option target="fillit_work"/>
-		</Unit>
-		<Unit filename="/Users/sapril/Desktop/work/fillit_work/validation.h">
+		<Unit filename="/Users/sapril/Desktop/work/fillit_work/src/validation.c">
 			<Option target="fillit_work"/>
 		</Unit>
 		<Unit filename="/Users/sapril/Desktop/work/libft/ft_atoi.c">

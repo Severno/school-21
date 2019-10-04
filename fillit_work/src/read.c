@@ -6,14 +6,14 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/29 15:37:23 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/01 20:23:24 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/04 08:00:19 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 
 // Valid or not
 // read_coordinates
-#include "read.h"
+#include "../includes/read.h"
 
 
 void				read_input(int fd, char *buf, t_tetra_el *begin_tetra) // 1
@@ -60,38 +60,4 @@ t_tetra_info		*read_one_block(char *buf, int y_buff[], int x_buff[], char sign) 
 	}
 	new_tetra_info = create_tetra_info(x_buff, y_buff, sign);
 	return (new_tetra_info);
-}
-
-
-
-//int check_connections(char *buf, int ret)
-//{
-//	int i;
-//
-//	i = 0;
-//	while(buf[i])
-//	{
-//		if (buf[i] == '#')
-//		{
-//			if (buf[i + 5] == '#'
-//			&& buf[i + 10] == '#'
-//			&& buf[i + 15] == '#')
-//				return (1);
-//			else if (buf[i + 1] == '#'
-//			&& buf[i + 2] == '#'
-//			&& buf[i + 3] == '#')
-//				return (1);
-//			else if ()
-//		}
-//
-//		i++;
-//	}
-//}
-
-int		check_input(char *buf)
-{
-	int i;
-
-	i = 0;
-	return (1);
 }
