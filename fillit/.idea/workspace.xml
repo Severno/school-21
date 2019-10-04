@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4a953993-2954-4dbe-9318-ca783bfd845e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../42_libft_test_system" beforeDir="false" afterPath="$PROJECT_DIR$/../42_libft_test_system" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Checkers/42_file_check" beforeDir="false" afterPath="$PROJECT_DIR$/../Checkers/42_file_check" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fillit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fillit.c" beforeDir="false" afterPath="$PROJECT_DIR$/fillit.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fillit.h" beforeDir="false" afterPath="$PROJECT_DIR$/fillit.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/libft.a" beforeDir="false" afterPath="$PROJECT_DIR$/libft/libft.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/libft.h.gch" beforeDir="false" afterPath="$PROJECT_DIR$/libft/libft.h.gch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.c" beforeDir="false" afterPath="$PROJECT_DIR$/map.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.h" beforeDir="false" afterPath="$PROJECT_DIR$/map.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/read.c" beforeDir="false" afterPath="$PROJECT_DIR$/read.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/read.h" beforeDir="false" afterPath="$PROJECT_DIR$/read.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/read.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solver.c" beforeDir="false" afterPath="$PROJECT_DIR$/solver.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solver.h" beforeDir="false" afterPath="$PROJECT_DIR$/solver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solver.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tetramino.c" beforeDir="false" afterPath="$PROJECT_DIR$/tetramino.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tetramino.h" beforeDir="false" afterPath="$PROJECT_DIR$/tetramino.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation.c" beforeDir="false" afterPath="$PROJECT_DIR$/validation.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation.h" beforeDir="false" afterPath="$PROJECT_DIR$/validation.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/map.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/map.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/read.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/read.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/solver.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/solver.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/tetramino.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/tetramino.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/fillit_work" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/fillit_work" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/map.c" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/map.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/map.h" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/map.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/read.c" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/read.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/read.h" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/read.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/solver.c" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/solver.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/solver.h" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/solver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/test_tetros/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/test_tetros/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/tetramino.c" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/tetramino.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libft/42_libft_test_system" beforeDir="false" afterPath="$PROJECT_DIR$/../libft/42_libft_test_system" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RGpMvbTJg145Lqh318cslFpM0N" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a953993-2954-4dbe-9318-ca783bfd845e" name="Default Changelist" comment="" />
+      <created>1569303242713</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569303242713</updated>
+      <workItem from="1569303243933" duration="1196000" />
+      <workItem from="1569484466199" duration="8675000" />
+      <workItem from="1569580646230" duration="325000" />
+      <workItem from="1570180500244" duration="2308000" />
+      <workItem from="1570188528096" duration="7657000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

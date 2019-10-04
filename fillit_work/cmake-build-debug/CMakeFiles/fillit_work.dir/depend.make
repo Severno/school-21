@@ -24,8 +24,12 @@ CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isdigit.c.
 
 CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isprint.c.o: /Users/artembykov/Desktop/42school/libft/ft_isprint.c
 
+<<<<<<< HEAD
 CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isspace.c.o: /Users/artembykov/Desktop/42school/libft/ft_isspace.c
 CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isspace.c.o: /Users/artembykov/Desktop/42school/libft/libft.h
+=======
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isspace.c.o: /Users/sapril/Desktop/work/libft/ft_isspace.c
+>>>>>>> 7731c8045b105bbacf53e1c932032e1f7ffd4375
 
 CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_itoa.c.o: /Users/artembykov/Desktop/42school/libft/ft_itoa.c
 CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_itoa.c.o: /Users/artembykov/Desktop/42school/libft/libft.h
@@ -201,10 +205,12 @@ CMakeFiles/fillit_work.dir/fillit.c.o: ../fillit.c
 CMakeFiles/fillit_work.dir/fillit.c.o: ../fillit.h
 CMakeFiles/fillit_work.dir/fillit.c.o: ../map.h
 CMakeFiles/fillit_work.dir/fillit.c.o: ../read.h
+CMakeFiles/fillit_work.dir/fillit.c.o: ../solver.h
 CMakeFiles/fillit_work.dir/fillit.c.o: ../tetramino.h
 CMakeFiles/fillit_work.dir/fillit.c.o: ../validation.h
 CMakeFiles/fillit_work.dir/fillit.c.o: /Users/artembykov/Desktop/42school/libft/libft.h
 
+<<<<<<< HEAD
 CMakeFiles/fillit_work.dir/main.c.o: ../fillit.h
 CMakeFiles/fillit_work.dir/main.c.o: ../main.c
 CMakeFiles/fillit_work.dir/main.c.o: ../map.h
@@ -213,18 +219,54 @@ CMakeFiles/fillit_work.dir/main.c.o: ../tetramino.h
 CMakeFiles/fillit_work.dir/main.c.o: ../validation.h
 CMakeFiles/fillit_work.dir/main.c.o: /Users/artembykov/Desktop/42school/libft/libft.h
 
+=======
+CMakeFiles/fillit_work.dir/map.c.o: ../fillit.h
+>>>>>>> 7731c8045b105bbacf53e1c932032e1f7ffd4375
 CMakeFiles/fillit_work.dir/map.c.o: ../map.c
 CMakeFiles/fillit_work.dir/map.c.o: ../map.h
+CMakeFiles/fillit_work.dir/map.c.o: ../read.h
+CMakeFiles/fillit_work.dir/map.c.o: ../solver.h
 CMakeFiles/fillit_work.dir/map.c.o: ../tetramino.h
+<<<<<<< HEAD
 CMakeFiles/fillit_work.dir/map.c.o: /Users/artembykov/Desktop/42school/libft/libft.h
+=======
+CMakeFiles/fillit_work.dir/map.c.o: ../validation.h
+CMakeFiles/fillit_work.dir/map.c.o: /Users/sapril/Desktop/work/libft/libft.h
+>>>>>>> 7731c8045b105bbacf53e1c932032e1f7ffd4375
 
+CMakeFiles/fillit_work.dir/read.c.o: ../fillit.h
+CMakeFiles/fillit_work.dir/read.c.o: ../map.h
 CMakeFiles/fillit_work.dir/read.c.o: ../read.c
 CMakeFiles/fillit_work.dir/read.c.o: ../read.h
+CMakeFiles/fillit_work.dir/read.c.o: ../solver.h
 CMakeFiles/fillit_work.dir/read.c.o: ../tetramino.h
+CMakeFiles/fillit_work.dir/read.c.o: ../validation.h
+CMakeFiles/fillit_work.dir/read.c.o: /Users/sapril/Desktop/work/libft/libft.h
 
+CMakeFiles/fillit_work.dir/solver.c.o: ../fillit.h
+CMakeFiles/fillit_work.dir/solver.c.o: ../map.h
+CMakeFiles/fillit_work.dir/solver.c.o: ../read.h
+CMakeFiles/fillit_work.dir/solver.c.o: ../solver.c
+CMakeFiles/fillit_work.dir/solver.c.o: ../solver.h
+CMakeFiles/fillit_work.dir/solver.c.o: ../tetramino.h
+CMakeFiles/fillit_work.dir/solver.c.o: ../validation.h
+CMakeFiles/fillit_work.dir/solver.c.o: /Users/sapril/Desktop/work/libft/libft.h
+
+CMakeFiles/fillit_work.dir/tetramino.c.o: ../fillit.h
+CMakeFiles/fillit_work.dir/tetramino.c.o: ../map.h
+CMakeFiles/fillit_work.dir/tetramino.c.o: ../read.h
+CMakeFiles/fillit_work.dir/tetramino.c.o: ../solver.h
 CMakeFiles/fillit_work.dir/tetramino.c.o: ../tetramino.c
 CMakeFiles/fillit_work.dir/tetramino.c.o: ../tetramino.h
+CMakeFiles/fillit_work.dir/tetramino.c.o: ../validation.h
+CMakeFiles/fillit_work.dir/tetramino.c.o: /Users/sapril/Desktop/work/libft/libft.h
 
+CMakeFiles/fillit_work.dir/validation.c.o: ../fillit.h
+CMakeFiles/fillit_work.dir/validation.c.o: ../map.h
+CMakeFiles/fillit_work.dir/validation.c.o: ../read.h
+CMakeFiles/fillit_work.dir/validation.c.o: ../solver.h
+CMakeFiles/fillit_work.dir/validation.c.o: ../tetramino.h
 CMakeFiles/fillit_work.dir/validation.c.o: ../validation.c
 CMakeFiles/fillit_work.dir/validation.c.o: ../validation.h
+CMakeFiles/fillit_work.dir/validation.c.o: /Users/sapril/Desktop/work/libft/libft.h
 

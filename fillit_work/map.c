@@ -6,107 +6,86 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/01 16:40:49 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/01 21:15:55 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/04 18:46:45 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "map.h"
-#include "../libft/libft.h"
+#include "fillit.h"
 
-char **fill_map(char **map, int size)
+char		**create_map(int map_size)
 {
-	int i;
-	int j;
+	int		i;
+	char	**map;
 
 	i = 0;
-	j = 0;
+	map = (char **)ft_memalloc(sizeof(char *) * map_size);
+	while (i < map_size)
+	{
+		map[i] = ft_strnew(map_size);
+		ft_memset(map[i++], '.', map_size);
+	}
+	return (map);
+}
+
+int			get_map_size(int count_figures, t_max *max_w_h)
+{
+	int		map_size;
+
+	map_size = 2;
+	while ((map_size * map_size) < count_figures * 4)
+		map_size++;
+	if (map_size < max_w_h->max_height || map_size < max_w_h->max_width)
+	{
+		if (max_w_h->max_width > max_w_h->max_height)
+			return (max_w_h->max_width+1);
+		else
+			return (max_w_h->max_height+1);
+	}
+	return (map_size);
+}
+
+void		print_map(char **map, int size)
+{
+	int		i;
+
+	i = 0;
 	while (i < size)
 	{
-		while (j < size)
-				map[i][j++] = '.';
-		map[i][j] = '\n';
-		j = 0;
-		i++;
+		ft_putstr(map[i++]);
+		ft_putchar('\n');
 	}
-	return (map);
 }
 
-char **create_map(int size)
+void		free_map(char **map, int map_size)
 {
 	int i;
-	char **map;
-
-	i = -1;
-	map = (char **)malloc(sizeof(char *) * size);
-	while (++i < size)
-		map[i] = (char *)malloc(sizeof(char) * size+1);
-	map = fill_map(map, size);
-	return (map);
-}
-
-void place_figure(char **map, t_tetra_el *begin_tetra, int size)
-{
-	int i;
-	int j;
-	int finish;
-	int x_counter;
-	int el_counter;
-	int move_to;
-	t_tetra_el *tmp;
-	t_tetra_el *first_position;
 
 	i = 0;
-	finish = 0;
-	j = 0;
-	x_counter = 0;
-	el_counter = 0;
+	while (i < map_size)
+		ft_strdel(&map[i++]);
+	free(map);
+}
+
+int					count_figures(t_tetra_el *begin_tetra, t_max *max_h_w)
+{
+	int			counter;
+	t_tetra_el	*tmp;
+
+	counter = 0;
 	tmp = begin_tetra;
-	first_position = begin_tetra;
-	while (tmp != NULL && finish < 4)
+	max_h_w->max_width = tmp->figure->x[3];
+	max_h_w->max_height = tmp->figure->y[3];
+	while (tmp)
 	{
-		while (i < size)
+		if (tmp->next)
 		{
-			while(j < size)
-			{
-				if (tmp->figure->x[x_counter] == j && map[i][j] == '.')
-				{
-					map[i][j] = tmp->figure->sign;
-					x_counter++;
-				}
-				else if (map[i][j] >= 'A' && map[i][j] <= 'Z')
-				{
-					if ((tmp->figure->x[3] + j) > size+1)
-					{
-						while (el_counter < 4)
-						{
-							tmp->figure->x[el_counter] = first_position->figure->x[el_counter];
-							tmp->figure->y[el_counter]++;
-							el_counter++;
-						}
-					}
-					else
-					{
-						while (el_counter < 4)
-						{
-							tmp->figure->x[el_counter]++;
-							el_counter++;
-						}
-					}
-				}
-				el_counter = 0;
-				j++;
-			}
-			if (x_counter == CHARS_NUMBER)
-				break;
-			j = 0;
-			i++;
+			if (max_h_w->max_width + 1 < tmp->next->figure->x[3] + 1)
+				max_h_w->max_width = tmp->next->figure->x[3] + 1;
+			if (max_h_w->max_height + 1 < tmp->next->figure->y[3] + 1)
+				max_h_w->max_height = tmp->next->figure->y[3] + 1;
 		}
-		finish++;
-		x_counter = 0;
-		el_counter = 0;
-		i = 0;
-		j = 0;
+		counter++;
 		tmp = tmp->next;
-		first_position = first_position->next;
 	}
+	return (counter);
 }

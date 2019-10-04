@@ -1959,33 +1959,6 @@ fillit.c.s:
 	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/fillit.c.s
 .PHONY : fillit.c.s
 
-main.o: main.c.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/main.c.o
-.PHONY : main.c.o
-
-main.i: main.c.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/main.c.s
-.PHONY : main.c.s
-
 map.o: map.c.o
 
 .PHONY : map.o
@@ -2039,6 +2012,33 @@ read.s: read.c.s
 read.c.s:
 	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/read.c.s
 .PHONY : read.c.s
+
+solver.o: solver.c.o
+
+.PHONY : solver.o
+
+# target to build an object file
+solver.c.o:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/solver.c.o
+.PHONY : solver.c.o
+
+solver.i: solver.c.i
+
+.PHONY : solver.i
+
+# target to preprocess a source file
+solver.c.i:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/solver.c.i
+.PHONY : solver.c.i
+
+solver.s: solver.c.s
+
+.PHONY : solver.s
+
+# target to generate assembly for a file
+solver.c.s:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/solver.c.s
+.PHONY : solver.c.s
 
 tetramino.o: tetramino.c.o
 
@@ -2307,15 +2307,15 @@ help:
 	@echo "... fillit.o"
 	@echo "... fillit.i"
 	@echo "... fillit.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 	@echo "... map.o"
 	@echo "... map.i"
 	@echo "... map.s"
 	@echo "... read.o"
 	@echo "... read.i"
 	@echo "... read.s"
+	@echo "... solver.o"
+	@echo "... solver.i"
+	@echo "... solver.s"
 	@echo "... tetramino.o"
 	@echo "... tetramino.i"
 	@echo "... tetramino.s"
