@@ -26,17 +26,21 @@ map.h
 solver.h
 /Users/sapril/Desktop/work/fillit_work/solver.h
 
+/Users/sapril/Desktop/work/fillit_work/map.c
+fillit.h
+/Users/sapril/Desktop/work/fillit_work/fillit.h
+
 /Users/sapril/Desktop/work/fillit_work/map.h
 tetramino.h
 /Users/sapril/Desktop/work/fillit_work/tetramino.h
 unistd.h
 -
 
-/Users/sapril/Desktop/work/fillit_work/read.c
+/Users/sapril/Desktop/work/fillit_work/read.h
+
+/Users/sapril/Desktop/work/fillit_work/solver.c
 fillit.h
 /Users/sapril/Desktop/work/fillit_work/fillit.h
-
-/Users/sapril/Desktop/work/fillit_work/read.h
 
 /Users/sapril/Desktop/work/fillit_work/solver.h
 tetramino.h

@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/01 16:40:49 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/04 15:33:13 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/04 17:39:12 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ char		**create_map(int map_size)
 	return (map);
 }
 
-int			get_map_size(int count_figures)
+int		get_map_size(int count_figures, t_max *max_w_h)
 {
 	int		map_size;
 

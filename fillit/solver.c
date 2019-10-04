@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/04 08:28:36 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/04 16:16:51 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/04 17:39:10 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ int			solve_map(t_tetra_el *begin_tetra, char **map, int map_size)
 	{
 		while (check_bound(tmp, map_size, 'x'))
 		{
-			if (!is_overlay(map, tmp))
+			if (!is_overlay(map, tmp, map_size))
 			{
 				place_figure(map, tmp, tmp->figure->sign);
 				if (solve_map(tmp->next, map, map_size))
@@ -46,10 +46,12 @@ int			solve(t_tetra_el *begin_tetra)
 	char	**map;
 	int		map_size;
 	int		count_figure;
+	t_max	*max_h_w;
 
-	if ((count_figure = count_figures(begin_tetra)) > 26)
+	max_h_w = (t_max*)ft_memalloc(sizeof(t_max));
+	if ((count_figure = count_figures(begin_tetra, max_h_w)) > 26)
 		return (0);
-	map_size = get_map_size(count_figure);
+	map_size = get_map_size(count_figure, max_h_w);
 	map = create_map(map_size);
 	while (!solve_map(begin_tetra, map, map_size))
 	{
@@ -78,7 +80,7 @@ void		place_figure(char **map, t_tetra_el *tetra, char sign)
 	}
 }
 
-int			is_overlay(char **map, t_tetra_el *tetra)
+int			is_overlay(char **map, t_tetra_el *tetra, int map_size)
 {
 	int i;
 	int x;
@@ -92,6 +94,8 @@ int			is_overlay(char **map, t_tetra_el *tetra)
 		i++;
 		x = tetra->figure->x[i] + tetra->x_indent;
 		y = tetra->figure->y[i] + tetra->y_indent;
+		if (x >= map_size || y >= map_size)
+			return (1);
 	}
 	return (i != 4);
 }
