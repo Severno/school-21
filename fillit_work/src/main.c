@@ -136,8 +136,9 @@ int main()
 	read_input(fd, buf, begin_tetra);
 	size = count_figures(begin_tetra);
 	map = create_map(get_map_size(size));
-	print_map(map, size);
-	place_figure(map, begin_tetra->next, size);
+	solve(begin_tetra->next);
+//	print_map(map, size);
+//	place_figure(map, begin_tetra->next, size);
 //	print_map(map, size);
 
 

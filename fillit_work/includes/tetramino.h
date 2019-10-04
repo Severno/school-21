@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/29 13:35:28 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/04 09:04:08 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/04 10:15:47 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,8 +29,8 @@ typedef struct			s_tetra_info
 
 typedef struct			s_tetra_el
 {
-	int					x_offset;
-	int					y_offset;
+	int					x_indent;
+	int					y_indent;
 	struct s_tetra_info	*figure;
 	struct s_tetra_el	*next;
 }						t_tetra_el;

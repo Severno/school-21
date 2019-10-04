@@ -6,9 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/Users/sapril/Desktop/work/libft/ft_strnew.c
-libft.h
+/Users/sapril/Desktop/work/fillit_work/includes/map.h
+tetramino.h
+/Users/sapril/Desktop/work/fillit_work/includes/tetramino.h
+unistd.h
+-
+
+/Users/sapril/Desktop/work/fillit_work/includes/solver.h
+tetramino.h
+/Users/sapril/Desktop/work/fillit_work/includes/tetramino.h
+
+/Users/sapril/Desktop/work/fillit_work/includes/tetramino.h
+stdlib.h
+-
+stdio.h
+-
+
+/Users/sapril/Desktop/work/fillit_work/src/map.c
+../includes/map.h
+/Users/sapril/Desktop/work/fillit_work/includes/map.h
+../../libft/libft.h
 /Users/sapril/Desktop/work/libft/libft.h
+../includes/solver.h
+/Users/sapril/Desktop/work/fillit_work/includes/solver.h
 
 /Users/sapril/Desktop/work/libft/libft.h
 string.h
