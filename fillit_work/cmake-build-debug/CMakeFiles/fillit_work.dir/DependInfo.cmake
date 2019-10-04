@@ -71,13 +71,12 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/sapril/Desktop/work/libft/ft_strtrim.c" "/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strtrim.c.o"
   "/Users/sapril/Desktop/work/libft/ft_tolower.c" "/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_tolower.c.o"
   "/Users/sapril/Desktop/work/libft/ft_toupper.c" "/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_toupper.c.o"
-  "/Users/sapril/Desktop/work/fillit_work/src/fillit.c" "/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/src/fillit.c.o"
-  "/Users/sapril/Desktop/work/fillit_work/src/main.c" "/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/src/main.c.o"
-  "/Users/sapril/Desktop/work/fillit_work/src/map.c" "/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/src/map.c.o"
-  "/Users/sapril/Desktop/work/fillit_work/src/read.c" "/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/src/read.c.o"
-  "/Users/sapril/Desktop/work/fillit_work/src/solver.c" "/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/src/solver.c.o"
-  "/Users/sapril/Desktop/work/fillit_work/src/tetramino.c" "/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/src/tetramino.c.o"
-  "/Users/sapril/Desktop/work/fillit_work/src/validation.c" "/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/src/validation.c.o"
+  "/Users/sapril/Desktop/work/fillit_work/fillit.c" "/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/fillit.c.o"
+  "/Users/sapril/Desktop/work/fillit_work/map.c" "/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/map.c.o"
+  "/Users/sapril/Desktop/work/fillit_work/read.c" "/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/read.c.o"
+  "/Users/sapril/Desktop/work/fillit_work/solver.c" "/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/solver.c.o"
+  "/Users/sapril/Desktop/work/fillit_work/tetramino.c" "/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/tetramino.c.o"
+  "/Users/sapril/Desktop/work/fillit_work/validation.c" "/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/validation.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

@@ -1932,194 +1932,167 @@ Users/sapril/Desktop/work/libft/ft_toupper.c.s:
 	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_toupper.c.s
 .PHONY : Users/sapril/Desktop/work/libft/ft_toupper.c.s
 
-src/fillit.o: src/fillit.c.o
+fillit.o: fillit.c.o
 
-.PHONY : src/fillit.o
-
-# target to build an object file
-src/fillit.c.o:
-	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/src/fillit.c.o
-.PHONY : src/fillit.c.o
-
-src/fillit.i: src/fillit.c.i
-
-.PHONY : src/fillit.i
-
-# target to preprocess a source file
-src/fillit.c.i:
-	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/src/fillit.c.i
-.PHONY : src/fillit.c.i
-
-src/fillit.s: src/fillit.c.s
-
-.PHONY : src/fillit.s
-
-# target to generate assembly for a file
-src/fillit.c.s:
-	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/src/fillit.c.s
-.PHONY : src/fillit.c.s
-
-src/main.o: src/main.c.o
-
-.PHONY : src/main.o
+.PHONY : fillit.o
 
 # target to build an object file
-src/main.c.o:
-	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/src/main.c.o
-.PHONY : src/main.c.o
+fillit.c.o:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/fillit.c.o
+.PHONY : fillit.c.o
 
-src/main.i: src/main.c.i
+fillit.i: fillit.c.i
 
-.PHONY : src/main.i
+.PHONY : fillit.i
 
 # target to preprocess a source file
-src/main.c.i:
-	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/src/main.c.i
-.PHONY : src/main.c.i
+fillit.c.i:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/fillit.c.i
+.PHONY : fillit.c.i
 
-src/main.s: src/main.c.s
+fillit.s: fillit.c.s
 
-.PHONY : src/main.s
+.PHONY : fillit.s
 
 # target to generate assembly for a file
-src/main.c.s:
-	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/src/main.c.s
-.PHONY : src/main.c.s
+fillit.c.s:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/fillit.c.s
+.PHONY : fillit.c.s
 
-src/map.o: src/map.c.o
+map.o: map.c.o
 
-.PHONY : src/map.o
+.PHONY : map.o
 
 # target to build an object file
-src/map.c.o:
-	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/src/map.c.o
-.PHONY : src/map.c.o
+map.c.o:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/map.c.o
+.PHONY : map.c.o
 
-src/map.i: src/map.c.i
+map.i: map.c.i
 
-.PHONY : src/map.i
+.PHONY : map.i
 
 # target to preprocess a source file
-src/map.c.i:
-	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/src/map.c.i
-.PHONY : src/map.c.i
+map.c.i:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/map.c.i
+.PHONY : map.c.i
 
-src/map.s: src/map.c.s
+map.s: map.c.s
 
-.PHONY : src/map.s
+.PHONY : map.s
 
 # target to generate assembly for a file
-src/map.c.s:
-	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/src/map.c.s
-.PHONY : src/map.c.s
+map.c.s:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/map.c.s
+.PHONY : map.c.s
 
-src/read.o: src/read.c.o
+read.o: read.c.o
 
-.PHONY : src/read.o
+.PHONY : read.o
 
 # target to build an object file
-src/read.c.o:
-	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/src/read.c.o
-.PHONY : src/read.c.o
+read.c.o:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/read.c.o
+.PHONY : read.c.o
 
-src/read.i: src/read.c.i
+read.i: read.c.i
 
-.PHONY : src/read.i
+.PHONY : read.i
 
 # target to preprocess a source file
-src/read.c.i:
-	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/src/read.c.i
-.PHONY : src/read.c.i
+read.c.i:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/read.c.i
+.PHONY : read.c.i
 
-src/read.s: src/read.c.s
+read.s: read.c.s
 
-.PHONY : src/read.s
+.PHONY : read.s
 
 # target to generate assembly for a file
-src/read.c.s:
-	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/src/read.c.s
-.PHONY : src/read.c.s
+read.c.s:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/read.c.s
+.PHONY : read.c.s
 
-src/solver.o: src/solver.c.o
+solver.o: solver.c.o
 
-.PHONY : src/solver.o
+.PHONY : solver.o
 
 # target to build an object file
-src/solver.c.o:
-	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/src/solver.c.o
-.PHONY : src/solver.c.o
+solver.c.o:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/solver.c.o
+.PHONY : solver.c.o
 
-src/solver.i: src/solver.c.i
+solver.i: solver.c.i
 
-.PHONY : src/solver.i
+.PHONY : solver.i
 
 # target to preprocess a source file
-src/solver.c.i:
-	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/src/solver.c.i
-.PHONY : src/solver.c.i
+solver.c.i:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/solver.c.i
+.PHONY : solver.c.i
 
-src/solver.s: src/solver.c.s
+solver.s: solver.c.s
 
-.PHONY : src/solver.s
+.PHONY : solver.s
 
 # target to generate assembly for a file
-src/solver.c.s:
-	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/src/solver.c.s
-.PHONY : src/solver.c.s
+solver.c.s:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/solver.c.s
+.PHONY : solver.c.s
 
-src/tetramino.o: src/tetramino.c.o
+tetramino.o: tetramino.c.o
 
-.PHONY : src/tetramino.o
+.PHONY : tetramino.o
 
 # target to build an object file
-src/tetramino.c.o:
-	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/src/tetramino.c.o
-.PHONY : src/tetramino.c.o
+tetramino.c.o:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/tetramino.c.o
+.PHONY : tetramino.c.o
 
-src/tetramino.i: src/tetramino.c.i
+tetramino.i: tetramino.c.i
 
-.PHONY : src/tetramino.i
+.PHONY : tetramino.i
 
 # target to preprocess a source file
-src/tetramino.c.i:
-	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/src/tetramino.c.i
-.PHONY : src/tetramino.c.i
+tetramino.c.i:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/tetramino.c.i
+.PHONY : tetramino.c.i
 
-src/tetramino.s: src/tetramino.c.s
+tetramino.s: tetramino.c.s
 
-.PHONY : src/tetramino.s
+.PHONY : tetramino.s
 
 # target to generate assembly for a file
-src/tetramino.c.s:
-	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/src/tetramino.c.s
-.PHONY : src/tetramino.c.s
+tetramino.c.s:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/tetramino.c.s
+.PHONY : tetramino.c.s
 
-src/validation.o: src/validation.c.o
+validation.o: validation.c.o
 
-.PHONY : src/validation.o
+.PHONY : validation.o
 
 # target to build an object file
-src/validation.c.o:
-	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/src/validation.c.o
-.PHONY : src/validation.c.o
+validation.c.o:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/validation.c.o
+.PHONY : validation.c.o
 
-src/validation.i: src/validation.c.i
+validation.i: validation.c.i
 
-.PHONY : src/validation.i
+.PHONY : validation.i
 
 # target to preprocess a source file
-src/validation.c.i:
-	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/src/validation.c.i
-.PHONY : src/validation.c.i
+validation.c.i:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/validation.c.i
+.PHONY : validation.c.i
 
-src/validation.s: src/validation.c.s
+validation.s: validation.c.s
 
-.PHONY : src/validation.s
+.PHONY : validation.s
 
 # target to generate assembly for a file
-src/validation.c.s:
-	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/src/validation.c.s
-.PHONY : src/validation.c.s
+validation.c.s:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/validation.c.s
+.PHONY : validation.c.s
 
 # Help Target
 help:
@@ -2331,27 +2304,24 @@ help:
 	@echo "... Users/sapril/Desktop/work/libft/ft_toupper.o"
 	@echo "... Users/sapril/Desktop/work/libft/ft_toupper.i"
 	@echo "... Users/sapril/Desktop/work/libft/ft_toupper.s"
-	@echo "... src/fillit.o"
-	@echo "... src/fillit.i"
-	@echo "... src/fillit.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
-	@echo "... src/map.o"
-	@echo "... src/map.i"
-	@echo "... src/map.s"
-	@echo "... src/read.o"
-	@echo "... src/read.i"
-	@echo "... src/read.s"
-	@echo "... src/solver.o"
-	@echo "... src/solver.i"
-	@echo "... src/solver.s"
-	@echo "... src/tetramino.o"
-	@echo "... src/tetramino.i"
-	@echo "... src/tetramino.s"
-	@echo "... src/validation.o"
-	@echo "... src/validation.i"
-	@echo "... src/validation.s"
+	@echo "... fillit.o"
+	@echo "... fillit.i"
+	@echo "... fillit.s"
+	@echo "... map.o"
+	@echo "... map.i"
+	@echo "... map.s"
+	@echo "... read.o"
+	@echo "... read.i"
+	@echo "... read.s"
+	@echo "... solver.o"
+	@echo "... solver.i"
+	@echo "... solver.s"
+	@echo "... tetramino.o"
+	@echo "... tetramino.i"
+	@echo "... tetramino.s"
+	@echo "... validation.o"
+	@echo "... validation.i"
+	@echo "... validation.s"
 .PHONY : help
 
 

@@ -1,25 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   read.h                                             :+:      :+:    :+:   */
+/*   fillit.h                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/29 15:38:57 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/04 12:22:41 by sapril           ###   ########.fr       */
+/*   Created: 2019/10/04 14:35:31 by sapril            #+#    #+#             */
+/*   Updated: 2019/10/04 14:35:35 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef READ_H
-#define _H
+#ifndef FILLIT_H
+# define FILLIT_H
 
-# include "tetramino.h"
-# include <sys/types.h>
-# include <sys/uio.h>
+# include "../libft/libft.h"
+# include <fcntl.h>
 # include <unistd.h>
-
-t_tetra_info	*read_one_block(char *buf, int y_buff[], int x_buff[], char sign);
-t_tetra_el			*read_input(char *file_name, char *buf, t_tetra_el *begin_tetra);
-int				count_figures(t_tetra_el *begin_tetra);
+# include <stdlib.h>
+# include "tetramino.h"
+# include "validation.h"
+# include "read.h"
+# include "map.h"
+# include "solver.h"
 
 #endif

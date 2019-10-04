@@ -1,24 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   solver.h                                           :+:      :+:    :+:   */
+/*   print_map.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/10/04 14:44:09 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/04 15:38:49 by sapril           ###   ########.fr       */
+/*   Created: 2019/10/01 16:40:41 by sapril            #+#    #+#             */
+/*   Updated: 2019/10/04 14:36:58 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef SOLVER_H
-# define SOLVER_H
+#ifndef MAP_H
+# define MAP_H
 
 # include "tetramino.h"
+# include <unistd.h>
 
-void	place_figure(char **map, t_tetra_el *tetra, char sign);
-int		solve(t_tetra_el *begin_tetra);
-int		solve_map(t_tetra_el *begin_tetra, char **map, int map_size);
-int		check_bound(t_tetra_el *tetra, int map_size, char axis);
-int		is_overlay(char **map, t_tetra_el *tetra);
+char	**create_map(int size);
+void	print_map(char **map, int size);
+void	free_map(char **map, int map_size);
+int		get_map_size(int count_figures, t_max *max_w_h);
 
 #endif

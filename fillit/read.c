@@ -6,14 +6,14 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/29 15:37:23 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/04 14:51:37 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/04 16:10:15 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "fillit.h"
 
 t_tetra_el			*read_input(char *file_name,
-								char *buf, t_tetra_el *begin_tetra)
+		char *buf, t_tetra_el *begin_tetra)
 {
 	char	sign;
 	int		ret;
@@ -48,26 +48,23 @@ t_tetra_info		*read_one_block(char *buf,
 	int				i;
 	int				y;
 	int				x;
-	int				counter;
 	t_tetra_info	*new_tetra_info;
 
 	i = 0;
 	y = 0;
 	x = 0;
-	counter = 0;
 	while (buf[i])
 	{
 		if (buf[i] == '#')
 		{
 			x_buff[x] = i % 5;
 			y_buff[x++] = y;
-			counter++;
 		}
-		else if (buf[i] == '\n'
-		&& (buf[i + 1] == '.' || buf[i + 1] == '#') && counter > 0)
+		else if (buf[i] == '\n' && (buf[i + 1] == '.' || buf[i + 1] == '#'))
 			y++;
 		i++;
 	}
+	align_figure(y_buff, x_buff);
 	new_tetra_info = create_tetra_info(x_buff, y_buff, sign);
 	return (new_tetra_info);
 }
@@ -85,4 +82,28 @@ int					count_figures(t_tetra_el *begin_tetra)
 		tmp = tmp->next;
 	}
 	return (counter);
+}
+
+void				align_figure(int *y_buff, int *x_buff)
+{
+	while (y_buff[0] != 0
+	&& y_buff[1] != 0
+	&& y_buff[2] != 0
+	&& y_buff[3] != 0)
+	{
+		y_buff[0]--;
+		y_buff[1]--;
+		y_buff[2]--;
+		y_buff[3]--;
+	}
+	while (x_buff[0] != 0
+	&& x_buff[1] != 0
+	&& x_buff[2] != 0
+	&& x_buff[3] != 0)
+	{
+		x_buff[0]--;
+		x_buff[1]--;
+		x_buff[2]--;
+		x_buff[3]--;
+	}
 }

@@ -6,29 +6,26 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/04 08:28:36 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/04 13:05:09 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/04 17:00:37 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/solver.h"
-#include "../includes/map.h"
-#include "../includes/read.h"
+#include "fillit.h"
 
-int solve_map(t_tetra_el *begin_tetra, char **map, int map_size)
+int			solve_map(t_tetra_el *begin_tetra, char **map, int map_size)
 {
-	if (begin_tetra == NULL)
-		return (1);
 	t_tetra_el *tmp;
 
+	if (begin_tetra == NULL)
+		return (1);
 	tmp = begin_tetra;
 	tmp->y_indent = 0;
 	tmp->x_indent = 0;
-
 	while (check_bound(tmp, map_size, 'y'))
 	{
 		while (check_bound(tmp, map_size, 'x'))
 		{
-			if (!is_overlay(map, tmp))
+			if (!is_overlay(map, tmp, map_size))
 			{
 				place_figure(map, tmp, tmp->figure->sign);
 				if (solve_map(tmp->next, map, map_size))
@@ -44,15 +41,17 @@ int solve_map(t_tetra_el *begin_tetra, char **map, int map_size)
 	return (0);
 }
 
-int solve(t_tetra_el *begin_tetra)
+int			solve(t_tetra_el *begin_tetra)
 {
-	char **map;
-	int map_size;
-	int count_figure;
+	char	**map;
+	int		map_size;
+	int		count_figure;
+	t_max	*max_h_w;
 
-	if ((count_figure = count_figures(begin_tetra)) > 26)
+	max_h_w = (t_max*)ft_memalloc(sizeof(t_max));
+	if ((count_figure = count_figures(begin_tetra, max_h_w)) > 26)
 		return (0);
-	map_size = get_map_size(count_figure);
+	map_size = get_map_size(count_figure, max_h_w);
 	map = create_map(map_size);
 	while (!solve_map(begin_tetra, map, map_size))
 	{
@@ -65,7 +64,7 @@ int solve(t_tetra_el *begin_tetra)
 	return (1);
 }
 
-void place_figure(char **map, t_tetra_el *tetra, char sign)
+void		place_figure(char **map, t_tetra_el *tetra, char sign)
 {
 	int i;
 	int x;
@@ -81,7 +80,7 @@ void place_figure(char **map, t_tetra_el *tetra, char sign)
 	}
 }
 
-int is_overlay(char **map, t_tetra_el *tetra)
+int			is_overlay(char **map, t_tetra_el *tetra, int map_size)
 {
 	int i;
 	int x;
@@ -99,7 +98,7 @@ int is_overlay(char **map, t_tetra_el *tetra)
 	return (i != 4);
 }
 
-int check_bound(t_tetra_el *tetra, int map_size, char axis)
+int			check_bound(t_tetra_el *tetra, int map_size, char axis)
 {
 	int i;
 
@@ -124,5 +123,3 @@ int check_bound(t_tetra_el *tetra, int map_size, char axis)
 	}
 	return (1);
 }
-
-

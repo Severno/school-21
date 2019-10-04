@@ -6,11 +6,11 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/01 15:46:21 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/04 09:03:36 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/04 14:46:46 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/validation.h"
+#include "fillit.h"
 
 int	check_map(char *buf, int ret)
 {
@@ -23,12 +23,12 @@ int	check_map(char *buf, int ret)
 		return (0);
 	if (ret > 20)
 	{
-		if (buf[19] == '\n' && (buf[19+1] == '\n' || buf[19 + 1] == '\0'))
+		if (buf[19] == '\n' && (buf[19 + 1] == '\n' || buf[19 + 1] == '\0'))
 			return (1);
 	}
-	else if ((buf[18] == '.' || buf[18] == '#')  && buf[19] == '\0')
+	else if ((buf[18] == '.' || buf[18] == '#') && buf[19] == '\0')
 		return (1);
-	return 0;
+	return (0);
 }
 
 int	check_figure(char *buf)
