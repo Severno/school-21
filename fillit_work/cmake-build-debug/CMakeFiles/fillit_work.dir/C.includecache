@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/artembykov/Desktop/42school/fillit_work/map.c
+map.h
+/Users/artembykov/Desktop/42school/fillit_work/map.h
+../libft/libft.h
+/Users/artembykov/Desktop/42school/libft/libft.h
+
+/Users/artembykov/Desktop/42school/fillit_work/map.h
+tetramino.h
+/Users/artembykov/Desktop/42school/fillit_work/tetramino.h
+unistd.h
+-
+
+/Users/artembykov/Desktop/42school/fillit_work/tetramino.h
+stdlib.h
+-
+stdio.h
+-
+
+/Users/artembykov/Desktop/42school/libft/libft.h
+string.h
+-
+stdlib.h
+-
+unistd.h
+-
+stdio.h
+-
+

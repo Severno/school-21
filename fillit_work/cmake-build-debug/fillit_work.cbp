@@ -87,6 +87,12 @@
 		<Unit filename="/Users/artembykov/Desktop/42school/fillit_work/main.c">
 			<Option target="fillit_work"/>
 		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/42school/fillit_work/map.c">
+			<Option target="fillit_work"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/42school/fillit_work/map.h">
+			<Option target="fillit_work"/>
+		</Unit>
 		<Unit filename="/Users/artembykov/Desktop/42school/fillit_work/read.c">
 			<Option target="fillit_work"/>
 		</Unit>
@@ -97,6 +103,12 @@
 			<Option target="fillit_work"/>
 		</Unit>
 		<Unit filename="/Users/artembykov/Desktop/42school/fillit_work/tetramino.h">
+			<Option target="fillit_work"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/42school/fillit_work/validation.c">
+			<Option target="fillit_work"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/42school/fillit_work/validation.h">
 			<Option target="fillit_work"/>
 		</Unit>
 		<Unit filename="/Users/artembykov/Desktop/42school/libft/ft_atoi.c">

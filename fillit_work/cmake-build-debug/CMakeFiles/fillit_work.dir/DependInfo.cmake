@@ -73,8 +73,10 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/artembykov/Desktop/42school/libft/ft_toupper.c" "/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_toupper.c.o"
   "/Users/artembykov/Desktop/42school/fillit_work/fillit.c" "/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/fillit.c.o"
   "/Users/artembykov/Desktop/42school/fillit_work/main.c" "/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/main.c.o"
+  "/Users/artembykov/Desktop/42school/fillit_work/map.c" "/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/map.c.o"
   "/Users/artembykov/Desktop/42school/fillit_work/read.c" "/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/read.c.o"
   "/Users/artembykov/Desktop/42school/fillit_work/tetramino.c" "/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/tetramino.c.o"
+  "/Users/artembykov/Desktop/42school/fillit_work/validation.c" "/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/validation.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

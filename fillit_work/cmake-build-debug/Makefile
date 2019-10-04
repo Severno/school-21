@@ -1986,6 +1986,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/main.c.s
 .PHONY : main.c.s
 
+map.o: map.c.o
+
+.PHONY : map.o
+
+# target to build an object file
+map.c.o:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/map.c.o
+.PHONY : map.c.o
+
+map.i: map.c.i
+
+.PHONY : map.i
+
+# target to preprocess a source file
+map.c.i:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/map.c.i
+.PHONY : map.c.i
+
+map.s: map.c.s
+
+.PHONY : map.s
+
+# target to generate assembly for a file
+map.c.s:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/map.c.s
+.PHONY : map.c.s
+
 read.o: read.c.o
 
 .PHONY : read.o
@@ -2039,6 +2066,33 @@ tetramino.s: tetramino.c.s
 tetramino.c.s:
 	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/tetramino.c.s
 .PHONY : tetramino.c.s
+
+validation.o: validation.c.o
+
+.PHONY : validation.o
+
+# target to build an object file
+validation.c.o:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/validation.c.o
+.PHONY : validation.c.o
+
+validation.i: validation.c.i
+
+.PHONY : validation.i
+
+# target to preprocess a source file
+validation.c.i:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/validation.c.i
+.PHONY : validation.c.i
+
+validation.s: validation.c.s
+
+.PHONY : validation.s
+
+# target to generate assembly for a file
+validation.c.s:
+	$(MAKE) -f CMakeFiles/fillit_work.dir/build.make CMakeFiles/fillit_work.dir/validation.c.s
+.PHONY : validation.c.s
 
 # Help Target
 help:
@@ -2256,12 +2310,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... map.o"
+	@echo "... map.i"
+	@echo "... map.s"
 	@echo "... read.o"
 	@echo "... read.i"
 	@echo "... read.s"
 	@echo "... tetramino.o"
 	@echo "... tetramino.i"
 	@echo "... tetramino.s"
+	@echo "... validation.o"
+	@echo "... validation.i"
+	@echo "... validation.s"
 .PHONY : help
 
 

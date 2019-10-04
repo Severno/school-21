@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/17 22:47:16 by sapril            #+#    #+#             */
-/*   Updated: 2019/09/17 22:47:16 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/01 18:07:31 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 # include <fcntl.h>
 
 # define BUFF_SIZE 8
-# define MAX_FD 65536
+# define MAX_FD 4864
 
 int					get_next_line(const int fd, char **line);
 

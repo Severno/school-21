@@ -19,10 +19,30 @@ void print_tetra_elements(t_tetra_el *tetra_el)
 			i++;
 		}
 		i = 0;
+//		print_map(ptr);
 		ptr = ptr->next;
 		printf("\n");
 		printf("\n");
 		printf("\n");
+	}
+}
+
+void print_map_main(char **map, int size)
+{
+	int i;
+	int j;
+
+	i =0;
+	j =0;
+	while (i < size+1)
+	{
+		while (j < size+1)
+		{
+			write(1, &map[i][j],1);
+			j++;
+		}
+		j =0;
+		i++;
 	}
 }
 
@@ -107,17 +127,22 @@ int main()
 	int ret;
 	char buf[BUFF_SIZE + 1];
 	int i;
+	int j;
+	char **map;
+	int size;
 
 	ret = 0;
 	i = 0;
+	j = 0;
+	size = 6;
 	t_tetra_el *begin_tetra;
 
 	begin_tetra = ((t_tetra_el *)malloc(sizeof(t_tetra_el ) * 1000));
-	fd = open("../test1.txt", O_RDONLY);
+	fd = open("../test.txt", O_RDONLY);
 	while ((ret = read(fd, buf, BUFF_SIZE)) > 0)
 	{
 		buf[ret] = '\0';
-		if (check_spaces(buf, ret))
+		if (check_map(buf, ret) && check_figure(buf))
 			printf("OK!");
 		else
 		{
@@ -127,10 +152,14 @@ int main()
 		i++;
 	}
 	close(fd);
-	fd = open("../test1.txt", O_RDONLY);
+	fd = open("../test.txt", O_RDONLY);
 	read_input(fd, buf, begin_tetra);
-	print_tetra_elements(begin_tetra->next);
+	map = create_map(size);
+	print_map_main(map, size);
+	place_figure(map, begin_tetra->next, size);
+	print_map_main(map, size);
 
+//	print_tetra_elements(begin_tetra->next);
 	return 0;
 }
 

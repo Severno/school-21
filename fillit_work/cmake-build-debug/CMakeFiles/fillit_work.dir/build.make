@@ -954,9 +954,22 @@ CMakeFiles/fillit_work.dir/fillit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/fillit.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/fillit_work/fillit.c -o CMakeFiles/fillit_work.dir/fillit.c.s
 
+CMakeFiles/fillit_work.dir/map.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/map.c.o: ../map.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/fillit_work.dir/map.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/map.c.o   -c /Users/artembykov/Desktop/42school/fillit_work/map.c
+
+CMakeFiles/fillit_work.dir/map.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/map.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/fillit_work/map.c > CMakeFiles/fillit_work.dir/map.c.i
+
+CMakeFiles/fillit_work.dir/map.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/map.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/fillit_work/map.c -o CMakeFiles/fillit_work.dir/map.c.s
+
 CMakeFiles/fillit_work.dir/read.c.o: CMakeFiles/fillit_work.dir/flags.make
 CMakeFiles/fillit_work.dir/read.c.o: ../read.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/fillit_work.dir/read.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/fillit_work.dir/read.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/read.c.o   -c /Users/artembykov/Desktop/42school/fillit_work/read.c
 
 CMakeFiles/fillit_work.dir/read.c.i: cmake_force
@@ -969,7 +982,7 @@ CMakeFiles/fillit_work.dir/read.c.s: cmake_force
 
 CMakeFiles/fillit_work.dir/tetramino.c.o: CMakeFiles/fillit_work.dir/flags.make
 CMakeFiles/fillit_work.dir/tetramino.c.o: ../tetramino.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/fillit_work.dir/tetramino.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/fillit_work.dir/tetramino.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/tetramino.c.o   -c /Users/artembykov/Desktop/42school/fillit_work/tetramino.c
 
 CMakeFiles/fillit_work.dir/tetramino.c.i: cmake_force
@@ -979,6 +992,19 @@ CMakeFiles/fillit_work.dir/tetramino.c.i: cmake_force
 CMakeFiles/fillit_work.dir/tetramino.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/tetramino.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/fillit_work/tetramino.c -o CMakeFiles/fillit_work.dir/tetramino.c.s
+
+CMakeFiles/fillit_work.dir/validation.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/validation.c.o: ../validation.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/fillit_work.dir/validation.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/validation.c.o   -c /Users/artembykov/Desktop/42school/fillit_work/validation.c
+
+CMakeFiles/fillit_work.dir/validation.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/validation.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/fillit_work/validation.c > CMakeFiles/fillit_work.dir/validation.c.i
+
+CMakeFiles/fillit_work.dir/validation.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/validation.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/fillit_work/validation.c -o CMakeFiles/fillit_work.dir/validation.c.s
 
 # Object files for target fillit_work
 fillit_work_OBJECTS = \
@@ -1051,8 +1077,10 @@ fillit_work_OBJECTS = \
 "CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_tolower.c.o" \
 "CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_toupper.c.o" \
 "CMakeFiles/fillit_work.dir/fillit.c.o" \
+"CMakeFiles/fillit_work.dir/map.c.o" \
 "CMakeFiles/fillit_work.dir/read.c.o" \
-"CMakeFiles/fillit_work.dir/tetramino.c.o"
+"CMakeFiles/fillit_work.dir/tetramino.c.o" \
+"CMakeFiles/fillit_work.dir/validation.c.o"
 
 # External object files for target fillit_work
 fillit_work_EXTERNAL_OBJECTS =
@@ -1126,11 +1154,13 @@ fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/
 fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_tolower.c.o
 fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_toupper.c.o
 fillit_work: CMakeFiles/fillit_work.dir/fillit.c.o
+fillit_work: CMakeFiles/fillit_work.dir/map.c.o
 fillit_work: CMakeFiles/fillit_work.dir/read.c.o
 fillit_work: CMakeFiles/fillit_work.dir/tetramino.c.o
+fillit_work: CMakeFiles/fillit_work.dir/validation.c.o
 fillit_work: CMakeFiles/fillit_work.dir/build.make
 fillit_work: CMakeFiles/fillit_work.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Linking C executable fillit_work"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Linking C executable fillit_work"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fillit_work.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
