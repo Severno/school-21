@@ -6,16 +6,9 @@
 
 #IncludeRegexTransform: 
 
-<<<<<<< HEAD
-/Users/artembykov/Desktop/42school/fillit_work/map.c
-map.h
-/Users/artembykov/Desktop/42school/fillit_work/map.h
+/Users/artembykov/Desktop/42school/fillit_work/fillit.h
 ../libft/libft.h
 /Users/artembykov/Desktop/42school/libft/libft.h
-=======
-/Users/sapril/Desktop/work/fillit_work/fillit.h
-../libft/libft.h
-/Users/sapril/Desktop/work/libft/libft.h
 fcntl.h
 -
 unistd.h
@@ -23,20 +16,15 @@ unistd.h
 stdlib.h
 -
 tetramino.h
-/Users/sapril/Desktop/work/fillit_work/tetramino.h
+/Users/artembykov/Desktop/42school/fillit_work/tetramino.h
 validation.h
-/Users/sapril/Desktop/work/fillit_work/validation.h
+/Users/artembykov/Desktop/42school/fillit_work/validation.h
 read.h
-/Users/sapril/Desktop/work/fillit_work/read.h
+/Users/artembykov/Desktop/42school/fillit_work/read.h
 map.h
-/Users/sapril/Desktop/work/fillit_work/map.h
+/Users/artembykov/Desktop/42school/fillit_work/map.h
 solver.h
-/Users/sapril/Desktop/work/fillit_work/solver.h
-
-/Users/sapril/Desktop/work/fillit_work/map.c
-fillit.h
-/Users/sapril/Desktop/work/fillit_work/fillit.h
->>>>>>> 7731c8045b105bbacf53e1c932032e1f7ffd4375
+/Users/artembykov/Desktop/42school/fillit_work/solver.h
 
 /Users/artembykov/Desktop/42school/fillit_work/map.h
 tetramino.h
@@ -44,33 +32,19 @@ tetramino.h
 unistd.h
 -
 
-<<<<<<< HEAD
-/Users/artembykov/Desktop/42school/fillit_work/tetramino.h
-=======
-/Users/sapril/Desktop/work/fillit_work/read.h
+/Users/artembykov/Desktop/42school/fillit_work/read.h
 
-/Users/sapril/Desktop/work/fillit_work/solver.c
+/Users/artembykov/Desktop/42school/fillit_work/solver.c
 fillit.h
-/Users/sapril/Desktop/work/fillit_work/fillit.h
+/Users/artembykov/Desktop/42school/fillit_work/fillit.h
 
-/Users/sapril/Desktop/work/fillit_work/solver.h
+/Users/artembykov/Desktop/42school/fillit_work/solver.h
 tetramino.h
-/Users/sapril/Desktop/work/fillit_work/tetramino.h
+/Users/artembykov/Desktop/42school/fillit_work/tetramino.h
 
-/Users/sapril/Desktop/work/fillit_work/tetramino.h
+/Users/artembykov/Desktop/42school/fillit_work/tetramino.h
 
-/Users/sapril/Desktop/work/fillit_work/validation.h
-
-/Users/sapril/Desktop/work/libft/libft.h
-string.h
--
->>>>>>> 7731c8045b105bbacf53e1c932032e1f7ffd4375
-stdlib.h
--
-unistd.h
--
-stdio.h
--
+/Users/artembykov/Desktop/42school/fillit_work/validation.h
 
 /Users/artembykov/Desktop/42school/libft/libft.h
 string.h

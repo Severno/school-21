@@ -84,14 +84,7 @@
 		<Unit filename="/Users/artembykov/Desktop/42school/fillit_work/fillit.h">
 			<Option target="fillit_work"/>
 		</Unit>
-<<<<<<< HEAD
-		<Unit filename="/Users/artembykov/Desktop/42school/fillit_work/main.c">
-			<Option target="fillit_work"/>
-		</Unit>
 		<Unit filename="/Users/artembykov/Desktop/42school/fillit_work/map.c">
-=======
-		<Unit filename="/Users/sapril/Desktop/work/fillit_work/map.c">
->>>>>>> 7731c8045b105bbacf53e1c932032e1f7ffd4375
 			<Option target="fillit_work"/>
 		</Unit>
 		<Unit filename="/Users/artembykov/Desktop/42school/fillit_work/map.h">
@@ -103,17 +96,13 @@
 		<Unit filename="/Users/artembykov/Desktop/42school/fillit_work/read.h">
 			<Option target="fillit_work"/>
 		</Unit>
-<<<<<<< HEAD
+		<Unit filename="/Users/artembykov/Desktop/42school/fillit_work/solver.c">
+			<Option target="fillit_work"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/Desktop/42school/fillit_work/solver.h">
+			<Option target="fillit_work"/>
+		</Unit>
 		<Unit filename="/Users/artembykov/Desktop/42school/fillit_work/tetramino.c">
-=======
-		<Unit filename="/Users/sapril/Desktop/work/fillit_work/solver.c">
-			<Option target="fillit_work"/>
-		</Unit>
-		<Unit filename="/Users/sapril/Desktop/work/fillit_work/solver.h">
-			<Option target="fillit_work"/>
-		</Unit>
-		<Unit filename="/Users/sapril/Desktop/work/fillit_work/tetramino.c">
->>>>>>> 7731c8045b105bbacf53e1c932032e1f7ffd4375
 			<Option target="fillit_work"/>
 		</Unit>
 		<Unit filename="/Users/artembykov/Desktop/42school/fillit_work/tetramino.h">

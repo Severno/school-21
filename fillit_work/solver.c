@@ -104,26 +104,15 @@ int			is_overlay(char **map, t_tetra_el *tetra, int map_size)
 
 int			check_bound(t_tetra_el *tetra, int map_size, char axis)
 {
-	int i;
-
-	i = 0;
 	if (axis == 'x')
-	{
-		while (i < 4)
-		{
-			if (tetra->figure->x[i] + tetra->x_indent > map_size)
-				return (0);
-			i++;
-		}
-	}
+		return (tetra->figure->x[0] + tetra->x_indent < map_size
+		&& tetra->figure->x[1] + tetra->x_indent < map_size
+		&& tetra->figure->x[2] + tetra->x_indent < map_size
+		&& tetra->figure->x[3] + tetra->x_indent < map_size);
 	else if (axis == 'y')
-	{
-		while (i < 4)
-		{
-			if (tetra->figure->y[i] + tetra->y_indent > map_size)
-				return (0);
-			i++;
-		}
-	}
-	return (1);
+		return (tetra->figure->y[0] + tetra->y_indent < map_size
+				&& tetra->figure->y[1] + tetra->y_indent < map_size
+				&& tetra->figure->y[2] + tetra->y_indent < map_size
+				&& tetra->figure->y[3] + tetra->y_indent < map_size);
+	return (0);
 }

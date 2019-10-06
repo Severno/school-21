@@ -68,3 +68,15 @@ t_tetra_el		*create_tetra_el(t_tetra_info *tetra_info)
 	new_tetra_el->next = NULL;
 	return (new_tetra_el);
 }
+
+void		free_tetras(t_tetra_el *begin_tetra)
+{
+	t_tetra_el *tmp;
+
+	while (begin_tetra != NULL)
+	{
+		tmp = begin_tetra;
+		begin_tetra = begin_tetra->next;
+		free(tmp);
+	}
+}

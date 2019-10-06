@@ -41,5 +41,6 @@ t_tetra_info			*create_tetra_info(int *x, int *y, char sign);
 t_tetra_el				*create_tetra_el(t_tetra_info *tetra_info);
 void					add_back_tetra_el(t_tetra_el
 						*begin_tetra_list, t_tetra_info *tetra_info);
+void					free_tetras(t_tetra_el *begin_tetra);
 
 #endif
