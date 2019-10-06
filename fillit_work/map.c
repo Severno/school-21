@@ -34,13 +34,13 @@ int			get_map_size(int count_figures, t_max *max_w_h)
 	map_size = 2;
 	while ((map_size * map_size) < count_figures * 4)
 		map_size++;
-	if (map_size < max_w_h->max_height || map_size < max_w_h->max_width)
-	{
-		if (max_w_h->max_width > max_w_h->max_height)
-			return (max_w_h->max_width+1);
-		else
-			return (max_w_h->max_height+1);
-	}
+//	if (map_size < max_w_h->max_height || map_size < max_w_h->max_width)
+//	{
+//		if (max_w_h->max_width > max_w_h->max_height)
+//			return (max_w_h->max_width+1);
+//		else
+//			return (max_w_h->max_height+1);
+//	}
 	return (map_size);
 }
 

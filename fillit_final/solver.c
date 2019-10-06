@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/04 08:28:36 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/04 17:33:07 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/04 18:46:35 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,39 +89,30 @@ int			is_overlay(char **map, t_tetra_el *tetra, int map_size)
 	i = 0;
 	x = tetra->figure->x[i] + tetra->x_indent;
 	y = tetra->figure->y[i] + tetra->y_indent;
+	if (x >= map_size || y >= map_size)
+		return (0);
 	while (i < CHARS_NUMBER && map[y][x] == '.')
 	{
 		i++;
 		x = tetra->figure->x[i] + tetra->x_indent;
 		y = tetra->figure->y[i] + tetra->y_indent;
 		if (x >= map_size || y >= map_size)
-			return (1);
+			return (0);
 	}
 	return (i != 4);
 }
 
 int			check_bound(t_tetra_el *tetra, int map_size, char axis)
 {
-	int i;
-
-	i = 0;
 	if (axis == 'x')
-	{
-		while (i < 4)
-		{
-			if (tetra->figure->x[i] + tetra->x_indent > map_size)
-				return (0);
-			i++;
-		}
-	}
+		return (tetra->figure->x[0] + tetra->x_indent < map_size
+		&& tetra->figure->x[1] + tetra->x_indent < map_size
+		&& tetra->figure->x[2] + tetra->x_indent < map_size
+		&& tetra->figure->x[3] + tetra->x_indent < map_size);
 	else if (axis == 'y')
-	{
-		while (i < 4)
-		{
-			if (tetra->figure->y[i] + tetra->y_indent > map_size)
-				return (0);
-			i++;
-		}
-	}
-	return (1);
+		return (tetra->figure->y[0] + tetra->y_indent < map_size
+				&& tetra->figure->y[1] + tetra->y_indent < map_size
+				&& tetra->figure->y[2] + tetra->y_indent < map_size
+				&& tetra->figure->y[3] + tetra->y_indent < map_size);
+	return (0);
 }

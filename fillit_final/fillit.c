@@ -25,17 +25,12 @@ int				main(int argc, char *argv[])
 		return (1);
 	}
 	result = read_input(argv[1], buf, begin_tetra);
-	if (result != NULL)
-		if (solve(result))
-			return (0);
-		else
-		{
-			ft_putstr("error");
-			return (1);
-		}
-	else
+	if (result == NULL)
 	{
 		ft_putstr("error");
-		return (1);
+			return (1);
 	}
+	solve(result);
+	free_tetras(begin_tetra);
+	return (0);
 }

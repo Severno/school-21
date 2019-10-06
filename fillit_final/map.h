@@ -20,5 +20,6 @@ char	**create_map(int size);
 void	print_map(char **map, int size);
 void	free_map(char **map, int map_size);
 int		get_map_size(int count_figures, t_max *max_w_h);
+int		count_figures(t_tetra_el *begin_tetra, t_max *max_h_w);
 
 #endif

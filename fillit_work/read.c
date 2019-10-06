@@ -17,8 +17,8 @@ t_tetra_el			*read_input(char *file_name,
 {
 	char	sign;
 	int		ret;
-	int		y_buff[CHARS_NUMBER];
-	int		x_buff[CHARS_NUMBER];
+	int		y_buff[CHARS_NUMBER] = {0};
+	int		x_buff[CHARS_NUMBER] = {0};
 	int		fd;
 
 	sign = 'A';

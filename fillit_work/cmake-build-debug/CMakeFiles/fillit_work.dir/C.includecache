@@ -26,6 +26,10 @@ map.h
 solver.h
 /Users/artembykov/Desktop/42school/fillit_work/solver.h
 
+/Users/artembykov/Desktop/42school/fillit_work/map.c
+fillit.h
+/Users/artembykov/Desktop/42school/fillit_work/fillit.h
+
 /Users/artembykov/Desktop/42school/fillit_work/map.h
 tetramino.h
 /Users/artembykov/Desktop/42school/fillit_work/tetramino.h
@@ -33,10 +37,6 @@ unistd.h
 -
 
 /Users/artembykov/Desktop/42school/fillit_work/read.h
-
-/Users/artembykov/Desktop/42school/fillit_work/solver.c
-fillit.h
-/Users/artembykov/Desktop/42school/fillit_work/fillit.h
 
 /Users/artembykov/Desktop/42school/fillit_work/solver.h
 tetramino.h
