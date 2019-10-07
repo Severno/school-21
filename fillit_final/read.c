@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/29 15:37:23 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/07 09:43:24 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/07 10:10:51 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ t_tetra_el			*read_input(int fd,
 						read_one_block(buf, y_buff, x_buff, sign++));
 		}
 		else
-			return (NULL);
+			return (is_error(begin_tetra));
 	}
 	if ((buf[19] == '\n' && buf[20] == '\n'))
 		return (NULL);
@@ -90,4 +90,10 @@ void				align_figure(int *y_buff, int *x_buff)
 		x_buff[2]--;
 		x_buff[3]--;
 	}
+}
+
+void				*is_error(t_tetra_el *begin_tetra)
+{
+	free_tetras(begin_tetra);
+	return (NULL);
 }

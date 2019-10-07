@@ -4,14 +4,18 @@ FILLIT_OBJ = map.o read.o solver.o tetramino.o validation.o fillit.o
 FILLIT_INC = fillit.h
 LIBFT = libft/
 FLAGS = -Wall -Wextra -Werror
+LIB_HEADER = ../libft/libft.h
+OBJ = $(subst .c,.o,$(FILLIT_SRC))
 
 .PHONY: all clean fclean re
 
+%.o: %.c $(LIB_HEADER)
+	gcc -Wall -Wextra -Werror -I $(LIB_HEADER) -c $< -o $@
+
 all: $(NAME)
 
-$(NAME):
+$(NAME): $(OBJ)
 	make -C $(LIBFT)
-	gcc -c $(FLAGS) $(FILLIT_SRC) -I $(FILLIT_INC) libft/libft.h
 	gcc $(FLAGS) $(FILLIT_OBJ) -L. libft/libft.a -o $(NAME)
 
 clean:

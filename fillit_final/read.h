@@ -18,5 +18,6 @@ t_tetra_info		*read_one_block(char *buf, int y_buff[],
 t_tetra_el			*read_input(int fd, char *buf,
 		t_tetra_el *begin_tetra);
 void				align_figure(int *y_buff, int *x_buff);
+void				*is_error(t_tetra_el *begin_tetra);
 
 #endif

@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/04 08:28:36 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/07 09:51:34 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/07 11:32:06 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,6 +59,7 @@ int			solve(t_tetra_el *begin_tetra)
 		map_size++;
 		map = create_map(map_size);
 	}
+	free(max_h_w);
 	print_map(map, map_size);
 	free_map(map, map_size);
 	return (1);

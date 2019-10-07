@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/04 14:33:38 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/07 09:49:21 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/07 10:13:10 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ int				main(int argc, char *argv[])
 	begin_tetra = NULL;
 	if (argc != 2)
 	{
-		ft_putstr("error");
+		ft_putstr("usage: ./fillit source_file\n");
 		return (1);
 	}
 	fd = open(argv[1], O_RDONLY);
@@ -33,6 +33,6 @@ int				main(int argc, char *argv[])
 		return (1);
 	}
 	solve(result);
-	free_tetras(begin_tetra);
+	free_tetras(result);
 	return (0);
 }

@@ -30,10 +30,6 @@ map.h
 solver.h
 /Users/sapril/Desktop/work/fillit_final/solver.h
 
-/Users/sapril/Desktop/work/fillit_final/map.c
-fillit.h
-/Users/sapril/Desktop/work/fillit_final/fillit.h
-
 /Users/sapril/Desktop/work/fillit_final/map.h
 tetramino.h
 /Users/sapril/Desktop/work/fillit_final/tetramino.h
@@ -45,10 +41,6 @@ fillit.h
 /Users/sapril/Desktop/work/fillit_final/fillit.h
 
 /Users/sapril/Desktop/work/fillit_final/read.h
-
-/Users/sapril/Desktop/work/fillit_final/solver.c
-fillit.h
-/Users/sapril/Desktop/work/fillit_final/fillit.h
 
 /Users/sapril/Desktop/work/fillit_final/solver.h
 tetramino.h

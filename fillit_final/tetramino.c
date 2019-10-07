@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/29 13:35:20 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/07 07:18:38 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/07 10:32:01 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,6 +77,9 @@ void			free_tetras(t_tetra_el *begin_tetra)
 	{
 		tmp = begin_tetra;
 		begin_tetra = begin_tetra->next;
+		free(tmp->figure->x);
+		free(tmp->figure->y);
+		free(tmp->figure);
 		free(tmp);
 	}
 }
