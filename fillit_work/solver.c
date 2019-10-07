@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/04 08:28:36 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/04 18:46:35 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/07 07:18:38 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -104,15 +104,26 @@ int			is_overlay(char **map, t_tetra_el *tetra, int map_size)
 
 int			check_bound(t_tetra_el *tetra, int map_size, char axis)
 {
+	int i;
+
+	i = 0;
 	if (axis == 'x')
-		return (tetra->figure->x[0] + tetra->x_indent < map_size
-		&& tetra->figure->x[1] + tetra->x_indent < map_size
-		&& tetra->figure->x[2] + tetra->x_indent < map_size
-		&& tetra->figure->x[3] + tetra->x_indent < map_size);
+	{
+		while (i < 4)
+		{
+			if (tetra->figure->x[i] + tetra->x_indent > map_size)
+				return (0);
+			i++;
+		}
+	}
 	else if (axis == 'y')
-		return (tetra->figure->y[0] + tetra->y_indent < map_size
-				&& tetra->figure->y[1] + tetra->y_indent < map_size
-				&& tetra->figure->y[2] + tetra->y_indent < map_size
-				&& tetra->figure->y[3] + tetra->y_indent < map_size);
-	return (0);
+	{
+		while (i < 4)
+		{
+			if (tetra->figure->y[i] + tetra->y_indent > map_size)
+				return (0);
+			i++;
+		}
+	}
+	return (1);
 }

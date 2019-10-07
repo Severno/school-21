@@ -10,41 +10,206 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a953993-2954-4dbe-9318-ca783bfd845e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/fillit.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../42_libft_test_system" beforeDir="false" afterPath="$PROJECT_DIR$/../42_libft_test_system" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Checkers/42_file_check" beforeDir="false" afterPath="$PROJECT_DIR$/../Checkers/42_file_check" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fillit" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fillit.c" beforeDir="false" afterPath="$PROJECT_DIR$/fillit.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fillit.h" beforeDir="false" afterPath="$PROJECT_DIR$/fillit.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/libft.a" beforeDir="false" afterPath="$PROJECT_DIR$/libft/libft.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/libft.h.gch" beforeDir="false" afterPath="$PROJECT_DIR$/libft/libft.h.gch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map.c" beforeDir="false" afterPath="$PROJECT_DIR$/map.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map.h" beforeDir="false" afterPath="$PROJECT_DIR$/map.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/read.c" beforeDir="false" afterPath="$PROJECT_DIR$/read.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/read.h" beforeDir="false" afterPath="$PROJECT_DIR$/read.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/read.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solver.c" beforeDir="false" afterPath="$PROJECT_DIR$/solver.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solver.h" beforeDir="false" afterPath="$PROJECT_DIR$/solver.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solver.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tetramino.c" beforeDir="false" afterPath="$PROJECT_DIR$/tetramino.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tetramino.h" beforeDir="false" afterPath="$PROJECT_DIR$/tetramino.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation.c" beforeDir="false" afterPath="$PROJECT_DIR$/validation.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation.h" beforeDir="false" afterPath="$PROJECT_DIR$/validation.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/.idea/fillit_final.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/fillit.c" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_final/fillit.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_atoi 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_check_end_spaces 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_check_start_spaces 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_isalnum 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_isalpha 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_isascii 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_isdigit 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_isprint 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_itoa 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_lstadd 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_lstdel 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_lstdelone 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_lstiter 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_lstmap 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_lstnew 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_memalloc 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_memccpy 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_memchr 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_memcmp 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_memcpy 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_memdel 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_memmove 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_memset 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_num_of_digits 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_putchar 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_putchar_fd 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_putendl 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_putendl_fd 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_putnbr 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_putnbr_fd 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_putstr 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_putstr_fd 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_str_is_uppercase 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strcat 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strchr 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strclr 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strcmp 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strcpy 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strdel 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strdup 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strdup 3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strequ 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strequ 3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_striter 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_striter 3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_striteri 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_striteri 3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strjoin 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strlcat 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strlcat 3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strlen 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strlen 3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strmap 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strmap 3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strmapi 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strmapi 3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strncat 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strncat 3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strncmp 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strncmp 3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strncpy 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strncpy 3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strnequ 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strnequ 3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strnew 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strnew 3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strnstr 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strnstr 3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strrchr 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strrchr 3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strsplit 2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/ft_strsplit 3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/libft/libft.h.gch" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_final/libft/libft.h.gch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/map.c" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_final/map.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/map.h" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_final/map.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/read.c" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_final/read.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/read.h" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_final/read.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/solver.c" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_final/solver.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/tetramino.c" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_final/tetramino.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/tetramino.h" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_final/tetramino.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/validation.c" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_final/validation.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_final/validation.h" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_final/validation.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/3.14.5/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/3.14.5/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/3.14.5/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/3.14.5/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_atoi.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_bzero.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_check_end_spaces.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_check_start_spaces.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isalnum.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isalpha.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isascii.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isdigit.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isprint.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isspace.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_itoa.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstadd.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstdel.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstdelone.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstiter.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstmap.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstnew.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memalloc.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memccpy.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memchr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memcmp.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memcpy.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memdel.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memmove.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memset.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_num_of_digits.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putchar.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putchar_fd.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putendl.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putendl_fd.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putnbr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putnbr_fd.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putstr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putstr_fd.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_lowercase.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_numeric.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_printable.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_uppercase.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcat.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strchr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strclr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcmp.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcpy.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strdel.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strdup.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strequ.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_striter.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_striteri.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strjoin.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strlcat.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strlen.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strmap.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strmapi.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncat.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncmp.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncpy.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnequ.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnew.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnlen.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnstr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strrchr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strsplit.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strstr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strsub.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strtrim.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_tolower.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_toupper.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/fillit.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/fillit.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/map.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/map.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/read.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/read.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/solver.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/solver.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/tetramino.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/tetramino.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/validation.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/validation.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/fillit_work" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/fillit_work" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/fillit_work.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/cmake-build-debug/fillit_work.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/fillit.c" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/fillit.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../fillit_work/map.c" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/map.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fillit_work/map.h" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/map.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../fillit_work/read.c" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/read.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fillit_work/read.h" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/read.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../fillit_work/solver.c" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/solver.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fillit_work/solver.h" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/solver.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../fillit_work/test_tetros/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/test_tetros/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../fillit_work/tetramino.c" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/tetramino.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/tetramino.h" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/tetramino.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/validation.c" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/validation.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fillit_work/validation.h" beforeDir="false" afterPath="$PROJECT_DIR$/../fillit_work/validation.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../libft/42_libft_test_system" beforeDir="false" afterPath="$PROJECT_DIR$/../libft/42_libft_test_system" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libft/ft_memmove.c" beforeDir="false" afterPath="$PROJECT_DIR$/../libft/ft_memmove.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,6 +263,7 @@
       <workItem from="1569580646230" duration="325000" />
       <workItem from="1570180500244" duration="2308000" />
       <workItem from="1570188528096" duration="7657000" />
+      <workItem from="1570421828231" duration="594000" />
     </task>
     <servers />
   </component>

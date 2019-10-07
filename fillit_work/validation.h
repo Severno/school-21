@@ -13,8 +13,8 @@
 #ifndef VALIDATION_H
 # define VALIDATION_H
 
-int		check_map(char *buf, int ret);
+int		check_map(char *buf);
 int		check_figure(char *buf);
-int		valid(char *buf, int ret);
+int		valid(char *buf);
 
 #endif

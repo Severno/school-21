@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/artembykov/Desktop/42school/fillit_work/fillit.h
+/Users/sapril/Desktop/work/fillit_final/fillit.h
 ../libft/libft.h
-/Users/artembykov/Desktop/42school/libft/libft.h
+/Users/sapril/Desktop/work/libft/libft.h
 fcntl.h
 -
 unistd.h
@@ -16,37 +16,39 @@ unistd.h
 stdlib.h
 -
 tetramino.h
-/Users/artembykov/Desktop/42school/fillit_work/tetramino.h
+/Users/sapril/Desktop/work/fillit_final/tetramino.h
 validation.h
-/Users/artembykov/Desktop/42school/fillit_work/validation.h
+/Users/sapril/Desktop/work/fillit_final/validation.h
 read.h
-/Users/artembykov/Desktop/42school/fillit_work/read.h
+/Users/sapril/Desktop/work/fillit_final/read.h
 map.h
-/Users/artembykov/Desktop/42school/fillit_work/map.h
+/Users/sapril/Desktop/work/fillit_final/map.h
 solver.h
-/Users/artembykov/Desktop/42school/fillit_work/solver.h
+/Users/sapril/Desktop/work/fillit_final/solver.h
 
-/Users/artembykov/Desktop/42school/fillit_work/map.c
-fillit.h
-/Users/artembykov/Desktop/42school/fillit_work/fillit.h
-
-/Users/artembykov/Desktop/42school/fillit_work/map.h
+/Users/sapril/Desktop/work/fillit_final/map.h
 tetramino.h
-/Users/artembykov/Desktop/42school/fillit_work/tetramino.h
+/Users/sapril/Desktop/work/fillit_final/tetramino.h
 unistd.h
 -
 
-/Users/artembykov/Desktop/42school/fillit_work/read.h
+/Users/sapril/Desktop/work/fillit_final/read.c
+fillit.h
+/Users/sapril/Desktop/work/fillit_final/fillit.h
 
-/Users/artembykov/Desktop/42school/fillit_work/solver.h
+/Users/sapril/Desktop/work/fillit_final/read.h
+
+/Users/sapril/Desktop/work/fillit_final/solver.h
 tetramino.h
-/Users/artembykov/Desktop/42school/fillit_work/tetramino.h
+/Users/sapril/Desktop/work/fillit_final/tetramino.h
 
-/Users/artembykov/Desktop/42school/fillit_work/tetramino.h
+/Users/sapril/Desktop/work/fillit_final/tetramino.h
 
-/Users/artembykov/Desktop/42school/fillit_work/validation.h
+/Users/sapril/Desktop/work/fillit_final/validation.c
 
-/Users/artembykov/Desktop/42school/libft/libft.h
+/Users/sapril/Desktop/work/fillit_final/validation.h
+
+/Users/sapril/Desktop/work/libft/libft.h
 string.h
 -
 stdlib.h

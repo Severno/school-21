@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/29 15:37:23 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/04 18:36:14 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/07 09:00:55 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ t_tetra_el			*read_input(char *file_name,
 	while ((ret = read(fd, buf, BUFF_SIZE)) > 0)
 	{
 		buf[ret] = '\0';
-		if (valid(buf, ret))
+		if (valid(buf))
 		{
 			if (begin_tetra == NULL)
 				begin_tetra = create_tetra_el(

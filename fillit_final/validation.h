@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/04 12:18:09 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/04 12:18:09 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/07 08:47:30 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,6 @@
 
 int		check_map(char *buf, int ret);
 int		check_figure(char *buf);
-int		valid(char *buf, int ret);
+int		valid(char *buf);
 
 #endif

@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/artembykov/Desktop/42school/fillit_work
+CMAKE_SOURCE_DIR = /Users/sapril/Desktop/work/fillit_work
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/sapril/Desktop/work/fillit_work/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/fillit_work.dir/depend.make
@@ -57,1110 +57,1110 @@ include CMakeFiles/fillit_work.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/fillit_work.dir/flags.make
 
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_atoi.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_atoi.c.o: /Users/artembykov/Desktop/42school/libft/ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_atoi.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_atoi.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_atoi.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_atoi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_atoi.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_atoi.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_atoi.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_atoi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_atoi.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_atoi.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_atoi.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_bzero.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_bzero.c.o: /Users/artembykov/Desktop/42school/libft/ft_bzero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_bzero.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_bzero.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_bzero.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_bzero.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_bzero.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_bzero.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_bzero.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_bzero.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_bzero.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_bzero.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_bzero.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_check_end_spaces.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_check_end_spaces.c.o: /Users/artembykov/Desktop/42school/libft/ft_check_end_spaces.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_check_end_spaces.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_check_end_spaces.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_check_end_spaces.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_check_end_spaces.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_check_end_spaces.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_check_end_spaces.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_check_end_spaces.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_check_end_spaces.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_check_end_spaces.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_check_end_spaces.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_check_end_spaces.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_check_start_spaces.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_check_start_spaces.c.o: /Users/artembykov/Desktop/42school/libft/ft_check_start_spaces.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_check_start_spaces.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_check_start_spaces.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_check_start_spaces.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_check_start_spaces.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_check_start_spaces.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_check_start_spaces.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_check_start_spaces.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_check_start_spaces.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_check_start_spaces.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_check_start_spaces.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_check_start_spaces.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isalnum.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isalnum.c.o: /Users/artembykov/Desktop/42school/libft/ft_isalnum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isalnum.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isalnum.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_isalnum.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isalnum.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isalnum.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_isalnum.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isalnum.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isalnum.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isalnum.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_isalnum.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isalnum.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isalpha.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isalpha.c.o: /Users/artembykov/Desktop/42school/libft/ft_isalpha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isalpha.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isalpha.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_isalpha.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isalpha.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isalpha.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_isalpha.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isalpha.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isalpha.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isalpha.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_isalpha.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isalpha.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isascii.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isascii.c.o: /Users/artembykov/Desktop/42school/libft/ft_isascii.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isascii.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isascii.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_isascii.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isascii.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isascii.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_isascii.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isascii.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isascii.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isascii.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_isascii.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isascii.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isdigit.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isdigit.c.o: /Users/artembykov/Desktop/42school/libft/ft_isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isdigit.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isdigit.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_isdigit.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isdigit.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isdigit.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_isdigit.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isdigit.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isdigit.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isdigit.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_isdigit.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isdigit.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isprint.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isprint.c.o: /Users/artembykov/Desktop/42school/libft/ft_isprint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isprint.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isprint.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_isprint.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isprint.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isprint.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_isprint.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isprint.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isprint.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isprint.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_isprint.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isprint.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isspace.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isspace.c.o: /Users/artembykov/Desktop/42school/libft/ft_isspace.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isspace.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isspace.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_isspace.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isspace.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isspace.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_isspace.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isspace.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isspace.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isspace.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_isspace.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isspace.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_itoa.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_itoa.c.o: /Users/artembykov/Desktop/42school/libft/ft_itoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_itoa.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_itoa.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_itoa.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_itoa.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_itoa.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_itoa.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_itoa.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_itoa.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_itoa.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_itoa.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_itoa.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstadd.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstadd.c.o: /Users/artembykov/Desktop/42school/libft/ft_lstadd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstadd.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstadd.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_lstadd.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstadd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstadd.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_lstadd.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstadd.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstadd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstadd.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_lstadd.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstadd.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstdel.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstdel.c.o: /Users/artembykov/Desktop/42school/libft/ft_lstdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstdel.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstdel.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_lstdel.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstdel.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstdel.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_lstdel.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstdel.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstdel.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstdel.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_lstdel.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstdel.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstdelone.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstdelone.c.o: /Users/artembykov/Desktop/42school/libft/ft_lstdelone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstdelone.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstdelone.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_lstdelone.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstdelone.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstdelone.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_lstdelone.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstdelone.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstdelone.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstdelone.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_lstdelone.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstdelone.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstiter.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstiter.c.o: /Users/artembykov/Desktop/42school/libft/ft_lstiter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstiter.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstiter.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_lstiter.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstiter.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstiter.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_lstiter.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstiter.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstiter.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstiter.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_lstiter.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstiter.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstmap.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstmap.c.o: /Users/artembykov/Desktop/42school/libft/ft_lstmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstmap.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstmap.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_lstmap.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstmap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstmap.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_lstmap.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstmap.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstmap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstmap.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_lstmap.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstmap.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstnew.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstnew.c.o: /Users/artembykov/Desktop/42school/libft/ft_lstnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstnew.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstnew.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_lstnew.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstnew.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstnew.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_lstnew.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstnew.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstnew.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstnew.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_lstnew.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstnew.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memalloc.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memalloc.c.o: /Users/artembykov/Desktop/42school/libft/ft_memalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memalloc.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memalloc.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_memalloc.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memalloc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memalloc.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_memalloc.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memalloc.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memalloc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memalloc.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_memalloc.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memalloc.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memccpy.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memccpy.c.o: /Users/artembykov/Desktop/42school/libft/ft_memccpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memccpy.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memccpy.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_memccpy.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memccpy.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memccpy.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_memccpy.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memccpy.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memccpy.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memccpy.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_memccpy.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memccpy.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memchr.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memchr.c.o: /Users/artembykov/Desktop/42school/libft/ft_memchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memchr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memchr.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_memchr.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memchr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memchr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_memchr.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memchr.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memchr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memchr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_memchr.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memchr.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memcmp.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memcmp.c.o: /Users/artembykov/Desktop/42school/libft/ft_memcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memcmp.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memcmp.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_memcmp.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memcmp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memcmp.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_memcmp.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memcmp.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memcmp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memcmp.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_memcmp.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memcmp.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memcpy.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memcpy.c.o: /Users/artembykov/Desktop/42school/libft/ft_memcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memcpy.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memcpy.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_memcpy.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memcpy.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memcpy.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_memcpy.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memcpy.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memcpy.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memcpy.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_memcpy.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memcpy.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memdel.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memdel.c.o: /Users/artembykov/Desktop/42school/libft/ft_memdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memdel.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memdel.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_memdel.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memdel.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memdel.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_memdel.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memdel.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memdel.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memdel.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_memdel.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memdel.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memmove.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memmove.c.o: /Users/artembykov/Desktop/42school/libft/ft_memmove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memmove.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memmove.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_memmove.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memmove.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memmove.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_memmove.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memmove.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memmove.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memmove.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_memmove.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memmove.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memset.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memset.c.o: /Users/artembykov/Desktop/42school/libft/ft_memset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memset.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memset.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_memset.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memset.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memset.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_memset.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memset.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memset.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memset.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_memset.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memset.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_num_of_digits.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_num_of_digits.c.o: /Users/artembykov/Desktop/42school/libft/ft_num_of_digits.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_num_of_digits.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_num_of_digits.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_num_of_digits.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_num_of_digits.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_num_of_digits.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_num_of_digits.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_num_of_digits.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_num_of_digits.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_num_of_digits.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_num_of_digits.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_num_of_digits.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putchar.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putchar.c.o: /Users/artembykov/Desktop/42school/libft/ft_putchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putchar.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putchar.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_putchar.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putchar.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putchar.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_putchar.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putchar.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putchar.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putchar.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_putchar.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putchar.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putchar_fd.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putchar_fd.c.o: /Users/artembykov/Desktop/42school/libft/ft_putchar_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putchar_fd.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putchar_fd.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_putchar_fd.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putchar_fd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putchar_fd.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_putchar_fd.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putchar_fd.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putchar_fd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putchar_fd.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_putchar_fd.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putchar_fd.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putendl.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putendl.c.o: /Users/artembykov/Desktop/42school/libft/ft_putendl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putendl.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putendl.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_putendl.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putendl.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putendl.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_putendl.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putendl.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putendl.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putendl.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_putendl.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putendl.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putendl_fd.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putendl_fd.c.o: /Users/artembykov/Desktop/42school/libft/ft_putendl_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putendl_fd.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putendl_fd.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_putendl_fd.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putendl_fd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putendl_fd.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_putendl_fd.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putendl_fd.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putendl_fd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putendl_fd.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_putendl_fd.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putendl_fd.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putnbr.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putnbr.c.o: /Users/artembykov/Desktop/42school/libft/ft_putnbr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putnbr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putnbr.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_putnbr.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putnbr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putnbr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_putnbr.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putnbr.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putnbr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putnbr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_putnbr.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putnbr.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putnbr_fd.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putnbr_fd.c.o: /Users/artembykov/Desktop/42school/libft/ft_putnbr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putnbr_fd.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putnbr_fd.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_putnbr_fd.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putnbr_fd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putnbr_fd.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_putnbr_fd.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putnbr_fd.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putnbr_fd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putnbr_fd.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_putnbr_fd.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putnbr_fd.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putstr.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putstr.c.o: /Users/artembykov/Desktop/42school/libft/ft_putstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putstr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putstr.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_putstr.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putstr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putstr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_putstr.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putstr.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putstr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putstr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_putstr.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putstr.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putstr_fd.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putstr_fd.c.o: /Users/artembykov/Desktop/42school/libft/ft_putstr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putstr_fd.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putstr_fd.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_putstr_fd.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putstr_fd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putstr_fd.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_putstr_fd.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putstr_fd.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putstr_fd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putstr_fd.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_putstr_fd.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putstr_fd.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_lowercase.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_lowercase.c.o: /Users/artembykov/Desktop/42school/libft/ft_str_is_lowercase.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_lowercase.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_lowercase.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_str_is_lowercase.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_lowercase.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_lowercase.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_str_is_lowercase.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_lowercase.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_lowercase.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_lowercase.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_str_is_lowercase.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_lowercase.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_numeric.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_numeric.c.o: /Users/artembykov/Desktop/42school/libft/ft_str_is_numeric.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_numeric.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_numeric.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_str_is_numeric.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_numeric.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_numeric.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_str_is_numeric.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_numeric.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_numeric.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_numeric.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_str_is_numeric.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_numeric.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_printable.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_printable.c.o: /Users/artembykov/Desktop/42school/libft/ft_str_is_printable.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_printable.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_printable.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_str_is_printable.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_printable.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_printable.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_str_is_printable.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_printable.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_printable.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_printable.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_str_is_printable.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_printable.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_uppercase.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_uppercase.c.o: /Users/artembykov/Desktop/42school/libft/ft_str_is_uppercase.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_uppercase.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_uppercase.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_str_is_uppercase.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_uppercase.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_uppercase.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_str_is_uppercase.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_uppercase.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_uppercase.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_uppercase.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_str_is_uppercase.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_uppercase.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcat.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcat.c.o: /Users/artembykov/Desktop/42school/libft/ft_strcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcat.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcat.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_strcat.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcat.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcat.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_strcat.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcat.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcat.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcat.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_strcat.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcat.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strchr.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strchr.c.o: /Users/artembykov/Desktop/42school/libft/ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strchr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strchr.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_strchr.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strchr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strchr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_strchr.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strchr.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strchr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strchr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_strchr.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strchr.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strclr.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strclr.c.o: /Users/artembykov/Desktop/42school/libft/ft_strclr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strclr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strclr.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_strclr.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strclr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strclr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_strclr.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strclr.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strclr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strclr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_strclr.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strclr.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcmp.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcmp.c.o: /Users/artembykov/Desktop/42school/libft/ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcmp.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcmp.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_strcmp.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcmp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcmp.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_strcmp.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcmp.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcmp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcmp.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_strcmp.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcmp.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcpy.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcpy.c.o: /Users/artembykov/Desktop/42school/libft/ft_strcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcpy.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcpy.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_strcpy.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcpy.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcpy.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_strcpy.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcpy.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcpy.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcpy.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_strcpy.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcpy.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strdel.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strdel.c.o: /Users/artembykov/Desktop/42school/libft/ft_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strdel.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strdel.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_strdel.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strdel.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strdel.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_strdel.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strdel.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strdel.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strdel.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_strdel.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strdel.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strdup.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strdup.c.o: /Users/artembykov/Desktop/42school/libft/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strdup.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strdup.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_strdup.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strdup.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strdup.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_strdup.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strdup.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strdup.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strdup.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_strdup.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strdup.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strequ.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strequ.c.o: /Users/artembykov/Desktop/42school/libft/ft_strequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strequ.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strequ.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_strequ.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strequ.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strequ.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_strequ.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strequ.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strequ.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strequ.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_strequ.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strequ.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_striter.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_striter.c.o: /Users/artembykov/Desktop/42school/libft/ft_striter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_striter.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_striter.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_striter.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_striter.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_striter.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_striter.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_striter.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_striter.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_striter.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_striter.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_striter.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_striteri.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_striteri.c.o: /Users/artembykov/Desktop/42school/libft/ft_striteri.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_striteri.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_striteri.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_striteri.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_striteri.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_striteri.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_striteri.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_striteri.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_striteri.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_striteri.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_striteri.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_striteri.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strjoin.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strjoin.c.o: /Users/artembykov/Desktop/42school/libft/ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strjoin.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strjoin.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_strjoin.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strjoin.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strjoin.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_strjoin.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strjoin.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strjoin.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strjoin.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_strjoin.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strjoin.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strlcat.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strlcat.c.o: /Users/artembykov/Desktop/42school/libft/ft_strlcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strlcat.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strlcat.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_strlcat.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strlcat.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strlcat.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_strlcat.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strlcat.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strlcat.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strlcat.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_strlcat.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strlcat.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strlen.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strlen.c.o: /Users/artembykov/Desktop/42school/libft/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strlen.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strlen.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_strlen.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strlen.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strlen.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_strlen.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strlen.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strlen.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strlen.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_strlen.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strlen.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strmap.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strmap.c.o: /Users/artembykov/Desktop/42school/libft/ft_strmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strmap.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strmap.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_strmap.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strmap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strmap.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_strmap.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strmap.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strmap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strmap.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_strmap.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strmap.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strmapi.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strmapi.c.o: /Users/artembykov/Desktop/42school/libft/ft_strmapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strmapi.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strmapi.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_strmapi.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strmapi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strmapi.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_strmapi.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strmapi.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strmapi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strmapi.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_strmapi.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strmapi.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncat.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncat.c.o: /Users/artembykov/Desktop/42school/libft/ft_strncat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncat.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncat.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_strncat.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncat.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncat.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_strncat.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncat.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncat.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncat.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_strncat.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncat.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncmp.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncmp.c.o: /Users/artembykov/Desktop/42school/libft/ft_strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncmp.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncmp.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_strncmp.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncmp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncmp.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_strncmp.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncmp.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncmp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncmp.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_strncmp.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncmp.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncpy.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncpy.c.o: /Users/artembykov/Desktop/42school/libft/ft_strncpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncpy.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncpy.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_strncpy.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncpy.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncpy.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_strncpy.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncpy.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncpy.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncpy.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_strncpy.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncpy.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnequ.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnequ.c.o: /Users/artembykov/Desktop/42school/libft/ft_strnequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnequ.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnequ.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_strnequ.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnequ.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnequ.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_strnequ.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnequ.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnequ.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnequ.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_strnequ.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnequ.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnew.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnew.c.o: /Users/artembykov/Desktop/42school/libft/ft_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnew.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnew.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_strnew.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnew.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnew.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_strnew.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnew.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnew.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnew.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_strnew.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnew.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnlen.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnlen.c.o: /Users/artembykov/Desktop/42school/libft/ft_strnlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnlen.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnlen.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_strnlen.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnlen.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnlen.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_strnlen.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnlen.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnlen.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnlen.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_strnlen.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnlen.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnstr.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnstr.c.o: /Users/artembykov/Desktop/42school/libft/ft_strnstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnstr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnstr.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_strnstr.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnstr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnstr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_strnstr.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnstr.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnstr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnstr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_strnstr.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnstr.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strrchr.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strrchr.c.o: /Users/artembykov/Desktop/42school/libft/ft_strrchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strrchr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strrchr.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_strrchr.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strrchr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strrchr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_strrchr.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strrchr.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strrchr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strrchr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_strrchr.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strrchr.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strsplit.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strsplit.c.o: /Users/artembykov/Desktop/42school/libft/ft_strsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strsplit.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strsplit.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_strsplit.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strsplit.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strsplit.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_strsplit.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strsplit.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strsplit.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strsplit.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_strsplit.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strsplit.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strstr.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strstr.c.o: /Users/artembykov/Desktop/42school/libft/ft_strstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strstr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strstr.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_strstr.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strstr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strstr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_strstr.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strstr.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strstr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strstr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_strstr.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strstr.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strsub.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strsub.c.o: /Users/artembykov/Desktop/42school/libft/ft_strsub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strsub.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strsub.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_strsub.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strsub.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strsub.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_strsub.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strsub.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strsub.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strsub.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_strsub.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strsub.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strtrim.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strtrim.c.o: /Users/artembykov/Desktop/42school/libft/ft_strtrim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strtrim.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strtrim.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_strtrim.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strtrim.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strtrim.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_strtrim.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strtrim.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strtrim.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strtrim.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_strtrim.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strtrim.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_tolower.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_tolower.c.o: /Users/artembykov/Desktop/42school/libft/ft_tolower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_tolower.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_tolower.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_tolower.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_tolower.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_tolower.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_tolower.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_tolower.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_tolower.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_tolower.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_tolower.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_tolower.c.s
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_toupper.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_toupper.c.o: /Users/artembykov/Desktop/42school/libft/ft_toupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_toupper.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_toupper.c.o   -c /Users/artembykov/Desktop/42school/libft/ft_toupper.c
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_toupper.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_toupper.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/libft/ft_toupper.c > CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_toupper.c.i
-
-CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_toupper.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_toupper.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/libft/ft_toupper.c -o CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_toupper.c.s
-
-CMakeFiles/fillit_work.dir/fillit.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/fillit.c.o: ../fillit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/fillit_work.dir/fillit.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/fillit.c.o   -c /Users/artembykov/Desktop/42school/fillit_work/fillit.c
-
-CMakeFiles/fillit_work.dir/fillit.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/fillit.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/fillit_work/fillit.c > CMakeFiles/fillit_work.dir/fillit.c.i
-
-CMakeFiles/fillit_work.dir/fillit.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/fillit.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/fillit_work/fillit.c -o CMakeFiles/fillit_work.dir/fillit.c.s
-
-CMakeFiles/fillit_work.dir/map.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/map.c.o: ../map.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/fillit_work.dir/map.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/map.c.o   -c /Users/artembykov/Desktop/42school/fillit_work/map.c
-
-CMakeFiles/fillit_work.dir/map.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/map.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/fillit_work/map.c > CMakeFiles/fillit_work.dir/map.c.i
-
-CMakeFiles/fillit_work.dir/map.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/map.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/fillit_work/map.c -o CMakeFiles/fillit_work.dir/map.c.s
-
-CMakeFiles/fillit_work.dir/read.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/read.c.o: ../read.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/fillit_work.dir/read.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/read.c.o   -c /Users/artembykov/Desktop/42school/fillit_work/read.c
-
-CMakeFiles/fillit_work.dir/read.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/read.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/fillit_work/read.c > CMakeFiles/fillit_work.dir/read.c.i
-
-CMakeFiles/fillit_work.dir/read.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/read.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/fillit_work/read.c -o CMakeFiles/fillit_work.dir/read.c.s
-
-CMakeFiles/fillit_work.dir/solver.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/solver.c.o: ../solver.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/fillit_work.dir/solver.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/solver.c.o   -c /Users/artembykov/Desktop/42school/fillit_work/solver.c
-
-CMakeFiles/fillit_work.dir/solver.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/solver.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/fillit_work/solver.c > CMakeFiles/fillit_work.dir/solver.c.i
-
-CMakeFiles/fillit_work.dir/solver.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/solver.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/fillit_work/solver.c -o CMakeFiles/fillit_work.dir/solver.c.s
-
-CMakeFiles/fillit_work.dir/tetramino.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/tetramino.c.o: ../tetramino.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/fillit_work.dir/tetramino.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/tetramino.c.o   -c /Users/artembykov/Desktop/42school/fillit_work/tetramino.c
-
-CMakeFiles/fillit_work.dir/tetramino.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/tetramino.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/fillit_work/tetramino.c > CMakeFiles/fillit_work.dir/tetramino.c.i
-
-CMakeFiles/fillit_work.dir/tetramino.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/tetramino.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/fillit_work/tetramino.c -o CMakeFiles/fillit_work.dir/tetramino.c.s
-
-CMakeFiles/fillit_work.dir/validation.c.o: CMakeFiles/fillit_work.dir/flags.make
-CMakeFiles/fillit_work.dir/validation.c.o: ../validation.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/fillit_work.dir/validation.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/validation.c.o   -c /Users/artembykov/Desktop/42school/fillit_work/validation.c
-
-CMakeFiles/fillit_work.dir/validation.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/validation.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/Desktop/42school/fillit_work/validation.c > CMakeFiles/fillit_work.dir/validation.c.i
-
-CMakeFiles/fillit_work.dir/validation.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/validation.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/Desktop/42school/fillit_work/validation.c -o CMakeFiles/fillit_work.dir/validation.c.s
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/fillit.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/fillit.c.o: /Users/sapril/Desktop/work/fillit_final/fillit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/fillit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/fillit.c.o   -c /Users/sapril/Desktop/work/fillit_final/fillit.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/fillit.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/fillit.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/fillit_final/fillit.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/fillit.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/fillit.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/fillit.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/fillit_final/fillit.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/fillit.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/map.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/map.c.o: /Users/sapril/Desktop/work/fillit_final/map.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/map.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/map.c.o   -c /Users/sapril/Desktop/work/fillit_final/map.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/map.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/map.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/fillit_final/map.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/map.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/map.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/map.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/fillit_final/map.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/map.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/read.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/read.c.o: /Users/sapril/Desktop/work/fillit_final/read.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/read.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/read.c.o   -c /Users/sapril/Desktop/work/fillit_final/read.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/read.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/read.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/fillit_final/read.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/read.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/read.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/read.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/fillit_final/read.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/read.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/solver.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/solver.c.o: /Users/sapril/Desktop/work/fillit_final/solver.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/solver.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/solver.c.o   -c /Users/sapril/Desktop/work/fillit_final/solver.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/solver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/solver.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/fillit_final/solver.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/solver.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/solver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/solver.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/fillit_final/solver.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/solver.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/tetramino.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/tetramino.c.o: /Users/sapril/Desktop/work/fillit_final/tetramino.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/tetramino.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/tetramino.c.o   -c /Users/sapril/Desktop/work/fillit_final/tetramino.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/tetramino.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/tetramino.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/fillit_final/tetramino.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/tetramino.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/tetramino.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/tetramino.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/fillit_final/tetramino.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/tetramino.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/validation.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/validation.c.o: /Users/sapril/Desktop/work/fillit_final/validation.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/validation.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/validation.c.o   -c /Users/sapril/Desktop/work/fillit_final/validation.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/validation.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/validation.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/fillit_final/validation.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/validation.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/validation.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/validation.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/fillit_final/validation.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/validation.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_atoi.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_atoi.c.o: /Users/sapril/Desktop/work/libft/ft_atoi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_atoi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_atoi.c.o   -c /Users/sapril/Desktop/work/libft/ft_atoi.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_atoi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_atoi.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_atoi.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_atoi.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_atoi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_atoi.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_atoi.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_atoi.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_bzero.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_bzero.c.o: /Users/sapril/Desktop/work/libft/ft_bzero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_bzero.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_bzero.c.o   -c /Users/sapril/Desktop/work/libft/ft_bzero.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_bzero.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_bzero.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_bzero.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_bzero.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_bzero.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_bzero.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_bzero.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_bzero.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_check_end_spaces.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_check_end_spaces.c.o: /Users/sapril/Desktop/work/libft/ft_check_end_spaces.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_check_end_spaces.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_check_end_spaces.c.o   -c /Users/sapril/Desktop/work/libft/ft_check_end_spaces.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_check_end_spaces.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_check_end_spaces.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_check_end_spaces.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_check_end_spaces.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_check_end_spaces.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_check_end_spaces.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_check_end_spaces.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_check_end_spaces.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_check_start_spaces.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_check_start_spaces.c.o: /Users/sapril/Desktop/work/libft/ft_check_start_spaces.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_check_start_spaces.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_check_start_spaces.c.o   -c /Users/sapril/Desktop/work/libft/ft_check_start_spaces.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_check_start_spaces.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_check_start_spaces.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_check_start_spaces.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_check_start_spaces.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_check_start_spaces.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_check_start_spaces.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_check_start_spaces.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_check_start_spaces.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isalnum.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isalnum.c.o: /Users/sapril/Desktop/work/libft/ft_isalnum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isalnum.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isalnum.c.o   -c /Users/sapril/Desktop/work/libft/ft_isalnum.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isalnum.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isalnum.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_isalnum.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isalnum.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isalnum.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isalnum.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_isalnum.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isalnum.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isalpha.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isalpha.c.o: /Users/sapril/Desktop/work/libft/ft_isalpha.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isalpha.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isalpha.c.o   -c /Users/sapril/Desktop/work/libft/ft_isalpha.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isalpha.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isalpha.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_isalpha.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isalpha.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isalpha.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isalpha.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_isalpha.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isalpha.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isascii.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isascii.c.o: /Users/sapril/Desktop/work/libft/ft_isascii.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isascii.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isascii.c.o   -c /Users/sapril/Desktop/work/libft/ft_isascii.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isascii.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isascii.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_isascii.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isascii.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isascii.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isascii.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_isascii.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isascii.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isdigit.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isdigit.c.o: /Users/sapril/Desktop/work/libft/ft_isdigit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isdigit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isdigit.c.o   -c /Users/sapril/Desktop/work/libft/ft_isdigit.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isdigit.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isdigit.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_isdigit.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isdigit.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isdigit.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isdigit.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_isdigit.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isdigit.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isprint.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isprint.c.o: /Users/sapril/Desktop/work/libft/ft_isprint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isprint.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isprint.c.o   -c /Users/sapril/Desktop/work/libft/ft_isprint.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isprint.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isprint.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_isprint.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isprint.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isprint.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isprint.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_isprint.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isprint.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isspace.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isspace.c.o: /Users/sapril/Desktop/work/libft/ft_isspace.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isspace.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isspace.c.o   -c /Users/sapril/Desktop/work/libft/ft_isspace.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isspace.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isspace.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_isspace.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isspace.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isspace.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isspace.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_isspace.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isspace.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_itoa.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_itoa.c.o: /Users/sapril/Desktop/work/libft/ft_itoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_itoa.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_itoa.c.o   -c /Users/sapril/Desktop/work/libft/ft_itoa.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_itoa.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_itoa.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_itoa.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_itoa.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_itoa.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_itoa.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_itoa.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_itoa.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstadd.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstadd.c.o: /Users/sapril/Desktop/work/libft/ft_lstadd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstadd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstadd.c.o   -c /Users/sapril/Desktop/work/libft/ft_lstadd.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstadd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstadd.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_lstadd.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstadd.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstadd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstadd.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_lstadd.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstadd.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstdel.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstdel.c.o: /Users/sapril/Desktop/work/libft/ft_lstdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstdel.c.o   -c /Users/sapril/Desktop/work/libft/ft_lstdel.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstdel.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstdel.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_lstdel.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstdel.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstdel.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstdel.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_lstdel.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstdel.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstdelone.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstdelone.c.o: /Users/sapril/Desktop/work/libft/ft_lstdelone.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstdelone.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstdelone.c.o   -c /Users/sapril/Desktop/work/libft/ft_lstdelone.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstdelone.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstdelone.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_lstdelone.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstdelone.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstdelone.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstdelone.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_lstdelone.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstdelone.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstiter.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstiter.c.o: /Users/sapril/Desktop/work/libft/ft_lstiter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstiter.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstiter.c.o   -c /Users/sapril/Desktop/work/libft/ft_lstiter.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstiter.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstiter.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_lstiter.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstiter.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstiter.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstiter.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_lstiter.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstiter.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstmap.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstmap.c.o: /Users/sapril/Desktop/work/libft/ft_lstmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstmap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstmap.c.o   -c /Users/sapril/Desktop/work/libft/ft_lstmap.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstmap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstmap.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_lstmap.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstmap.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstmap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstmap.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_lstmap.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstmap.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstnew.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstnew.c.o: /Users/sapril/Desktop/work/libft/ft_lstnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstnew.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstnew.c.o   -c /Users/sapril/Desktop/work/libft/ft_lstnew.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstnew.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstnew.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_lstnew.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstnew.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstnew.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstnew.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_lstnew.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstnew.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memalloc.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memalloc.c.o: /Users/sapril/Desktop/work/libft/ft_memalloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memalloc.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memalloc.c.o   -c /Users/sapril/Desktop/work/libft/ft_memalloc.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memalloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memalloc.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_memalloc.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memalloc.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memalloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memalloc.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_memalloc.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memalloc.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memccpy.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memccpy.c.o: /Users/sapril/Desktop/work/libft/ft_memccpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memccpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memccpy.c.o   -c /Users/sapril/Desktop/work/libft/ft_memccpy.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memccpy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memccpy.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_memccpy.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memccpy.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memccpy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memccpy.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_memccpy.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memccpy.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memchr.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memchr.c.o: /Users/sapril/Desktop/work/libft/ft_memchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memchr.c.o   -c /Users/sapril/Desktop/work/libft/ft_memchr.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memchr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memchr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_memchr.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memchr.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memchr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memchr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_memchr.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memchr.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memcmp.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memcmp.c.o: /Users/sapril/Desktop/work/libft/ft_memcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memcmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memcmp.c.o   -c /Users/sapril/Desktop/work/libft/ft_memcmp.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memcmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memcmp.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_memcmp.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memcmp.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memcmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memcmp.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_memcmp.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memcmp.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memcpy.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memcpy.c.o: /Users/sapril/Desktop/work/libft/ft_memcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memcpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memcpy.c.o   -c /Users/sapril/Desktop/work/libft/ft_memcpy.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memcpy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memcpy.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_memcpy.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memcpy.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memcpy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memcpy.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_memcpy.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memcpy.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memdel.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memdel.c.o: /Users/sapril/Desktop/work/libft/ft_memdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memdel.c.o   -c /Users/sapril/Desktop/work/libft/ft_memdel.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memdel.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memdel.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_memdel.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memdel.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memdel.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memdel.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_memdel.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memdel.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memmove.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memmove.c.o: /Users/sapril/Desktop/work/libft/ft_memmove.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memmove.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memmove.c.o   -c /Users/sapril/Desktop/work/libft/ft_memmove.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memmove.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memmove.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_memmove.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memmove.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memmove.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memmove.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_memmove.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memmove.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memset.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memset.c.o: /Users/sapril/Desktop/work/libft/ft_memset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memset.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memset.c.o   -c /Users/sapril/Desktop/work/libft/ft_memset.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memset.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memset.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_memset.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memset.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memset.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memset.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_memset.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memset.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_num_of_digits.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_num_of_digits.c.o: /Users/sapril/Desktop/work/libft/ft_num_of_digits.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_num_of_digits.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_num_of_digits.c.o   -c /Users/sapril/Desktop/work/libft/ft_num_of_digits.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_num_of_digits.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_num_of_digits.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_num_of_digits.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_num_of_digits.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_num_of_digits.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_num_of_digits.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_num_of_digits.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_num_of_digits.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putchar.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putchar.c.o: /Users/sapril/Desktop/work/libft/ft_putchar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putchar.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putchar.c.o   -c /Users/sapril/Desktop/work/libft/ft_putchar.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putchar.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putchar.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_putchar.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putchar.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putchar.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putchar.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_putchar.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putchar.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putchar_fd.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putchar_fd.c.o: /Users/sapril/Desktop/work/libft/ft_putchar_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putchar_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putchar_fd.c.o   -c /Users/sapril/Desktop/work/libft/ft_putchar_fd.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putchar_fd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putchar_fd.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_putchar_fd.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putchar_fd.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putchar_fd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putchar_fd.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_putchar_fd.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putchar_fd.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putendl.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putendl.c.o: /Users/sapril/Desktop/work/libft/ft_putendl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putendl.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putendl.c.o   -c /Users/sapril/Desktop/work/libft/ft_putendl.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putendl.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putendl.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_putendl.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putendl.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putendl.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putendl.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_putendl.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putendl.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putendl_fd.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putendl_fd.c.o: /Users/sapril/Desktop/work/libft/ft_putendl_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putendl_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putendl_fd.c.o   -c /Users/sapril/Desktop/work/libft/ft_putendl_fd.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putendl_fd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putendl_fd.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_putendl_fd.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putendl_fd.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putendl_fd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putendl_fd.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_putendl_fd.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putendl_fd.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putnbr.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putnbr.c.o: /Users/sapril/Desktop/work/libft/ft_putnbr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putnbr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putnbr.c.o   -c /Users/sapril/Desktop/work/libft/ft_putnbr.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putnbr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putnbr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_putnbr.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putnbr.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putnbr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putnbr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_putnbr.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putnbr.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putnbr_fd.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putnbr_fd.c.o: /Users/sapril/Desktop/work/libft/ft_putnbr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putnbr_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putnbr_fd.c.o   -c /Users/sapril/Desktop/work/libft/ft_putnbr_fd.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putnbr_fd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putnbr_fd.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_putnbr_fd.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putnbr_fd.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putnbr_fd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putnbr_fd.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_putnbr_fd.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putnbr_fd.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putstr.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putstr.c.o: /Users/sapril/Desktop/work/libft/ft_putstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putstr.c.o   -c /Users/sapril/Desktop/work/libft/ft_putstr.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putstr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putstr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_putstr.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putstr.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putstr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putstr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_putstr.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putstr.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putstr_fd.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putstr_fd.c.o: /Users/sapril/Desktop/work/libft/ft_putstr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putstr_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putstr_fd.c.o   -c /Users/sapril/Desktop/work/libft/ft_putstr_fd.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putstr_fd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putstr_fd.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_putstr_fd.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putstr_fd.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putstr_fd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putstr_fd.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_putstr_fd.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putstr_fd.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_lowercase.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_lowercase.c.o: /Users/sapril/Desktop/work/libft/ft_str_is_lowercase.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_lowercase.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_lowercase.c.o   -c /Users/sapril/Desktop/work/libft/ft_str_is_lowercase.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_lowercase.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_lowercase.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_str_is_lowercase.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_lowercase.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_lowercase.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_lowercase.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_str_is_lowercase.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_lowercase.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_numeric.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_numeric.c.o: /Users/sapril/Desktop/work/libft/ft_str_is_numeric.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_numeric.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_numeric.c.o   -c /Users/sapril/Desktop/work/libft/ft_str_is_numeric.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_numeric.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_numeric.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_str_is_numeric.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_numeric.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_numeric.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_numeric.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_str_is_numeric.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_numeric.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_printable.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_printable.c.o: /Users/sapril/Desktop/work/libft/ft_str_is_printable.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_printable.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_printable.c.o   -c /Users/sapril/Desktop/work/libft/ft_str_is_printable.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_printable.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_printable.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_str_is_printable.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_printable.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_printable.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_printable.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_str_is_printable.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_printable.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_uppercase.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_uppercase.c.o: /Users/sapril/Desktop/work/libft/ft_str_is_uppercase.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_uppercase.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_uppercase.c.o   -c /Users/sapril/Desktop/work/libft/ft_str_is_uppercase.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_uppercase.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_uppercase.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_str_is_uppercase.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_uppercase.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_uppercase.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_uppercase.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_str_is_uppercase.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_uppercase.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcat.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcat.c.o: /Users/sapril/Desktop/work/libft/ft_strcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcat.c.o   -c /Users/sapril/Desktop/work/libft/ft_strcat.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcat.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcat.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_strcat.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcat.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcat.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcat.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_strcat.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcat.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strchr.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strchr.c.o: /Users/sapril/Desktop/work/libft/ft_strchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strchr.c.o   -c /Users/sapril/Desktop/work/libft/ft_strchr.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strchr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strchr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_strchr.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strchr.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strchr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strchr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_strchr.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strchr.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strclr.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strclr.c.o: /Users/sapril/Desktop/work/libft/ft_strclr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strclr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strclr.c.o   -c /Users/sapril/Desktop/work/libft/ft_strclr.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strclr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strclr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_strclr.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strclr.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strclr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strclr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_strclr.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strclr.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcmp.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcmp.c.o: /Users/sapril/Desktop/work/libft/ft_strcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcmp.c.o   -c /Users/sapril/Desktop/work/libft/ft_strcmp.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcmp.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_strcmp.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcmp.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcmp.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_strcmp.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcmp.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcpy.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcpy.c.o: /Users/sapril/Desktop/work/libft/ft_strcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcpy.c.o   -c /Users/sapril/Desktop/work/libft/ft_strcpy.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcpy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcpy.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_strcpy.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcpy.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcpy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcpy.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_strcpy.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcpy.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strdel.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strdel.c.o: /Users/sapril/Desktop/work/libft/ft_strdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strdel.c.o   -c /Users/sapril/Desktop/work/libft/ft_strdel.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strdel.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strdel.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_strdel.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strdel.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strdel.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strdel.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_strdel.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strdel.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strdup.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strdup.c.o: /Users/sapril/Desktop/work/libft/ft_strdup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strdup.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strdup.c.o   -c /Users/sapril/Desktop/work/libft/ft_strdup.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strdup.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strdup.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_strdup.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strdup.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strdup.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strdup.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_strdup.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strdup.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strequ.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strequ.c.o: /Users/sapril/Desktop/work/libft/ft_strequ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strequ.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strequ.c.o   -c /Users/sapril/Desktop/work/libft/ft_strequ.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strequ.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strequ.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_strequ.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strequ.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strequ.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strequ.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_strequ.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strequ.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_striter.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_striter.c.o: /Users/sapril/Desktop/work/libft/ft_striter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_striter.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_striter.c.o   -c /Users/sapril/Desktop/work/libft/ft_striter.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_striter.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_striter.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_striter.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_striter.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_striter.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_striter.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_striter.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_striter.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_striteri.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_striteri.c.o: /Users/sapril/Desktop/work/libft/ft_striteri.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_striteri.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_striteri.c.o   -c /Users/sapril/Desktop/work/libft/ft_striteri.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_striteri.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_striteri.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_striteri.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_striteri.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_striteri.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_striteri.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_striteri.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_striteri.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strjoin.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strjoin.c.o: /Users/sapril/Desktop/work/libft/ft_strjoin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strjoin.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strjoin.c.o   -c /Users/sapril/Desktop/work/libft/ft_strjoin.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strjoin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strjoin.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_strjoin.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strjoin.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strjoin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strjoin.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_strjoin.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strjoin.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strlcat.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strlcat.c.o: /Users/sapril/Desktop/work/libft/ft_strlcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strlcat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strlcat.c.o   -c /Users/sapril/Desktop/work/libft/ft_strlcat.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strlcat.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strlcat.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_strlcat.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strlcat.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strlcat.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strlcat.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_strlcat.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strlcat.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strlen.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strlen.c.o: /Users/sapril/Desktop/work/libft/ft_strlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strlen.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strlen.c.o   -c /Users/sapril/Desktop/work/libft/ft_strlen.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strlen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strlen.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_strlen.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strlen.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strlen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strlen.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_strlen.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strlen.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strmap.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strmap.c.o: /Users/sapril/Desktop/work/libft/ft_strmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strmap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strmap.c.o   -c /Users/sapril/Desktop/work/libft/ft_strmap.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strmap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strmap.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_strmap.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strmap.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strmap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strmap.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_strmap.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strmap.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strmapi.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strmapi.c.o: /Users/sapril/Desktop/work/libft/ft_strmapi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strmapi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strmapi.c.o   -c /Users/sapril/Desktop/work/libft/ft_strmapi.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strmapi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strmapi.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_strmapi.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strmapi.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strmapi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strmapi.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_strmapi.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strmapi.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncat.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncat.c.o: /Users/sapril/Desktop/work/libft/ft_strncat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncat.c.o   -c /Users/sapril/Desktop/work/libft/ft_strncat.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncat.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncat.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_strncat.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncat.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncat.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncat.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_strncat.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncat.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncmp.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncmp.c.o: /Users/sapril/Desktop/work/libft/ft_strncmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncmp.c.o   -c /Users/sapril/Desktop/work/libft/ft_strncmp.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncmp.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_strncmp.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncmp.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncmp.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_strncmp.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncmp.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncpy.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncpy.c.o: /Users/sapril/Desktop/work/libft/ft_strncpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncpy.c.o   -c /Users/sapril/Desktop/work/libft/ft_strncpy.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncpy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncpy.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_strncpy.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncpy.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncpy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncpy.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_strncpy.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncpy.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnequ.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnequ.c.o: /Users/sapril/Desktop/work/libft/ft_strnequ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnequ.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnequ.c.o   -c /Users/sapril/Desktop/work/libft/ft_strnequ.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnequ.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnequ.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_strnequ.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnequ.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnequ.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnequ.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_strnequ.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnequ.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnew.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnew.c.o: /Users/sapril/Desktop/work/libft/ft_strnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnew.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnew.c.o   -c /Users/sapril/Desktop/work/libft/ft_strnew.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnew.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnew.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_strnew.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnew.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnew.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnew.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_strnew.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnew.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnlen.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnlen.c.o: /Users/sapril/Desktop/work/libft/ft_strnlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnlen.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnlen.c.o   -c /Users/sapril/Desktop/work/libft/ft_strnlen.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnlen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnlen.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_strnlen.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnlen.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnlen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnlen.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_strnlen.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnlen.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnstr.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnstr.c.o: /Users/sapril/Desktop/work/libft/ft_strnstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnstr.c.o   -c /Users/sapril/Desktop/work/libft/ft_strnstr.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnstr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnstr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_strnstr.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnstr.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnstr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnstr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_strnstr.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnstr.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strrchr.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strrchr.c.o: /Users/sapril/Desktop/work/libft/ft_strrchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strrchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strrchr.c.o   -c /Users/sapril/Desktop/work/libft/ft_strrchr.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strrchr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strrchr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_strrchr.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strrchr.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strrchr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strrchr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_strrchr.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strrchr.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strsplit.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strsplit.c.o: /Users/sapril/Desktop/work/libft/ft_strsplit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strsplit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strsplit.c.o   -c /Users/sapril/Desktop/work/libft/ft_strsplit.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strsplit.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strsplit.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_strsplit.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strsplit.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strsplit.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strsplit.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_strsplit.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strsplit.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strstr.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strstr.c.o: /Users/sapril/Desktop/work/libft/ft_strstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strstr.c.o   -c /Users/sapril/Desktop/work/libft/ft_strstr.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strstr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strstr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_strstr.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strstr.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strstr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strstr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_strstr.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strstr.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strsub.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strsub.c.o: /Users/sapril/Desktop/work/libft/ft_strsub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strsub.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strsub.c.o   -c /Users/sapril/Desktop/work/libft/ft_strsub.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strsub.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strsub.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_strsub.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strsub.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strsub.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strsub.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_strsub.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strsub.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strtrim.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strtrim.c.o: /Users/sapril/Desktop/work/libft/ft_strtrim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strtrim.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strtrim.c.o   -c /Users/sapril/Desktop/work/libft/ft_strtrim.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strtrim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strtrim.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_strtrim.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strtrim.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strtrim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strtrim.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_strtrim.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strtrim.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_tolower.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_tolower.c.o: /Users/sapril/Desktop/work/libft/ft_tolower.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_tolower.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_tolower.c.o   -c /Users/sapril/Desktop/work/libft/ft_tolower.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_tolower.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_tolower.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_tolower.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_tolower.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_tolower.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_tolower.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_tolower.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_tolower.c.s
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_toupper.c.o: CMakeFiles/fillit_work.dir/flags.make
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_toupper.c.o: /Users/sapril/Desktop/work/libft/ft_toupper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_toupper.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_toupper.c.o   -c /Users/sapril/Desktop/work/libft/ft_toupper.c
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_toupper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_toupper.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sapril/Desktop/work/libft/ft_toupper.c > CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_toupper.c.i
+
+CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_toupper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_toupper.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sapril/Desktop/work/libft/ft_toupper.c -o CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_toupper.c.s
 
 # Object files for target fillit_work
 fillit_work_OBJECTS = \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_atoi.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_bzero.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_check_end_spaces.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_check_start_spaces.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isalnum.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isalpha.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isascii.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isdigit.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isprint.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isspace.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_itoa.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstadd.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstdel.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstdelone.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstiter.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstmap.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstnew.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memalloc.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memccpy.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memchr.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memcmp.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memcpy.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memdel.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memmove.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memset.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_num_of_digits.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putchar.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putchar_fd.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putendl.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putendl_fd.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putnbr.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putnbr_fd.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putstr.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putstr_fd.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_lowercase.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_numeric.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_printable.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_uppercase.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcat.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strchr.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strclr.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcmp.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcpy.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strdel.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strdup.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strequ.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_striter.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_striteri.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strjoin.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strlcat.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strlen.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strmap.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strmapi.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncat.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncmp.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncpy.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnequ.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnew.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnlen.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnstr.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strrchr.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strsplit.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strstr.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strsub.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strtrim.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_tolower.c.o" \
-"CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_toupper.c.o" \
-"CMakeFiles/fillit_work.dir/fillit.c.o" \
-"CMakeFiles/fillit_work.dir/map.c.o" \
-"CMakeFiles/fillit_work.dir/read.c.o" \
-"CMakeFiles/fillit_work.dir/solver.c.o" \
-"CMakeFiles/fillit_work.dir/tetramino.c.o" \
-"CMakeFiles/fillit_work.dir/validation.c.o"
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/fillit.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/map.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/read.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/solver.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/tetramino.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/validation.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_atoi.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_bzero.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_check_end_spaces.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_check_start_spaces.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isalnum.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isalpha.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isascii.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isdigit.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isprint.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isspace.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_itoa.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstadd.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstdel.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstdelone.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstiter.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstmap.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstnew.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memalloc.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memccpy.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memchr.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memcmp.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memcpy.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memdel.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memmove.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memset.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_num_of_digits.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putchar.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putchar_fd.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putendl.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putendl_fd.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putnbr.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putnbr_fd.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putstr.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putstr_fd.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_lowercase.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_numeric.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_printable.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_uppercase.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcat.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strchr.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strclr.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcmp.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcpy.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strdel.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strdup.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strequ.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_striter.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_striteri.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strjoin.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strlcat.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strlen.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strmap.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strmapi.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncat.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncmp.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncpy.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnequ.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnew.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnlen.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnstr.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strrchr.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strsplit.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strstr.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strsub.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strtrim.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_tolower.c.o" \
+"CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_toupper.c.o"
 
 # External object files for target fillit_work
 fillit_work_EXTERNAL_OBJECTS =
 
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_atoi.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_bzero.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_check_end_spaces.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_check_start_spaces.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isalnum.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isalpha.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isascii.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isdigit.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isprint.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_isspace.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_itoa.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstadd.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstdel.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstdelone.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstiter.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstmap.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_lstnew.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memalloc.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memccpy.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memchr.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memcmp.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memcpy.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memdel.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memmove.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_memset.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_num_of_digits.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putchar.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putchar_fd.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putendl.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putendl_fd.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putnbr.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putnbr_fd.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putstr.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_putstr_fd.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_lowercase.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_numeric.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_printable.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_str_is_uppercase.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcat.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strchr.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strclr.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcmp.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strcpy.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strdel.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strdup.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strequ.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_striter.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_striteri.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strjoin.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strlcat.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strlen.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strmap.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strmapi.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncat.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncmp.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strncpy.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnequ.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnew.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnlen.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strnstr.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strrchr.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strsplit.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strstr.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strsub.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_strtrim.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_tolower.c.o
-fillit_work: CMakeFiles/fillit_work.dir/Users/artembykov/Desktop/42school/libft/ft_toupper.c.o
-fillit_work: CMakeFiles/fillit_work.dir/fillit.c.o
-fillit_work: CMakeFiles/fillit_work.dir/map.c.o
-fillit_work: CMakeFiles/fillit_work.dir/read.c.o
-fillit_work: CMakeFiles/fillit_work.dir/solver.c.o
-fillit_work: CMakeFiles/fillit_work.dir/tetramino.c.o
-fillit_work: CMakeFiles/fillit_work.dir/validation.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/fillit.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/map.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/read.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/solver.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/tetramino.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/fillit_final/validation.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_atoi.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_bzero.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_check_end_spaces.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_check_start_spaces.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isalnum.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isalpha.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isascii.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isdigit.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isprint.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_isspace.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_itoa.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstadd.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstdel.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstdelone.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstiter.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstmap.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_lstnew.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memalloc.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memccpy.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memchr.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memcmp.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memcpy.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memdel.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memmove.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_memset.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_num_of_digits.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putchar.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putchar_fd.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putendl.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putendl_fd.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putnbr.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putnbr_fd.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putstr.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_putstr_fd.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_lowercase.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_numeric.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_printable.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_str_is_uppercase.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcat.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strchr.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strclr.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcmp.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strcpy.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strdel.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strdup.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strequ.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_striter.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_striteri.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strjoin.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strlcat.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strlen.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strmap.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strmapi.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncat.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncmp.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strncpy.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnequ.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnew.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnlen.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strnstr.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strrchr.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strsplit.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strstr.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strsub.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_strtrim.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_tolower.c.o
+fillit_work: CMakeFiles/fillit_work.dir/Users/sapril/Desktop/work/libft/ft_toupper.c.o
 fillit_work: CMakeFiles/fillit_work.dir/build.make
 fillit_work: CMakeFiles/fillit_work.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Linking C executable fillit_work"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Linking C executable fillit_work"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fillit_work.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1173,6 +1173,6 @@ CMakeFiles/fillit_work.dir/clean:
 .PHONY : CMakeFiles/fillit_work.dir/clean
 
 CMakeFiles/fillit_work.dir/depend:
-	cd /Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/artembykov/Desktop/42school/fillit_work /Users/artembykov/Desktop/42school/fillit_work /Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug /Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug /Users/artembykov/Desktop/42school/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/sapril/Desktop/work/fillit_work/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/sapril/Desktop/work/fillit_work /Users/sapril/Desktop/work/fillit_work /Users/sapril/Desktop/work/fillit_work/cmake-build-debug /Users/sapril/Desktop/work/fillit_work/cmake-build-debug /Users/sapril/Desktop/work/fillit_work/cmake-build-debug/CMakeFiles/fillit_work.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/fillit_work.dir/depend
 
