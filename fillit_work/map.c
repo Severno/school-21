@@ -6,16 +6,20 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/01 16:40:49 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/07 07:29:47 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/07 14:43:07 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "fillit.h"
+#include "solver.h"
+#include "map.h"
 
-char		**create_map(int map_size)
+#include "fillit.h"
+
+char        **create_map(int map_size)
 {
-	int		i;
-	char	**map;
+	int     i;
+	char    **map;
 
 	i = 0;
 	map = (char **)ft_memalloc(sizeof(char *) * map_size);
@@ -27,9 +31,9 @@ char		**create_map(int map_size)
 	return (map);
 }
 
-int			get_map_size(int count_figures, t_max *max_w_h)
+int         get_map_size(int count_figures, t_max *max_w_h)
 {
-	int		map_size;
+	int     map_size;
 
 	map_size = 2;
 	while ((map_size * map_size) < count_figures * 4)
@@ -44,9 +48,9 @@ int			get_map_size(int count_figures, t_max *max_w_h)
 	return (map_size);
 }
 
-void		print_map(char **map, int size)
+void        print_map(char **map, int size)
 {
-	int		i;
+	int     i;
 
 	i = 0;
 	while (i < size)
@@ -56,7 +60,7 @@ void		print_map(char **map, int size)
 	}
 }
 
-void		free_map(char **map, int map_size)
+void        free_map(char **map, int map_size)
 {
 	int i;
 
@@ -66,10 +70,10 @@ void		free_map(char **map, int map_size)
 	free(map);
 }
 
-int					count_figures(t_tetra_el *begin_tetra, t_max *max_h_w)
+int         count_figures(t_tetra_el *begin_tetra, t_max *max_h_w)
 {
-	int			counter;
-	t_tetra_el	*tmp;
+	int         counter;
+	t_tetra_el  *tmp;
 
 	counter = 0;
 	tmp = begin_tetra;

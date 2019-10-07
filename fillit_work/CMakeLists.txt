@@ -4,10 +4,10 @@ project(fillit_work C)
 set(CMAKE_C_STANDARD 99)
 
 file(GLOB SRC
-        ../libft/*.c
-        ../libft/libft.h
-        ../fillit_final/*.c
-        ../fillit_final/*.h)
+        libft/*.c
+        libft/libft.h
+        *.c
+        *.h)
 message("${SRC}")
 list(FILTER SRC EXCLUDE REGEX ".*main.c$")
 

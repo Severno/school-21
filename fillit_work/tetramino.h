@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/29 13:35:28 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/07 07:18:38 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/07 14:38:37 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,5 +41,6 @@ t_tetra_info			*create_tetra_info(int *x, int *y, char sign);
 t_tetra_el				*create_tetra_el(t_tetra_info *tetra_info);
 void					add_back_tetra_el(t_tetra_el
 						*begin_tetra_list, t_tetra_info *tetra_info);
+void					free_tetras(t_tetra_el *begin_tetra);
 
 #endif
