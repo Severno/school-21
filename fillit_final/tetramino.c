@@ -69,7 +69,7 @@ t_tetra_el		*create_tetra_el(t_tetra_info *tetra_info)
 	return (new_tetra_el);
 }
 
-void		free_tetras(t_tetra_el *begin_tetra)
+void			free_tetras(t_tetra_el *begin_tetra)
 {
 	t_tetra_el *tmp;
 

@@ -6,23 +6,21 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/29 15:37:23 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/07 09:00:55 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/07 09:43:24 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "fillit.h"
 
-t_tetra_el			*read_input(char *file_name,
+t_tetra_el			*read_input(int fd,
 								char *buf, t_tetra_el *begin_tetra)
 {
 	char	sign;
 	int		ret;
 	int		y_buff[CHARS_NUMBER];
 	int		x_buff[CHARS_NUMBER];
-	int		fd;
 
 	sign = 'A';
-	fd = open(file_name, O_RDONLY);
 	while ((ret = read(fd, buf, BUFF_SIZE)) > 0)
 	{
 		buf[ret] = '\0';
@@ -38,6 +36,8 @@ t_tetra_el			*read_input(char *file_name,
 		else
 			return (NULL);
 	}
+	if ((buf[19] == '\n' && buf[20] == '\n'))
+		return (NULL);
 	return (begin_tetra);
 }
 

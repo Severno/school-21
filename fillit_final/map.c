@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/01 16:40:49 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/07 07:18:38 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/07 07:34:33 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,7 +66,7 @@ void		free_map(char **map, int map_size)
 	free(map);
 }
 
-int					count_figures(t_tetra_el *begin_tetra, t_max *max_h_w)
+int			count_figures(t_tetra_el *begin_tetra, t_max *max_h_w)
 {
 	int			counter;
 	t_tetra_el	*tmp;

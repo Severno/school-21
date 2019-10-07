@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/04 08:28:36 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/07 07:18:38 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/07 09:51:34 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -111,8 +111,8 @@ int			check_bound(t_tetra_el *tetra, int map_size, char axis)
 		&& tetra->figure->x[3] + tetra->x_indent < map_size);
 	else if (axis == 'y')
 		return (tetra->figure->y[0] + tetra->y_indent < map_size
-				&& tetra->figure->y[1] + tetra->y_indent < map_size
-				&& tetra->figure->y[2] + tetra->y_indent < map_size
-				&& tetra->figure->y[3] + tetra->y_indent < map_size);
-	return (0);
+		&& tetra->figure->y[1] + tetra->y_indent < map_size
+		&& tetra->figure->y[2] + tetra->y_indent < map_size
+		&& tetra->figure->y[3] + tetra->y_indent < map_size);
+		return (0);
 }

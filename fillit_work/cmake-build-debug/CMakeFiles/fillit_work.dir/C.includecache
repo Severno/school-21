@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/Users/sapril/Desktop/work/fillit_final/fillit.c
+fillit.h
+/Users/sapril/Desktop/work/fillit_final/fillit.h
+
 /Users/sapril/Desktop/work/fillit_final/fillit.h
 ../libft/libft.h
 /Users/sapril/Desktop/work/libft/libft.h
@@ -26,6 +30,10 @@ map.h
 solver.h
 /Users/sapril/Desktop/work/fillit_final/solver.h
 
+/Users/sapril/Desktop/work/fillit_final/map.c
+fillit.h
+/Users/sapril/Desktop/work/fillit_final/fillit.h
+
 /Users/sapril/Desktop/work/fillit_final/map.h
 tetramino.h
 /Users/sapril/Desktop/work/fillit_final/tetramino.h
@@ -38,13 +46,19 @@ fillit.h
 
 /Users/sapril/Desktop/work/fillit_final/read.h
 
+/Users/sapril/Desktop/work/fillit_final/solver.c
+fillit.h
+/Users/sapril/Desktop/work/fillit_final/fillit.h
+
 /Users/sapril/Desktop/work/fillit_final/solver.h
 tetramino.h
 /Users/sapril/Desktop/work/fillit_final/tetramino.h
 
-/Users/sapril/Desktop/work/fillit_final/tetramino.h
+/Users/sapril/Desktop/work/fillit_final/tetramino.c
+fillit.h
+/Users/sapril/Desktop/work/fillit_final/fillit.h
 
-/Users/sapril/Desktop/work/fillit_final/validation.c
+/Users/sapril/Desktop/work/fillit_final/tetramino.h
 
 /Users/sapril/Desktop/work/fillit_final/validation.h
 
