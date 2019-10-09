@@ -1,0 +1,3 @@
+#dig +short -x $(ifconfig en0 | grep "inet " | awk '{print $2}')
+
+vo-l6.21-school.ru.
