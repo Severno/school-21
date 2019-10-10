@@ -9,7 +9,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="849eb42c-632a-484d-8989-d7ba73d59980" name="Default Changelist" comment="" />
+    <list default="true" id="8c79d4b1-df9d-409b-a5fc-34f569363dcb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../42_libft_test_system" beforeDir="false" afterPath="$PROJECT_DIR$/../42_libft_test_system" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Checkers/42_file_check" beforeDir="false" afterPath="$PROJECT_DIR$/../Checkers/42_file_check" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libft.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libft.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +24,11 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1RypL35SbMqVorvFddHjusT1nAP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -47,16 +56,28 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="849eb42c-632a-484d-8989-d7ba73d59980" name="Default Changelist" comment="" />
+      <changelist id="8c79d4b1-df9d-409b-a5fc-34f569363dcb" name="Default Changelist" comment="" />
       <created>1570649130916</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570649130916</updated>
       <workItem from="1570649132117" duration="2193000" />
+      <workItem from="1570710766147" duration="71000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
