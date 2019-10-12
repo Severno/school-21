@@ -12,7 +12,6 @@
     <list default="true" id="8c79d4b1-df9d-409b-a5fc-34f569363dcb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../42_libft_test_system" beforeDir="false" afterPath="$PROJECT_DIR$/../42_libft_test_system" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Checkers/42_file_check" beforeDir="false" afterPath="$PROJECT_DIR$/../Checkers/42_file_check" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libft.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libft.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,6 +62,7 @@
       <updated>1570649130916</updated>
       <workItem from="1570649132117" duration="2193000" />
       <workItem from="1570710766147" duration="71000" />
+      <workItem from="1570726503370" duration="854000" />
     </task>
     <servers />
   </component>
@@ -74,7 +74,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
