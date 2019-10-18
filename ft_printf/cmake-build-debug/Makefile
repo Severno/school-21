@@ -123,6 +123,33 @@ ft_printf/fast:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/build
 .PHONY : ft_printf/fast
 
+alignment.o: alignment.c.o
+
+.PHONY : alignment.o
+
+# target to build an object file
+alignment.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/alignment.c.o
+.PHONY : alignment.c.o
+
+alignment.i: alignment.c.i
+
+.PHONY : alignment.i
+
+# target to preprocess a source file
+alignment.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/alignment.c.i
+.PHONY : alignment.c.i
+
+alignment.s: alignment.c.s
+
+.PHONY : alignment.s
+
+# target to generate assembly for a file
+alignment.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/alignment.c.s
+.PHONY : alignment.c.s
+
 d_delimeter.o: d_delimeter.c.o
 
 .PHONY : d_delimeter.o
@@ -150,6 +177,87 @@ d_delimeter.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/d_delimeter.c.s
 .PHONY : d_delimeter.c.s
 
+flag_char.o: flag_char.c.o
+
+.PHONY : flag_char.o
+
+# target to build an object file
+flag_char.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_char.c.o
+.PHONY : flag_char.c.o
+
+flag_char.i: flag_char.c.i
+
+.PHONY : flag_char.i
+
+# target to preprocess a source file
+flag_char.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_char.c.i
+.PHONY : flag_char.c.i
+
+flag_char.s: flag_char.c.s
+
+.PHONY : flag_char.s
+
+# target to generate assembly for a file
+flag_char.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_char.c.s
+.PHONY : flag_char.c.s
+
+flag_double.o: flag_double.c.o
+
+.PHONY : flag_double.o
+
+# target to build an object file
+flag_double.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_double.c.o
+.PHONY : flag_double.c.o
+
+flag_double.i: flag_double.c.i
+
+.PHONY : flag_double.i
+
+# target to preprocess a source file
+flag_double.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_double.c.i
+.PHONY : flag_double.c.i
+
+flag_double.s: flag_double.c.s
+
+.PHONY : flag_double.s
+
+# target to generate assembly for a file
+flag_double.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_double.c.s
+.PHONY : flag_double.c.s
+
+flag_int.o: flag_int.c.o
+
+.PHONY : flag_int.o
+
+# target to build an object file
+flag_int.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_int.c.o
+.PHONY : flag_int.c.o
+
+flag_int.i: flag_int.c.i
+
+.PHONY : flag_int.i
+
+# target to preprocess a source file
+flag_int.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_int.c.i
+.PHONY : flag_int.c.i
+
+flag_int.s: flag_int.c.s
+
+.PHONY : flag_int.s
+
+# target to generate assembly for a file
+flag_int.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_int.c.s
+.PHONY : flag_int.c.s
+
 ft_printf.o: ft_printf.c.o
 
 .PHONY : ft_printf.o
@@ -176,33 +284,6 @@ ft_printf.s: ft_printf.c.s
 ft_printf.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf.c.s
 .PHONY : ft_printf.c.s
-
-libft/alignment.o: libft/alignment.c.o
-
-.PHONY : libft/alignment.o
-
-# target to build an object file
-libft/alignment.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/libft/alignment.c.o
-.PHONY : libft/alignment.c.o
-
-libft/alignment.i: libft/alignment.c.i
-
-.PHONY : libft/alignment.i
-
-# target to preprocess a source file
-libft/alignment.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/libft/alignment.c.i
-.PHONY : libft/alignment.c.i
-
-libft/alignment.s: libft/alignment.c.s
-
-.PHONY : libft/alignment.s
-
-# target to generate assembly for a file
-libft/alignment.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/libft/alignment.c.s
-.PHONY : libft/alignment.c.s
 
 libft/ft_atoi.o: libft/ft_atoi.c.o
 
@@ -2013,6 +2094,33 @@ libft/ft_toupper.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/libft/ft_toupper.c.s
 .PHONY : libft/ft_toupper.c.s
 
+parse_flags.o: parse_flags.c.o
+
+.PHONY : parse_flags.o
+
+# target to build an object file
+parse_flags.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/parse_flags.c.o
+.PHONY : parse_flags.c.o
+
+parse_flags.i: parse_flags.c.i
+
+.PHONY : parse_flags.i
+
+# target to preprocess a source file
+parse_flags.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/parse_flags.c.i
+.PHONY : parse_flags.c.i
+
+parse_flags.s: parse_flags.c.s
+
+.PHONY : parse_flags.s
+
+# target to generate assembly for a file
+parse_flags.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/parse_flags.c.s
+.PHONY : parse_flags.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2022,15 +2130,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ft_printf"
+	@echo "... alignment.o"
+	@echo "... alignment.i"
+	@echo "... alignment.s"
 	@echo "... d_delimeter.o"
 	@echo "... d_delimeter.i"
 	@echo "... d_delimeter.s"
+	@echo "... flag_char.o"
+	@echo "... flag_char.i"
+	@echo "... flag_char.s"
+	@echo "... flag_double.o"
+	@echo "... flag_double.i"
+	@echo "... flag_double.s"
+	@echo "... flag_int.o"
+	@echo "... flag_int.i"
+	@echo "... flag_int.s"
 	@echo "... ft_printf.o"
 	@echo "... ft_printf.i"
 	@echo "... ft_printf.s"
-	@echo "... libft/alignment.o"
-	@echo "... libft/alignment.i"
-	@echo "... libft/alignment.s"
 	@echo "... libft/ft_atoi.o"
 	@echo "... libft/ft_atoi.i"
 	@echo "... libft/ft_atoi.s"
@@ -2232,6 +2349,9 @@ help:
 	@echo "... libft/ft_toupper.o"
 	@echo "... libft/ft_toupper.i"
 	@echo "... libft/ft_toupper.s"
+	@echo "... parse_flags.o"
+	@echo "... parse_flags.i"
+	@echo "... parse_flags.s"
 .PHONY : help
 
 

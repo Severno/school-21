@@ -72,7 +72,8 @@ set(LIBFT libft/ft_atoi.c
         libft/ft_strtrim.c
         libft/ft_tolower.c
         libft/ft_toupper.c
-        libft/libft.h d_delimeter.c libft/alignment.c)
+        libft/libft.h
+        d_delimeter.c parse_flags.c flag_int.c flag_double.c flag_char.c alignment.c)
 
 add_executable(ft_printf
         ${LIBFT}

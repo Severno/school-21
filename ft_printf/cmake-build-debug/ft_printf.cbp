@@ -82,16 +82,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/sapril/Desktop/work/ft_printf/alignment.c">
+			<Option target="ft_printf"/>
+		</Unit>
 		<Unit filename="/Users/sapril/Desktop/work/ft_printf/d_delimeter.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/work/ft_printf/flag_char.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/work/ft_printf/flag_double.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/work/ft_printf/flag_int.c">
 			<Option target="ft_printf"/>
 		</Unit>
 		<Unit filename="/Users/sapril/Desktop/work/ft_printf/ft_printf.c">
 			<Option target="ft_printf"/>
 		</Unit>
 		<Unit filename="/Users/sapril/Desktop/work/ft_printf/ft_printf.h">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/Users/sapril/Desktop/work/ft_printf/libft/alignment.c">
 			<Option target="ft_printf"/>
 		</Unit>
 		<Unit filename="/Users/sapril/Desktop/work/ft_printf/libft/ft_atoi.c">
@@ -296,6 +305,9 @@
 			<Option target="ft_printf"/>
 		</Unit>
 		<Unit filename="/Users/sapril/Desktop/work/ft_printf/libft/libft.h">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/work/ft_printf/parse_flags.c">
 			<Option target="ft_printf"/>
 		</Unit>
 		<Unit filename="/Users/sapril/Desktop/work/ft_printf/CMakeLists.txt">

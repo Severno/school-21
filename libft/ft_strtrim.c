@@ -26,7 +26,7 @@ char	*ft_strtrim(char const *s)
 	j = 0;
 	if (i > 0 || end + 1 == ft_strlen(s) || end > 0)
 	{
-		new_s = ft_strnew(sizeof(char) * ((end - i) + 2));
+		new_s = ft_strnew(sizeof(char) * ((end - i) + 1));
 		if (!new_s)
 			return (NULL);
 		while (i <= end && s[i])

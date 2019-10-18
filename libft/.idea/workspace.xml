@@ -10,9 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c79d4b1-df9d-409b-a5fc-34f569363dcb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../42_libft_test_system" beforeDir="false" afterPath="$PROJECT_DIR$/../42_libft_test_system" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Checkers/42_file_check" beforeDir="false" afterPath="$PROJECT_DIR$/../Checkers/42_file_check" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Checkers/libft-unit-tests" beforeDir="false" afterPath="$PROJECT_DIR$/../Checkers/libft-unit-tests" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gnl/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../gnl/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libft.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_atoi.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_atoi.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_lstmap.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_lstmap.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_lstnew.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_lstnew.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_strsplit.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_strsplit.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_strtrim.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_strtrim.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft.h" beforeDir="false" afterPath="$PROJECT_DIR$/libft.h" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +36,7 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1RypL35SbMqVorvFddHjusT1nAP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -50,6 +62,13 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="libft" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="&quot;**12*32*123&quot;" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="libft" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="libft">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -63,6 +82,8 @@
       <workItem from="1570649132117" duration="2193000" />
       <workItem from="1570710766147" duration="71000" />
       <workItem from="1570726503370" duration="854000" />
+      <workItem from="1571390578501" duration="8274000" />
+      <workItem from="1571399660895" duration="6083000" />
     </task>
     <servers />
   </component>
@@ -81,5 +102,31 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ft_strsplit.c</url>
+          <line>54</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ft_atoi.c</url>
+          <line>31</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="words[0]" language="ObjectiveC" />
+        <watch expression="words[1]" language="ObjectiveC" />
+        <watch expression="words[2]" language="ObjectiveC" />
+        <watch expression="words[3]" language="ObjectiveC" />
+        <watch expression="str[0]" language="ObjectiveC" />
+        <watch expression="split_words[0]" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

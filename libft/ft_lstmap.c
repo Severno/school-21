@@ -6,30 +6,44 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/11 15:32:41 by sapril            #+#    #+#             */
-/*   Updated: 2019/09/17 12:35:21 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/18 13:32:38 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdio.h>
 
-t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem))
+static void		free_content(void *content, size_t content_size)
 {
-	t_list	*new;
-	t_list	*list;
+	(void)content_size;
+	free(content);
+}
 
-	if (!lst || !f)
-		return (NULL);
-	list = f(lst);
-	new = list;
-	while (lst->next)
+t_list			*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem))
+{
+	t_list *head;
+	t_list *prev;
+	t_list *new_elem;
+
+	head = NULL;
+	prev = NULL;
+	if (f && lst)
 	{
-		lst = lst->next;
-		if (!(list->next = f(lst)))
+		while (lst)
 		{
-			free(list->next);
-			return (NULL);
+			if (!(new_elem = f(lst)))
+			{
+				if (head)
+					ft_lstdel(&head, &free_content);
+				return (NULL);
+			}
+			if (prev)
+				prev->next = new_elem;
+			else
+				head = new_elem;
+			lst = lst->next;
+			prev = new_elem;
 		}
-		list = list->next;
 	}
-	return (new);
+	return (head);
 }

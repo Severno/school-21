@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/17 13:26:42 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/17 15:53:56 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/18 18:41:03 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,50 +26,30 @@
 #include "ft_printf.h"
 #include <stdio.h>
 
-//void test_va(char *format, ...)
-//{
-//	va_list arg;
-//
-//	va_start(arg, format);
-//
-//	int num = va_arg(arg, int);
-//	int i = 0;
-//	int arguments = 0;
-//	while (format[i])
-//	{
-//		if (format[i] == '%')
-//			arguments++;
-//		i++;
-//	}
-//	i  = 0;
-//	while (i < arguments) {
-//		printf("%d\n", num);
-//		num = va_arg(arg, int);
-//		i++;
-//	}
-//	va_end(arg);
-//}
+
+void ft_printf(char *input, ...)
+{
+	va_list	args;
+	char flag[1];
+	int		i;
+
+	i = 0;
+	va_start(args, input);
+	while (input[i])
+	{
+		if (input[i] == '%')
+			parse_flag(input, &i, args);
+		else
+			write(1, &input[i], 1);
+		i++;
+	}
+	va_end(args);
+}
+
 
 int main()
 {
-//	test_va("%d, %d, %d, %d", 1,2,3,4);
-	printf("%-10d \n", 100);
-	printf("%10s", "Hello");
+	ft_printf("Hello %d, %d %s %c fdsf sdfds fs\n", 100, 200, "Hello", '#');
 	return 0;
 }
 //
-//int count_specifiers(char *str)
-//{
-//	int count;
-//	char specifiers[] = ;
-//	int i;
-//
-//	count = 0;
-//	i = 0;
-//	while (str[i])
-//	{
-//		if (str[i] == '%')
-//		i++;
-//	}
-//}
-

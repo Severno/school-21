@@ -6,88 +6,84 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/10 16:05:50 by sapril            #+#    #+#             */
-/*   Updated: 2019/09/17 12:35:21 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/18 17:10:01 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdio.h>
+#include <stdlib.h>
 
-static int		count_words(t_word word)
+static int			c_wor(const char *str, char c)
 {
-	int word_count;
-	int last_space;
-
-	word_count = 0;
-	last_space = 1;
-	while (*word.str)
-	{
-		if (!(*word.str == word.c) && last_space)
-		{
-			word_count++;
-			last_space = 0;
-		}
-		else if (*word.str == word.c)
-			last_space = 1;
-		word.str++;
-	}
-	return (word_count);
-}
-
-static int		next_word_pos(t_word word)
-{
-	while (word.str[word.pos] == word.c)
-		word.pos++;
-	return (word.pos);
-}
-
-static int		word_len(t_word word)
-{
-	int length;
-	int pos;
-
-	length = 0;
-	pos = word.pos;
-	while (!(word.str[pos + length] == word.c
-			|| word.str[pos + length] == '\0'))
-		length++;
-	return (length);
-}
-
-static int		set_word(char **res, int n, t_word word)
-{
-	int length;
+	int word;
 	int i;
 
-	word.pos = next_word_pos(word);
-	length = word_len(word);
-	res[n] = ft_strnew(length + 1);
-	i = -1;
-	while (++i < length)
-		res[n][i] = word.str[word.pos + i];
-	res[n][i] = '\0';
-	return (word.pos + length);
+	word = 0;
+	i = 0;
+	if (str[i] != c && str[i])
+	{
+		i++;
+		word++;
+	}
+	while (str[i])
+	{
+		while (str[i] == c)
+		{
+			i++;
+			if (str[i] != c && str[i])
+				word++;
+		}
+		i++;
+	}
+	return (word);
 }
 
-char			**ft_strsplit(char const *str, char c)
+static int			get_len(const char *str, char c)
 {
-	t_word	*word;
-	int		i;
-	int		words;
+	int i;
 
-	if (!str)
+	i = 0;
+	while (str[i] != c && str[i])
+		i++;
+	return (i);
+}
+
+static void			*free_words(char **words)
+{
+	int i;
+
+	i = 0;
+	while (words[i])
+		free(words[i++]);
+	free(words);
+	return (NULL);
+}
+
+char				**ft_strsplit(char const *s, char c)
+{
+	char	**s_w;
+	int		j;
+	int		k;
+
+	if (!s || !(s_w = (char **)ft_memalloc(sizeof(char *) * (c_wor(s, c)) + 1)))
 		return (NULL);
-	if (!(word = (t_word *)malloc(sizeof(t_word))))
-		return (NULL);
-	word->str = (char *)str;
-	word->pos = 0;
-	word->c = c;
-	words = count_words(*word);
-	word->res = (char **)malloc(sizeof(char*) * (words + 1));
-	if (!word->res)
-		return (NULL);
-	i = -1;
-	while (++i < words)
-		word->pos = set_word(word->res, i, *word);
-	word->res[i] = NULL;
-	return (word->res);
+	j = 0;
+	k = 0;
+	while (*s)
+	{
+		while (*s == c && *s)
+			s++;
+		if (*s != c && *s)
+		{
+			if (!(s_w[j] = (char *)ft_memalloc(get_len(s, c) + 1)))
+				return (free_words(s_w));
+			while (*s != c && *s)
+				s_w[j][k++] = *s++;
+			s_w[j++][k] = '\0';
+			k = 0;
+		}
+	}
+	s_w[j] = NULL;
+	return (s_w);
 }

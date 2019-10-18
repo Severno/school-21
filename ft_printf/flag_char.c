@@ -1,25 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_printf.h                                        :+:      :+:    :+:   */
+/*   flag_char.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/10/17 13:56:43 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/18 18:04:23 by sapril           ###   ########.fr       */
+/*   Created: 2019/10/18 17:37:26 by sapril            #+#    #+#             */
+/*   Updated: 2019/10/18 17:37:26 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef PRINTF_H
-# define PRINTF_H
+#include "ft_printf.h"
 
-# include "libft/libft.h"
-# include <stdarg.h>
+void flag_char_out(va_list args)
+{
+	char out;
 
-#define SPECIFIERS "dDiuUxXoOcCsSp%fFeEgGaAn"
+	out = va_arg(args, int);
+	ft_putchar(out);
+}
 
-void parse_int(char *str, int iter, va_list args);
-void flag_int_out(va_list args);
-void parse_flag(char *str, int *iter, va_list args);
+void flag_str_out(va_list args)
+{
+	char *out;
 
-#endif
+	out = va_arg(args, char *);
+	ft_putstr(out);
+}
