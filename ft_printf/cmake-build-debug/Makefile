@@ -123,59 +123,32 @@ ft_printf/fast:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/build
 .PHONY : ft_printf/fast
 
-alignment.o: alignment.c.o
+flag_align.o: flag_align.c.o
 
-.PHONY : alignment.o
-
-# target to build an object file
-alignment.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/alignment.c.o
-.PHONY : alignment.c.o
-
-alignment.i: alignment.c.i
-
-.PHONY : alignment.i
-
-# target to preprocess a source file
-alignment.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/alignment.c.i
-.PHONY : alignment.c.i
-
-alignment.s: alignment.c.s
-
-.PHONY : alignment.s
-
-# target to generate assembly for a file
-alignment.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/alignment.c.s
-.PHONY : alignment.c.s
-
-d_delimeter.o: d_delimeter.c.o
-
-.PHONY : d_delimeter.o
+.PHONY : flag_align.o
 
 # target to build an object file
-d_delimeter.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/d_delimeter.c.o
-.PHONY : d_delimeter.c.o
+flag_align.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_align.c.o
+.PHONY : flag_align.c.o
 
-d_delimeter.i: d_delimeter.c.i
+flag_align.i: flag_align.c.i
 
-.PHONY : d_delimeter.i
+.PHONY : flag_align.i
 
 # target to preprocess a source file
-d_delimeter.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/d_delimeter.c.i
-.PHONY : d_delimeter.c.i
+flag_align.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_align.c.i
+.PHONY : flag_align.c.i
 
-d_delimeter.s: d_delimeter.c.s
+flag_align.s: flag_align.c.s
 
-.PHONY : d_delimeter.s
+.PHONY : flag_align.s
 
 # target to generate assembly for a file
-d_delimeter.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/d_delimeter.c.s
-.PHONY : d_delimeter.c.s
+flag_align.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_align.c.s
+.PHONY : flag_align.c.s
 
 flag_char.o: flag_char.c.o
 
@@ -257,6 +230,60 @@ flag_int.s: flag_int.c.s
 flag_int.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_int.c.s
 .PHONY : flag_int.c.s
+
+flag_percent.o: flag_percent.c.o
+
+.PHONY : flag_percent.o
+
+# target to build an object file
+flag_percent.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_percent.c.o
+.PHONY : flag_percent.c.o
+
+flag_percent.i: flag_percent.c.i
+
+.PHONY : flag_percent.i
+
+# target to preprocess a source file
+flag_percent.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_percent.c.i
+.PHONY : flag_percent.c.i
+
+flag_percent.s: flag_percent.c.s
+
+.PHONY : flag_percent.s
+
+# target to generate assembly for a file
+flag_percent.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_percent.c.s
+.PHONY : flag_percent.c.s
+
+ft_change_base.o: ft_change_base.c.o
+
+.PHONY : ft_change_base.o
+
+# target to build an object file
+ft_change_base.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_change_base.c.o
+.PHONY : ft_change_base.c.o
+
+ft_change_base.i: ft_change_base.c.i
+
+.PHONY : ft_change_base.i
+
+# target to preprocess a source file
+ft_change_base.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_change_base.c.i
+.PHONY : ft_change_base.c.i
+
+ft_change_base.s: ft_change_base.c.s
+
+.PHONY : ft_change_base.s
+
+# target to generate assembly for a file
+ft_change_base.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_change_base.c.s
+.PHONY : ft_change_base.c.s
 
 ft_printf.o: ft_printf.c.o
 
@@ -2130,12 +2157,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ft_printf"
-	@echo "... alignment.o"
-	@echo "... alignment.i"
-	@echo "... alignment.s"
-	@echo "... d_delimeter.o"
-	@echo "... d_delimeter.i"
-	@echo "... d_delimeter.s"
+	@echo "... flag_align.o"
+	@echo "... flag_align.i"
+	@echo "... flag_align.s"
 	@echo "... flag_char.o"
 	@echo "... flag_char.i"
 	@echo "... flag_char.s"
@@ -2145,6 +2169,12 @@ help:
 	@echo "... flag_int.o"
 	@echo "... flag_int.i"
 	@echo "... flag_int.s"
+	@echo "... flag_percent.o"
+	@echo "... flag_percent.i"
+	@echo "... flag_percent.s"
+	@echo "... ft_change_base.o"
+	@echo "... ft_change_base.i"
+	@echo "... ft_change_base.s"
 	@echo "... ft_printf.o"
 	@echo "... ft_printf.i"
 	@echo "... ft_printf.s"

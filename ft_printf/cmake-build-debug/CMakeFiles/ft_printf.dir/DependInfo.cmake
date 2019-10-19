@@ -4,11 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/sapril/Desktop/work/ft_printf/alignment.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/alignment.c.o"
-  "/Users/sapril/Desktop/work/ft_printf/d_delimeter.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/d_delimeter.c.o"
+  "/Users/sapril/Desktop/work/ft_printf/flag_align.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/flag_align.c.o"
   "/Users/sapril/Desktop/work/ft_printf/flag_char.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/flag_char.c.o"
   "/Users/sapril/Desktop/work/ft_printf/flag_double.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/flag_double.c.o"
   "/Users/sapril/Desktop/work/ft_printf/flag_int.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/flag_int.c.o"
+  "/Users/sapril/Desktop/work/ft_printf/flag_percent.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/flag_percent.c.o"
+  "/Users/sapril/Desktop/work/ft_printf/ft_change_base.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/ft_change_base.c.o"
   "/Users/sapril/Desktop/work/ft_printf/ft_printf.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/ft_printf.c.o"
   "/Users/sapril/Desktop/work/ft_printf/libft/ft_atoi.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/libft/ft_atoi.c.o"
   "/Users/sapril/Desktop/work/ft_printf/libft/ft_bzero.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/libft/ft_bzero.c.o"

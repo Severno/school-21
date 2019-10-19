@@ -4,7 +4,7 @@ PRINTF_OBJ =
 PRINTF_INC = ft_printf.h
 LIBFT = libft/
 FLAGS = -Wall -Wextra -Werror
-LIB_HEADER = ../libft/libft.h
+LIB_HEADER = libft/libft.h
 OBJ = $(subst .c,.o,$(PRINTF_SRC))
 
 .PHONY: all clean fclean re

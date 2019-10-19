@@ -6,13 +6,13 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/18 17:59:16 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/18 17:59:16 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/19 18:53:41 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-void flag_int_out(va_list args)
+void flag_int(va_list args)
 {
 	int out;
 

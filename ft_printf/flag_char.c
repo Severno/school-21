@@ -12,7 +12,7 @@
 
 #include "ft_printf.h"
 
-void flag_char_out(va_list args)
+void flag_char(va_list args)
 {
 	char out;
 
@@ -20,7 +20,7 @@ void flag_char_out(va_list args)
 	ft_putchar(out);
 }
 
-void flag_str_out(va_list args)
+void flag_str(va_list args)
 {
 	char *out;
 
