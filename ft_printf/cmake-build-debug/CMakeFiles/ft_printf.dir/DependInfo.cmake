@@ -4,17 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/sapril/Desktop/work/ft_printf/flag_align.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/flag_align.c.o"
-  "/Users/sapril/Desktop/work/ft_printf/flag_char.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/flag_char.c.o"
-  "/Users/sapril/Desktop/work/ft_printf/flag_double.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/flag_double.c.o"
-  "/Users/sapril/Desktop/work/ft_printf/flag_int.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/flag_int.c.o"
-  "/Users/sapril/Desktop/work/ft_printf/flag_percent.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/flag_percent.c.o"
-  "/Users/sapril/Desktop/work/ft_printf/ft_change_base.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/ft_change_base.c.o"
-  "/Users/sapril/Desktop/work/ft_printf/ft_printf.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/ft_printf.c.o"
   "/Users/sapril/Desktop/work/ft_printf/libft/ft_atoi.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/libft/ft_atoi.c.o"
   "/Users/sapril/Desktop/work/ft_printf/libft/ft_bzero.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/libft/ft_bzero.c.o"
   "/Users/sapril/Desktop/work/ft_printf/libft/ft_check_end_spaces.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/libft/ft_check_end_spaces.c.o"
   "/Users/sapril/Desktop/work/ft_printf/libft/ft_check_start_spaces.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/libft/ft_check_start_spaces.c.o"
+  "/Users/sapril/Desktop/work/ft_printf/libft/ft_convert_dec_base.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/libft/ft_convert_dec_base.c.o"
   "/Users/sapril/Desktop/work/ft_printf/libft/ft_isalnum.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/libft/ft_isalnum.c.o"
   "/Users/sapril/Desktop/work/ft_printf/libft/ft_isalpha.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/libft/ft_isalpha.c.o"
   "/Users/sapril/Desktop/work/ft_printf/libft/ft_isascii.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/libft/ft_isascii.c.o"
@@ -78,7 +72,12 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/sapril/Desktop/work/ft_printf/libft/ft_strtrim.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/libft/ft_strtrim.c.o"
   "/Users/sapril/Desktop/work/ft_printf/libft/ft_tolower.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/libft/ft_tolower.c.o"
   "/Users/sapril/Desktop/work/ft_printf/libft/ft_toupper.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/libft/ft_toupper.c.o"
-  "/Users/sapril/Desktop/work/ft_printf/parse_flags.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/parse_flags.c.o"
+  "/Users/sapril/Desktop/work/ft_printf/srcs/flag_align.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/flag_align.c.o"
+  "/Users/sapril/Desktop/work/ft_printf/srcs/flag_char.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/flag_char.c.o"
+  "/Users/sapril/Desktop/work/ft_printf/srcs/flag_double.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/flag_double.c.o"
+  "/Users/sapril/Desktop/work/ft_printf/srcs/flag_int.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/flag_int.c.o"
+  "/Users/sapril/Desktop/work/ft_printf/srcs/ft_printf.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_printf.c.o"
+  "/Users/sapril/Desktop/work/ft_printf/srcs/parse_flags.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/parse_flags.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

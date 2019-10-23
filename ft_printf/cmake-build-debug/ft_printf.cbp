@@ -82,28 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/sapril/Desktop/work/ft_printf/flag_align.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/Users/sapril/Desktop/work/ft_printf/flag_char.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/Users/sapril/Desktop/work/ft_printf/flag_double.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/Users/sapril/Desktop/work/ft_printf/flag_int.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/Users/sapril/Desktop/work/ft_printf/flag_percent.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/Users/sapril/Desktop/work/ft_printf/ft_change_base.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/Users/sapril/Desktop/work/ft_printf/ft_printf.c">
-			<Option target="ft_printf"/>
-		</Unit>
-		<Unit filename="/Users/sapril/Desktop/work/ft_printf/ft_printf.h">
+		<Unit filename="/Users/sapril/Desktop/work/ft_printf/includes/ft_printf.h">
 			<Option target="ft_printf"/>
 		</Unit>
 		<Unit filename="/Users/sapril/Desktop/work/ft_printf/libft/ft_atoi.c">
@@ -116,6 +95,9 @@
 			<Option target="ft_printf"/>
 		</Unit>
 		<Unit filename="/Users/sapril/Desktop/work/ft_printf/libft/ft_check_start_spaces.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/work/ft_printf/libft/ft_convert_dec_base.c">
 			<Option target="ft_printf"/>
 		</Unit>
 		<Unit filename="/Users/sapril/Desktop/work/ft_printf/libft/ft_isalnum.c">
@@ -310,7 +292,22 @@
 		<Unit filename="/Users/sapril/Desktop/work/ft_printf/libft/libft.h">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/Users/sapril/Desktop/work/ft_printf/parse_flags.c">
+		<Unit filename="/Users/sapril/Desktop/work/ft_printf/srcs/flag_align.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/work/ft_printf/srcs/flag_char.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/work/ft_printf/srcs/flag_double.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/work/ft_printf/srcs/flag_int.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/work/ft_printf/srcs/ft_printf.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/work/ft_printf/srcs/parse_flags.c">
 			<Option target="ft_printf"/>
 		</Unit>
 		<Unit filename="/Users/sapril/Desktop/work/ft_printf/CMakeLists.txt">

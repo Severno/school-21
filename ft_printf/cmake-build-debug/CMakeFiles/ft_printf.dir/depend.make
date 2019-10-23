@@ -17,8 +17,6 @@ CMakeFiles/ft_printf.dir/flag_int.c.o: ../libft/libft.h
 
 CMakeFiles/ft_printf.dir/flag_percent.c.o: ../flag_percent.c
 
-CMakeFiles/ft_printf.dir/ft_change_base.c.o: ../ft_change_base.c
-
 CMakeFiles/ft_printf.dir/ft_printf.c.o: ../ft_printf.c
 CMakeFiles/ft_printf.dir/ft_printf.c.o: ../ft_printf.h
 CMakeFiles/ft_printf.dir/ft_printf.c.o: ../libft/libft.h
@@ -34,6 +32,9 @@ CMakeFiles/ft_printf.dir/libft/ft_check_end_spaces.c.o: ../libft/libft.h
 
 CMakeFiles/ft_printf.dir/libft/ft_check_start_spaces.c.o: ../libft/ft_check_start_spaces.c
 CMakeFiles/ft_printf.dir/libft/ft_check_start_spaces.c.o: ../libft/libft.h
+
+CMakeFiles/ft_printf.dir/libft/ft_convert_dec_base.c.o: ../libft/ft_convert_dec_base.c
+CMakeFiles/ft_printf.dir/libft/ft_convert_dec_base.c.o: ../libft/libft.h
 
 CMakeFiles/ft_printf.dir/libft/ft_isalnum.c.o: ../libft/ft_isalnum.c
 CMakeFiles/ft_printf.dir/libft/ft_isalnum.c.o: ../libft/libft.h

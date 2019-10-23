@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/07 17:48:40 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/18 17:09:42 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/23 14:25:50 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -102,5 +102,6 @@ int					ft_str_is_uppercase(char *str);
 int					ft_str_is_printable(char *str);
 int					ft_str_is_numeric(char *str);
 int					ft_isspace(char c);
+char				*ft_convert_dec_base(int base, int input_num, char sign);
 
 #endif

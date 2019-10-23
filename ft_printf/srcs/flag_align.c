@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../includes/ft_printf.h"
 
 // Left alignmment
 void flag_minus(va_list args, char *str, int *iter)
@@ -32,32 +32,32 @@ void flag_minus(va_list args, char *str, int *iter)
 	{
 		ft_putstr((char *)arg);
 	}
-	ft_do_padding(padding_left-ft_num_of_digits(padding_left));
+	ft_do_padding(padding_left-ft_num_of_digits(padding_left), ' ');
 	*iter += 1;
 }
 
-void flag_plus(va_list args, char *str, int *iter)
-{
+//void flag_plus(va_list args, char *str, int *iter)
+//{
+//
+//}
+//
+//void flag_zero(va_list args, char *str, int *iter)
+//{
+//
+//}
+//
+//void flag_grid(va_list args, char *str, int *iter)
+//{
+//
+//}
 
-}
-
-void flag_zero(va_list args, char *str, int *iter)
-{
-
-}
-
-void flag_grid(va_list args, char *str, int *iter)
-{
-
-}
-
-void ft_do_padding(int padding_left)
+void ft_do_padding(int padding_left, char sign)
 {
 	int i;
 	i = 0;
 	while (i < padding_left)
 	{
-		ft_putchar(' ');
+		ft_putchar(sign);
 		i++;
 	}
 }

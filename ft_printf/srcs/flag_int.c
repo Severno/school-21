@@ -1,29 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   flag_char.c                                        :+:      :+:    :+:   */
+/*   flag_int.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/10/18 17:37:26 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/18 17:37:26 by sapril           ###   ########.fr       */
+/*   Created: 2019/10/18 17:59:16 by sapril            #+#    #+#             */
+/*   Updated: 2019/10/19 18:53:41 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../includes/ft_printf.h"
 
-void flag_char(va_list args)
+void flag_int(va_list args)
 {
-	char out;
+	int out;
 
 	out = va_arg(args, int);
-	ft_putchar(out);
-}
-
-void flag_str(va_list args)
-{
-	char *out;
-
-	out = va_arg(args, char *);
-	ft_putstr(out);
+	ft_putnbr(out);
 }

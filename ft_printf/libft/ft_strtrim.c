@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/08 16:54:38 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/18 17:10:01 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/23 13:21:20 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ char	*ft_strtrim(char const *s)
 	j = 0;
 	if (i > 0 || end + 1 == ft_strlen(s) || end > 0)
 	{
-		new_s = ft_strnew(sizeof(char) * ((end - i) + 2));
+		new_s = ft_strnew(sizeof(char) * ((end - i) + 1));
 		if (!new_s)
 			return (NULL);
 		while (i <= end && s[i])

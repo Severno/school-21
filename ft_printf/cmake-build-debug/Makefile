@@ -123,195 +123,6 @@ ft_printf/fast:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/build
 .PHONY : ft_printf/fast
 
-flag_align.o: flag_align.c.o
-
-.PHONY : flag_align.o
-
-# target to build an object file
-flag_align.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_align.c.o
-.PHONY : flag_align.c.o
-
-flag_align.i: flag_align.c.i
-
-.PHONY : flag_align.i
-
-# target to preprocess a source file
-flag_align.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_align.c.i
-.PHONY : flag_align.c.i
-
-flag_align.s: flag_align.c.s
-
-.PHONY : flag_align.s
-
-# target to generate assembly for a file
-flag_align.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_align.c.s
-.PHONY : flag_align.c.s
-
-flag_char.o: flag_char.c.o
-
-.PHONY : flag_char.o
-
-# target to build an object file
-flag_char.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_char.c.o
-.PHONY : flag_char.c.o
-
-flag_char.i: flag_char.c.i
-
-.PHONY : flag_char.i
-
-# target to preprocess a source file
-flag_char.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_char.c.i
-.PHONY : flag_char.c.i
-
-flag_char.s: flag_char.c.s
-
-.PHONY : flag_char.s
-
-# target to generate assembly for a file
-flag_char.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_char.c.s
-.PHONY : flag_char.c.s
-
-flag_double.o: flag_double.c.o
-
-.PHONY : flag_double.o
-
-# target to build an object file
-flag_double.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_double.c.o
-.PHONY : flag_double.c.o
-
-flag_double.i: flag_double.c.i
-
-.PHONY : flag_double.i
-
-# target to preprocess a source file
-flag_double.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_double.c.i
-.PHONY : flag_double.c.i
-
-flag_double.s: flag_double.c.s
-
-.PHONY : flag_double.s
-
-# target to generate assembly for a file
-flag_double.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_double.c.s
-.PHONY : flag_double.c.s
-
-flag_int.o: flag_int.c.o
-
-.PHONY : flag_int.o
-
-# target to build an object file
-flag_int.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_int.c.o
-.PHONY : flag_int.c.o
-
-flag_int.i: flag_int.c.i
-
-.PHONY : flag_int.i
-
-# target to preprocess a source file
-flag_int.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_int.c.i
-.PHONY : flag_int.c.i
-
-flag_int.s: flag_int.c.s
-
-.PHONY : flag_int.s
-
-# target to generate assembly for a file
-flag_int.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_int.c.s
-.PHONY : flag_int.c.s
-
-flag_percent.o: flag_percent.c.o
-
-.PHONY : flag_percent.o
-
-# target to build an object file
-flag_percent.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_percent.c.o
-.PHONY : flag_percent.c.o
-
-flag_percent.i: flag_percent.c.i
-
-.PHONY : flag_percent.i
-
-# target to preprocess a source file
-flag_percent.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_percent.c.i
-.PHONY : flag_percent.c.i
-
-flag_percent.s: flag_percent.c.s
-
-.PHONY : flag_percent.s
-
-# target to generate assembly for a file
-flag_percent.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/flag_percent.c.s
-.PHONY : flag_percent.c.s
-
-ft_change_base.o: ft_change_base.c.o
-
-.PHONY : ft_change_base.o
-
-# target to build an object file
-ft_change_base.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_change_base.c.o
-.PHONY : ft_change_base.c.o
-
-ft_change_base.i: ft_change_base.c.i
-
-.PHONY : ft_change_base.i
-
-# target to preprocess a source file
-ft_change_base.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_change_base.c.i
-.PHONY : ft_change_base.c.i
-
-ft_change_base.s: ft_change_base.c.s
-
-.PHONY : ft_change_base.s
-
-# target to generate assembly for a file
-ft_change_base.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_change_base.c.s
-.PHONY : ft_change_base.c.s
-
-ft_printf.o: ft_printf.c.o
-
-.PHONY : ft_printf.o
-
-# target to build an object file
-ft_printf.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf.c.o
-.PHONY : ft_printf.c.o
-
-ft_printf.i: ft_printf.c.i
-
-.PHONY : ft_printf.i
-
-# target to preprocess a source file
-ft_printf.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf.c.i
-.PHONY : ft_printf.c.i
-
-ft_printf.s: ft_printf.c.s
-
-.PHONY : ft_printf.s
-
-# target to generate assembly for a file
-ft_printf.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf.c.s
-.PHONY : ft_printf.c.s
-
 libft/ft_atoi.o: libft/ft_atoi.c.o
 
 .PHONY : libft/ft_atoi.o
@@ -419,6 +230,33 @@ libft/ft_check_start_spaces.s: libft/ft_check_start_spaces.c.s
 libft/ft_check_start_spaces.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/libft/ft_check_start_spaces.c.s
 .PHONY : libft/ft_check_start_spaces.c.s
+
+libft/ft_convert_dec_base.o: libft/ft_convert_dec_base.c.o
+
+.PHONY : libft/ft_convert_dec_base.o
+
+# target to build an object file
+libft/ft_convert_dec_base.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/libft/ft_convert_dec_base.c.o
+.PHONY : libft/ft_convert_dec_base.c.o
+
+libft/ft_convert_dec_base.i: libft/ft_convert_dec_base.c.i
+
+.PHONY : libft/ft_convert_dec_base.i
+
+# target to preprocess a source file
+libft/ft_convert_dec_base.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/libft/ft_convert_dec_base.c.i
+.PHONY : libft/ft_convert_dec_base.c.i
+
+libft/ft_convert_dec_base.s: libft/ft_convert_dec_base.c.s
+
+.PHONY : libft/ft_convert_dec_base.s
+
+# target to generate assembly for a file
+libft/ft_convert_dec_base.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/libft/ft_convert_dec_base.c.s
+.PHONY : libft/ft_convert_dec_base.c.s
 
 libft/ft_isalnum.o: libft/ft_isalnum.c.o
 
@@ -2121,32 +1959,167 @@ libft/ft_toupper.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/libft/ft_toupper.c.s
 .PHONY : libft/ft_toupper.c.s
 
-parse_flags.o: parse_flags.c.o
+srcs/flag_align.o: srcs/flag_align.c.o
 
-.PHONY : parse_flags.o
+.PHONY : srcs/flag_align.o
 
 # target to build an object file
-parse_flags.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/parse_flags.c.o
-.PHONY : parse_flags.c.o
+srcs/flag_align.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/srcs/flag_align.c.o
+.PHONY : srcs/flag_align.c.o
 
-parse_flags.i: parse_flags.c.i
+srcs/flag_align.i: srcs/flag_align.c.i
 
-.PHONY : parse_flags.i
+.PHONY : srcs/flag_align.i
 
 # target to preprocess a source file
-parse_flags.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/parse_flags.c.i
-.PHONY : parse_flags.c.i
+srcs/flag_align.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/srcs/flag_align.c.i
+.PHONY : srcs/flag_align.c.i
 
-parse_flags.s: parse_flags.c.s
+srcs/flag_align.s: srcs/flag_align.c.s
 
-.PHONY : parse_flags.s
+.PHONY : srcs/flag_align.s
 
 # target to generate assembly for a file
-parse_flags.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/parse_flags.c.s
-.PHONY : parse_flags.c.s
+srcs/flag_align.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/srcs/flag_align.c.s
+.PHONY : srcs/flag_align.c.s
+
+srcs/flag_char.o: srcs/flag_char.c.o
+
+.PHONY : srcs/flag_char.o
+
+# target to build an object file
+srcs/flag_char.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/srcs/flag_char.c.o
+.PHONY : srcs/flag_char.c.o
+
+srcs/flag_char.i: srcs/flag_char.c.i
+
+.PHONY : srcs/flag_char.i
+
+# target to preprocess a source file
+srcs/flag_char.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/srcs/flag_char.c.i
+.PHONY : srcs/flag_char.c.i
+
+srcs/flag_char.s: srcs/flag_char.c.s
+
+.PHONY : srcs/flag_char.s
+
+# target to generate assembly for a file
+srcs/flag_char.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/srcs/flag_char.c.s
+.PHONY : srcs/flag_char.c.s
+
+srcs/flag_double.o: srcs/flag_double.c.o
+
+.PHONY : srcs/flag_double.o
+
+# target to build an object file
+srcs/flag_double.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/srcs/flag_double.c.o
+.PHONY : srcs/flag_double.c.o
+
+srcs/flag_double.i: srcs/flag_double.c.i
+
+.PHONY : srcs/flag_double.i
+
+# target to preprocess a source file
+srcs/flag_double.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/srcs/flag_double.c.i
+.PHONY : srcs/flag_double.c.i
+
+srcs/flag_double.s: srcs/flag_double.c.s
+
+.PHONY : srcs/flag_double.s
+
+# target to generate assembly for a file
+srcs/flag_double.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/srcs/flag_double.c.s
+.PHONY : srcs/flag_double.c.s
+
+srcs/flag_int.o: srcs/flag_int.c.o
+
+.PHONY : srcs/flag_int.o
+
+# target to build an object file
+srcs/flag_int.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/srcs/flag_int.c.o
+.PHONY : srcs/flag_int.c.o
+
+srcs/flag_int.i: srcs/flag_int.c.i
+
+.PHONY : srcs/flag_int.i
+
+# target to preprocess a source file
+srcs/flag_int.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/srcs/flag_int.c.i
+.PHONY : srcs/flag_int.c.i
+
+srcs/flag_int.s: srcs/flag_int.c.s
+
+.PHONY : srcs/flag_int.s
+
+# target to generate assembly for a file
+srcs/flag_int.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/srcs/flag_int.c.s
+.PHONY : srcs/flag_int.c.s
+
+srcs/ft_printf.o: srcs/ft_printf.c.o
+
+.PHONY : srcs/ft_printf.o
+
+# target to build an object file
+srcs/ft_printf.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/srcs/ft_printf.c.o
+.PHONY : srcs/ft_printf.c.o
+
+srcs/ft_printf.i: srcs/ft_printf.c.i
+
+.PHONY : srcs/ft_printf.i
+
+# target to preprocess a source file
+srcs/ft_printf.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/srcs/ft_printf.c.i
+.PHONY : srcs/ft_printf.c.i
+
+srcs/ft_printf.s: srcs/ft_printf.c.s
+
+.PHONY : srcs/ft_printf.s
+
+# target to generate assembly for a file
+srcs/ft_printf.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/srcs/ft_printf.c.s
+.PHONY : srcs/ft_printf.c.s
+
+srcs/parse_flags.o: srcs/parse_flags.c.o
+
+.PHONY : srcs/parse_flags.o
+
+# target to build an object file
+srcs/parse_flags.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/srcs/parse_flags.c.o
+.PHONY : srcs/parse_flags.c.o
+
+srcs/parse_flags.i: srcs/parse_flags.c.i
+
+.PHONY : srcs/parse_flags.i
+
+# target to preprocess a source file
+srcs/parse_flags.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/srcs/parse_flags.c.i
+.PHONY : srcs/parse_flags.c.i
+
+srcs/parse_flags.s: srcs/parse_flags.c.s
+
+.PHONY : srcs/parse_flags.s
+
+# target to generate assembly for a file
+srcs/parse_flags.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/srcs/parse_flags.c.s
+.PHONY : srcs/parse_flags.c.s
 
 # Help Target
 help:
@@ -2157,27 +2130,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ft_printf"
-	@echo "... flag_align.o"
-	@echo "... flag_align.i"
-	@echo "... flag_align.s"
-	@echo "... flag_char.o"
-	@echo "... flag_char.i"
-	@echo "... flag_char.s"
-	@echo "... flag_double.o"
-	@echo "... flag_double.i"
-	@echo "... flag_double.s"
-	@echo "... flag_int.o"
-	@echo "... flag_int.i"
-	@echo "... flag_int.s"
-	@echo "... flag_percent.o"
-	@echo "... flag_percent.i"
-	@echo "... flag_percent.s"
-	@echo "... ft_change_base.o"
-	@echo "... ft_change_base.i"
-	@echo "... ft_change_base.s"
-	@echo "... ft_printf.o"
-	@echo "... ft_printf.i"
-	@echo "... ft_printf.s"
 	@echo "... libft/ft_atoi.o"
 	@echo "... libft/ft_atoi.i"
 	@echo "... libft/ft_atoi.s"
@@ -2190,6 +2142,9 @@ help:
 	@echo "... libft/ft_check_start_spaces.o"
 	@echo "... libft/ft_check_start_spaces.i"
 	@echo "... libft/ft_check_start_spaces.s"
+	@echo "... libft/ft_convert_dec_base.o"
+	@echo "... libft/ft_convert_dec_base.i"
+	@echo "... libft/ft_convert_dec_base.s"
 	@echo "... libft/ft_isalnum.o"
 	@echo "... libft/ft_isalnum.i"
 	@echo "... libft/ft_isalnum.s"
@@ -2379,9 +2334,24 @@ help:
 	@echo "... libft/ft_toupper.o"
 	@echo "... libft/ft_toupper.i"
 	@echo "... libft/ft_toupper.s"
-	@echo "... parse_flags.o"
-	@echo "... parse_flags.i"
-	@echo "... parse_flags.s"
+	@echo "... srcs/flag_align.o"
+	@echo "... srcs/flag_align.i"
+	@echo "... srcs/flag_align.s"
+	@echo "... srcs/flag_char.o"
+	@echo "... srcs/flag_char.i"
+	@echo "... srcs/flag_char.s"
+	@echo "... srcs/flag_double.o"
+	@echo "... srcs/flag_double.i"
+	@echo "... srcs/flag_double.s"
+	@echo "... srcs/flag_int.o"
+	@echo "... srcs/flag_int.i"
+	@echo "... srcs/flag_int.s"
+	@echo "... srcs/ft_printf.o"
+	@echo "... srcs/ft_printf.i"
+	@echo "... srcs/ft_printf.s"
+	@echo "... srcs/parse_flags.o"
+	@echo "... srcs/parse_flags.i"
+	@echo "... srcs/parse_flags.s"
 .PHONY : help
 
 

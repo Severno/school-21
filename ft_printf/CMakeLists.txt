@@ -11,6 +11,7 @@ set(LIBFT libft/ft_atoi.c
         libft/ft_check_start_spaces.c
         libft/ft_isalnum.c
         libft/ft_isalpha.c
+        libft/ft_convert_dec_base.c
         libft/ft_isascii.c
         libft/ft_isdigit.c
         libft/ft_isprint.c
@@ -77,11 +78,10 @@ set(LIBFT libft/ft_atoi.c
 
 add_executable(ft_printf
         ${LIBFT}
-        ft_printf.c
-        parse_flags.c
-        flag_int.c
-        flag_double.c
-        flag_char.c
-        flag_align.c
-        flag_percent.c
-        ft_printf.h ft_change_base.c)
+        srcs/ft_printf.c
+        srcs/parse_flags.c
+        srcs/flag_int.c
+        srcs/flag_double.c
+        srcs/flag_char.c
+        srcs/flag_align.c
+        includes/ft_printf.h)
