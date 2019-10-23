@@ -6,12 +6,12 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/17 13:26:42 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/19 19:43:35 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/23 20:44:39 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/ft_printf.h"
-
+//Test
 void ft_printf(char *input, ...)
 {
 	va_list	args;
