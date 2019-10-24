@@ -23,10 +23,10 @@ LIB_OBJ =	ft_atoi.o ft_bzero.o ft_check_end_spaces.o ft_check_start_spaces.o ft_
 			ft_str_is_printable.o ft_str_is_numeric.o ft_strnlen.o ft_isspace.o ft_convert_dec_base.o \
 
 PRINTF_SRC =	srcs/ft_printf.c srcs/parse_flags.c srcs/flag_int.c \
-				srcs/flag_char.c srcs/flag_align.c
+				srcs/flag_char.c srcs/flag_align.c srcs/flag_precision.c
 
 PRINTF_OBJ =	ft_printf.o parse_flags.o flag_int.o \
-				flag_char.o flag_align.o
+				flag_char.o flag_align.o flag_precision.o
 
 SRC		= $(LIB_SRC) $(PRINTF_SRC)
 
@@ -38,17 +38,14 @@ HEADER	= includes/
 	gcc $(FLAGS) -c -I $(HEADER) -I libft/ $< -o $@
 	ar rc $(NAME) $@
 
-%.o: srcs/%.c
+%.o: srcs/%.c includes/ft_printf.h
 	gcc $(FLAGS) -c -I $(HEADER) -I libft/ $< -o $@
 	ar rc $(NAME) $@
 
 all: $(NAME)
 
-$(NAME): $(OBJ)
+$(NAME): $(OBJ) includes/ft_printf.h
 	ranlib $(NAME)
-#	gcc $(FLAGS) -c -I$(HEADER) -I ./libft $(SRC)
-#	ar rc $(NAME) $(OBJ)
-#	ranlib $(NAME)
 
 clean:
 	rm -f $(OBJ)

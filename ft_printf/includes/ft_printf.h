@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/17 13:56:43 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/24 18:03:31 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/24 19:55:03 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,11 @@ typedef struct	s_param
 	int			p;
 }				t_param;
 
+// UTILS
+void ft_do_padding(int value, t_param *param, char sign);
+
+void ft_printf(char *input, ...);
+
 // INT
 void parse_flag(t_param *param);
 void parse_int(t_param *param);
@@ -50,8 +55,6 @@ void flag_width(t_param *param);
 void flag_str(t_param *param);
 void flag_char(t_param *param);
 
-// UTILS
-void ft_do_padding(int value, t_param *param, char sign);
 
 
 

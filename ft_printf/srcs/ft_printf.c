@@ -6,19 +6,16 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/17 13:26:42 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/24 18:15:09 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/24 19:55:03 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/ft_printf.h"
 //
 
-
-
 void ft_printf(char *input, ...)
 {
 	t_param *param;
-	va_list args;
 
 	param = (t_param*)ft_memalloc(sizeof(t_param));
 	param->str = input;
@@ -43,9 +40,8 @@ void ft_printf(char *input, ...)
 
 int main()
 {
-
-	ft_printf("Hello %15.5d\n", 100);
-	printf("Hello %15.5d\n", 100);
+	ft_printf("Hello %15.14d\n", 100);
+	printf("Hello %15.14d\n", 100);
 //	printf("%-100d", 10);
 	return 0;
 }
