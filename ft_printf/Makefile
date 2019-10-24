@@ -35,14 +35,20 @@ FLAGS	= -Wall -Wextra -Werror
 HEADER	= includes/
 
 %.o: libft/%.c
-	gcc -c $< -o $@
+	gcc $(FLAGS) -c -I $(HEADER) -I libft/ $< -o $@
+	ar rc $(NAME) $@
+
+%.o: srcs/%.c
+	gcc $(FLAGS) -c -I $(HEADER) -I libft/ $< -o $@
+	ar rc $(NAME) $@
 
 all: $(NAME)
 
 $(NAME): $(OBJ)
-	gcc $(FLAGS) -c -I$(HEADER) -I ./libft $(SRC)
-	ar rc $(NAME) $(OBJ)
 	ranlib $(NAME)
+#	gcc $(FLAGS) -c -I$(HEADER) -I ./libft $(SRC)
+#	ar rc $(NAME) $(OBJ)
+#	ranlib $(NAME)
 
 clean:
 	rm -f $(OBJ)
