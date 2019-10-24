@@ -10,12 +10,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c79d4b1-df9d-409b-a5fc-34f569363dcb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libft.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ft_convert_dec_base.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Checkers/42_file_check" beforeDir="false" afterPath="$PROJECT_DIR$/../Checkers/42_file_check" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Checkers/libft-unit-tests" beforeDir="false" afterPath="$PROJECT_DIR$/../Checkers/libft-unit-tests" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ft_printf/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ft_printf/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ft_printf/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../ft_printf/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ft_printf/cmake-build-debug/CMakeFiles/Progress/76" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ft_printf/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/flag_align.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/flag_char.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/flag_double.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/flag_int.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/flag_percent.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/ft_printf.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/libft/ft_convert_dec_base.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/../ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/libft/ft_convert_dec_base.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/parse_flags.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ft_printf/includes/ft_printf.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ft_printf/includes/ft_printf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ft_printf/srcs/flag_align.c" beforeDir="false" afterPath="$PROJECT_DIR$/../ft_printf/srcs/flag_align.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ft_printf/srcs/flag_char.c" beforeDir="false" afterPath="$PROJECT_DIR$/../ft_printf/srcs/flag_char.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ft_printf/srcs/flag_int.c" beforeDir="false" afterPath="$PROJECT_DIR$/../ft_printf/srcs/flag_int.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ft_printf/srcs/ft_printf.c" beforeDir="false" afterPath="$PROJECT_DIR$/../ft_printf/srcs/ft_printf.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ft_printf/srcs/parse_flags.c" beforeDir="false" afterPath="$PROJECT_DIR$/../ft_printf/srcs/parse_flags.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ft_atoi.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_atoi.c" afterDir="false" />
@@ -97,6 +112,7 @@
       <workItem from="1571399660895" duration="6083000" />
       <workItem from="1571828395920" duration="4517000" />
       <workItem from="1571913227954" duration="597000" />
+      <workItem from="1571921326010" duration="60000" />
     </task>
     <servers />
   </component>

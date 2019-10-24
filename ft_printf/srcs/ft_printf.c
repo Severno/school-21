@@ -6,37 +6,43 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/17 13:26:42 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/24 14:00:48 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/24 16:54:46 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/ft_printf.h"
-//Test
+//
+
+
+
 void ft_printf(char *input, ...)
 {
-	va_list	args;
-	int		i;
+	t_param *param;
+	va_list args;
 
-	i = 0;
-	va_start(args, input);
-	while (input[i])
+	param = (t_param*)ft_memalloc(sizeof(t_param));
+	param->str = input;
+	param->iter = 0;
+	va_start(param->args, input);
+	while (param->str[param->iter])
 	{
-		if (input[i] == '%')
+		if (param->str[param->iter] == '%')
 		{
-			i++;
-			parse_flag(input, &i, args);
+			param->iter++;
+			parse_flag(param);
 		}
 		else
-			write(1, &input[i++], 1);
+			write(1, &param->str[param->iter], 1);
+		param->iter++;
 	}
-	va_end(args);
-}
 
+}
 
 int main()
 {
-	ft_printf("Hello %-100s\n", "100");
-	printf("Hello %-100s\n", "100");
+
+	ft_printf("Hello %d %d\n", 100, 200);
+	printf("Hello %d\n", 100);
 //	printf("%-100d", 10);
 	return 0;
 }

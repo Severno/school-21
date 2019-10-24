@@ -6,12 +6,8 @@
 
 #IncludeRegexTransform: 
 
-/Users/sapril/Desktop/work/ft_printf/flag_align.c
-ft_printf.h
-/Users/sapril/Desktop/work/ft_printf/ft_printf.h
-
-/Users/sapril/Desktop/work/ft_printf/ft_printf.h
-libft/libft.h
+/Users/sapril/Desktop/work/ft_printf/includes/ft_printf.h
+../libft/libft.h
 /Users/sapril/Desktop/work/ft_printf/libft/libft.h
 stdarg.h
 -
@@ -25,4 +21,8 @@ unistd.h
 -
 stdio.h
 -
+
+/Users/sapril/Desktop/work/ft_printf/srcs/ft_printf.c
+../includes/ft_printf.h
+/Users/sapril/Desktop/work/ft_printf/includes/ft_printf.h
 
