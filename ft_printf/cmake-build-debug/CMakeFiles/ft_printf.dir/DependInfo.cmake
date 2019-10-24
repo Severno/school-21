@@ -76,6 +76,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/sapril/Desktop/work/ft_printf/srcs/flag_char.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/flag_char.c.o"
   "/Users/sapril/Desktop/work/ft_printf/srcs/flag_double.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/flag_double.c.o"
   "/Users/sapril/Desktop/work/ft_printf/srcs/flag_int.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/flag_int.c.o"
+  "/Users/sapril/Desktop/work/ft_printf/srcs/flag_precision.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/flag_precision.c.o"
   "/Users/sapril/Desktop/work/ft_printf/srcs/ft_printf.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_printf.c.o"
   "/Users/sapril/Desktop/work/ft_printf/srcs/parse_flags.c" "/Users/sapril/Desktop/work/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/parse_flags.c.o"
   )

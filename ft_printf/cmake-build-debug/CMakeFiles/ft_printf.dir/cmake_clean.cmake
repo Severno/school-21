@@ -73,6 +73,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ft_printf.dir/srcs/flag_double.c.o"
   "CMakeFiles/ft_printf.dir/srcs/flag_char.c.o"
   "CMakeFiles/ft_printf.dir/srcs/flag_align.c.o"
+  "CMakeFiles/ft_printf.dir/srcs/flag_precision.c.o"
   "ft_printf.pdb"
   "ft_printf"
 )

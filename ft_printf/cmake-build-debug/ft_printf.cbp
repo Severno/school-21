@@ -304,6 +304,9 @@
 		<Unit filename="/Users/sapril/Desktop/work/ft_printf/srcs/flag_int.c">
 			<Option target="ft_printf"/>
 		</Unit>
+		<Unit filename="/Users/sapril/Desktop/work/ft_printf/srcs/flag_precision.c">
+			<Option target="ft_printf"/>
+		</Unit>
 		<Unit filename="/Users/sapril/Desktop/work/ft_printf/srcs/ft_printf.c">
 			<Option target="ft_printf"/>
 		</Unit>

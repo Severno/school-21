@@ -212,6 +212,10 @@ CMakeFiles/ft_printf.dir/srcs/flag_int.c.o
  /Users/sapril/Desktop/work/ft_printf/includes/ft_printf.h
  /Users/sapril/Desktop/work/ft_printf/libft/libft.h
  /Users/sapril/Desktop/work/ft_printf/srcs/flag_int.c
+CMakeFiles/ft_printf.dir/srcs/flag_precision.c.o
+ /Users/sapril/Desktop/work/ft_printf/includes/ft_printf.h
+ /Users/sapril/Desktop/work/ft_printf/libft/libft.h
+ /Users/sapril/Desktop/work/ft_printf/srcs/flag_precision.c
 CMakeFiles/ft_printf.dir/srcs/ft_printf.c.o
  /Users/sapril/Desktop/work/ft_printf/includes/ft_printf.h
  /Users/sapril/Desktop/work/ft_printf/libft/libft.h

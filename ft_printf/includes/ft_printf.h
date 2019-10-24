@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/17 13:56:43 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/24 16:40:13 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/24 18:03:31 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,12 @@
 
 typedef struct	s_param
 {
+	void		*arg_value;
 	char		*str;
 	char		sign;
 	va_list		args;
-	int			min_length;
+	int			val_length;
+	int			max_offset;
 	int			precision;
 	int			padding;
 	int			iter;
@@ -41,13 +43,16 @@ void flag_plus(t_param *param);
 void flag_zero(t_param *param);
 void flag_grid(t_param *param);
 void do_alignment(t_param *param);
+void flag_width(t_param *param);
+
 
 // CHAR FLAGS
 void flag_str(t_param *param);
 void flag_char(t_param *param);
 
 // UTILS
-void ft_do_padding(t_param *param);
+void ft_do_padding(int value, t_param *param, char sign);
+
 
 
 #endif

@@ -22,7 +22,7 @@ unistd.h
 stdio.h
 -
 
-/Users/sapril/Desktop/work/ft_printf/srcs/ft_printf.c
+/Users/sapril/Desktop/work/ft_printf/srcs/flag_int.c
 ../includes/ft_printf.h
 /Users/sapril/Desktop/work/ft_printf/includes/ft_printf.h
 

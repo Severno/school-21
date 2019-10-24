@@ -2067,6 +2067,33 @@ srcs/flag_int.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/srcs/flag_int.c.s
 .PHONY : srcs/flag_int.c.s
 
+srcs/flag_precision.o: srcs/flag_precision.c.o
+
+.PHONY : srcs/flag_precision.o
+
+# target to build an object file
+srcs/flag_precision.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/srcs/flag_precision.c.o
+.PHONY : srcs/flag_precision.c.o
+
+srcs/flag_precision.i: srcs/flag_precision.c.i
+
+.PHONY : srcs/flag_precision.i
+
+# target to preprocess a source file
+srcs/flag_precision.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/srcs/flag_precision.c.i
+.PHONY : srcs/flag_precision.c.i
+
+srcs/flag_precision.s: srcs/flag_precision.c.s
+
+.PHONY : srcs/flag_precision.s
+
+# target to generate assembly for a file
+srcs/flag_precision.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/srcs/flag_precision.c.s
+.PHONY : srcs/flag_precision.c.s
+
 srcs/ft_printf.o: srcs/ft_printf.c.o
 
 .PHONY : srcs/ft_printf.o
@@ -2346,6 +2373,9 @@ help:
 	@echo "... srcs/flag_int.o"
 	@echo "... srcs/flag_int.i"
 	@echo "... srcs/flag_int.s"
+	@echo "... srcs/flag_precision.o"
+	@echo "... srcs/flag_precision.i"
+	@echo "... srcs/flag_precision.s"
 	@echo "... srcs/ft_printf.o"
 	@echo "... srcs/ft_printf.i"
 	@echo "... srcs/ft_printf.s"

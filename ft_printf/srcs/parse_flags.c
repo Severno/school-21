@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/18 17:25:29 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/24 16:36:23 by sapril           ###   ########.fr       */
+/*   Updated: 2019/10/24 17:13:26 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ void parse_flag(t_param *param)
 //	if (param->str[*(param->iter)] == '-' || param->str[*(param->iter)] == '+' || param->str[*(param->iter)] == '0' || param->str[*(param->iter)] == '#')
 //		parse_alignment(param);
 	param->str[(param->iter)] == 'd' ? flag_int(param) : 0;
+	((param->str[(param->iter)] >= '0' && param->str[(param->iter)] <= '9') || param->str[(param->iter)] == '.') ? flag_width(param) : 0;
+
 //	param->str[*(param->iter)] == 'c' ? flag_char(param) : 0;
 //	param->str[*(param->iter)] == 's' ? flag_str(param) : 0;
 }

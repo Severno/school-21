@@ -84,4 +84,5 @@ add_executable(ft_printf
         srcs/flag_double.c
         srcs/flag_char.c
         srcs/flag_align.c
+        srcs/flag_precision.c
         includes/ft_printf.h)

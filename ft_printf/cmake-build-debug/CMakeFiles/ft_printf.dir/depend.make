@@ -212,6 +212,10 @@ CMakeFiles/ft_printf.dir/srcs/flag_int.c.o: ../includes/ft_printf.h
 CMakeFiles/ft_printf.dir/srcs/flag_int.c.o: ../libft/libft.h
 CMakeFiles/ft_printf.dir/srcs/flag_int.c.o: ../srcs/flag_int.c
 
+CMakeFiles/ft_printf.dir/srcs/flag_precision.c.o: ../includes/ft_printf.h
+CMakeFiles/ft_printf.dir/srcs/flag_precision.c.o: ../libft/libft.h
+CMakeFiles/ft_printf.dir/srcs/flag_precision.c.o: ../srcs/flag_precision.c
+
 CMakeFiles/ft_printf.dir/srcs/ft_printf.c.o: ../includes/ft_printf.h
 CMakeFiles/ft_printf.dir/srcs/ft_printf.c.o: ../libft/libft.h
 CMakeFiles/ft_printf.dir/srcs/ft_printf.c.o: ../srcs/ft_printf.c
